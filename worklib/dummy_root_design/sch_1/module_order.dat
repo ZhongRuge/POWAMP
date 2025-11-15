@@ -1,4 +1,0 @@
-Version 15.0
-START_MODULEORDER
-@power_amplifier_lib.dummy_root_design(sch_1)	0	0	1	0	0	
-END_MODULEORDER

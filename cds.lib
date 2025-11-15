@@ -1,1 +1,5 @@
 DEFINE power_amplifier_lib worklib
+INCLUDE $CONCEPT_INST_DIR/share/cdssetup/cds.lib
+
+DEFINE resistor My_lib/resistor
+DEFINE pages My_lib/pages
