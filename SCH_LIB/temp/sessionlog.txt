@@ -1,0 +1,3 @@
+11/16/25  20:19:15		Opening project D:/Coding/Cadence/Project/POWAMP/SCH_LIB/hdl_lib.cpm
+11/16/25  20:19:15		cdslib D:/Coding/Cadence/Project/POWAMP/SCH_LIB/cds.lib opened
+11/16/25  20:19:15		Project D:/Coding/Cadence/Project/POWAMP/SCH_LIB/hdl_lib.cpm opened
