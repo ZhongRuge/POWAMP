@@ -1,18 +1,11 @@
-11/17/25  10:56:14		Opening project G:/FPGA/Projects/POWAMP/SCH_LIB/hdl_lib.cpm
-11/17/25  10:56:14		cdslib G:/FPGA/Projects/POWAMP/SCH_LIB/cds.lib opened
-11/17/25  10:56:14		Project G:/FPGA/Projects/POWAMP/SCH_LIB/hdl_lib.cpm opened
-11/17/25  10:58:43		Starting validations on cell sa9227a of library hdl_lib_lib
-11/17/25  10:58:43		Completed validations on cell sa9227a of library hdl_lib_lib
-11/17/25  13:22:25		Specify a pin name.
-11/17/25  13:22:33		To and From values can be either both letters or both numbers.
-11/17/25  13:23:02		Starting validations on cell sa9227a of library hdl_lib_lib
-11/17/25  13:23:02		Completed validations on cell sa9227a of library hdl_lib_lib
-11/17/25  13:23:12		Starting validations on cell sa9227a of library hdl_lib_lib
-11/17/25  13:23:12		Completed validations on cell sa9227a of library hdl_lib_lib
-11/17/25  13:43:03		Starting validations on cell sa9227a of library hdl_lib_lib
-11/17/25  13:43:03		Completed validations on cell sa9227a of library hdl_lib_lib
-11/17/25  13:45:47		Starting validations on cell sa9227a of library hdl_lib_lib
-11/17/25  13:45:47		Completed validations on cell sa9227a of library hdl_lib_lib
-11/17/25  13:49:26		Starting validations on cell sa9227a of library hdl_lib_lib
-11/17/25  13:49:26		Completed validations on cell sa9227a of library hdl_lib_lib
-11/17/25  13:49:32		Project G:/FPGA/Projects/POWAMP/SCH_LIB/hdl_lib.cpm is closed.
+11/17/25  13:57:36		Opening project G:/FPGA/Projects/POWAMP/SCH_LIB/hdl_lib.cpm
+11/17/25  13:57:36		cdslib G:/FPGA/Projects/POWAMP/SCH_LIB/cds.lib opened
+11/17/25  13:57:36		Project G:/FPGA/Projects/POWAMP/SCH_LIB/hdl_lib.cpm opened
+11/17/25  14:02:50		Pin name VDD33 already exists. Specify a unique pin name.
+11/17/25  14:02:55		Pin name VDD33 already exists. Specify a unique pin name.
+11/17/25  14:20:21		Starting validations on cell sa9227a of library hdl_lib_lib
+11/17/25  14:20:21		Completed validations on cell sa9227a of library hdl_lib_lib
+11/17/25  14:20:49		Starting validations on cell sa9227a of library hdl_lib_lib
+11/17/25  14:20:49		Completed validations on cell sa9227a of library hdl_lib_lib
+11/17/25  14:20:53		Completed saving cell sa9227a in library hdl_lib_lib with errors/warnings
+11/17/25  14:20:55		Project G:/FPGA/Projects/POWAMP/SCH_LIB/hdl_lib.cpm is closed.

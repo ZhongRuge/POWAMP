@@ -1,0 +1,128 @@
+(Cell	sa9227a
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	1)
+
+		(CreateInfo	
+
+			(Time	11/17/25,13:57:52)
+
+			(User	Lucky)
+
+			(Path	hdl_lib_lib.sa9227a)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	11/17/25,14:20:53)
+
+			(User	Lucky)
+
+			(Path	hdl_lib_lib.sa9227a)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	00000000db8be3f6)
+
+			(Primitives	1
+
+				(Primitive	SA9227A
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	1)
+
+						(CreateInfo	
+
+							(Time	11/17/25,13:57:53)
+
+							(User	Lucky)
+
+							(Path	hdl_lib_lib.sa9227a)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	SA9227A
+
+							(PackType	SA9227A)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	htqfp-64_l7_0-w7_0-p0_40-ls9_2-bl-ep3_6)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001f070415)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S102 (v16-6-112JG))
+
+		(License	PCB_design_expert)
+
+	)
+
+	(Checksum	000000001b480349)
+
+)
+
