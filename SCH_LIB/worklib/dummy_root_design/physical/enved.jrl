@@ -1,18 +1,28 @@
 \t (00:00:00) enved 16.6-2015 S053 (v16-6-112EB) Windows 32
-\t (00:00:00)     Journal start - Sat Nov 15 21:07:10 2025
-\t (00:00:00)         Host=DESKTOP-OD6O7GO User=63524 Pid=11084 CPUs=32
-\t (00:00:00) CmdLine= enved -proj D:\Coding\Cadence\Project\POWAMP\SCH_LIB\hdl_lib.cpm
+\t (00:00:00)     Journal start - Mon Nov 17 09:56:26 2025
+\t (00:00:00)         Host=LUCK User=Lucky Pid=18516 CPUs=12
+\t (00:00:00) CmdLine= enved -proj G:\FPGA\Projects\POWAMP\SCH_LIB\hdl_lib.cpm
 \t (00:00:00) 
-\i (00:00:13) setwindow form.prfedit
-\i (00:00:13) FORM prfedit treelist  Paths 
-\i (00:00:15) FORM prfedit treelist  Library Paths 
-\i (00:00:25) FORM prfedit padpath  
-\i (00:04:35) FORM prfedit padpath  
-\i (00:04:51) FORM prfedit psmpath  
-\i (00:05:13) FORM prfedit steppath  
-\i (00:05:24) FORM prfedit steppath  
-\i (00:05:29) FORM prfedit psmpath  
-\i (00:05:31) FORM prfedit apply  
-\i (00:05:32) FORM prfedit apply  
-\i (00:05:33) FORM prfedit done  
-\t (00:05:33)     Journal end - Sat Nov 15 21:12:43 2025
+\i (00:00:02) setwindow form.prfedit
+\i (00:00:02) FORM prfedit treelist  Paths 
+\i (00:00:03) FORM prfedit treelist  Library Paths 
+\i (00:00:06) FORM prfedit padpath  
+\i (00:00:23) FORM prfedit steppath  
+\i (00:00:25) FORM prfedit psmpath  
+\i (00:00:36) FORM prfedit steppath  
+\i (00:00:40) FORM prfedit interfacepath  
+\i (00:00:41) FORM prfedit miscpath  
+\i (00:00:42) FORM prfedit modulepath  
+\i (00:00:43) FORM prfedit padpath  
+\i (00:00:47) FORM prfedit parampath  
+\i (00:00:49) FORM prfedit parampath  
+\i (00:00:52) FORM prfedit parampath  
+\i (00:01:03) FORM prfedit psmpath  
+\i (00:01:05) FORM prfedit parampath  
+\i (00:01:06) FORM prfedit psmpath  
+\i (00:01:07) FORM prfedit steppath  
+\i (00:01:18) FORM prfedit apply  
+\i (00:01:19) FORM prfedit apply  
+\i (00:01:20) FORM prfedit apply  
+\i (00:01:20) FORM prfedit done  
+\t (00:01:20)     Journal end - Mon Nov 17 09:57:46 2025

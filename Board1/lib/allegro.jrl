@@ -1,0 +1,96 @@
+\t (00:00:46) allegro 17.4 S039 Windows SPB 64-bit Edition
+\t (00:00:46)     Journal start - Fri Nov 14 10:17:22 2025
+\t (00:00:46)         Host=CAOQIBIN User=21771 Pid=31672 CPUs=6
+\t (00:00:46) CmdLine= d:\appdata\cadence174\cadence\spb_17.4\tools\bin\allegro.exe D:\Download\Altium_New Project_2025-11-14_10-02-11_2025-11-14\New Project_2025-11-14_10-02-11\Board1\lib\htqfp-64_l7_0-w7_0-p0_40-ls9_2-bl-ep3_6.dra
+\t (00:00:46) 
+   (00:00:46) Loading axlcore.cxt 
+\t (00:00:48) Opening existing design...
+\i (00:00:48) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "htqfp-64_l7_0-w7_0-p0_40-ls9_2-bl-ep3_6"
+\d (00:00:49) Design opened: D:/Download/Altium_New Project_2025-11-14_10-02-11_2025-11-14/New Project_2025-11-14_10-02-11/Board1/lib/htqfp-64_l7_0-w7_0-p0_40-ls9_2-bl-ep3_6.dra
+\i (00:00:49) trapsize 668
+\i (00:00:49) trapsize 686
+\i (00:00:49) trapsize 668
+\i (00:00:49) trapsize 1557
+\i (00:00:49) trapsize 1425
+\i (00:00:49) generaledit 
+\i (00:00:50) zoom in 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom in 14.31 62.78
+\i (00:00:50) trapsize 713
+\i (00:00:50) zoom in 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom in -367.71 61.36
+\i (00:00:50) trapsize 356
+\i (00:00:50) zoom in 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom in -367.71 61.36
+\i (00:00:50) trapsize 178
+\i (00:00:51) zoom out 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom out -195.23 68.49
+\i (00:00:51) trapsize 356
+\i (00:00:51) zoom out 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom out -195.23 68.49
+\i (00:00:51) trapsize 713
+\i (00:00:51) zoom out 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom out 322.21 68.49
+\i (00:00:51) trapsize 1425
+\i (00:00:51) zoom in 1 
+\i (00:00:51) setwindow pcb
+\i (00:00:51) zoom in 230.99 2.91
+\i (00:00:51) trapsize 713
+\i (00:00:52) zoom in 1 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) zoom in 65.63 119.80
+\i (00:00:52) trapsize 356
+\i (00:00:52) zoom in 1 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) zoom in 62.78 119.80
+\i (00:00:52) trapsize 178
+\i (00:00:52) zoom in 1 
+\i (00:00:52) setwindow pcb
+\i (00:00:52) zoom in 62.78 119.81
+\i (00:00:52) trapsize 89
+\i (00:00:53) zoom out 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom out 87.72 124.98
+\i (00:00:53) trapsize 178
+\i (00:00:53) zoom out 1 
+\i (00:00:53) setwindow pcb
+\i (00:00:53) zoom out 87.72 124.99
+\i (00:00:53) trapsize 356
+\i (00:00:54) zoom out 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom out 162.57 97.90
+\i (00:00:54) trapsize 713
+\i (00:00:55) zoom in 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom in 235.29 35.17
+\i (00:00:55) trapsize 356
+\i (00:00:56) zoom in 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom in 239.57 40.16
+\i (00:00:56) trapsize 178
+\i (00:00:56) zoom in 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom in 239.57 40.17
+\i (00:00:56) trapsize 89
+\i (00:00:56) zoom out 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out 246.16 41.06
+\i (00:00:56) trapsize 178
+\i (00:00:56) zoom out 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out 250.45 42.13
+\i (00:00:56) trapsize 356
+\i (00:00:56) zoom out 1 
+\i (00:00:56) setwindow pcb
+\i (00:00:56) zoom out 263.98 48.54
+\i (00:00:56) trapsize 713
+\i (00:01:00) exit 
+\e (00:01:00) Do you want to save the changes you made to htqfp-64_l7_0-w7_0-p0_40-ls9_2-bl-ep3_6.dra?
+\i (00:01:01) fillin yes 
+\t (00:01:02) Symbol 'htqfp-64_l7_0-w7_0-p0_40-ls9_2-bl-ep3_6.psm' created.
+\t (00:01:02)     Journal end - Fri Nov 14 10:17:38 2025

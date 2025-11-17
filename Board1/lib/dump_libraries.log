@@ -1,0 +1,41 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dump Library Log                                                 )
+(                                                                     )
+(    Software Version : 17.4S039                                      )
+(    Date/Time        : Fri Nov 14 10:15:55 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+*** file: C:/Users/21771/AppData/Roaming/SPB_Data/unnamed.brd ***
+
+
+
+  *** Creating all device files (see create_devices.log) ***
+
+
+  *** Creating padstacks. ***
+
+  SMD_S1421P2S0 being dumped.
+
+  SMD_R575X88P2S0 being dumped.
+
+  SMD_R88X575P2S0 being dumped.
+
+
+  *** Creating package symbols (.dra and .psm) ***
+
+  htqfp-64_l7_0-w7_0-p0_40-ls9_2-bl-ep3_6 being dumped.
+
+
+
+*********************** Summary *********************
+ERRORs reported:                           0
+
+Number of padstacks dumped:                3
+Number of package symbols dumped:          1
+
+Total number of symbols dumped:            1
+*****************************************************
+

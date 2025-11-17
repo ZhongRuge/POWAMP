@@ -1,0 +1,240 @@
+License Server Usage (Products may require secondary licenses)
+
+--------------------------------------------------------------------
+Feature usage "Allegro PCB Venture" (license Allegro_Venture_PCB_Designer):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Allegro Enterprise PCB Designer Suite" (license Allegro_Enterprise_PCB_Designe):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Allegro PCB Designer" (license Allegro_performance):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Allegro Physical Viewer Plus" (license Allegro_Viewer_Plus):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Allegro Library Authoring (PCB Librarian)" (license PCB_librarian_expert):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Sigrity Aurora II" (license Aurora_20):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Sigrity Aurora" (license Aurora):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Allegro Sigrity SI(Aurora)" (license Aurora):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Allegro Sigrity PI(Aurora)" (license Aurora):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Allegro Sigrity SI" (license AllegroSigrity_SI_Base):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Allegro Sigrity PI" (license AllegroSigrity_PI_Base):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Allegro Sigrity SI(base suite)" (license AllegroSigrity_HS_Base_Suite):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Allegro Sigrity PI(base suite)" (license AllegroSigrity_HS_Base_Suite):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "OrCAD Expert Suite" (license orcad_expert_suite):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "OrCAD EE Expert Suite" (license orcad_ee_expert_suite):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "OrCAD PCB Expert Suite" (license orcad_pcb_expert_suite):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "OrCAD PCB Designer Professional w/PSpice" (license OrCAD_PCB_Designer_PSpice):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "OrCAD PCB Designer Professional" (license OrCAD_PCB_Designer):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "OrCAD PCB Designer Standard" (license OrCAD_PCB_Editor_Basics):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "OrCAD PCB SI" (license OrCAD_Signal_Explorer):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "OrCAD Sigrity ERC" (license orcad_sigrity_erc):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+--------------------------------------------------------------------
+<<< Option Availablity >>>
+
+--------------------------------------------------------------------
+Feature usage "High-Speed" (license Allegro_PCB_HighSpeed_Option):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Miniaturization" (license Allegro_PCB_Mini_Option):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Symphony Team Design" (license Allegro_PCB_Harmony_Option):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "PCB Team Design" (license Allegro_PCB_Partitioning):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Analog/RF" (license Allegro_PCB_RF):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Allegro Productivity Toolbox" (license Allegro_PCB_Productivity_TB):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "OrCAD Productivity Toolbox" (license orcad_pcb_productivity):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Design Planning" (license Allegro_PCB_Intercon_Feas):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Full GRE" (license Allegro_PCB_Global_Route_Env):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "ASIC Prototype W/FPGA's" (license Allegro_FPGA_System_Plan_GXL):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "4 FPGA System Planner" (license Allegro_FPGA_System_Planner_XL):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "2 FPGA System Planner" (license Allegro_FPGA_System_2FPGA):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Power-Aware SI" (license AllegroSigrity_Pwr_Awr_SI_Opt):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Serial Link SI" (license AllegroSigrity_Serial_Link_Opt):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "PI Signoff & Optimization" (license AllegroSigrity_PI_Signoff_Opt):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Advanced PI" (license AdvancedPI):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Advanced SI" (license AdvancedSI):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
+--------------------------------------------------------------------
+Feature usage "Allegro Design Publisher (pdf)" (license Allegro_Design_Publisher):
+    Server:      5280@Caoqibin
+    Available:   999
+    In use:      0
+
