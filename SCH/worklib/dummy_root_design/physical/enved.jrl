@@ -1,0 +1,15 @@
+\t (00:00:00) enved 17.4 S039 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Nov 17 22:19:45 2025
+\t (00:00:00)         Host=DESKTOP-OD6O7GO User=63524 Pid=32512 CPUs=32
+\t (00:00:00) CmdLine= enved -proj D:\Coding\Cadence\Project\POWAMP\SCH\sch.cpm
+\t (00:00:00) 
+\i (00:00:01) setwindow form.prfedit
+\i (00:00:01) FORM prfedit treelist  My_favorites 
+\i (00:00:03) FORM prfedit treelist  Paths 
+\i (00:00:04) FORM prfedit treelist  Library Paths 
+\i (00:00:31) FORM prfedit psmpath  
+\i (00:00:45) fillin "D:/Coding/Cadence/PCB/Footprint"
+\i (00:00:47) FORM prfedit apply  
+\i (00:00:48) FORM prfedit apply  
+\i (00:00:50) FORM prfedit done  
+\t (00:00:50)     Journal end - Mon Nov 17 22:20:36 2025
