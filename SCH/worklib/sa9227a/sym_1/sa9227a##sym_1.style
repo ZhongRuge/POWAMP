@@ -20,7 +20,7 @@ Style8  {
   font-size : 3
   font-color : #000000
 }
-Style7  {
+Style4  {
   line-width : 1
   line-color : #000000
   line-style : solid
@@ -29,22 +29,7 @@ Style7  {
   fill-color : #000000
   fill-style : 
   font-name : Arial
-  font-size : 3.6273601055145264
-  italic : false
-  bold : false
-  underline : false
-  font-color : #000000
-}
-Style3  {
-  line-width : 1
-  line-color : #000000
-  line-style : solid
-  line-cap-style : square-cap
-  line-join-style : bevel-join
-  fill-color : #000000
-  fill-style : 
-  font-name : Arial
-  font-size : 3.957119941711426
+  font-size : 2.9678401947021484
   italic : false
   bold : false
   underline : false
@@ -80,6 +65,36 @@ Style2  {
   underline : false
   font-color : #000000
 }
+Style7  {
+  line-width : 1
+  line-color : #000000
+  line-style : solid
+  line-cap-style : square-cap
+  line-join-style : bevel-join
+  fill-color : #000000
+  fill-style : 
+  font-name : Arial
+  font-size : 3.6273601055145264
+  italic : false
+  bold : false
+  underline : false
+  font-color : #000000
+}
+Style3  {
+  line-width : 1
+  line-color : #000000
+  line-style : solid
+  line-cap-style : square-cap
+  line-join-style : bevel-join
+  fill-color : #000000
+  fill-style : 
+  font-name : Arial
+  font-size : 3.957119941711426
+  italic : false
+  bold : false
+  underline : false
+  font-color : #000000
+}
 Style6  {
   line-width : 1
   line-color : #000000
@@ -90,21 +105,6 @@ Style6  {
   fill-style : 
   font-name : Arial
   font-size : 7.914239883422852
-  italic : false
-  bold : false
-  underline : false
-  font-color : #000000
-}
-Style4  {
-  line-width : 1
-  line-color : #000000
-  line-style : solid
-  line-cap-style : square-cap
-  line-join-style : bevel-join
-  fill-color : #000000
-  fill-style : 
-  font-name : Arial
-  font-size : 2.9678401947021484
   italic : false
   bold : false
   underline : false

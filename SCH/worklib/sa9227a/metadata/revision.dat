@@ -4,7 +4,7 @@
 
 		(Baselined	0)
 
-		(Revision	0.0.11)
+		(Revision	0.0.13)
 
 		(ModificationStatus	NULL)
 
@@ -36,9 +36,77 @@
 
 	(Views	
 
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.3)
+
+				(ModificationStatus	NULL)
+
+				(Status	Modified)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	)
+
+					(User	)
+
+					(Path	)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000de864534)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/18/25,08:40:24)
+
+							(User	63524)
+
+							(Path	sch_lib.sa9227a)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d1a0388)
+
+		)
+
 		(View	Chips
 
-			(Checksum	00000000a7519d3a)
+			(Checksum	0000000099de92cf)
 
 			(Primitives	1
 
@@ -48,7 +116,7 @@
 
 						(Baselined	0)
 
-						(Revision	0.0.4)
+						(Revision	0.0.5)
 
 						(ModificationStatus	NULL)
 
@@ -116,75 +184,7 @@
 
 		)
 
-		(View	Symbol
-
-			(RevisionInfoBlock	
-
-				(Baselined	0)
-
-				(Revision	0.0.3)
-
-				(ModificationStatus	NULL)
-
-				(Status	Modified)
-
-				(ErrorStatus	0)
-
-				(CreateInfo	
-
-					(Time	)
-
-					(User	)
-
-					(Path	)
-
-				)
-
-			)
-
-			(Symbols	1
-
-				(Symbol	sym_1
-
-					(Symbol_Type	Normal)
-
-					(Max_Size	0)
-
-					(Checksum	00000000de864534)
-
-					(RevisionInfoBlock	
-
-						(Baselined	0)
-
-						(Revision	0.0.3)
-
-						(ModificationStatus	NULL)
-
-						(Status	Created)
-
-						(ErrorStatus	0)
-
-						(CreateInfo	
-
-							(Time	11/18/25,08:40:24)
-
-							(User	63524)
-
-							(Path	sch_lib.sa9227a)
-
-						)
-
-					)
-
-				)
-
-			)
-
-			(Checksum	000000001c7203bc)
-
-		)
-
-		(Checksum	000000001bd103a6)
+		(Checksum	000000001cfd0392)
 
 	)
 
@@ -198,7 +198,7 @@
 
 	)
 
-	(Checksum	000000001ca403a3)
+	(Checksum	000000001d6203ad)
 
 )
 

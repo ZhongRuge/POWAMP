@@ -1,0 +1,12 @@
+Log File Report from Page Management Commands
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Current Design             :   BLOCK1
+Current Page List          :   1
+Current Total Pages        :   1
+Current Active Page        :   1
+
+Command:   Page Delete
+
+   Pages to Delete       :   1
+   Retain Page Gaps        :   No

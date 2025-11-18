@@ -21,7 +21,7 @@ primitive 'C3216';
   body
     PART_NAME='C3216';
     BODY_NAME='C3216';
-    JEDEC_TYPE='c3216';
+    JEDEC_TYPE='C3216';
     PHYS_DES_PREFIX='C';
     CLASS='DISCRETE';
   end_body;

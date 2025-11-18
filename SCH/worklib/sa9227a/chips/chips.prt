@@ -380,7 +380,6 @@ primitive 'SA9227A';
     JEDEC_TYPE='htqfp-64_l7_0-w7_0-p0_40-ls9_2-bl-ep3_6';
     PHYS_DES_PREFIX='U';
     CLASS='IC';
-    CDS_LMAN_UNMAPPED_PHYS_PIN='(65,0)';
   end_body;
 end_primitive;
 
