@@ -1,0 +1,9 @@
+#ISCELL
+  pages pages *
+  *
+#CELL
+  ic sa9227a *
+  page2_i1
+#ISCELL
+  standard gnd_signal *
+  page2_i2

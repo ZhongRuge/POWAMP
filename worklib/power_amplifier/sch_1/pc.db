@@ -1,0 +1,13 @@
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Tue Nov 18 09:34:01 2025
+#ISCELL
+  pages pages *
+  *
+#ISCELL
+  pages pages *
+  *
+#CELL
+  ic sa9227a *
+  page2_i1
+#ISCELL
+  standard gnd_signal *
+  page2_i2

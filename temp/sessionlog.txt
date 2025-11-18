@@ -1,5 +1,0 @@
-11/15/25  22:33:55		Opening project D:/Coding/Cadence/Project/POWAMP/power_amplifier.cpm
-11/15/25  22:33:55		cdslib D:/Coding/Cadence/Project/POWAMP/cds.lib opened
-11/15/25  22:33:55		Library pages cannot be accessed because it is not defined in the cds.lib file. From Project Manager, choose Tools - Setup, click Edit on the Global page, and define the library.
-11/15/25  22:33:55		Project D:/Coding/Cadence/Project/POWAMP/power_amplifier.cpm opened
-11/15/25  22:34:04		Project D:/Coding/Cadence/Project/POWAMP/power_amplifier.cpm is closed.

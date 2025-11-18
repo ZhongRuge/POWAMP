@@ -1,11 +1,14 @@
-11/17/25  23:16:57		Opening project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm
-11/17/25  23:16:57		cdslib D:/Coding/Cadence/Project/POWAMP/SCH/cds.lib opened
-11/17/25  23:16:57		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm opened
-11/17/25  23:16:57		Loading cell sa9227a from library sch_lib
-11/17/25  23:16:57		Loading view chips of cell sa9227a
-11/17/25  23:16:57		Loading cell sa9227a from library sch_lib
-11/17/25  23:16:57		Analyzing view relationships of cell sa9227a in library sch_lib
-11/17/25  23:16:57		Completed loading cell sa9227a from library sch_lib
-11/17/25  23:16:57		Starting validations on cell sa9227a of library sch_lib
-11/17/25  23:16:57		Completed validations on cell sa9227a of library sch_lib
-11/17/25  23:17:08		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm is closed.
+11/18/25  09:34:44		Opening project D:/Projects/POWAMP/SCH/sch.cpm
+11/18/25  09:34:44		cdslib D:/Projects/POWAMP/SCH/cds.lib opened
+11/18/25  09:34:44		Project D:/Projects/POWAMP/SCH/sch.cpm opened
+11/18/25  09:34:44		Loading cell c0402 from library sch_lib
+11/18/25  09:34:44		Loading view sym_1 of cell c0402
+11/18/25  09:34:44		Loading view chips of cell c0402
+11/18/25  09:34:44		Loading view entity of cell c0402
+11/18/25  09:34:44		Loading cell c0402 from library sch_lib
+11/18/25  09:34:44		Analyzing view relationships of cell c0402 in library sch_lib
+11/18/25  09:34:44		Completed loading cell c0402 from library sch_lib
+11/18/25  09:34:44		Starting validations on cell c0402 of library sch_lib
+11/18/25  09:34:44		Completed validations on cell c0402 of library sch_lib
+11/18/25  09:37:18		Loading view sym_1 of cell c0402
+11/18/25  09:39:11		Project D:/Projects/POWAMP/SCH/sch.cpm is closed.
