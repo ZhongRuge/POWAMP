@@ -1,19 +1,19 @@
-11/19/25  00:59:54		Opening project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm
-11/19/25  00:59:54		cdslib D:/Coding/Cadence/Project/POWAMP/SCH/cds.lib opened
-11/19/25  00:59:54		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm opened
-11/19/25  00:59:54		Loading cell sa9227a from library sch_lib
-11/19/25  00:59:54		Loading view sym_1 of cell sa9227a
-11/19/25  00:59:54		Loading view chips of cell sa9227a
-11/19/25  00:59:54		Loading view entity of cell sa9227a
-11/19/25  00:59:54		Loading cell sa9227a from library sch_lib
-11/19/25  00:59:54		Analyzing view relationships of cell sa9227a in library sch_lib
-11/19/25  00:59:54		Completed loading cell sa9227a from library sch_lib
-11/19/25  00:59:54		Starting validations on cell sa9227a of library sch_lib
-11/19/25  00:59:54		Completed validations on cell sa9227a of library sch_lib
-11/19/25  01:00:13		Pin numbers extracted from footprint htqfp-64_l7_0-w7_0-p0_40-ls9_2-bl-ep3_6.psm
-11/19/25  01:00:20		Starting validations on cell sa9227a of library sch_lib
-11/19/25  01:00:20		Completed validations on cell sa9227a of library sch_lib
-11/19/25  01:00:21		Starting validations on cell sa9227a of library sch_lib
-11/19/25  01:00:21		Completed validations on cell sa9227a of library sch_lib
-11/19/25  01:00:21		Completed saving cell sa9227a in library sch_lib 
-11/19/25  01:00:22		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm is closed.
+11/19/25  01:10:42		Opening project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm
+11/19/25  01:10:42		cdslib D:/Coding/Cadence/Project/POWAMP/SCH/cds.lib opened
+11/19/25  01:10:42		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm opened
+11/19/25  01:10:42		Loading cell sa9227a from library sch_lib
+11/19/25  01:10:42		Loading view sym_1 of cell sa9227a
+11/19/25  01:10:42		Loading view chips of cell sa9227a
+11/19/25  01:10:42		Loading view entity of cell sa9227a
+11/19/25  01:10:42		Loading cell sa9227a from library sch_lib
+11/19/25  01:10:42		Analyzing view relationships of cell sa9227a in library sch_lib
+11/19/25  01:10:42		Completed loading cell sa9227a from library sch_lib
+11/19/25  01:10:42		Starting validations on cell sa9227a of library sch_lib
+11/19/25  01:10:42		Completed validations on cell sa9227a of library sch_lib
+11/19/25  01:10:53		Pin numbers extracted from footprint htqfp-64_l7_0-w7_0-p0_40-ls9_2-bl-ep3_6.psm
+11/19/25  01:11:34		Starting validations on cell sa9227a of library sch_lib
+11/19/25  01:11:34		Completed validations on cell sa9227a of library sch_lib
+11/19/25  01:11:38		Starting validations on cell sa9227a of library sch_lib
+11/19/25  01:11:38		Completed validations on cell sa9227a of library sch_lib
+11/19/25  01:11:38		Completed saving cell sa9227a in library sch_lib 
+11/19/25  01:11:38		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm is closed.
