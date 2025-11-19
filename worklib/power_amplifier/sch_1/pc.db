@@ -1,6 +1,6 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Wed Nov 19 12:16:39 2025
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Thu Nov 20 00:35:40 2025
 #ISCELL
-  pages pages *
+  standard b#20size#20page *
   *
 #ISCELL
   pages pages *

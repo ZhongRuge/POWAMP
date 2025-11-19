@@ -1,0 +1,39 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dump Library Log                                                 )
+(                                                                     )
+(    Software Version : 17.4S039                                      )
+(    Date/Time        : Thu Nov 20 00:06:44 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+*** file: D:/Coding/Cadence/PCB/Footprint/USB2.brd ***
+
+
+
+  *** Creating all device files (see create_devices.log) ***
+
+
+  *** Creating padstacks. ***
+
+  PTH_C630SLOT394X394S4OFF0X0 being dumped.
+
+  PTH_C1102SLOT748X748S4OFF0X0 being dumped.
+
+
+  *** Creating package symbols (.dra and .psm) ***
+
+  usb-a-th_fc-usb-af-24 being dumped.
+
+
+
+*********************** Summary *********************
+ERRORs reported:                           0
+
+Number of padstacks dumped:                2
+Number of package symbols dumped:          1
+
+Total number of symbols dumped:            1
+*****************************************************
+

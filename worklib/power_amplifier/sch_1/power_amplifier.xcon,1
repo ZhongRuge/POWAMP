@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-11-19T11:46:35</modificationTime>
+    <modificationTime>2025-11-19T11:59:30</modificationTime>
     <savedLibrary>power_amplifier_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="power_amplifier" view="sch_1">
       <lastids>
-        <instanceid>13</instanceid>
-        <netid>18</netid>
-        <insttermid>92</insttermid>
+        <instanceid>14</instanceid>
+        <netid>32</netid>
+        <insttermid>94</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -512,6 +512,62 @@
           <id>N18</id>
           <name>vdd33_sa_pll</name>
         </net>
+        <net>
+          <id>N19</id>
+          <name>abclk</name>
+        </net>
+        <net>
+          <id>N20</id>
+          <name>adata</name>
+        </net>
+        <net>
+          <id>N21</id>
+          <name>alrck</name>
+        </net>
+        <net>
+          <id>N22</id>
+          <name>amclk</name>
+        </net>
+        <net>
+          <id>N23</id>
+          <name>d64/d128</name>
+        </net>
+        <net>
+          <id>N24</id>
+          <name>dbclk</name>
+        </net>
+        <net>
+          <id>N25</id>
+          <name>ddata</name>
+        </net>
+        <net>
+          <id>N26</id>
+          <name>dlrck</name>
+        </net>
+        <net>
+          <id>N27</id>
+          <name>dmclk</name>
+        </net>
+        <net>
+          <id>N28</id>
+          <name>pcm/dsd</name>
+        </net>
+        <net>
+          <id>N29</id>
+          <name>pll_gnd</name>
+        </net>
+        <net>
+          <id>N30</id>
+          <name>sof</name>
+        </net>
+        <net>
+          <id>N31</id>
+          <name>spdifrx</name>
+        </net>
+        <net>
+          <id>N32</id>
+          <name>spdiftx</name>
+        </net>
       </nets>
       <aliases>
       </aliases>
@@ -533,24 +589,28 @@
               <id>M1</id>
               <termid>T2</termid>
               <connections>
+                <connection net="N19" />
               </connections>
             </pin>
             <pin>
               <id>M2</id>
               <termid>T3</termid>
               <connections>
+                <connection net="N20" />
               </connections>
             </pin>
             <pin>
               <id>M3</id>
               <termid>T4</termid>
               <connections>
+                <connection net="N21" />
               </connections>
             </pin>
             <pin>
               <id>M4</id>
               <termid>T5</termid>
               <connections>
+                <connection net="N22" />
               </connections>
             </pin>
             <pin>
@@ -564,6 +624,7 @@
               <id>M9</id>
               <termid>T10</termid>
               <connections>
+                <connection net="N27" />
               </connections>
             </pin>
             <pin>
@@ -577,12 +638,14 @@
               <id>M11</id>
               <termid>T12</termid>
               <connections>
+                <connection net="N23" />
               </connections>
             </pin>
             <pin>
               <id>M12</id>
               <termid>T13</termid>
               <connections>
+                <connection net="N28" />
               </connections>
             </pin>
             <pin>
@@ -596,24 +659,28 @@
               <id>M14</id>
               <termid>T15</termid>
               <connections>
+                <connection net="N3" />
               </connections>
             </pin>
             <pin>
               <id>M15</id>
               <termid>T16</termid>
               <connections>
+                <connection net="N29" />
               </connections>
             </pin>
             <pin>
               <id>M16</id>
               <termid>T17</termid>
               <connections>
+                <connection net="N29" />
               </connections>
             </pin>
             <pin>
               <id>M17</id>
               <termid>T18</termid>
               <connections>
+                <connection net="N29" />
               </connections>
             </pin>
             <pin>
@@ -723,18 +790,21 @@
               <id>M35</id>
               <termid>T36</termid>
               <connections>
+                <connection net="N30" />
               </connections>
             </pin>
             <pin>
               <id>M36</id>
               <termid>T37</termid>
               <connections>
+                <connection net="N31" />
               </connections>
             </pin>
             <pin>
               <id>M37</id>
               <termid>T38</termid>
               <connections>
+                <connection net="N32" />
               </connections>
             </pin>
             <pin>
@@ -747,30 +817,35 @@
               <id>M39</id>
               <termid>T40</termid>
               <connections>
+                <connection net="N3" />
               </connections>
             </pin>
             <pin>
               <id>M40</id>
               <termid>T41</termid>
               <connections>
+                <connection net="N3" />
               </connections>
             </pin>
             <pin>
               <id>M41</id>
               <termid>T42</termid>
               <connections>
+                <connection net="N3" />
               </connections>
             </pin>
             <pin>
               <id>M42</id>
               <termid>T43</termid>
               <connections>
+                <connection net="N3" />
               </connections>
             </pin>
             <pin>
               <id>M43</id>
               <termid>T44</termid>
               <connections>
+                <connection net="N3" />
               </connections>
             </pin>
             <pin>
@@ -924,18 +999,21 @@
               <id>M65</id>
               <termid>T66</termid>
               <connections>
+                <connection net="N24" />
               </connections>
             </pin>
             <pin>
               <id>M66</id>
               <termid>T67</termid>
               <connections>
+                <connection net="N25" />
               </connections>
             </pin>
             <pin>
               <id>M67</id>
               <termid>T68</termid>
               <connections>
+                <connection net="N26" />
               </connections>
             </pin>
             <pin>
@@ -1198,6 +1276,27 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I14</id>
+          <cellid>S6</cellid>
+          <name>page2_i14</name>
+          <pins>
+            <pin>
+              <id>M93</id>
+              <termid>T76</termid>
+              <connections>
+                <connection net="N29" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M94</id>
+              <termid>T77</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -1221,7 +1320,18 @@
             <physicalPageNumber>2</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
+              <net ref="abclk"></net>
+              <net ref="adata"></net>
+              <net ref="alrck"></net>
+              <net ref="amclk"></net>
+              <net ref="d64/d128"></net>
+              <net ref="dbclk"></net>
+              <net ref="ddata"></net>
+              <net ref="dlrck"></net>
+              <net ref="dmclk"></net>
               <net ref="gndd"></net>
+              <net ref="pcm/dsd"></net>
+              <net ref="pll_gnd"></net>
               <net ref="sa_dm"></net>
               <net ref="sa_dp"></net>
               <net ref="sa_reset"></net>
@@ -1229,6 +1339,9 @@
               <net ref="sa_xo"></net>
               <net ref="scl"></net>
               <net ref="sda"></net>
+              <net ref="sof"></net>
+              <net ref="spdifrx"></net>
+              <net ref="spdiftx"></net>
               <net ref="unnamed_2_c0402_i2_2"></net>
               <net ref="unnamed_2_l0805_i4_2"></net>
               <net ref="unnamed_2_res0402_i10_1"></net>
@@ -1252,6 +1365,7 @@
               <instance ref="i11"></instance>
               <instance ref="i12"></instance>
               <instance ref="i13"></instance>
+              <instance ref="i14"></instance>
             </instances>
           </page>
         </pages>

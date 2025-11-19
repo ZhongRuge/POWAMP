@@ -1,0 +1,52 @@
+\t (00:00:02) allegro 17.4 S039 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Thu Nov 20 00:09:33 2025
+\t (00:00:02)         Host=DESKTOP-OD6O7GO User=63524 Pid=32896 CPUs=32
+\t (00:00:02) CmdLine= d:\coding\cadence\spb_17.4\tools\bin\allegro.exe D:\Coding\Cadence\Project\POWAMP\嘉立创原理图封装\USB2.0\pads\usb-a-th_fc-usb-af-24.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "usb-a-th_fc-usb-af-24"
+\d (00:00:05) Design opened: D:/Coding/Cadence/Project/POWAMP/嘉立创原理图封装/USB2.0/pads/usb-a-th_fc-usb-af-24.dra
+\i (00:00:05) trapsize 344
+\i (00:00:05) trapsize 350
+\i (00:00:05) trapsize 344
+\i (00:00:05) trapsize 676
+\i (00:00:05) trapsize 665
+\i (00:00:05) generaledit 
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in -6.85 -30.79
+\i (00:00:09) trapsize 333
+\i (00:00:09) zoom in 1 
+\i (00:00:09) setwindow pcb
+\i (00:00:09) zoom in -498.46 -30.79
+\i (00:00:09) trapsize 166
+\i (00:00:10) zoom out 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom out -250.66 -32.12
+\i (00:00:10) trapsize 333
+\i (00:00:10) roam start
+\i (00:00:10) roam y -16
+\i (00:00:10) roam y -16
+\i (00:00:10) roam y -16
+\i (00:00:11) roam y -16
+\i (00:00:11) roam y 16
+\i (00:00:11) roam x 16
+\i (00:00:11) roam y 16
+\i (00:00:11) roam x 32
+\i (00:00:11) roam y 64
+\i (00:00:11) roam x 48
+\i (00:00:11) roam y 80
+\i (00:00:11) roam x 16
+\i (00:00:11) roam y 64
+\i (00:00:11) roam y 48
+\i (00:00:11) roam y 64
+\i (00:00:11) roam y 48
+\i (00:00:11) roam y 32
+\i (00:00:11) roam y 16
+\i (00:00:11) roam y 32
+\i (00:00:11) roam end
+\i (00:00:29) exit 
+\e (00:00:29) Do you want to save the changes you made to usb-a-th_fc-usb-af-24.dra?
+\i (00:00:31) fillin no 
+\t (00:00:31)     Journal end - Thu Nov 20 00:10:02 2025

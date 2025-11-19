@@ -1,0 +1,25 @@
+\t (00:00:02) allegro 17.4 S039 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Thu Nov 20 00:15:48 2025
+\t (00:00:02)         Host=DESKTOP-OD6O7GO User=63524 Pid=34892 CPUs=32
+\t (00:00:02) CmdLine= D:\Coding\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:05) Starting new design...
+\i (00:00:05) trapsize 116667
+\i (00:00:05) generaledit 
+\i (00:00:07) trapsize 331
+\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
+\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
+\i (00:00:14) trl altium2hdl 
+   (00:00:14) Loading translators.cxt 
+\i (00:00:14) generaledit 
+\i (00:00:17) setwindow form.trl_altium2hdl
+\i (00:00:17) FORM trl_altium2hdl prjpcb  
+\i (00:00:23) fillin "menu_cancel"
+\i (00:01:06) FORM trl_altium2hdl prjpcb  
+\i (00:01:23) fillin "menu_cancel"
+\i (00:01:26) FORM trl_altium2hdl done  
+\i (00:01:26) setwindow pcb
+\i (00:01:26) exit 
+\t (00:01:26)     Journal end - Thu Nov 20 00:17:12 2025

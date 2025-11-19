@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-11-19T12:16:38</modificationTime>
+    <modificationTime>2025-11-20T00:35:40</modificationTime>
     <savedLibrary>power_amplifier_lib</savedLibrary>
   </header>
   <designs>
@@ -1646,6 +1646,14 @@
               <instance ref="i22"></instance>
               <instance ref="i23"></instance>
               <instance ref="i24"></instance>
+            </instances>
+          </page>
+          <page number="3">
+            <physicalPageNumber>3</physicalPageNumber>
+            <errorStatus>false</errorStatus>
+            <nets>
+            </nets>
+            <instances>
             </instances>
           </page>
         </pages>
