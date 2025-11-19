@@ -1,0 +1,37 @@
+(marker_file
+ (version 1.0)
+ (markers
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 40)
+   (error_num 1)
+   (short_msg "ERROR(SPCOCN-1993): The value specified for the property 'IMPLEMENTATION_PATH' is invalid. The value '?' can be specified only for soft properties that have '$' as a prefix in the property name. Either prefix '$' to the property name or specify a valid value for user defined properties, and save the schematic again.")
+   (long_msg "ERROR(SPCOCN-1993): The value specified for the property 'IMPLEMENTATION_PATH' is invalid. The value '?' can be specified only for soft properties that have '$' as a prefix in the property name. Either prefix '$' to the property name or specify a valid value for user defined properties, and save the schematic again. (placeholderprops)")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawerror (900,2325);")
+     (parent_canonical_name "unused")
+     (drawing_name "@power_amplifier_lib.power_amplifier(sch_1):page3")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 40)
+   (error_num 2)
+   (short_msg "ERROR(SPCOCN-1993): The value specified for the property 'IMPLEMENTATION' is invalid. The value '?' can be specified only for soft properties that have '$' as a prefix in the property name. Either prefix '$' to the property name or specify a valid value for user defined properties, and save the schematic again.")
+   (long_msg "ERROR(SPCOCN-1993): The value specified for the property 'IMPLEMENTATION' is invalid. The value '?' can be specified only for soft properties that have '$' as a prefix in the property name. Either prefix '$' to the property name or specify a valid value for user defined properties, and save the schematic again. (placeholderprops)")
+   (location
+    (
+     (object_kind "property")
+     (canonical_name "_!drawerror (900,2325);")
+     (parent_canonical_name "unused")
+     (drawing_name "@power_amplifier_lib.power_amplifier(sch_1):page3")
+    )
+   )
+  )
+ )
+)
