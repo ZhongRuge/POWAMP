@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '12MHZ'
+
+{========================================================================================}
+:CODE(OPT)   | VALUE(OPT)   | JEDEC_TYPE(OPT)   = PRIORITY | DESCRIPTION                                                 | DATASHEET ;
+{========================================================================================}
+ ''          | '12MHz'      | 'SMD3225'(!)      = 'H'      | 'NDK-12MHz-3225-20ppm-8pF-100ohm(NX3225GA-12MHz-STD-CRG-2)' | ''       
+
+END_PART
+
+END.
+

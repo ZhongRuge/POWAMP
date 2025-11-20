@@ -1,0 +1,6 @@
+#ISCELL
+  pages pages *
+  *
+#CELL
+  oscillator 12mhz *
+  page4_i1

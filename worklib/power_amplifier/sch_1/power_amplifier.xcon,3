@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-11-20T20:08:26</modificationTime>
+    <modificationTime>2025-11-20T21:53:41</modificationTime>
     <savedLibrary>power_amplifier_lib</savedLibrary>
   </header>
   <designs>
@@ -572,14 +572,6 @@
           <name>unnamed_2_c0402_i2_2</name>
         </net>
         <net>
-          <id>N5</id>
-          <name>sa_dm</name>
-        </net>
-        <net>
-          <id>N6</id>
-          <name>sa_dp</name>
-        </net>
-        <net>
           <id>N7</id>
           <name>sa_reset</name>
         </net>
@@ -796,7 +788,7 @@
               <id>M8</id>
               <termid>T9</termid>
               <connections>
-                <connection net="N5" />
+                <connection net="N44" />
               </connections>
             </pin>
             <pin>
@@ -810,7 +802,7 @@
               <id>M10</id>
               <termid>T11</termid>
               <connections>
-                <connection net="N6" />
+                <connection net="N47" />
               </connections>
             </pin>
             <pin>
@@ -1934,8 +1926,6 @@
               <net ref="iacp/rst"></net>
               <net ref="pcm/dsd"></net>
               <net ref="pll_gnd"></net>
-              <net ref="sa_dm"></net>
-              <net ref="sa_dp"></net>
               <net ref="sa_reset"></net>
               <net ref="sa_xi"></net>
               <net ref="sa_xo"></net>
@@ -1950,6 +1940,8 @@
               <net ref="unnamed_2_res0402_i15_1"></net>
               <net ref="unnamed_2_res0402_i8_2"></net>
               <net ref="unnamed_2_res0402_i9_1"></net>
+              <net ref="usb_dm_conn"></net>
+              <net ref="usb_dp_conn"></net>
               <net ref="vdd18_sa"></net>
               <net ref="vdd33_sa"></net>
               <net ref="vdd33_sa_pll"></net>
@@ -2001,6 +1993,14 @@
               <instance ref="i6"></instance>
               <instance ref="i8"></instance>
               <instance ref="i9"></instance>
+            </instances>
+          </page>
+          <page number="4">
+            <physicalPageNumber>4</physicalPageNumber>
+            <errorStatus>false</errorStatus>
+            <nets>
+            </nets>
+            <instances>
             </instances>
           </page>
         </pages>

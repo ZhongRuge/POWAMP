@@ -1,4 +1,4 @@
 Version 15.0
 START_MODULEORDER
-@power_amplifier_lib.power_amplifier(sch_1)	0	1	1	3	0	
+@power_amplifier_lib.power_amplifier(sch_1)	0	1	1	4	0	
 END_MODULEORDER

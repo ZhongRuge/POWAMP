@@ -1,0 +1,186 @@
+(Cell	X322512MSB4SI
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	11/20/25,22:29:37)
+
+			(User	63524)
+
+			(Path	sch_lib.X322512MSB4SI)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	00000000f6b9f5f2)
+
+			(Primitives	1
+
+				(Primitive	X322512MSB4SI
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/20/25,22:29:37)
+
+							(User	63524)
+
+							(Path	sch_lib.X322512MSB4SI)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	X322512MSB4SI
+
+							(PackType	X322512MSB4SI)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.1)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	11/20/25,22:29:37)
+
+					(User	63524)
+
+					(Path	sch_lib.X322512MSB4SI)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000006e3c28fb)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/20/25,22:29:37)
+
+							(User	63524)
+
+							(Path	sch_lib.X322512MSB4SI)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c8803e7)
+
+		)
+
+		(Checksum	000000001bcf0384)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	Unreleased (4153571))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001d5303ac)
+
+)
+

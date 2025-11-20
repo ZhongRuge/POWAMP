@@ -1,0 +1,14 @@
+FILE_TYPE = CONNECTIVITY;
+{Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023}
+"PAGE_NUMBER" = 4;
+0"NC";
+%"12MHZ"
+"1","(-2050,4550)","0","oscillator","I1";
+;
+CDS_LIB"oscillator"
+CDS_LMAN_SYM_OUTLINE"-125,125,125,-125";
+"4"0;
+"3"0;
+"2"0;
+"1"0;
+END.
