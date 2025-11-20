@@ -1,0 +1,36 @@
+Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023
+Copyright 2021 Cadence Design Systems, Inc
+
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-2065): The PLOT_DPI directive defines the Dots Per Inch setting used by the printer for printing. Ensure that you specify a positive integer value for the directive.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+INFO(SPCOCN-1737): Reading D:\Coding\Cadence\Project\POWAMP\cds.lib file.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.1 into drawing #1.
+INFO(SPCOCN-195): The following file will be used to identify the list of modules to be excluded: 'D:\Coding\Cadence\SPB_17.4\share\cdssetup\xmodules.dat'.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.3 into drawing #1.
+INFO(SPCOCN-542): The default property IMPLEMENTATION with value ? has been deleted from the component BLM18PG121SN1D_C14709.
+INFO(SPCOCN-542): The default property IMPLEMENTATION_PATH with value ? has been deleted from the component BLM18PG121SN1D_C14709.
+INFO(SPCOCN-545): To turn the deleted default properties into non-default properties, type SET STICKY_ON; GET; SET STICKY_OFF in the console window.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.3 into drawing #1.
+INFO(SPCOCN-542): The default property IMPLEMENTATION with value ? has been deleted from the component BLM18PG121SN1D_C14709.
+INFO(SPCOCN-542): The default property IMPLEMENTATION_PATH with value ? has been deleted from the component BLM18PG121SN1D_C14709.
+INFO(SPCOCN-545): To turn the deleted default properties into non-default properties, type SET STICKY_ON; GET; SET STICKY_OFF in the console window.

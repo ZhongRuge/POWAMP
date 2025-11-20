@@ -7,3 +7,5 @@ DEFINE resistor    My_lib/resistor
 DEFINE inductor    My_lib/inductor
 DEFINE capacitor   My_lib/capacitor
 DEFINE connector   My_lib/connector
+DEFINE protection  My_lib/protection
+DEFINE ferritebead My_lib/FerriteBead

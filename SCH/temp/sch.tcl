@@ -3377,3 +3377,46 @@ execCmd closeItem -pg {{"cellID":"sa9227a","keyType":"cell","libID":"sch_lib"}}
 cps::closeView {{"cellID":"sa9227a","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
 execCmd closeItem -pg {{"cellID":"sa9227a","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
 cleanUpWebPage {{"cellID":"sa9227a","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+## Recorded on 2025-11-20T20:03:07
+#refreshDesignExplorer
+#pinTable {{"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+#updateReadOnlyStatus {{"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+selectItem {{"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+updateReadOnlyStatus {{"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+pinTable {{"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+refreshDesignExplorer
+cps::setComponentExplorerWidgetVisibilityOff
+cps::setComponentExplorerWidgetVisibilityOff
+cpSdaLckT::lockProject {sch.cpm} 1
+#cps::openProject "D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm" 1
+cps::openProject "D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm" 1
+#cpSymT::openItem "sch_lib::blm18pg121sn1d_c14709::sym_1" SYMBOL SYM
+cpSymT::openItem "sch_lib::blm18pg121sn1d_c14709::sym_1" SYMBOL SYM
+#zoom -fit
+zoom -fit
+#if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::blm18pg121sn1d_c14709::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::blm18pg121sn1d_c14709::sym_1}  -display 1 -unit Inches; " }; 
+if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::blm18pg121sn1d_c14709::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::blm18pg121sn1d_c14709::sym_1}  -display 1 -unit Inches; " }; 
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+fetch -returntype json -pg {{"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+fetch -returntype json -pg {{"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data all -clearViewOnlyViolations
+fetch -returntype json -pg {{"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data directives
+cps::getTheme
+execCmd getOSName
+#selectObject 10810 7785
+selectObject 10810 7785
+callJS {{"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject 10690 7825
+selectObject 10690 7825
+callJS {{"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#saveAll
+saveAll
+#execCmd closeItem -pg {{"cellID":"blm18pg121sn1d_c14709","keyType":"cell","libID":"sch_lib"}}
+#execCmd closeItem -pg {{"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+#cps::closeView {{"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+closeSymbol [list -pg {"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}] close_all
+execCmd closeItem -pg {{"cellID":"blm18pg121sn1d_c14709","keyType":"cell","libID":"sch_lib"}}
+cps::closeView {{"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+execCmd closeItem -pg {{"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+cleanUpWebPage {{"cellID":"blm18pg121sn1d_c14709","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}

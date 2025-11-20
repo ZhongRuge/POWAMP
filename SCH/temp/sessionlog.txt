@@ -1,17 +1,16 @@
-11/19/25  11:38:00		Opening project D:/Projects/POWAMP/SCH/sch.cpm
-11/19/25  11:38:00		cdslib D:/Projects/POWAMP/SCH/cds.lib opened
-11/19/25  11:38:00		Project D:/Projects/POWAMP/SCH/sch.cpm opened
-11/19/25  11:38:00		Loading cell sa9227a from library sch_lib
-11/19/25  11:38:00		Loading view sym_1 of cell sa9227a
-11/19/25  11:38:00		Loading view chips of cell sa9227a
-11/19/25  11:38:00		Loading view entity of cell sa9227a
-11/19/25  11:38:00		Loading cell sa9227a from library sch_lib
-11/19/25  11:38:00		Analyzing view relationships of cell sa9227a in library sch_lib
-11/19/25  11:38:00		Completed loading cell sa9227a from library sch_lib
-11/19/25  11:38:00		Starting validations on cell sa9227a of library sch_lib
-11/19/25  11:38:00		Completed validations on cell sa9227a of library sch_lib
-11/19/25  11:39:14		Loading view sym_1 of cell sa9227a
-11/19/25  11:39:18		Starting validations on cell sa9227a of library sch_lib
-11/19/25  11:39:18		Completed validations on cell sa9227a of library sch_lib
-11/19/25  11:39:18		Completed saving cell sa9227a in library sch_lib 
-11/19/25  11:39:21		Project D:/Projects/POWAMP/SCH/sch.cpm is closed.
+11/20/25  20:05:37		Opening project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm
+11/20/25  20:05:37		cdslib D:/Coding/Cadence/Project/POWAMP/SCH/cds.lib opened
+11/20/25  20:05:37		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm opened
+11/20/25  20:05:37		Loading cell blm18pg121sn1d_c14709 from library sch_lib
+11/20/25  20:05:37		Loading view sym_1 of cell blm18pg121sn1d_c14709
+11/20/25  20:05:37		Loading view chips of cell blm18pg121sn1d_c14709
+11/20/25  20:05:37		Loading view entity of cell blm18pg121sn1d_c14709
+11/20/25  20:05:37		Loading cell blm18pg121sn1d_c14709 from library sch_lib
+11/20/25  20:05:37		Analyzing view relationships of cell blm18pg121sn1d_c14709 in library sch_lib
+11/20/25  20:05:37		Completed loading cell blm18pg121sn1d_c14709 from library sch_lib
+11/20/25  20:05:37		Starting validations on cell blm18pg121sn1d_c14709 of library sch_lib
+11/20/25  20:05:37		Completed validations on cell blm18pg121sn1d_c14709 of library sch_lib
+11/20/25  20:06:32		Starting validations on cell blm18pg121sn1d_c14709 of library sch_lib
+11/20/25  20:06:32		Completed validations on cell blm18pg121sn1d_c14709 of library sch_lib
+11/20/25  20:06:32		Completed saving cell blm18pg121sn1d_c14709 in library sch_lib 
+11/20/25  20:06:34		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm is closed.

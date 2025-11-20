@@ -1,0 +1,24 @@
+#ISCELL
+  pages pages *
+  *
+#CELL
+  connector usb2_0 *
+  page3_i1
+#CELL
+  protection esd05 *
+  page3_i2
+#CELL
+  resistor res0603 *
+  page3_i3
+#CELL
+  capacitor c0603 *
+  page3_i5
+#CELL
+  capacitor c0603 *
+  page3_i6
+#CELL
+  resistor res0603 *
+  page3_i8
+#CELL
+  ferritebead blm18pg121sn1d_c14709 *
+  page3_i9
