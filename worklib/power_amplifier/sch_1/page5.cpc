@@ -1,0 +1,9 @@
+#ISCELL
+  pages pages *
+  *
+#CELL
+  resistor res0603 *
+  page5_i1
+#CELL
+  capacitor c0603 *
+  page5_i2

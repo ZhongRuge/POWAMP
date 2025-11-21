@@ -53,6 +53,18 @@
   resistor res0402 *
   page2_i24
 #CELL
+  resistor res0603 *
+  page2_i25
+#CELL
+  resistor res0603 *
+  page2_i26
+#CELL
+  resistor res0603 *
+  page2_i27
+#CELL
+  resistor res0603 *
+  page2_i28
+#CELL
   capacitor c3216 *
   page2_i3
 #CELL

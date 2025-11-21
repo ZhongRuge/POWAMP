@@ -4,3 +4,9 @@
 #CELL
   oscillator x322512msb4si *
   page4_i1
+#CELL
+  capacitor c0603 *
+  page4_i2
+#CELL
+  capacitor c0603 *
+  page4_i3
