@@ -1,22 +1,16 @@
-\t (00:00:01) enved 17.4 S039 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Tue Nov 18 08:13:06 2025
-\t (00:00:01)         Host=÷”»Á∏Ë User=63524 Pid=21184 CPUs=14
-\t (00:00:01) CmdLine= enved -proj D:\Projects\POWAMP\SCH\sch.cpm
-\t (00:00:01) 
-\i (00:00:02) setwindow form.prfedit
-\i (00:00:02) FORM prfedit treelist  My_favorites 
-\i (00:00:04) FORM prfedit treelist  Placement 
+\t (00:00:00) enved 17.4 S039 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Fri Nov 21 10:31:47 2025
+\t (00:00:00)         Host=LUCK User=Lucky Pid=15776 CPUs=12
+\t (00:00:00) CmdLine= enved -proj G:\Cadence\POWAMP\SCH\sch.cpm
+\t (00:00:00) 
+\i (00:00:01) setwindow form.prfedit
+\i (00:00:01) FORM prfedit treelist  My_favorites 
+\i (00:00:03) FORM prfedit treelist  Ic_packaging 
 \i (00:00:04) FORM prfedit treelist  Paths 
 \i (00:00:05) FORM prfedit treelist  Library Paths 
 \i (00:00:06) FORM prfedit padpath  
-\i (00:00:14) fillin "D:/Cadence/PCB/pad"
-\i (00:01:01) FORM prfedit parampath  
-\i (00:01:11) fillin "D:/Cadence/PCB/Footprint"
-\i (00:01:14) FORM prfedit psmpath  
-\i (00:01:23) fillin "D:/Cadence/PCB/Footprint"
-\i (00:01:25) FORM prfedit steppath  
-\i (00:01:34) fillin "D:/Cadence/PCB/Step"
-\i (00:01:39) FORM prfedit apply  
-\i (00:01:39) FORM prfedit apply  
-\i (00:01:40) FORM prfedit done  
-\t (00:01:41)     Journal end - Tue Nov 18 08:14:46 2025
+\i (00:00:15) FORM prfedit psmpath  
+\i (00:00:18) FORM prfedit steppath  
+\i (00:00:20) FORM prfedit apply  
+\i (00:00:21) FORM prfedit done  
+\t (00:00:21)     Journal end - Fri Nov 21 10:32:08 2025

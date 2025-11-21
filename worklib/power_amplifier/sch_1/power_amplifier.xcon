@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-11-20T22:35:58</modificationTime>
+    <modificationTime>2025-11-21T10:59:56</modificationTime>
     <savedLibrary>power_amplifier_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="power_amplifier" view="sch_1">
       <lastids>
-        <instanceid>33</instanceid>
+        <instanceid>34</instanceid>
         <netid>48</netid>
-        <insttermid>141</insttermid>
+        <insttermid>145</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -564,29 +564,29 @@
         <cell>
           <id>S12</id>
           <library>oscillator</library>
-          <name>12mhz</name>
+          <name>x322512msb4si</name>
           <view>sym_1</view>
           <parameters>
           </parameters>
           <terms>
             <term>
               <id>T95</id>
-              <name>1</name>
+              <name>gnd</name>
               <direction>inout</direction>
             </term>
             <term>
               <id>T96</id>
-              <name>2</name>
+              <name>gnd1</name>
               <direction>inout</direction>
             </term>
             <term>
               <id>T97</id>
-              <name>3</name>
+              <name>osc1</name>
               <direction>inout</direction>
             </term>
             <term>
               <id>T98</id>
-              <name>4</name>
+              <name>osc2</name>
               <direction>inout</direction>
             </term>
           </terms>
@@ -1913,32 +1913,36 @@
           </pins>
         </instance>
         <instance>
-          <id>I33</id>
+          <id>I34</id>
           <cellid>S12</cellid>
           <name>page4_i1</name>
           <pins>
             <pin>
-              <id>M138</id>
+              <id>M142</id>
               <termid>T95</termid>
               <connections>
+                <connection net="N3" />
               </connections>
             </pin>
             <pin>
-              <id>M139</id>
+              <id>M143</id>
               <termid>T96</termid>
               <connections>
+                <connection net="N3" />
               </connections>
             </pin>
             <pin>
-              <id>M140</id>
+              <id>M144</id>
               <termid>T97</termid>
               <connections>
+                <connection net="N8" />
               </connections>
             </pin>
             <pin>
-              <id>M141</id>
+              <id>M145</id>
               <termid>T98</termid>
               <connections>
+                <connection net="N9" />
               </connections>
             </pin>
           </pins>
@@ -2060,6 +2064,9 @@
             <physicalPageNumber>4</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
+              <net ref="gndd"></net>
+              <net ref="sa_xi"></net>
+              <net ref="sa_xo"></net>
             </nets>
             <instances>
               <instance ref="i1"></instance>

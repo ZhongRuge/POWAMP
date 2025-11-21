@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Thu Nov 20 22:35:58 2025
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Fri Nov 21 10:59:53 2025
 #ISCELL
   standard b#20size#20page *
   *
@@ -105,5 +105,5 @@
   pages pages *
   *
 #CELL
-  oscillator 12mhz *
+  oscillator x322512msb4si *
   page4_i1

@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-11-20T20:08:26</modificationTime>
+    <modificationTime>2025-11-20T22:35:58</modificationTime>
     <savedLibrary>power_amplifier_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="power_amplifier" view="sch_1">
       <lastids>
-        <instanceid>32</instanceid>
+        <instanceid>33</instanceid>
         <netid>48</netid>
-        <insttermid>137</insttermid>
+        <insttermid>141</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -561,6 +561,36 @@
             </term>
           </terms>
         </cell>
+        <cell>
+          <id>S12</id>
+          <library>oscillator</library>
+          <name>12mhz</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T95</id>
+              <name>1</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T96</id>
+              <name>2</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T97</id>
+              <name>3</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T98</id>
+              <name>4</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
       </cells>
       <nets>
         <net>
@@ -570,14 +600,6 @@
         <net>
           <id>N4</id>
           <name>unnamed_2_c0402_i2_2</name>
-        </net>
-        <net>
-          <id>N5</id>
-          <name>sa_dm</name>
-        </net>
-        <net>
-          <id>N6</id>
-          <name>sa_dp</name>
         </net>
         <net>
           <id>N7</id>
@@ -796,7 +818,7 @@
               <id>M8</id>
               <termid>T9</termid>
               <connections>
-                <connection net="N5" />
+                <connection net="N44" />
               </connections>
             </pin>
             <pin>
@@ -810,7 +832,7 @@
               <id>M10</id>
               <termid>T11</termid>
               <connections>
-                <connection net="N6" />
+                <connection net="N47" />
               </connections>
             </pin>
             <pin>
@@ -1890,6 +1912,37 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I33</id>
+          <cellid>S12</cellid>
+          <name>page4_i1</name>
+          <pins>
+            <pin>
+              <id>M138</id>
+              <termid>T95</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M139</id>
+              <termid>T96</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M140</id>
+              <termid>T97</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M141</id>
+              <termid>T98</termid>
+              <connections>
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -1934,8 +1987,6 @@
               <net ref="iacp/rst"></net>
               <net ref="pcm/dsd"></net>
               <net ref="pll_gnd"></net>
-              <net ref="sa_dm"></net>
-              <net ref="sa_dp"></net>
               <net ref="sa_reset"></net>
               <net ref="sa_xi"></net>
               <net ref="sa_xo"></net>
@@ -1950,6 +2001,8 @@
               <net ref="unnamed_2_res0402_i15_1"></net>
               <net ref="unnamed_2_res0402_i8_2"></net>
               <net ref="unnamed_2_res0402_i9_1"></net>
+              <net ref="usb_dm_conn"></net>
+              <net ref="usb_dp_conn"></net>
               <net ref="vdd18_sa"></net>
               <net ref="vdd33_sa"></net>
               <net ref="vdd33_sa_pll"></net>
@@ -2001,6 +2054,15 @@
               <instance ref="i6"></instance>
               <instance ref="i8"></instance>
               <instance ref="i9"></instance>
+            </instances>
+          </page>
+          <page number="4">
+            <physicalPageNumber>4</physicalPageNumber>
+            <errorStatus>false</errorStatus>
+            <nets>
+            </nets>
+            <instances>
+              <instance ref="i1"></instance>
             </instances>
           </page>
         </pages>

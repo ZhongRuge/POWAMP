@@ -2,5 +2,5 @@
   pages pages *
   *
 #CELL
-  oscillator 12mhz *
+  oscillator x322512msb4si *
   page4_i1
