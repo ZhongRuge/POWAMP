@@ -10,3 +10,9 @@
 #CELL
   capacitor c0603 *
   page4_i3
+#CELL
+  resistor res0603 *
+  page4_i4
+#CELL
+  capacitor c0603 *
+  page4_i5

@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-11-21T15:47:32</modificationTime>
+    <modificationTime>2025-11-21T21:58:26</modificationTime>
     <savedLibrary>power_amplifier_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="power_amplifier" view="sch_1">
       <lastids>
-        <instanceid>38</instanceid>
+        <instanceid>44</instanceid>
         <netid>52</netid>
-        <insttermid>153</insttermid>
+        <insttermid>165</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -2047,6 +2047,90 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I39</id>
+          <cellid>S10</cellid>
+          <name>page4_i2</name>
+          <pins>
+            <pin>
+              <id>M154</id>
+              <termid>T91</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M155</id>
+              <termid>T92</termid>
+              <connections>
+                <connection net="N8" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I40</id>
+          <cellid>S10</cellid>
+          <name>page4_i3</name>
+          <pins>
+            <pin>
+              <id>M156</id>
+              <termid>T91</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M157</id>
+              <termid>T92</termid>
+              <connections>
+                <connection net="N9" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I43</id>
+          <cellid>S7</cellid>
+          <name>page4_i4</name>
+          <pins>
+            <pin>
+              <id>M162</id>
+              <termid>T78</termid>
+              <connections>
+                <connection net="N7" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M163</id>
+              <termid>T79</termid>
+              <connections>
+                <connection net="N15" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I44</id>
+          <cellid>S10</cellid>
+          <name>page4_i5</name>
+          <pins>
+            <pin>
+              <id>M164</id>
+              <termid>T91</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M165</id>
+              <termid>T92</termid>
+              <connections>
+                <connection net="N7" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -2173,11 +2257,17 @@
             <errorStatus>false</errorStatus>
             <nets>
               <net ref="gndd"></net>
+              <net ref="sa_reset"></net>
               <net ref="sa_xi"></net>
               <net ref="sa_xo"></net>
+              <net ref="vdd33_sa"></net>
             </nets>
             <instances>
               <instance ref="i1"></instance>
+              <instance ref="i2"></instance>
+              <instance ref="i3"></instance>
+              <instance ref="i4"></instance>
+              <instance ref="i5"></instance>
             </instances>
           </page>
           <page number="5">

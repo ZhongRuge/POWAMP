@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Fri Nov 21 15:47:35 2025
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Fri Nov 21 22:31:36 2025
 #ISCELL
   standard b#20size#20page *
   *
@@ -96,23 +96,20 @@
   connector usb2_0 *
   page3_i1
 #CELL
+  inductor blm18pg121sn1d_c14709 *
+  page3_i10
+#CELL
+  inductor acm2012-2-900 *
+  page3_i11
+#CELL
   protection esd05 *
   page3_i2
-#CELL
-  resistor res0603 *
-  page3_i3
 #CELL
   capacitor c0603 *
   page3_i5
 #CELL
   capacitor c0603 *
   page3_i6
-#CELL
-  resistor res0603 *
-  page3_i8
-#CELL
-  ferritebead blm18pg121sn1d_c14709 *
-  page3_i9
 #ISCELL
   pages pages *
   *
@@ -125,12 +122,12 @@
 #CELL
   capacitor c0603 *
   page4_i3
+#CELL
+  resistor res0603 *
+  page4_i4
+#CELL
+  capacitor c0603 *
+  page4_i5
 #ISCELL
   pages pages *
   *
-#CELL
-  resistor res0603 *
-  page5_i1
-#CELL
-  capacitor c0603 *
-  page5_i2

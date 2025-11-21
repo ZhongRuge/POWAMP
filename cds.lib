@@ -9,4 +9,3 @@ DEFINE capacitor   My_lib/capacitor
 DEFINE connector   My_lib/connector
 DEFINE oscillator  My_lib/oscillator
 DEFINE protection  My_lib/protection
-DEFINE ferritebead My_lib/FerriteBead
