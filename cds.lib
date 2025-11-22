@@ -3,9 +3,11 @@ INCLUDE $CONCEPT_INST_DIR/share/cdssetup/cds.lib
 
 DEFINE ic          My_lib/ic
 DEFINE pages       My_lib/pages
+DEFINE power       My_lib/power
 DEFINE resistor    My_lib/resistor
 DEFINE inductor    My_lib/inductor
 DEFINE capacitor   My_lib/capacitor
 DEFINE connector   My_lib/connector
 DEFINE oscillator  My_lib/oscillator
 DEFINE protection  My_lib/protection
+

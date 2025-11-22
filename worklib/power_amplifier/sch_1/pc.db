@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Fri Nov 21 22:31:36 2025
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Sat Nov 22 17:51:31 2025
 #ISCELL
   standard b#20size#20page *
   *
@@ -102,11 +102,11 @@
   inductor acm2012-2-900 *
   page3_i11
 #CELL
+  capacitor c0805 *
+  page3_i12
+#CELL
   protection esd05 *
   page3_i2
-#CELL
-  capacitor c0603 *
-  page3_i5
 #CELL
   capacitor c0603 *
   page3_i6
@@ -126,8 +126,23 @@
   resistor res0603 *
   page4_i4
 #CELL
-  capacitor c0603 *
-  page4_i5
+  capacitor c0805 *
+  page4_i6
 #ISCELL
   pages pages *
   *
+#CELL
+  power ams1117 *
+  page5_i1
+#CELL
+  capacitor c0603 *
+  page5_i3
+#CELL
+  capacitor c0603 *
+  page5_i5
+#CELL
+  capacitor c0805 *
+  page5_i6
+#CELL
+  capacitor c0805 *
+  page5_i7

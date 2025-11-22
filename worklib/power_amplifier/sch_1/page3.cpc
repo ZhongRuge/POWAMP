@@ -11,11 +11,11 @@
   inductor acm2012-2-900 *
   page3_i11
 #CELL
+  capacitor c0805 *
+  page3_i12
+#CELL
   protection esd05 *
   page3_i2
-#CELL
-  capacitor c0603 *
-  page3_i5
 #CELL
   capacitor c0603 *
   page3_i6

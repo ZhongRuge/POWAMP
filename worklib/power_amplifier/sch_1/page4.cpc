@@ -14,5 +14,5 @@
   resistor res0603 *
   page4_i4
 #CELL
-  capacitor c0603 *
-  page4_i5
+  capacitor c0805 *
+  page4_i6

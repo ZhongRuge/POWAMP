@@ -1,3 +1,18 @@
 #ISCELL
   pages pages *
   *
+#CELL
+  power ams1117 *
+  page5_i1
+#CELL
+  capacitor c0603 *
+  page5_i3
+#CELL
+  capacitor c0603 *
+  page5_i5
+#CELL
+  capacitor c0805 *
+  page5_i6
+#CELL
+  capacitor c0805 *
+  page5_i7
