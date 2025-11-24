@@ -65,8 +65,14 @@
   resistor res0603 *
   page2_i28
 #CELL
+  ic at24c64d-sshm-t *
+  page2_i29
+#CELL
   capacitor c3216 *
   page2_i3
+#CELL
+  capacitor c0603 *
+  page2_i30
 #CELL
   inductor l0805 *
   page2_i4

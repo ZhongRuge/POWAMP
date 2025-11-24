@@ -1,14 +1,16 @@
-11/22/25  16:24:58		Opening project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm
-11/22/25  16:24:58		cdslib D:/Coding/Cadence/Project/POWAMP/SCH/cds.lib opened
-11/22/25  16:24:58		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm opened
-11/22/25  16:24:58		Loading cell c0805 from library sch_lib
-11/22/25  16:24:58		Loading view sym_1 of cell c0805
-11/22/25  16:24:58		Loading view chips of cell c0805
-11/22/25  16:24:58		Loading view entity of cell c0805
-11/22/25  16:24:58		Loading cell c0805 from library sch_lib
-11/22/25  16:24:58		Analyzing view relationships of cell c0805 in library sch_lib
-11/22/25  16:24:58		Completed loading cell c0805 from library sch_lib
-11/22/25  16:24:58		Starting validations on cell c0805 of library sch_lib
-11/22/25  16:24:58		Completed validations on cell c0805 of library sch_lib
-11/22/25  16:25:53		Loading view sym_1 of cell c0805
-11/22/25  16:25:59		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm is closed.
+11/24/25  15:30:54		Opening project G:/Cadence/POWAMP/SCH/sch.cpm
+11/24/25  15:30:54		cdslib G:/Cadence/POWAMP/SCH/cds.lib opened
+11/24/25  15:30:54		Project G:/Cadence/POWAMP/SCH/sch.cpm opened
+11/24/25  15:30:54		Loading cell cs43198-cnzr from library sch_lib
+11/24/25  15:30:54		Loading view sym_1 of cell cs43198-cnzr
+11/24/25  15:30:54		Loading view chips of cell cs43198-cnzr
+11/24/25  15:30:54		Loading view entity of cell cs43198-cnzr
+11/24/25  15:30:54		Loading cell cs43198-cnzr from library sch_lib
+11/24/25  15:30:54		Analyzing view relationships of cell cs43198-cnzr in library sch_lib
+11/24/25  15:30:54		Completed loading cell cs43198-cnzr from library sch_lib
+11/24/25  15:30:54		Starting validations on cell cs43198-cnzr of library sch_lib
+11/24/25  15:30:54		Completed validations on cell cs43198-cnzr of library sch_lib
+11/24/25  15:31:14		Starting validations on cell cs43198-cnzr of library sch_lib
+11/24/25  15:31:14		Completed validations on cell cs43198-cnzr of library sch_lib
+11/24/25  15:31:14		Completed saving cell cs43198-cnzr in library sch_lib 
+11/24/25  15:31:15		Project G:/Cadence/POWAMP/SCH/sch.cpm is closed.

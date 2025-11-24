@@ -3995,3 +3995,93 @@ execCmd closeItem -pg {{"cellID":"c0805","keyType":"cell","libID":"sch_lib"}}
 cps::closeView {{"cellID":"c0805","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
 execCmd closeItem -pg {{"cellID":"c0805","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
 cleanUpWebPage {{"cellID":"c0805","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+## Recorded on 2025-11-24T10:40:54
+#refreshDesignExplorer
+#pinTable {{"cellID":"at24c64d#2dsshm#2dt","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+#updateReadOnlyStatus {{"cellID":"at24c64d#2dsshm#2dt","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+selectItem {{"cellID":"at24c64d#2dsshm#2dt","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"at24c64d#2dsshm#2dt","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"at24c64d#2dsshm#2dt","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+updateReadOnlyStatus {{"cellID":"at24c64d#2dsshm#2dt","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+pinTable {{"cellID":"at24c64d#2dsshm#2dt","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+refreshDesignExplorer
+cps::setComponentExplorerWidgetVisibilityOff
+cps::setComponentExplorerWidgetVisibilityOff
+cpSdaLckT::lockProject {sch.cpm} 1
+#cps::openProject "G:/Cadence/POWAMP/SCH/sch.cpm" 1
+cps::openProject "G:/Cadence/POWAMP/SCH/sch.cpm" 1
+#cpSymT::openItem "sch_lib::at24c64d#2dsshm#2dt::sym_1" SYMBOL SYM
+cpSymT::openItem "sch_lib::at24c64d#2dsshm#2dt::sym_1" SYMBOL SYM
+#zoom -fit
+zoom -fit
+#if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::at24c64d#2dsshm#2dt::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::at24c64d#2dsshm#2dt::sym_1}  -display 1 -unit Inches; " }; 
+if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::at24c64d#2dsshm#2dt::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::at24c64d#2dsshm#2dt::sym_1}  -display 1 -unit Inches; " }; 
+execCmd getOSName
+cps::getTheme
+fetch -returntype json -pg {{"cellID":"at24c64d#2dsshm#2dt","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data directives
+fetch -returntype json -pg {{"cellID":"at24c64d#2dsshm#2dt","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data all -clearViewOnlyViolations
+fetch -returntype json -pg {{"cellID":"at24c64d#2dsshm#2dt","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#execCmd closeItem -pg {{"cellID":"at24c64d#2dsshm#2dt","keyType":"cell","libID":"sch_lib"}}
+#execCmd closeItem -pg {{"cellID":"at24c64d#2dsshm#2dt","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+#cps::closeView {{"cellID":"at24c64d#2dsshm#2dt","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+closeSymbol [list -pg {"cellID":"at24c64d#2dsshm#2dt","keyType":"view","libID":"sch_lib","viewID":"sym_1"}] close_all
+execCmd closeItem -pg {{"cellID":"at24c64d#2dsshm#2dt","keyType":"cell","libID":"sch_lib"}}
+cps::closeView {{"cellID":"at24c64d#2dsshm#2dt","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+execCmd closeItem -pg {{"cellID":"at24c64d#2dsshm#2dt","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+cleanUpWebPage {{"cellID":"at24c64d#2dsshm#2dt","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+## Recorded on 2025-11-24T15:25:14
+#refreshDesignExplorer
+#pinTable {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+#updateReadOnlyStatus {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+selectItem {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+updateReadOnlyStatus {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+pinTable {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+refreshDesignExplorer
+cps::setComponentExplorerWidgetVisibilityOff
+cps::setComponentExplorerWidgetVisibilityOff
+cpSdaLckT::lockProject {sch.cpm} 1
+#if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::cs43198#2dcnzr::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::cs43198#2dcnzr::sym_1}  -display 1 -unit Inches; " }; 
+if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::cs43198#2dcnzr::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::cs43198#2dcnzr::sym_1}  -display 1 -unit Inches; " }; 
+execCmd getOSName
+cps::getTheme
+fetch -returntype json -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data directives
+fetch -returntype json -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data all -clearViewOnlyViolations
+fetch -returntype json -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#if { [catch {cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1 }] } {     puts "Unable to load script cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1" }; 
+if { [catch {cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1 }] } {     puts "Unable to load script cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1" }; 
+#if { [catch {cpSymT::openItem {sch_lib::cs43198#2dcnzr::sym_1} SYMBOL SYM;  }] } {     puts "Unable to load script cpSymT::openItem {sch_lib::cs43198#2dcnzr::sym_1} SYMBOL SYM; " }; 
+if { [catch {cpSymT::openItem {sch_lib::cs43198#2dcnzr::sym_1} SYMBOL SYM;  }] } {     puts "Unable to load script cpSymT::openItem {sch_lib::cs43198#2dcnzr::sym_1} SYMBOL SYM; " }; 
+#if { [catch {edit -pg {sch_lib::cs43198#2dcnzr::sym_1} -prop {IMPLEMENTATION_PATH} -name {$LOCATION} ; }] } {     puts "Unable to load script edit -pg {sch_lib::cs43198#2dcnzr::sym_1} -prop {IMPLEMENTATION_PATH} -name {$LOCATION} ;" }; 
+if { [catch {edit -pg {sch_lib::cs43198#2dcnzr::sym_1} -prop {IMPLEMENTATION_PATH} -name {$LOCATION} ; }] } {     puts "Unable to load script edit -pg {sch_lib::cs43198#2dcnzr::sym_1} -prop {IMPLEMENTATION_PATH} -name {$LOCATION} ;" }; 
+#if { [catch {cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1 }] } {     puts "Unable to load script cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1" }; 
+if { [catch {cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1 }] } {     puts "Unable to load script cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1" }; 
+#if { [catch {cpSymT::openItem {sch_lib::cs43198#2dcnzr::sym_1} SYMBOL SYM;  }] } {     puts "Unable to load script cpSymT::openItem {sch_lib::cs43198#2dcnzr::sym_1} SYMBOL SYM; " }; 
+if { [catch {cpSymT::openItem {sch_lib::cs43198#2dcnzr::sym_1} SYMBOL SYM;  }] } {     puts "Unable to load script cpSymT::openItem {sch_lib::cs43198#2dcnzr::sym_1} SYMBOL SYM; " }; 
+#if { [catch {edit -pg {sch_lib::cs43198#2dcnzr::sym_1} -prop {IMPLEMENTATION} -name {value} ; }] } {     puts "Unable to load script edit -pg {sch_lib::cs43198#2dcnzr::sym_1} -prop {IMPLEMENTATION} -name {value} ;" }; 
+if { [catch {edit -pg {sch_lib::cs43198#2dcnzr::sym_1} -prop {IMPLEMENTATION} -name {value} ; }] } {     puts "Unable to load script edit -pg {sch_lib::cs43198#2dcnzr::sym_1} -prop {IMPLEMENTATION} -name {value} ;" }; 
+#if { [catch {saveCell -lib {sch_lib} -cell {cs43198-cnzr} -view {sym_1};  }] } {     puts "Unable to load script saveCell -lib {sch_lib} -cell {cs43198-cnzr} -view {sym_1}; " }; 
+if { [catch {saveCell -lib {sch_lib} -cell {cs43198-cnzr} -view {sym_1};  }] } {     puts "Unable to load script saveCell -lib {sch_lib} -cell {cs43198-cnzr} -view {sym_1}; " }; 
+#if { [catch {cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1 }] } {     puts "Unable to load script cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1" }; 
+if { [catch {cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1 }] } {     puts "Unable to load script cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1" }; 
+#if { [catch {cpSymT::openItem {sch_lib::cs43198#2dcnzr::sym_1} SYMBOL SYM;  }] } {     puts "Unable to load script cpSymT::openItem {sch_lib::cs43198#2dcnzr::sym_1} SYMBOL SYM; " }; 
+if { [catch {cpSymT::openItem {sch_lib::cs43198#2dcnzr::sym_1} SYMBOL SYM;  }] } {     puts "Unable to load script cpSymT::openItem {sch_lib::cs43198#2dcnzr::sym_1} SYMBOL SYM; " }; 
+#if { [catch {edit -pg {sch_lib::cs43198#2dcnzr::sym_1} -prop {value} -vis Value;  }] } {     puts "Unable to load script edit -pg {sch_lib::cs43198#2dcnzr::sym_1} -prop {value} -vis Value; " }; 
+if { [catch {edit -pg {sch_lib::cs43198#2dcnzr::sym_1} -prop {value} -vis Value;  }] } {     puts "Unable to load script edit -pg {sch_lib::cs43198#2dcnzr::sym_1} -prop {value} -vis Value; " }; 
+#if { [catch {saveCell -lib {sch_lib} -cell {cs43198-cnzr} -view {sym_1};  }] } {     puts "Unable to load script saveCell -lib {sch_lib} -cell {cs43198-cnzr} -view {sym_1}; " }; 
+if { [catch {saveCell -lib {sch_lib} -cell {cs43198-cnzr} -view {sym_1};  }] } {     puts "Unable to load script saveCell -lib {sch_lib} -cell {cs43198-cnzr} -view {sym_1}; " }; 
+#cps::exitApp 0
+cps::exitApp 0
+#cps::exitApp 0
+cps::exitApp 0
+#execCmd closeItem -pg {{"cellID":"cs43198#2dcnzr","keyType":"cell","libID":"sch_lib"}}
+#execCmd closeItem -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+#cps::closeView {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+closeSymbol [list -pg {"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}] close_all
+execCmd closeItem -pg {{"cellID":"cs43198#2dcnzr","keyType":"cell","libID":"sch_lib"}}
+cps::closeView {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+execCmd closeItem -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+cleanUpWebPage {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}

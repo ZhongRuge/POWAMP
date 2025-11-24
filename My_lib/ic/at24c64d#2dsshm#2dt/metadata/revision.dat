@@ -1,0 +1,194 @@
+(Cell	at24c64d-sshm-t
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	11/24/25,10:36:29)
+
+			(User	Lucky)
+
+			(Path	sch_lib.AT24C64D-SSHM-T)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.2)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	11/24/25,10:36:29)
+
+					(User	Lucky)
+
+					(Path	sch_lib.AT24C64D-SSHM-T)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000307c610f)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/24/25,10:36:29)
+
+							(User	Lucky)
+
+							(Path	sch_lib.AT24C64D-SSHM-T)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b22037b)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000006ef0bca4)
+
+			(Primitives	1
+
+				(Primitive	AT24C64D-SSHM-T
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/24/25,10:36:29)
+
+							(User	Lucky)
+
+							(Path	sch_lib.AT24C64D-SSHM-T)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	AT24C64D-SSHM-T
+
+							(PackType	AT24C64D-SSHM-T)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	soic-8_l5_0-w4_0-p1_27-ls6_0-bl)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c3b03a7)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.4-2019 S039 (4153571))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c7b03a5)
+
+)
+

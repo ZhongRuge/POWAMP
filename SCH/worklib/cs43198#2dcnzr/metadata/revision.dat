@@ -1,0 +1,194 @@
+(Cell	cs43198-cnzr
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.7)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	11/24/25,15:19:35)
+
+			(User	Lucky)
+
+			(Path	sch_lib.CS43198-CNZR)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.6)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	11/24/25,15:19:35)
+
+					(User	Lucky)
+
+					(Path	sch_lib.CS43198-CNZR)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000e059f9c3)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.6)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/24/25,15:19:35)
+
+							(User	Lucky)
+
+							(Path	sch_lib.CS43198-CNZR)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cdf03b9)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000004808e619)
+
+			(Primitives	1
+
+				(Primitive	CS43198-CNZR
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/24/25,15:19:35)
+
+							(User	Lucky)
+
+							(Path	sch_lib.CS43198-CNZR)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	CS43198-CNZR
+
+							(PackType	CS43198-CNZR)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	qfn-40_l5_0-w5_0-p0_40-tl-ep3_6)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c9603bb)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.4-2019 S039 (4153571))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bf003ab)
+
+)
+
