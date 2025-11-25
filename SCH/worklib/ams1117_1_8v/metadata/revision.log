@@ -1,0 +1,14 @@
+	(Comment
+		(Time 11/25/25,08:29:24)
+		(User 63524)
+		(MsgId ECO_021)
+		(Text "Package AMS1117_1_8V added to cell")
+		(Param1 "AMS1117_1_8V")
+	)
+	(Comment
+		(Time 11/25/25,08:30:04)
+		(User 63524)
+		(MsgId ECO_022)
+		(Text "Package AMS1117_1_8V deleted from cell")
+		(Param1 "AMS1117_1_8V")
+	)

@@ -4,7 +4,7 @@
 
 		(Baselined	0)
 
-		(Revision	0.0.4)
+		(Revision	0.0.5)
 
 		(ModificationStatus	NULL)
 
@@ -32,7 +32,7 @@
 
 				(Baselined	0)
 
-				(Revision	0.0.3)
+				(Revision	0.0.4)
 
 				(ModificationStatus	NULL)
 
@@ -60,13 +60,13 @@
 
 					(Max_Size	0)
 
-					(Checksum	00000000f2ac4832)
+					(Checksum	00000000b95d1db8)
 
 					(RevisionInfoBlock	
 
 						(Baselined	0)
 
-						(Revision	0.0.3)
+						(Revision	0.0.4)
 
 						(ModificationStatus	NULL)
 
@@ -90,13 +90,13 @@
 
 			)
 
-			(Checksum	000000001da303ae)
+			(Checksum	000000001d8d03e4)
 
 		)
 
 		(View	Chips
 
-			(Checksum	00000000a9440385)
+			(Checksum	00000000af8505db)
 
 			(Primitives	1
 
@@ -174,7 +174,7 @@
 
 		)
 
-		(Checksum	000000001cd10383)
+		(Checksum	000000001d5903dc)
 
 	)
 
@@ -188,7 +188,7 @@
 
 	)
 
-	(Checksum	000000001c560378)
+	(Checksum	000000001bf303ae)
 
 )
 

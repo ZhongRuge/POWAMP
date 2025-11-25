@@ -1264,7 +1264,7 @@
 		(MSB )
 		(LSB )
 		(Type BIDIR)
-		(Location Right)
+		(Location Left)
 		(InputLoadLow -0.01)
 		(InputLoadHigh 0.01)
 		(OutputLoadLow 1.0)

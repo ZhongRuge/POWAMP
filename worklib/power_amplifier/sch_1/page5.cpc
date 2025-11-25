@@ -2,17 +2,17 @@
   pages pages *
   *
 #CELL
-  power ams1117 *
-  page5_i1
-#CELL
-  capacitor c0603 *
-  page5_i3
-#CELL
-  capacitor c0603 *
-  page5_i5
+  capacitor c0805 *
+  page5_i10
 #CELL
   capacitor c0805 *
-  page5_i6
+  page5_i11
 #CELL
   capacitor c0805 *
-  page5_i7
+  page5_i12
+#CELL
+  power ams1117_3_3v *
+  page5_i8
+#CELL
+  capacitor c0805 *
+  page5_i9

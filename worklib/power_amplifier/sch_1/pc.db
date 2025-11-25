@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Mon Nov 24 15:31:28 2025
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Tue Nov 25 09:25:30 2025
 #ISCELL
   standard b#20size#20page *
   *
@@ -9,149 +9,149 @@
   ic sa9227a *
   page2_i1
 #CELL
-  resistor res0402 *
-  page2_i10
-#CELL
-  inductor l0805 *
-  page2_i11
-#CELL
-  resistor res0603 *
-  page2_i12
-#CELL
-  capacitor c3216 *
-  page2_i13
-#CELL
-  resistor res0402 *
-  page2_i14
-#CELL
-  resistor res0402 *
-  page2_i15
-#CELL
-  resistor res0402 *
-  page2_i16
-#CELL
-  resistor res0402 *
-  page2_i17
-#CELL
-  resistor res0402 *
-  page2_i18
-#CELL
-  resistor res0402 *
-  page2_i19
-#CELL
-  capacitor c0402 *
-  page2_i2
-#CELL
-  resistor res0402 *
-  page2_i20
-#CELL
-  resistor res0402 *
-  page2_i21
-#CELL
-  resistor res0402 *
-  page2_i22
-#CELL
-  resistor res0402 *
-  page2_i23
-#CELL
-  resistor res0402 *
-  page2_i24
-#CELL
-  resistor res0603 *
-  page2_i25
-#CELL
-  resistor res0603 *
-  page2_i26
-#CELL
-  resistor res0603 *
-  page2_i27
-#CELL
-  resistor res0603 *
-  page2_i28
-#CELL
   ic at24c64d-sshm-t *
   page2_i29
 #CELL
   capacitor c3216 *
-  page2_i3
-#CELL
-  capacitor c0603 *
-  page2_i30
-#CELL
-  inductor l0805 *
-  page2_i4
-#CELL
-  capacitor c0402 *
-  page2_i5
+  page2_i31
 #CELL
   capacitor c3216 *
-  page2_i6
+  page2_i32
 #CELL
-  capacitor c0402 *
-  page2_i7
+  inductor l0805 *
+  page2_i33
 #CELL
-  resistor res0402 *
-  page2_i8
+  capacitor c0805 *
+  page2_i34
 #CELL
-  resistor res0402 *
-  page2_i9
+  capacitor c0805 *
+  page2_i35
+#CELL
+  resistor res0805 *
+  page2_i36
+#CELL
+  capacitor c0805 *
+  page2_i37
+#CELL
+  inductor l0805 *
+  page2_i38
+#CELL
+  resistor res0805 *
+  page2_i39
+#CELL
+  capacitor c3216 *
+  page2_i40
+#CELL
+  resistor res0805 *
+  page2_i41
+#CELL
+  resistor res0805 *
+  page2_i42
+#CELL
+  resistor res0805 *
+  page2_i43
+#CELL
+  resistor res0805 *
+  page2_i44
+#CELL
+  resistor res0805 *
+  page2_i45
+#CELL
+  resistor res0805 *
+  page2_i46
+#CELL
+  resistor res0805 *
+  page2_i47
+#CELL
+  resistor res0805 *
+  page2_i48
+#CELL
+  resistor res0805 *
+  page2_i49
+#CELL
+  resistor res0805 *
+  page2_i50
+#CELL
+  resistor res0805 *
+  page2_i51
+#CELL
+  resistor res0805 *
+  page2_i52
+#CELL
+  resistor res0805 *
+  page2_i53
+#CELL
+  resistor res0805 *
+  page2_i54
+#CELL
+  resistor res0805 *
+  page2_i55
+#CELL
+  resistor res0805 *
+  page2_i56
+#CELL
+  resistor res0805 *
+  page2_i57
+#CELL
+  capacitor c0805 *
+  page2_i58
 #ISCELL
   pages pages *
   *
 #CELL
   connector usb2_0 *
-  page3_i1
-#CELL
-  inductor blm18pg121sn1d_c14709 *
-  page3_i10
+  page3_i13
 #CELL
   inductor acm2012-2-900 *
-  page3_i11
+  page3_i14
+#CELL
+  inductor blm18pg121sn1d_c14709 *
+  page3_i15
 #CELL
   capacitor c0805 *
-  page3_i12
+  page3_i16
+#CELL
+  capacitor c0805 *
+  page3_i17
 #CELL
   protection esd05 *
   page3_i2
-#CELL
-  capacitor c0603 *
-  page3_i6
 #ISCELL
   pages pages *
   *
+#CELL
+  capacitor c0805 *
+  page4_i10
+#CELL
+  resistor res0805 *
+  page4_i11
 #CELL
   oscillator x322512msb4si *
-  page4_i1
+  page4_i7
 #CELL
   capacitor c0603 *
-  page4_i2
+  page4_i8
 #CELL
   capacitor c0603 *
-  page4_i3
-#CELL
-  resistor res0603 *
-  page4_i4
-#CELL
-  capacitor c0805 *
-  page4_i6
+  page4_i9
 #ISCELL
   pages pages *
   *
 #CELL
-  power ams1117 *
-  page5_i1
-#CELL
-  capacitor c0603 *
-  page5_i3
-#CELL
-  capacitor c0603 *
-  page5_i5
+  capacitor c0805 *
+  page5_i10
 #CELL
   capacitor c0805 *
-  page5_i6
+  page5_i11
 #CELL
   capacitor c0805 *
-  page5_i7
+  page5_i12
+#CELL
+  power ams1117_3_3v *
+  page5_i8
+#CELL
+  capacitor c0805 *
+  page5_i9
 #ISCELL
   pages pages *
   *

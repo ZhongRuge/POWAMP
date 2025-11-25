@@ -3,19 +3,19 @@
   *
 #CELL
   connector usb2_0 *
-  page3_i1
-#CELL
-  inductor blm18pg121sn1d_c14709 *
-  page3_i10
+  page3_i13
 #CELL
   inductor acm2012-2-900 *
-  page3_i11
+  page3_i14
+#CELL
+  inductor blm18pg121sn1d_c14709 *
+  page3_i15
 #CELL
   capacitor c0805 *
-  page3_i12
+  page3_i16
+#CELL
+  capacitor c0805 *
+  page3_i17
 #CELL
   protection esd05 *
   page3_i2
-#CELL
-  capacitor c0603 *
-  page3_i6
