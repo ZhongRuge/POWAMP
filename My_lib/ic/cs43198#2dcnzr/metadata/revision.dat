@@ -4,7 +4,7 @@
 
 		(Baselined	0)
 
-		(Revision	0.0.4)
+		(Revision	0.0.7)
 
 		(ModificationStatus	NULL)
 
@@ -14,9 +14,9 @@
 
 		(CreateInfo	
 
-			(Time	11/26/25,13:31:42)
+			(Time	11/26/25,17:46:49)
 
-			(User	63524)
+			(User	Lucky)
 
 			(Path	sch_lib.CS43198-CNZR)
 
@@ -32,7 +32,7 @@
 
 				(Baselined	0)
 
-				(Revision	0.0.2)
+				(Revision	0.0.3)
 
 				(ModificationStatus	NULL)
 
@@ -42,9 +42,9 @@
 
 				(CreateInfo	
 
-					(Time	11/26/25,13:31:42)
+					(Time	11/26/25,17:46:49)
 
-					(User	63524)
+					(User	Lucky)
 
 					(Path	sch_lib.CS43198-CNZR)
 
@@ -60,47 +60,7 @@
 
 					(Max_Size	0)
 
-					(Checksum	00000000f49fdf89)
-
-					(RevisionInfoBlock	
-
-						(Baselined	0)
-
-						(Revision	0.0.2)
-
-						(ModificationStatus	NULL)
-
-						(Status	Created)
-
-						(ErrorStatus	0)
-
-						(CreateInfo	
-
-							(Time	11/26/25,13:31:42)
-
-							(User	63524)
-
-							(Path	sch_lib.CS43198-CNZR)
-
-						)
-
-					)
-
-				)
-
-			)
-
-			(Checksum	000000001e2b03f5)
-
-		)
-
-		(View	Chips
-
-			(Checksum	00000000e6c5e7a0)
-
-			(Primitives	1
-
-				(Primitive	CS43198-CNZR
+					(Checksum	00000000590731b8)
 
 					(RevisionInfoBlock	
 
@@ -116,9 +76,49 @@
 
 						(CreateInfo	
 
-							(Time	11/26/25,13:31:42)
+							(Time	11/26/25,17:46:49)
 
-							(User	63524)
+							(User	Lucky)
+
+							(Path	sch_lib.CS43198-CNZR)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001a950354)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000bbc2e45d)
+
+			(Primitives	1
+
+				(Primitive	CS43198-CNZR
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.5)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/26/25,17:46:49)
+
+							(User	Lucky)
 
 							(Path	sch_lib.CS43198-CNZR)
 
@@ -174,7 +174,7 @@
 
 		)
 
-		(Checksum	000000001c7a03b1)
+		(Checksum	000000001ce903b6)
 
 	)
 
@@ -188,7 +188,7 @@
 
 	)
 
-	(Checksum	000000001c8a03a3)
+	(Checksum	000000001cdb03ae)
 
 )
 

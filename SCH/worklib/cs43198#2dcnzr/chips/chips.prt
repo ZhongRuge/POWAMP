@@ -65,14 +65,6 @@ primitive 'CS43198-CNZR';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-    '¨CVA':
-      PIN_NUMBER='(9)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
     'FLYP_VA':
       PIN_NUMBER='(10)';
       PIN_TYPE='ANALOG';
@@ -131,14 +123,6 @@ primitive 'CS43198-CNZR';
       ALLOW_CONNECT='TRUE';
     'REFB':
       PIN_NUMBER='(17)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-    'VCP_FILT-':
-      PIN_NUMBER='(18)';
       PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
       NO_IO_CHECK='Both';
@@ -329,13 +313,29 @@ primitive 'CS43198-CNZR';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+    '-VA':
+      PIN_NUMBER='(9)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'VCP_FILT-':
+      PIN_NUMBER='(18)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
   end_pin;
   body
     PART_NAME='CS43198-CNZR';
     BODY_NAME='CS43198-CNZR';
     JEDEC_TYPE='qfn-40_l5_0-w5_0-p0_40-tl-ep3_6';
     PHYS_DES_PREFIX='U';
-    CLASS='DISCRETE';
+    CLASS='IC';
   end_body;
 end_primitive;
 
