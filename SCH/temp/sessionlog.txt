@@ -1,34 +1,18 @@
-11/26/25  17:52:28		Opening project G:/Cadence/POWAMP/SCH/sch.cpm
-11/26/25  17:52:28		cdslib G:/Cadence/POWAMP/SCH/cds.lib opened
-11/26/25  17:52:28		Project G:/Cadence/POWAMP/SCH/sch.cpm opened
-11/26/25  17:52:28		Loading cell cs43198-cnzr from library sch_lib
-11/26/25  17:52:28		Loading view sym_1 of cell cs43198-cnzr
-11/26/25  17:52:28		Loading view chips of cell cs43198-cnzr
-11/26/25  17:52:28		Loading view entity of cell cs43198-cnzr
-11/26/25  17:52:28		Import failed because of an error on line 42 and token 'C' in file G:\Cadence\POWAMP\SCH\worklib\cs43198#2dcnzr\entity\vhdl.vhd. Correct the input file and reimport.
-11/26/25  17:52:28		Could not load view entity/vhdl.vhd
-11/26/25  17:52:28		Loading cell cs43198-cnzr from library sch_lib
-11/26/25  17:52:28		Analyzing view relationships of cell cs43198-cnzr in library sch_lib
-11/26/25  17:52:28		Completed loading cell cs43198-cnzr from library sch_lib
-11/26/25  17:52:28		Starting validations on cell cs43198-cnzr of library sch_lib
-11/26/25  17:52:28		Completed validations on cell cs43198-cnzr of library sch_lib
-11/26/25  17:54:08		Starting validations on cell cs43198-cnzr of library sch_lib
-11/26/25  17:54:08		Completed validations on cell cs43198-cnzr of library sch_lib
-11/26/25  17:54:18		Starting validations on cell cs43198-cnzr of library sch_lib
-11/26/25  17:54:18		Completed validations on cell cs43198-cnzr of library sch_lib
-11/26/25  17:54:19		Completed saving cell cs43198-cnzr in library sch_lib with errors/warnings
-11/26/25  17:55:45		Starting validations on cell cs43198-cnzr of library sch_lib
-11/26/25  17:55:45		Completed validations on cell cs43198-cnzr of library sch_lib
-11/26/25  17:56:09		Pin numbers extracted from footprint qfn-40_l5_0-w5_0-p0_40-tl-ep3_6.psm
-11/26/25  17:57:00		Starting validations on cell cs43198-cnzr of library sch_lib
-11/26/25  17:57:00		Completed validations on cell cs43198-cnzr of library sch_lib
-11/26/25  17:57:04		Starting validations on cell cs43198-cnzr of library sch_lib
-11/26/25  17:57:04		Completed validations on cell cs43198-cnzr of library sch_lib
-11/26/25  17:57:08		Completed saving cell cs43198-cnzr in library sch_lib with errors/warnings
-11/26/25  17:59:53		Starting validations on cell cs43198-cnzr of library sch_lib
-11/26/25  17:59:53		Completed validations on cell cs43198-cnzr of library sch_lib
-11/26/25  17:59:53		Completed saving cell cs43198-cnzr in library sch_lib 
-11/26/25  18:00:06		Starting validations on cell cs43198-cnzr of library sch_lib
-11/26/25  18:00:06		Completed validations on cell cs43198-cnzr of library sch_lib
-11/26/25  18:00:06		Completed saving cell cs43198-cnzr in library sch_lib 
-11/26/25  18:00:07		Project G:/Cadence/POWAMP/SCH/sch.cpm is closed.
+11/26/25  18:35:51		Opening project D:/Projects/POWAMP/SCH/sch.cpm
+11/26/25  18:35:51		cdslib D:/Projects/POWAMP/SCH/cds.lib opened
+11/26/25  18:35:51		Project D:/Projects/POWAMP/SCH/sch.cpm opened
+11/26/25  18:35:51		Loading cell cs43198-cnzr from library sch_lib
+11/26/25  18:35:51		Loading view sym_1 of cell cs43198-cnzr
+11/26/25  18:35:51		Loading view chips of cell cs43198-cnzr
+11/26/25  18:35:51		Loading view entity of cell cs43198-cnzr
+11/26/25  18:35:51		Loading cell cs43198-cnzr from library sch_lib
+11/26/25  18:35:51		Analyzing view relationships of cell cs43198-cnzr in library sch_lib
+11/26/25  18:35:51		Completed loading cell cs43198-cnzr from library sch_lib
+11/26/25  18:35:51		Starting validations on cell cs43198-cnzr of library sch_lib
+11/26/25  18:35:51		Completed validations on cell cs43198-cnzr of library sch_lib
+11/26/25  18:38:15		Starting validations on cell cs43198-cnzr of library sch_lib
+11/26/25  18:38:15		Completed validations on cell cs43198-cnzr of library sch_lib
+11/26/25  18:38:16		Starting validations on cell cs43198-cnzr of library sch_lib
+11/26/25  18:38:16		Completed validations on cell cs43198-cnzr of library sch_lib
+11/26/25  18:38:16		Completed saving cell cs43198-cnzr in library sch_lib 
+11/26/25  18:38:17		Project D:/Projects/POWAMP/SCH/sch.cpm is closed.

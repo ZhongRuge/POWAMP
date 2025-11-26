@@ -2,7 +2,3 @@
 CSDirect 17.4-2019 S039 (4153571)
 Netlisting block power_amplifier
 Processing page 6
-WARNING(SPCOCD-552): Connectivity Server Warning: Unable to add property 'VCP_FILT¨C=<< NULL >>' on object '@power_amplifier_lib.power_amplifier(sch_1):page6_i24:\vcp_filt-\'.
-	
-WARNING(SPCOCD-552): Connectivity Server Warning: Unable to add property '¨CVA=<< NULL >>' on object '@power_amplifier_lib.power_amplifier(sch_1):page6_i24:\-va\'.
-	
