@@ -1,0 +1,39 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dump Library Log                                                 )
+(                                                                     )
+(    Software Version : 17.4S039                                      )
+(    Date/Time        : Wed Nov 26 23:32:34 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+*** file: D:/Coding/Cadence/SPB_Data/unnamed.brd ***
+
+
+
+  *** Creating all device files (see create_devices.log) ***
+
+
+  *** Creating padstacks. ***
+
+  SMD_O106X591P0S1 being dumped.
+
+  SMD_O591X106P0S1 being dumped.
+
+
+  *** Creating package symbols (.dra and .psm) ***
+
+  lqfp-48_l7_0-w7_0-p0_50-ls9_0-bl being dumped.
+
+
+
+*********************** Summary *********************
+ERRORs reported:                           0
+
+Number of padstacks dumped:                2
+Number of package symbols dumped:          1
+
+Total number of symbols dumped:            1
+*****************************************************
+

@@ -1,0 +1,27 @@
+#ISCELL
+  pages pages *
+  *
+#CELL
+  ic stm32f103c8t6 *
+  page7_i1
+#CELL
+  capacitor c0805 *
+  page7_i10
+#CELL
+  resistor res0805 *
+  page7_i11
+#CELL
+  capacitor c0805 *
+  page7_i12
+#CELL
+  resistor res0805 *
+  page7_i13
+#CELL
+  capacitor c0805 *
+  page7_i6
+#CELL
+  capacitor c0805 *
+  page7_i7
+#CELL
+  capacitor c0805 *
+  page7_i8

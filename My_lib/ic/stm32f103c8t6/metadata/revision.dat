@@ -1,0 +1,194 @@
+(Cell	stm32f103c8t6
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	11/26/25,23:33:13)
+
+			(User	63524)
+
+			(Path	sch_lib.STM32F103C8T6)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.2)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	11/26/25,23:33:13)
+
+					(User	63524)
+
+					(Path	sch_lib.STM32F103C8T6)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000c1beac77)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/26/25,23:33:13)
+
+							(User	63524)
+
+							(Path	sch_lib.STM32F103C8T6)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001ed6040e)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000c1f7256a)
+
+			(Primitives	1
+
+				(Primitive	STM32F103C8T6
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/26/25,23:33:13)
+
+							(User	63524)
+
+							(Path	sch_lib.STM32F103C8T6)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	STM32F103C8T6
+
+							(PackType	STM32F103C8T6)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	lqfp-48_l7_0-w7_0-p0_50-ls9_0-bl)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001da703b7)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.4-2019 S039 (4153571))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001cc103aa)
+
+)
+

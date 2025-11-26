@@ -1,0 +1,194 @@
+(Cell	xc6206p182mr
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	11/26/25,23:07:35)
+
+			(User	63524)
+
+			(Path	sch_lib.XC6206P182MR)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.2)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	11/26/25,23:07:35)
+
+					(User	63524)
+
+					(Path	sch_lib.XC6206P182MR)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000006eccd03c)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/26/25,23:07:35)
+
+							(User	63524)
+
+							(Path	sch_lib.XC6206P182MR)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e6d040c)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000e15ad27a)
+
+			(Primitives	1
+
+				(Primitive	XC6206P182MR
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/26/25,23:07:35)
+
+							(User	63524)
+
+							(Path	sch_lib.XC6206P182MR)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	XC6206P182MR
+
+							(PackType	XC6206P182MR)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	sot-23-3_l2_9-w1_6-p1_90-ls2_8-br)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001f0703ef)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.4-2019 S039 (4153571))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bde03ad)
+
+)
+

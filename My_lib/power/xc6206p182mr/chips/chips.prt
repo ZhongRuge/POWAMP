@@ -1,0 +1,38 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'XC6206P182MR';
+  pin
+    'GND':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'VIN':
+      PIN_NUMBER='(3)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'VOUT':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='XC6206P182MR';
+    BODY_NAME='XC6206P182MR';
+    JEDEC_TYPE='sot-23-3_l2_9-w1_6-p1_90-ls2_8-br';
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+  end_body;
+end_primitive;
+
+END.

@@ -11,23 +11,23 @@
   capacitor c0805 *
   page5_i12
 #CELL
-  power ams1117_1_8v *
-  page5_i13
-#CELL
   power ams1117_3_3v *
   page5_i14
 #CELL
-  capacitor c0805 *
-  page5_i15
+  power xc6206p182mr *
+  page5_i19
 #CELL
   capacitor c0805 *
-  page5_i16
+  page5_i20
 #CELL
   capacitor c0805 *
-  page5_i17
+  page5_i21
 #CELL
   capacitor c0805 *
-  page5_i18
+  page5_i22
+#CELL
+  capacitor c0805 *
+  page5_i23
 #CELL
   capacitor c0805 *
   page5_i9
