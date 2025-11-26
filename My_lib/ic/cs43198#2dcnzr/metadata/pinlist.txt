@@ -168,7 +168,7 @@
 	)
 
 	(Pin
-		(Name NN_PIN_9)
+		(Name ¨CVA)
 		(MSB )
 		(LSB )
 		(Type ANALOG)
@@ -357,7 +357,7 @@
 	)
 
 	(Pin
-		(Name NN_PIN_18)
+		(Name VCP_FILT¨C)
 		(MSB )
 		(LSB )
 		(Type ANALOG)
@@ -372,7 +372,7 @@
 		(CheckAssert 0)
 		(CheckOutput 0)
 		(UnknownLoading 0)
-		(PinShape Zero)
+		(PinShape Line)
 		(DIFF_PAIR_PINS_POS )
 		(DIFF_PAIR_PINS_NEG )
 	)

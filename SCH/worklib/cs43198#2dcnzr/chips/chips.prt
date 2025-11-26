@@ -65,7 +65,7 @@ primitive 'CS43198-CNZR';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-    'NN_PIN_9':
+    '¨CVA':
       PIN_NUMBER='(9)';
       PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
@@ -137,7 +137,7 @@ primitive 'CS43198-CNZR';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-    'NN_PIN_18':
+    'VCP_FILT-':
       PIN_NUMBER='(18)';
       PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
@@ -335,7 +335,7 @@ primitive 'CS43198-CNZR';
     BODY_NAME='CS43198-CNZR';
     JEDEC_TYPE='qfn-40_l5_0-w5_0-p0_40-tl-ep3_6';
     PHYS_DES_PREFIX='U';
-    CLASS='IC';
+    CLASS='DISCRETE';
   end_body;
 end_primitive;
 

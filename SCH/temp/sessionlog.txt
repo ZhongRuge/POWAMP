@@ -1,21 +1,46 @@
-11/25/25  09:25:37		Opening project D:/Projects/POWAMP/SCH/sch.cpm
-11/25/25  09:25:37		cdslib D:/Projects/POWAMP/SCH/cds.lib opened
-11/25/25  09:25:37		Project D:/Projects/POWAMP/SCH/sch.cpm opened
-11/25/25  09:25:37		Loading cell cs43198-cnzr from library sch_lib
-11/25/25  09:25:37		Loading view sym_1 of cell cs43198-cnzr
-11/25/25  09:25:37		Loading view chips of cell cs43198-cnzr
-11/25/25  09:25:37		Loading view entity of cell cs43198-cnzr
-11/25/25  09:25:37		Loading cell cs43198-cnzr from library sch_lib
-11/25/25  09:25:37		Analyzing view relationships of cell cs43198-cnzr in library sch_lib
-11/25/25  09:25:37		Completed loading cell cs43198-cnzr from library sch_lib
-11/25/25  09:25:37		Starting validations on cell cs43198-cnzr of library sch_lib
-11/25/25  09:25:37		Completed validations on cell cs43198-cnzr of library sch_lib
-11/25/25  09:26:17		Starting validations on cell cs43198-cnzr of library sch_lib
-11/25/25  09:26:17		Completed validations on cell cs43198-cnzr of library sch_lib
-11/25/25  09:26:17		Completed saving cell cs43198-cnzr in library sch_lib 
-11/25/25  09:26:18		This symbol has been modified outside of Part Developer. Pin shape and custom shape grouping changes will be lost. However, all other changes made to the symbol will be retained.
-11/25/25  09:26:31		Loading view sym_1 of cell cs43198-cnzr
-11/25/25  09:26:34		Starting validations on cell cs43198-cnzr of library sch_lib
-11/25/25  09:26:34		Completed validations on cell cs43198-cnzr of library sch_lib
-11/25/25  09:26:34		Completed saving cell cs43198-cnzr in library sch_lib 
-11/25/25  09:26:37		Project D:/Projects/POWAMP/SCH/sch.cpm is closed.
+11/26/25  16:38:54		Opening project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm
+11/26/25  16:38:54		cdslib D:/Coding/Cadence/Project/POWAMP/SCH/cds.lib opened
+11/26/25  16:38:54		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm opened
+11/26/25  16:38:54		Loading cell cs43198-cnzr from library sch_lib
+11/26/25  16:38:54		Loading view sym_1 of cell cs43198-cnzr
+11/26/25  16:38:54		Loading view chips of cell cs43198-cnzr
+11/26/25  16:38:54		The chips file D:\Coding\Cadence\Project\POWAMP\SCH\worklib\cs43198#2dcnzr\chips\chips.prt cannot be parsed because of an error on line no. 68 and token: '. Correct the syntax error manually and reload the chips file.
+11/26/25  16:38:54		Could not load view chips
+11/26/25  16:38:54		Loading view entity of cell cs43198-cnzr
+11/26/25  16:38:54		Import failed because of an error on line 42 and token 'C' in file D:\Coding\Cadence\Project\POWAMP\SCH\worklib\cs43198#2dcnzr\entity\vhdl.vhd. Correct the input file and reimport.
+11/26/25  16:38:54		Could not load view entity/vhdl.vhd
+11/26/25  16:38:54		Loading cell cs43198-cnzr from library sch_lib
+11/26/25  16:38:54		Analyzing view relationships of cell cs43198-cnzr in library sch_lib
+11/26/25  16:38:54		Completed loading cell cs43198-cnzr from library sch_lib
+11/26/25  16:38:54		Starting validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:38:54		BODY_NAME property does not exist in package CS43198-CNZR. Since backannotation will not work without this property, it will be written automatically when the cell is saved.
+11/26/25  16:38:54		Completed validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:39:14		Starting validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:39:14		BODY_NAME property does not exist in package CS43198-CNZR. Since backannotation will not work without this property, it will be written automatically when the cell is saved.
+11/26/25  16:39:14		Completed validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:39:56		Starting validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:39:56		BODY_NAME property does not exist in package CS43198-CNZR. Since backannotation will not work without this property, it will be written automatically when the cell is saved.
+11/26/25  16:39:56		Completed validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:40:42		Starting validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:40:42		Completed validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:40:43		Completed saving cell cs43198-cnzr in library sch_lib 
+11/26/25  16:41:01		Starting validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:41:01		Completed validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:41:01		Completed saving cell cs43198-cnzr in library sch_lib 
+11/26/25  16:41:23		Loading view sym_1 of cell cs43198-cnzr
+11/26/25  16:41:40		Starting validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:41:40		Completed validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:41:46		Completed saving cell cs43198-cnzr in library sch_lib with errors/warnings
+11/26/25  16:42:09		Starting validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:42:09		Completed validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:42:10		Completed saving cell cs43198-cnzr in library sch_lib with errors/warnings
+11/26/25  16:42:20		Choose Pins - Global Delete to delete pins that are present in any package or symbol.
+11/26/25  16:42:28		Choose Pins - Global Delete to delete pins that are present in any package or symbol.
+11/26/25  16:42:30		Choose Pins - Global Delete to delete pins that are present in any package or symbol.
+11/26/25  16:43:00		Starting validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:43:00		Completed validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:43:05		Completed saving cell cs43198-cnzr in library sch_lib with errors/warnings
+11/26/25  16:43:17		Starting validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:43:17		Completed validations on cell cs43198-cnzr of library sch_lib
+11/26/25  16:43:18		Completed saving cell cs43198-cnzr in library sch_lib with errors/warnings
+11/26/25  16:43:23		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm is closed.

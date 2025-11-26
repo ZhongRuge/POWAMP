@@ -1,4 +1,19 @@
 
 CSDirect 17.4-2019 S039 (4153571)
 Netlisting block power_amplifier
-Processing page 4
+Processing page 6
+
+ERROR(SPCOCD-215): Name is not a valid Design Entry 
+HDL identifier.
+Object description:
+ Page: 6  Instance: i24  Cell name: cs43198-cnzr  Pin: ¨CVA 
+
+ERROR(SPCOCD-215): Name is not a valid Design Entry 
+HDL identifier.
+Object description:
+ Page: 6  Instance: i24  Cell name: cs43198-cnzr  Pin: VCP_FILT¨C 
+Error in netlisting: ERROR(SPCOCD-549): Error occurred in file: D:\Coding\Cadence\Project\POWAMP\My_lib\ic\cs43198#2dcnzr\entity\verilog.v at line number: 11.
+Open the symbol for the component cs43198#2dcnzr present in library ic and save it.
+
+
+Exiting due to errors.

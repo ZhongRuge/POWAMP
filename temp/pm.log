@@ -4,13 +4,13 @@ Log File Report from Page Management Commands
 Current Design             :   POWER_AMPLIFIER
 Current Page List          :   1-6
 Current Total Pages        :   6
-Current Active Page        :   5
+Current Active Page        :   3
 
 Command:   Page Move
 
-   Pages to Move         :   6
-   Move Location         :   5
-ERROR(SPCOCN-2151): Page Move cannot continue until the following modified pages are saved: 5
+   Pages to Move         :   2
+   Move Location         :   3
+ERROR(SPCOCN-2159): No moves required. Pages already in requested location.
 
 
 Page Move Processing Terminated. 

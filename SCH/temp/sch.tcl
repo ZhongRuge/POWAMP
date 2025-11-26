@@ -4140,3 +4140,352 @@ execCmd closeItem -pg {{"cellID":"cs43198#2dcnzr","keyType":"cell","libID":"sch_
 cps::closeView {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
 execCmd closeItem -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
 cleanUpWebPage {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+## Recorded on 2025-11-26T13:26:29
+#refreshDesignExplorer
+#pinTable {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+#updateReadOnlyStatus {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+selectItem {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+updateReadOnlyStatus {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+pinTable {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+refreshDesignExplorer
+cps::setComponentExplorerWidgetVisibilityOff
+cps::setComponentExplorerWidgetVisibilityOff
+cpSdaLckT::lockProject {sch.cpm} 1
+#cps::openProject "D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm" 1
+cps::openProject "D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm" 1
+#cpSymT::openItem "sch_lib::cs43198#2dcnzr::sym_1" SYMBOL SYM
+cpSymT::openItem "sch_lib::cs43198#2dcnzr::sym_1" SYMBOL SYM
+#zoom -fit
+zoom -fit
+#if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::cs43198#2dcnzr::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::cs43198#2dcnzr::sym_1}  -display 1 -unit Inches; " }; 
+if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::cs43198#2dcnzr::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::cs43198#2dcnzr::sym_1}  -display 1 -unit Inches; " }; 
+execCmd getOSName
+cps::getTheme
+fetch -returntype json -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data directives
+fetch -returntype json -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data all -clearViewOnlyViolations
+fetch -returntype json -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectObject 8658 9257
+selectObject 8658 9257
+callJS {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectWindow canvas; zoom -val 33
+selectWindow canvas; zoom -val 33
+#selectWindow canvas; zoom -val 33
+selectWindow canvas; zoom -val 33
+#selectWindow canvas; zoom -val 33
+selectWindow canvas; zoom -val 33
+#selectWindow canvas; zoom -val 33
+selectWindow canvas; zoom -val 33
+#selectWindow canvas; zoom -val 33
+selectWindow canvas; zoom -val 33
+#selectObject 9165 10500
+selectObject 9165 10500
+callJS {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectWindow canvas; zoom -val 33
+selectWindow canvas; zoom -val 33
+#selectWindow canvas; zoom -val 33
+selectWindow canvas; zoom -val 33
+#selectWindow canvas; zoom -val 33
+selectWindow canvas; zoom -val 33
+#selectWindow canvas; zoom -val 33
+selectWindow canvas; zoom -val 33
+#selectWindow canvas; zoom -val 33
+selectWindow canvas; zoom -val 33
+#selectWindow canvas; zoom -val 33
+selectWindow canvas; zoom -val 33
+#selectWindow canvas; zoom -val 36
+selectWindow canvas; zoom -val 36
+#selectWindow canvas; zoom -val 40
+selectWindow canvas; zoom -val 40
+#selectWindow canvas; zoom -val 44
+selectWindow canvas; zoom -val 44
+#selectWindow canvas; zoom -val 48
+selectWindow canvas; zoom -val 48
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectObject 11950 8594
+selectObject 11950 8594
+callJS {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectObject 12847 8362
+selectObject 12847 8362
+callJS {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject 12616 9028
+selectObject 12616 9028
+callJS {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 53
+selectWindow canvas; zoom -val 53
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectObject 7523 8247
+selectObject 7523 8247
+callJS {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectWindow canvas; zoom -val 43
+selectWindow canvas; zoom -val 43
+#selectObject 7523 8247
+selectObject 7523 8247
+callJS {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject 3559 4601
+selectObject 3559 4601
+callJS {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject 4282 8623
+selectObject 4282 8623
+callJS {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject area 4282 8623 4282 8652
+selectObject area 4282 8623 4282 8652
+callJS {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#zoom -fit
+zoom -fit
+#execCmd closeItem -pg {{"cellID":"cs43198#2dcnzr","keyType":"cell","libID":"sch_lib"}}
+#execCmd closeItem -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+#cps::closeView {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+closeSymbol [list -pg {"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}] close_all
+execCmd closeItem -pg {{"cellID":"cs43198#2dcnzr","keyType":"cell","libID":"sch_lib"}}
+cps::closeView {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+execCmd closeItem -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+cleanUpWebPage {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+## Recorded on 2025-11-26T16:41:07
+#refreshDesignExplorer
+#pinTable {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+#updateReadOnlyStatus {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+selectItem {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+updateReadOnlyStatus {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+pinTable {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+refreshDesignExplorer
+cps::setComponentExplorerWidgetVisibilityOff
+cps::setComponentExplorerWidgetVisibilityOff
+cpSdaLckT::lockProject {sch.cpm} 1
+#cps::openProject "D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm" 1
+cps::openProject "D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm" 1
+#cpSymT::openItem "sch_lib::cs43198#2dcnzr::sym_1" SYMBOL SYM
+cpSymT::openItem "sch_lib::cs43198#2dcnzr::sym_1" SYMBOL SYM
+#zoom -fit
+zoom -fit
+#if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::cs43198#2dcnzr::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::cs43198#2dcnzr::sym_1}  -display 1 -unit Inches; " }; 
+if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::cs43198#2dcnzr::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::cs43198#2dcnzr::sym_1}  -display 1 -unit Inches; " }; 
+execCmd getOSName
+cps::getTheme
+fetch -returntype json -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data directives
+fetch -returntype json -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data all -clearViewOnlyViolations
+fetch -returntype json -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectWindow canvas; zoom -val 34
+selectWindow canvas; zoom -val 34
+#selectWindow canvas; zoom -val 37
+selectWindow canvas; zoom -val 37
+#selectWindow canvas; zoom -val 41
+selectWindow canvas; zoom -val 41
+#selectWindow canvas; zoom -val 45
+selectWindow canvas; zoom -val 45
+#selectWindow canvas; zoom -val 50
+selectWindow canvas; zoom -val 50
+#selectWindow canvas; zoom -val 55
+selectWindow canvas; zoom -val 55
+#selectWindow canvas; zoom -val 61
+selectWindow canvas; zoom -val 61
+#selectWindow canvas; zoom -val 67
+selectWindow canvas; zoom -val 67
+#selectWindow canvas; zoom -val 74
+selectWindow canvas; zoom -val 74
+#selectWindow canvas; zoom -val 81
+selectWindow canvas; zoom -val 81
+#selectWindow canvas; zoom -val 89
+selectWindow canvas; zoom -val 89
+#selectWindow canvas; zoom -val 98
+selectWindow canvas; zoom -val 98
+#selectWindow canvas; zoom -val 108
+selectWindow canvas; zoom -val 108
+#selectWindow canvas; zoom -val 119
+selectWindow canvas; zoom -val 119
+#selectWindow canvas; zoom -val 131
+selectWindow canvas; zoom -val 131
+#selectWindow canvas; zoom -val 144
+selectWindow canvas; zoom -val 144
+#selectWindow canvas; zoom -val 158
+selectWindow canvas; zoom -val 158
+#selectWindow canvas; zoom -val 174
+selectWindow canvas; zoom -val 174
+#selectWindow canvas; zoom -val 209
+selectWindow canvas; zoom -val 209
+#selectWindow canvas; zoom -val 230
+selectWindow canvas; zoom -val 230
+#selectWindow canvas; zoom -val 253
+selectWindow canvas; zoom -val 253
+#selectWindow canvas; zoom -val 278
+selectWindow canvas; zoom -val 278
+#selectWindow canvas; zoom -val 306
+selectWindow canvas; zoom -val 306
+#selectWindow canvas; zoom -val 337
+selectWindow canvas; zoom -val 337
+#selectWindow canvas; zoom -val 371
+selectWindow canvas; zoom -val 371
+#selectObject -type PROP 9546 6484
+selectObject -type PROP 9546 6484
+callJS {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#move
+#move -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 600 1125
+move -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 600 1125
+#selectObject -type SHAPE_GROUP 10183 7233
+selectObject -type SHAPE_GROUP 10183 7233
+callJS {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#setLineType dash-dot-dot
+setLineType dash-dot-dot
+#selectObject 11283 7255
+selectObject 11283 7255
+callJS {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject area 11283 7255 11287 7255
+selectObject area 11283 7255 11287 7255
+callJS {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#saveAll
+saveAll
+#execCmd closeItem -pg {{"cellID":"cs43198#2dcnzr","keyType":"cell","libID":"sch_lib"}}
+#execCmd closeItem -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+#cps::closeView {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+closeSymbol [list -pg {"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}] close_all
+execCmd closeItem -pg {{"cellID":"cs43198#2dcnzr","keyType":"cell","libID":"sch_lib"}}
+cps::closeView {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+execCmd closeItem -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+cleanUpWebPage {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}

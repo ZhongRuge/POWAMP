@@ -1,36 +1,12 @@
 Log File Report from Page Management Commands
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Current Design             :   POWER_AMPLIFIER
-Current Page List          :   1-2
-Current Total Pages        :   2
-Current Active Page        :   2
+Current Design             :   BLOCK1
+Current Page List          :   1
+Current Total Pages        :   1
+Current Active Page        :   1
 
 Command:   Page Delete
 
-   Pages to Delete       :   2
+   Pages to Delete       :   1
    Retain Page Gaps        :   No
-
-
-Details:   Page Delete
-
-	1. Page Edit	1
-	2. Page Delete	2
-
-
-Results:   Page Delete
-
-   Ending Page List        :   1
-   Ending Total Pages      :   1
-   Active Page             :   1
-
-Summary:
-
-    Initial Page Count     :  2
-    Final Page Count       :  1
-    Start Time             :  18-Nov-2025 AT 16:33:04
-    End Time               :  18-Nov-2025 AT 16:33:05
-    Elapsed time			:  00:00:01
-
-Page Delete command completed successfully.
-

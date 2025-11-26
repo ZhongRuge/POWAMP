@@ -333,9 +333,8 @@ primitive 'CS43198-CNZR';
   body
     PART_NAME='CS43198-CNZR';
     BODY_NAME='CS43198-CNZR';
-    JEDEC_TYPE='qfn-40_l5_0-w5_0-p0_40-tl-ep3_6';
-    PHYS_DES_PREFIX='U';
     CLASS='DISCRETE';
+    CDS_LMAN_UNMAPPED_PHYS_PIN='(45,46,47,48,49)';
   end_body;
 end_primitive;
 
