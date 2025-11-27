@@ -1,19 +1,15 @@
-11/26/25  23:33:31		Opening project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm
-11/26/25  23:33:31		cdslib D:/Coding/Cadence/Project/POWAMP/SCH/cds.lib opened
-11/26/25  23:33:31		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm opened
-11/26/25  23:33:31		Loading cell stm32f103c8t6 from library sch_lib
-11/26/25  23:33:31		Loading view sym_1 of cell stm32f103c8t6
-11/26/25  23:33:31		Loading view chips of cell stm32f103c8t6
-11/26/25  23:33:31		Loading view entity of cell stm32f103c8t6
-11/26/25  23:33:31		Loading cell stm32f103c8t6 from library sch_lib
-11/26/25  23:33:31		Analyzing view relationships of cell stm32f103c8t6 in library sch_lib
-11/26/25  23:33:31		Completed loading cell stm32f103c8t6 from library sch_lib
-11/26/25  23:33:31		Starting validations on cell stm32f103c8t6 of library sch_lib
-11/26/25  23:33:31		Completed validations on cell stm32f103c8t6 of library sch_lib
-11/26/25  23:33:57		Starting validations on cell stm32f103c8t6 of library sch_lib
-11/26/25  23:33:57		Completed validations on cell stm32f103c8t6 of library sch_lib
-11/26/25  23:33:57		Completed saving cell stm32f103c8t6 in library sch_lib 
-11/26/25  23:34:10		Starting validations on cell stm32f103c8t6 of library sch_lib
-11/26/25  23:34:10		Completed validations on cell stm32f103c8t6 of library sch_lib
-11/26/25  23:34:11		Completed saving cell stm32f103c8t6 in library sch_lib 
-11/26/25  23:34:12		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm is closed.
+11/27/25  21:20:38		Opening project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm
+11/27/25  21:20:38		cdslib D:/Coding/Cadence/Project/POWAMP/SCH/cds.lib opened
+11/27/25  21:20:38		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm opened
+11/27/25  21:20:38		Loading cell 4pin from library sch_lib
+11/27/25  21:20:38		Loading view sym_1 of cell 4pin
+11/27/25  21:20:38		Loading view chips of cell 4pin
+11/27/25  21:20:38		Loading view part_table of cell 4pin
+11/27/25  21:20:38		Loading file part.ptf of PTF view part_table of cell 4pin
+11/27/25  21:20:38		Loading view entity of cell 4pin
+11/27/25  21:20:38		Loading cell 4pin from library sch_lib
+11/27/25  21:20:38		Analyzing view relationships of cell 4pin in library sch_lib
+11/27/25  21:20:38		Completed loading cell 4pin from library sch_lib
+11/27/25  21:20:38		Starting validations on cell 4pin of library sch_lib
+11/27/25  21:20:38		Completed validations on cell 4pin of library sch_lib
+11/27/25  21:21:20		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm is closed.

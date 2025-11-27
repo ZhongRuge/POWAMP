@@ -2,35 +2,16 @@ Log File Report from Page Management Commands
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Current Design             :   POWER_AMPLIFIER
-Current Page List          :   1-2
-Current Total Pages        :   2
-Current Active Page        :   2
+Current Page List          :   1-6
+Current Total Pages        :   6
+Current Active Page        :   3
 
-Command:   Page Delete
+Command:   Page Move
 
-   Pages to Delete       :   2
-   Retain Page Gaps        :   No
-
-
-Details:   Page Delete
-
-	1. Page Edit	1
-	2. Page Delete	2
+   Pages to Move         :   2
+   Move Location         :   3
+ERROR(SPCOCN-2159): No moves required. Pages already in requested location.
 
 
-Results:   Page Delete
-
-   Ending Page List        :   1
-   Ending Total Pages      :   1
-   Active Page             :   1
-
-Summary:
-
-    Initial Page Count     :  2
-    Final Page Count       :  1
-    Start Time             :  18-Nov-2025 AT 16:33:04
-    End Time               :  18-Nov-2025 AT 16:33:05
-    Elapsed time			:  00:00:01
-
-Page Delete command completed successfully.
+Page Move Processing Terminated. 
 

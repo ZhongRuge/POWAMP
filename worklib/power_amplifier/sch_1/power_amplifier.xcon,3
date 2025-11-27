@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-11-27T00:05:57</modificationTime>
+    <modificationTime>2025-11-27T21:51:13</modificationTime>
     <savedLibrary>power_amplifier_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="power_amplifier" view="sch_1">
       <lastids>
-        <instanceid>141</instanceid>
-        <netid>83</netid>
-        <insttermid>626</insttermid>
+        <instanceid>145</instanceid>
+        <netid>89</netid>
+        <insttermid>636</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1440,6 +1440,30 @@
         <net>
           <id>N83</id>
           <name>stm32_nrst</name>
+        </net>
+        <net>
+          <id>N84</id>
+          <name>boot0</name>
+        </net>
+        <net>
+          <id>N85</id>
+          <name>pd0-osc_in</name>
+        </net>
+        <net>
+          <id>N86</id>
+          <name>pd1-osc_out</name>
+        </net>
+        <net>
+          <id>N87</id>
+          <name>dac_rst</name>
+        </net>
+        <net>
+          <id>N88</id>
+          <name>i2c_scl</name>
+        </net>
+        <net>
+          <id>N89</id>
+          <name>i2c_sda</name>
         </net>
       </nets>
       <aliases>
@@ -3321,6 +3345,7 @@
               <id>M525</id>
               <termid>T137</termid>
               <connections>
+                <connection net="N3" />
               </connections>
             </pin>
             <pin>
@@ -3354,12 +3379,14 @@
               <id>M530</id>
               <termid>T144</termid>
               <connections>
+                <connection net="N87" />
               </connections>
             </pin>
             <pin>
               <id>M531</id>
               <termid>T145</termid>
               <connections>
+                <connection net="N88" />
               </connections>
             </pin>
             <pin>
@@ -3373,6 +3400,7 @@
               <id>M533</id>
               <termid>T147</termid>
               <connections>
+                <connection net="N89" />
               </connections>
             </pin>
             <pin>
@@ -3684,6 +3712,7 @@
               <id>M567</id>
               <termid>T173</termid>
               <connections>
+                <connection net="N84" />
               </connections>
             </pin>
             <pin>
@@ -3907,12 +3936,14 @@
               <id>M604</id>
               <termid>T210</termid>
               <connections>
+                <connection net="N85" />
               </connections>
             </pin>
             <pin>
               <id>M605</id>
               <termid>T211</termid>
               <connections>
+                <connection net="N86" />
               </connections>
             </pin>
             <pin>
@@ -4106,6 +4137,104 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I142</id>
+          <cellid>S19</cellid>
+          <name>page7_i13</name>
+          <pins>
+            <pin>
+              <id>M627</id>
+              <termid>T162</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M628</id>
+              <termid>T163</termid>
+              <connections>
+                <connection net="N84" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I143</id>
+          <cellid>S12</cellid>
+          <name>page7_i14</name>
+          <pins>
+            <pin>
+              <id>M629</id>
+              <termid>T95</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M630</id>
+              <termid>T96</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M631</id>
+              <termid>T97</termid>
+              <connections>
+                <connection net="N85" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M632</id>
+              <termid>T98</termid>
+              <connections>
+                <connection net="N86" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I144</id>
+          <cellid>S10</cellid>
+          <name>page7_i15</name>
+          <pins>
+            <pin>
+              <id>M633</id>
+              <termid>T91</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M634</id>
+              <termid>T92</termid>
+              <connections>
+                <connection net="N86" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I145</id>
+          <cellid>S10</cellid>
+          <name>page7_i16</name>
+          <pins>
+            <pin>
+              <id>M635</id>
+              <termid>T91</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M636</id>
+              <termid>T92</termid>
+              <connections>
+                <connection net="N85" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -4280,6 +4409,7 @@
               <net ref="dac_clkout"></net>
               <net ref="dac_out_l"></net>
               <net ref="dac_out_r"></net>
+              <net ref="dac_rst"></net>
               <net ref="dbclk"></net>
               <net ref="ddata"></net>
               <net ref="dlrck"></net>
@@ -4292,6 +4422,8 @@
               <net ref="flyp_va"></net>
               <net ref="flyp_vcp"></net>
               <net ref="gndd"></net>
+              <net ref="i2c_scl"></net>
+              <net ref="i2c_sda"></net>
               <net ref="vcp_filt+"></net>
               <net ref="vcp_filt-"></net>
               <net ref="vdd18_dac"></net>
@@ -4319,7 +4451,10 @@
             <physicalPageNumber>7</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
+              <net ref="boot0"></net>
               <net ref="gndd"></net>
+              <net ref="pd0-osc_in"></net>
+              <net ref="pd1-osc_out"></net>
               <net ref="stm32_nrst"></net>
               <net ref="vdd33_sa"></net>
             </nets>
@@ -4331,6 +4466,10 @@
               <instance ref="i10"></instance>
               <instance ref="i11"></instance>
               <instance ref="i12"></instance>
+              <instance ref="i13"></instance>
+              <instance ref="i14"></instance>
+              <instance ref="i15"></instance>
+              <instance ref="i16"></instance>
             </instances>
           </page>
         </pages>
