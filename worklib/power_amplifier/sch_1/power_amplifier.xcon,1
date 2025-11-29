@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-11-27T00:17:01</modificationTime>
+    <modificationTime>2025-11-29T13:23:01</modificationTime>
     <savedLibrary>power_amplifier_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="power_amplifier" view="sch_1">
       <lastids>
-        <instanceid>142</instanceid>
-        <netid>84</netid>
-        <insttermid>628</insttermid>
+        <instanceid>148</instanceid>
+        <netid>91</netid>
+        <insttermid>644</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1171,6 +1171,36 @@
             </term>
           </terms>
         </cell>
+        <cell>
+          <id>S23</id>
+          <library>connector</library>
+          <name>5557_4pin</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T221</id>
+              <name>1</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T222</id>
+              <name>2</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T223</id>
+              <name>3</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T224</id>
+              <name>4</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
       </cells>
       <nets>
         <net>
@@ -1444,6 +1474,34 @@
         <net>
           <id>N84</id>
           <name>boot0</name>
+        </net>
+        <net>
+          <id>N85</id>
+          <name>pd0-osc_in</name>
+        </net>
+        <net>
+          <id>N86</id>
+          <name>pd1-osc_out</name>
+        </net>
+        <net>
+          <id>N87</id>
+          <name>dac_rst</name>
+        </net>
+        <net>
+          <id>N88</id>
+          <name>i2c_scl</name>
+        </net>
+        <net>
+          <id>N89</id>
+          <name>i2c_sda</name>
+        </net>
+        <net>
+          <id>N90</id>
+          <name>swclk</name>
+        </net>
+        <net>
+          <id>N91</id>
+          <name>swdio</name>
         </net>
       </nets>
       <aliases>
@@ -3325,6 +3383,7 @@
               <id>M525</id>
               <termid>T137</termid>
               <connections>
+                <connection net="N3" />
               </connections>
             </pin>
             <pin>
@@ -3358,12 +3417,14 @@
               <id>M530</id>
               <termid>T144</termid>
               <connections>
+                <connection net="N87" />
               </connections>
             </pin>
             <pin>
               <id>M531</id>
               <termid>T145</termid>
               <connections>
+                <connection net="N88" />
               </connections>
             </pin>
             <pin>
@@ -3377,6 +3438,7 @@
               <id>M533</id>
               <termid>T147</termid>
               <connections>
+                <connection net="N89" />
               </connections>
             </pin>
             <pin>
@@ -3668,6 +3730,7 @@
               <id>M565</id>
               <termid>T107</termid>
               <connections>
+                <connection net="N3" />
               </connections>
             </pin>
             <pin>
@@ -3780,12 +3843,14 @@
               <id>M582</id>
               <termid>T188</termid>
               <connections>
+                <connection net="N91" />
               </connections>
             </pin>
             <pin>
               <id>M583</id>
               <termid>T189</termid>
               <connections>
+                <connection net="N90" />
               </connections>
             </pin>
             <pin>
@@ -3822,6 +3887,7 @@
               <id>M589</id>
               <termid>T195</termid>
               <connections>
+                <connection net="N87" />
               </connections>
             </pin>
             <pin>
@@ -3834,12 +3900,14 @@
               <id>M591</id>
               <termid>T197</termid>
               <connections>
+                <connection net="N88" />
               </connections>
             </pin>
             <pin>
               <id>M592</id>
               <termid>T198</termid>
               <connections>
+                <connection net="N89" />
               </connections>
             </pin>
             <pin>
@@ -3912,12 +3980,14 @@
               <id>M604</id>
               <termid>T210</termid>
               <connections>
+                <connection net="N85" />
               </connections>
             </pin>
             <pin>
               <id>M605</id>
               <termid>T211</termid>
               <connections>
+                <connection net="N86" />
               </connections>
             </pin>
             <pin>
@@ -4132,6 +4202,160 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I143</id>
+          <cellid>S12</cellid>
+          <name>page7_i14</name>
+          <pins>
+            <pin>
+              <id>M629</id>
+              <termid>T95</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M630</id>
+              <termid>T96</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M631</id>
+              <termid>T97</termid>
+              <connections>
+                <connection net="N85" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M632</id>
+              <termid>T98</termid>
+              <connections>
+                <connection net="N86" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I144</id>
+          <cellid>S10</cellid>
+          <name>page7_i15</name>
+          <pins>
+            <pin>
+              <id>M633</id>
+              <termid>T91</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M634</id>
+              <termid>T92</termid>
+              <connections>
+                <connection net="N86" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I145</id>
+          <cellid>S10</cellid>
+          <name>page7_i16</name>
+          <pins>
+            <pin>
+              <id>M635</id>
+              <termid>T91</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M636</id>
+              <termid>T92</termid>
+              <connections>
+                <connection net="N85" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I146</id>
+          <cellid>S23</cellid>
+          <name>page7_i17</name>
+          <pins>
+            <pin>
+              <id>M637</id>
+              <termid>T221</termid>
+              <connections>
+                <connection net="N15" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M638</id>
+              <termid>T222</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M639</id>
+              <termid>T223</termid>
+              <connections>
+                <connection net="N91" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M640</id>
+              <termid>T224</termid>
+              <connections>
+                <connection net="N90" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I147</id>
+          <cellid>S19</cellid>
+          <name>page7_i18</name>
+          <pins>
+            <pin>
+              <id>M641</id>
+              <termid>T162</termid>
+              <connections>
+                <connection net="N89" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M642</id>
+              <termid>T163</termid>
+              <connections>
+                <connection net="N15" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I148</id>
+          <cellid>S19</cellid>
+          <name>page7_i19</name>
+          <pins>
+            <pin>
+              <id>M643</id>
+              <termid>T162</termid>
+              <connections>
+                <connection net="N88" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M644</id>
+              <termid>T163</termid>
+              <connections>
+                <connection net="N15" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -4306,6 +4530,7 @@
               <net ref="dac_clkout"></net>
               <net ref="dac_out_l"></net>
               <net ref="dac_out_r"></net>
+              <net ref="dac_rst"></net>
               <net ref="dbclk"></net>
               <net ref="ddata"></net>
               <net ref="dlrck"></net>
@@ -4318,6 +4543,8 @@
               <net ref="flyp_va"></net>
               <net ref="flyp_vcp"></net>
               <net ref="gndd"></net>
+              <net ref="i2c_scl"></net>
+              <net ref="i2c_sda"></net>
               <net ref="vcp_filt+"></net>
               <net ref="vcp_filt-"></net>
               <net ref="vdd18_dac"></net>
@@ -4346,8 +4573,15 @@
             <errorStatus>false</errorStatus>
             <nets>
               <net ref="boot0"></net>
+              <net ref="dac_rst"></net>
               <net ref="gndd"></net>
+              <net ref="i2c_scl"></net>
+              <net ref="i2c_sda"></net>
+              <net ref="pd0-osc_in"></net>
+              <net ref="pd1-osc_out"></net>
               <net ref="stm32_nrst"></net>
+              <net ref="swclk"></net>
+              <net ref="swdio"></net>
               <net ref="vdd33_sa"></net>
             </nets>
             <instances>
@@ -4359,6 +4593,12 @@
               <instance ref="i11"></instance>
               <instance ref="i12"></instance>
               <instance ref="i13"></instance>
+              <instance ref="i14"></instance>
+              <instance ref="i15"></instance>
+              <instance ref="i16"></instance>
+              <instance ref="i17"></instance>
+              <instance ref="i18"></instance>
+              <instance ref="i19"></instance>
             </instances>
           </page>
         </pages>

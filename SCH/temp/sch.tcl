@@ -4841,3 +4841,512 @@ execCmd closeItem -pg {{"cellID":"cs43198#2dcnzr","keyType":"cell","libID":"sch_
 cps::closeView {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
 execCmd closeItem -pg {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
 cleanUpWebPage {{"cellID":"cs43198#2dcnzr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+## Recorded on 2025-11-28T19:59:37
+#refreshDesignExplorer
+#pinTable {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+#updateReadOnlyStatus {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+selectItem {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+updateReadOnlyStatus {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+pinTable {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+refreshDesignExplorer
+cps::setComponentExplorerWidgetVisibilityOff
+cps::setComponentExplorerWidgetVisibilityOff
+cpSdaLckT::lockProject {D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm} 1
+#cps::openProject "D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm" 1
+cps::openProject "D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm" 1
+#cpSymT::openItem "sch_lib::ne5532dr::sym_1" SYMBOL SYM
+cpSymT::openItem "sch_lib::ne5532dr::sym_1" SYMBOL SYM
+#zoom -fit
+zoom -fit
+#if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ne5532dr::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ne5532dr::sym_1}  -display 1 -unit Inches; " }; 
+if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ne5532dr::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ne5532dr::sym_1}  -display 1 -unit Inches; " }; 
+execCmd getOSName
+cps::getTheme
+fetch -returntype json -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data directives
+fetch -returntype json -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data all -clearViewOnlyViolations
+fetch -returntype json -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectWindow canvas; zoom -val 122
+selectWindow canvas; zoom -val 122
+#selectWindow canvas; zoom -val 134
+selectWindow canvas; zoom -val 134
+#selectWindow canvas; zoom -val 147
+selectWindow canvas; zoom -val 147
+#selectWindow canvas; zoom -val 162
+selectWindow canvas; zoom -val 162
+#selectWindow canvas; zoom -val 178
+selectWindow canvas; zoom -val 178
+#selectWindow canvas; zoom -val 196
+selectWindow canvas; zoom -val 196
+#selectWindow canvas; zoom -val 216
+selectWindow canvas; zoom -val 216
+#selectWindow canvas; zoom -val 238
+selectWindow canvas; zoom -val 238
+#selectWindow canvas; zoom -val 262
+selectWindow canvas; zoom -val 262
+#selectWindow canvas; zoom -val 314
+selectWindow canvas; zoom -val 314
+#selectWindow canvas; zoom -val 377
+selectWindow canvas; zoom -val 377
+#selectWindow canvas; zoom -val 415
+selectWindow canvas; zoom -val 415
+#selectWindow canvas; zoom -val 457
+selectWindow canvas; zoom -val 457
+#selectWindow canvas; zoom -val 503
+selectWindow canvas; zoom -val 503
+#selectWindow canvas; zoom -val 553
+selectWindow canvas; zoom -val 553
+#selectWindow canvas; zoom -val 608
+selectWindow canvas; zoom -val 608
+#selectWindow canvas; zoom -val 669
+selectWindow canvas; zoom -val 669
+#selectWindow canvas; zoom -val 736
+selectWindow canvas; zoom -val 736
+#selectObject 10520 7779
+selectObject 10520 7779
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#zoom -rect 10524.2 7780.42
+#zoom -rect 10525 7775 10600 7850
+zoom -rect 10525 7775 10600 7850
+#selectWindow canvas; zoom -val 1799
+selectWindow canvas; zoom -val 1799
+#selectWindow canvas; zoom -val 1619
+selectWindow canvas; zoom -val 1619
+#selectWindow canvas; zoom -val 1457
+selectWindow canvas; zoom -val 1457
+#selectWindow canvas; zoom -val 1311
+selectWindow canvas; zoom -val 1311
+#selectObject -type PROP 10027 7368
+selectObject -type PROP 10027 7368
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject -type NOTE 10074 7569
+selectObject -type NOTE 10074 7569
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[{"PinID":"VCC-/GND","PinName":"VCC-/GND","ColName":"Text"}\]}')
+#rotate 90
+rotate 90
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} UpdateTable([list {"PartEditingMode":"FreeForm","PartType":"SplitPart","EnableEditing":"true","EnableSplitting":"true","TotalSections":"2","TotalSymbols":"0","RegistryConfig":{},"ActiveSection":"1","MappedSectionList":["1"],"SymbolProperties":[],"UpdateRows":[{"MasterPinID":"7e9a0716-f5b7-49e6-99e6-08226665a4a3","Row":{"MasterPinID":"7e9a0716-f5b7-49e6-99e6-08226665a4a3","PinID":"VCC-/GND","Name":"VCC-/GND","Text":"VCC-/GND","Type":"Analog","Scope":"Explicit","Side":"Bottom","Shape":"Line","Pos":"0","DIFF_PAIR_PINS_NEG":"","DIFF_PAIR_PINS_POS":"","PIN_DELAY":"","PIN_GROUP":"","CompletePinNumbersList":{"1":"4"}}}]}])
+fetch -returntype json -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectObject 10393 7509
+selectObject 10393 7509
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject -type NOTE 10245 7662
+selectObject -type NOTE 10245 7662
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[{"PinID":"VCC-/GND","PinName":"VCC-/GND","ColName":"Text"}\]}')
+#move
+#move -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 0 75
+move -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 0 75
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} UpdateTable([list {"PartEditingMode":"FreeForm","PartType":"SplitPart","EnableEditing":"true","EnableSplitting":"true","TotalSections":"2","TotalSymbols":"0","RegistryConfig":{},"ActiveSection":"1","MappedSectionList":["1"],"SymbolProperties":[],"UpdateRows":[{"MasterPinID":"7e9a0716-f5b7-49e6-99e6-08226665a4a3","Row":{"MasterPinID":"7e9a0716-f5b7-49e6-99e6-08226665a4a3","PinID":"VCC-/GND","Name":"VCC-/GND","Text":"VCC-/GND","Type":"Analog","Scope":"Explicit","Side":"Bottom","Shape":"Line","Pos":"0","DIFF_PAIR_PINS_NEG":"","DIFF_PAIR_PINS_POS":"","PIN_DELAY":"","PIN_GROUP":"","CompletePinNumbersList":{"1":"4"}}}]}])
+fetch -returntype json -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectObject -type NOTE 10077 7584
+selectObject -type NOTE 10077 7584
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[{"PinID":"VCC+","PinName":"VCC+","ColName":"Text"}\]}')
+#rotate 90
+rotate 90
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} UpdateTable([list {"PartEditingMode":"FreeForm","PartType":"SplitPart","EnableEditing":"true","EnableSplitting":"true","TotalSections":"2","TotalSymbols":"0","RegistryConfig":{},"ActiveSection":"1","MappedSectionList":["1"],"SymbolProperties":[],"UpdateRows":[{"MasterPinID":"3cd3e339-096a-44b3-aa15-0bf441931f0f","Row":{"MasterPinID":"3cd3e339-096a-44b3-aa15-0bf441931f0f","PinID":"VCC+","Name":"VCC+","Text":"VCC+","Type":"Analog","Scope":"Explicit","Side":"Top","Shape":"Line","Pos":"0","DIFF_PAIR_PINS_NEG":"","DIFF_PAIR_PINS_POS":"","PIN_DELAY":"","PIN_GROUP":"","CompletePinNumbersList":{"1":"8"}}}]}])
+fetch -returntype json -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#move
+#move -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 150 25
+move -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 150 25
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} UpdateTable([list {"PartEditingMode":"FreeForm","PartType":"SplitPart","EnableEditing":"true","EnableSplitting":"true","TotalSections":"2","TotalSymbols":"0","RegistryConfig":{},"ActiveSection":"1","MappedSectionList":["1"],"SymbolProperties":[],"UpdateRows":[{"MasterPinID":"3cd3e339-096a-44b3-aa15-0bf441931f0f","Row":{"MasterPinID":"3cd3e339-096a-44b3-aa15-0bf441931f0f","PinID":"VCC+","Name":"VCC+","Text":"VCC+","Type":"Analog","Scope":"Explicit","Side":"Top","Shape":"Line","Pos":"0","DIFF_PAIR_PINS_NEG":"","DIFF_PAIR_PINS_POS":"","PIN_DELAY":"","PIN_GROUP":"","CompletePinNumbersList":{"1":"8"}}}]}])
+fetch -returntype json -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectObject -type NOTE 10228 7582
+selectObject -type NOTE 10228 7582
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[{"PinID":"OUT1","PinName":"OUT1","ColName":"Text"}\]}')
+#move
+#move -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 150 50
+move -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 150 50
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} UpdateTable([list {"PartEditingMode":"FreeForm","PartType":"SplitPart","EnableEditing":"true","EnableSplitting":"true","TotalSections":"2","TotalSymbols":"0","RegistryConfig":{},"ActiveSection":"1","MappedSectionList":["1"],"SymbolProperties":[],"UpdateRows":[{"MasterPinID":"7597343c-677a-4ab3-beaa-a326d7460027","Row":{"MasterPinID":"7597343c-677a-4ab3-beaa-a326d7460027","PinID":"OUT1","Name":"OUT1","Text":"OUT1","Type":"Analog","Scope":"Explicit","Side":"Right","Shape":"Line","Pos":"0","DIFF_PAIR_PINS_NEG":"","DIFF_PAIR_PINS_POS":"","PIN_DELAY":"","PIN_GROUP":"","CompletePinNumbersList":{"1":"1"}}}]}])
+fetch -returntype json -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectObject -type NOTE 10200 7729
+selectObject -type NOTE 10200 7729
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[{"PinID":"VCC-/GND","PinName":"VCC-/GND","ColName":"Text"}\]}')
+#move
+#move -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 0 0
+move -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 0 0
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} UpdateTable([list {"PartEditingMode":"FreeForm","PartType":"SplitPart","EnableEditing":"true","EnableSplitting":"true","TotalSections":"2","TotalSymbols":"0","RegistryConfig":{},"ActiveSection":"1","MappedSectionList":["1"],"SymbolProperties":[],"UpdateRows":[{"MasterPinID":"7e9a0716-f5b7-49e6-99e6-08226665a4a3","Row":{"MasterPinID":"7e9a0716-f5b7-49e6-99e6-08226665a4a3","PinID":"VCC-/GND","Name":"VCC-/GND","Text":"VCC-/GND","Type":"Analog","Scope":"Explicit","Side":"Bottom","Shape":"Line","Pos":"0","DIFF_PAIR_PINS_NEG":"","DIFF_PAIR_PINS_POS":"","PIN_DELAY":"","PIN_GROUP":"","CompletePinNumbersList":{"1":"4"}}}]}])
+fetch -returntype json -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectObject -type PROP 10117 7372
+selectObject -type PROP 10117 7372
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#move
+#move -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 25 225
+move -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 25 225
+#selectObject 10275 7332
+selectObject 10275 7332
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject 10246 7317
+selectObject 10246 7317
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject 10324 7329
+selectObject 10324 7329
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#saveAll
+saveAll
+#execCmd closeItem -pg {{"cellID":"ne5532dr","keyType":"cell","libID":"sch_lib"}}
+#execCmd closeItem -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+#cps::closeView {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+closeSymbol [list -pg {"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}] close_all
+execCmd closeItem -pg {{"cellID":"ne5532dr","keyType":"cell","libID":"sch_lib"}}
+cps::closeView {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+execCmd closeItem -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+cleanUpWebPage {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+## Recorded on 2025-11-28T20:00:21
+#refreshDesignExplorer
+#pinTable {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} -init {SymbolPinTable} {}
+#updateReadOnlyStatus {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} {false}
+selectItem {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} SYMBOL SYM activatetab
+updateReadOnlyStatus {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} {false}
+pinTable {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} -init {SymbolPinTable} {}
+refreshDesignExplorer
+cps::setComponentExplorerWidgetVisibilityOff
+cps::setComponentExplorerWidgetVisibilityOff
+cpSdaLckT::lockProject {sch.cpm} 1
+#cps::openProject "D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm" 1
+cps::openProject "D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm" 1
+#cpSymT::openItem "sch_lib::ne5532dr::sym_2" SYMBOL SYM
+cpSymT::openItem "sch_lib::ne5532dr::sym_2" SYMBOL SYM
+#zoom -fit
+zoom -fit
+#if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ne5532dr::sym_2}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ne5532dr::sym_2}  -display 1 -unit Inches; " }; 
+if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ne5532dr::sym_2}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ne5532dr::sym_2}  -display 1 -unit Inches; " }; 
+execCmd getOSName
+cps::getTheme
+fetch -returntype json -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} -mode SymbolPinTable -data directives
+fetch -returntype json -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} -mode SymbolPinTable -data all -clearViewOnlyViolations
+fetch -returntype json -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectWindow canvas; zoom -val 162
+selectWindow canvas; zoom -val 162
+#selectWindow canvas; zoom -val 178
+selectWindow canvas; zoom -val 178
+#selectWindow canvas; zoom -val 196
+selectWindow canvas; zoom -val 196
+#selectWindow canvas; zoom -val 216
+selectWindow canvas; zoom -val 216
+#selectWindow canvas; zoom -val 238
+selectWindow canvas; zoom -val 238
+#selectWindow canvas; zoom -val 262
+selectWindow canvas; zoom -val 262
+#selectWindow canvas; zoom -val 288
+selectWindow canvas; zoom -val 288
+#selectWindow canvas; zoom -val 317
+selectWindow canvas; zoom -val 317
+#selectWindow canvas; zoom -val 349
+selectWindow canvas; zoom -val 349
+#selectWindow canvas; zoom -val 384
+selectWindow canvas; zoom -val 384
+#selectWindow canvas; zoom -val 422
+selectWindow canvas; zoom -val 422
+#selectWindow canvas; zoom -val 464
+selectWindow canvas; zoom -val 464
+#selectWindow canvas; zoom -val 510
+selectWindow canvas; zoom -val 510
+#selectWindow canvas; zoom -val 561
+selectWindow canvas; zoom -val 561
+#selectWindow canvas; zoom -val 617
+selectWindow canvas; zoom -val 617
+#selectWindow canvas; zoom -val 679
+selectWindow canvas; zoom -val 679
+#selectObject -type PROP 10090 7374
+selectObject -type PROP 10090 7374
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject -type NOTE 10217 7583
+selectObject -type NOTE 10217 7583
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} selectCell('{"SelectedCells":\[{"PinID":"OUT2","PinName":"OUT2","ColName":"Text"}\]}')
+#move
+#move -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} -offset 100 75
+move -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} -offset 100 75
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} UpdateTable([list {"PartEditingMode":"FreeForm","PartType":"SplitPart","EnableEditing":"true","EnableSplitting":"true","TotalSections":"2","TotalSymbols":"0","RegistryConfig":{},"ActiveSection":"2","MappedSectionList":["2"],"SymbolProperties":[],"UpdateRows":[{"MasterPinID":"2b10eb4a-1f35-431b-b354-b900d54f3ea6","Row":{"MasterPinID":"2b10eb4a-1f35-431b-b354-b900d54f3ea6","PinID":"OUT2","Name":"OUT2","Text":"OUT2","Type":"Analog","Scope":"Explicit","Side":"Right","Shape":"Line","Pos":"0","DIFF_PAIR_PINS_NEG":"","DIFF_PAIR_PINS_POS":"","PIN_DELAY":"","PIN_GROUP":"","CompletePinNumbersList":{"2":"7"}}}]}])
+fetch -returntype json -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectObject -type PROP 10090 7386
+selectObject -type PROP 10090 7386
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} selectCell('{"SelectedCells":\[\]}')
+#move
+#move -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} -offset 25 200
+move -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} -offset 25 200
+#selectObject 10434 7399
+selectObject 10434 7399
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} selectCell('{"SelectedCells":\[\]}')
+#saveAll
+saveAll
+#selectObject -type PROP 10072 7568
+selectObject -type PROP 10072 7568
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} selectCell('{"SelectedCells":\[\]}')
+#move
+#move -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} -offset 0 25
+move -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} -offset 0 25
+#selectObject 10489 7421
+selectObject 10489 7421
+callJS {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}} selectCell('{"SelectedCells":\[\]}')
+#saveAll
+saveAll
+#execCmd closeItem -pg {{"cellID":"ne5532dr","keyType":"cell","libID":"sch_lib"}}
+#execCmd closeItem -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}}
+#cps::closeView {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}}
+closeSymbol [list -pg {"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}] close_all
+execCmd closeItem -pg {{"cellID":"ne5532dr","keyType":"cell","libID":"sch_lib"}}
+cps::closeView {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}}
+execCmd closeItem -pg {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}}
+cleanUpWebPage {{"cellID":"ne5532dr","keyType":"view","libID":"sch_lib","viewID":"sym_2"}}
+## Recorded on 2025-11-29T16:12:17
+#refreshDesignExplorer
+#pinTable {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+#updateReadOnlyStatus {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+selectItem {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+updateReadOnlyStatus {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+pinTable {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+refreshDesignExplorer
+cps::setComponentExplorerWidgetVisibilityOff
+cps::setComponentExplorerWidgetVisibilityOff
+cpSdaLckT::lockProject {sch.cpm} 1
+#if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::rk09712200my::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::rk09712200my::sym_1}  -display 1 -unit Inches; " }; 
+if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::rk09712200my::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::rk09712200my::sym_1}  -display 1 -unit Inches; " }; 
+execCmd getOSName
+cps::getTheme
+fetch -returntype json -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data directives
+fetch -returntype json -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data all -clearViewOnlyViolations
+fetch -returntype json -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#cps::openProject "D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm" 1
+cps::openProject "D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm" 1
+#cpSymT::openItem "sch_lib::rk09712200my::sym_1" SYMBOL SYM
+cpSymT::openItem "sch_lib::rk09712200my::sym_1" SYMBOL SYM
+#zoom -fit
+zoom -fit
+#selectObject -type SHAPE_GROUP 9985 7759
+selectObject -type SHAPE_GROUP 9985 7759
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#resize -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -bottom -left
+#
+
+#selectWindow canvas; zoom -val 146
+selectWindow canvas; zoom -val 146
+#selectWindow canvas; zoom -val 175
+selectWindow canvas; zoom -val 175
+#selectWindow canvas; zoom -val 192
+selectWindow canvas; zoom -val 192
+#selectWindow canvas; zoom -val 211
+selectWindow canvas; zoom -val 211
+#selectWindow canvas; zoom -val 232
+selectWindow canvas; zoom -val 232
+#selectWindow canvas; zoom -val 255
+selectWindow canvas; zoom -val 255
+#selectWindow canvas; zoom -val 306
+selectWindow canvas; zoom -val 306
+#selectWindow canvas; zoom -val 337
+selectWindow canvas; zoom -val 337
+#selectWindow canvas; zoom -val 371
+selectWindow canvas; zoom -val 371
+#selectWindow canvas; zoom -val 408
+selectWindow canvas; zoom -val 408
+#selectWindow canvas; zoom -val 449
+selectWindow canvas; zoom -val 449
+#selectWindow canvas; zoom -val 494
+selectWindow canvas; zoom -val 494
+#selectWindow canvas; zoom -val 543
+selectWindow canvas; zoom -val 543
+#selectWindow canvas; zoom -val 597
+selectWindow canvas; zoom -val 597
+#selectWindow canvas; zoom -val 657
+selectWindow canvas; zoom -val 657
+#selectWindow canvas; zoom -val 723
+selectWindow canvas; zoom -val 723
+#selectWindow canvas; zoom -val 795
+selectWindow canvas; zoom -val 795
+#selectObject 10428 7631
+selectObject 10428 7631
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#if { [catch {cps::openProject D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm 1 }] } {     puts "Unable to load script cps::openProject D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm 1" }; 
+if { [catch {cps::openProject D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm 1 }] } {     puts "Unable to load script cps::openProject D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm 1" }; 
+#if { [catch {cpSymT::openItem {sch_lib::rk09712200my::sym_1} SYMBOL SYM;  }] } {     puts "Unable to load script cpSymT::openItem {sch_lib::rk09712200my::sym_1} SYMBOL SYM; " }; 
+if { [catch {cpSymT::openItem {sch_lib::rk09712200my::sym_1} SYMBOL SYM;  }] } {     puts "Unable to load script cpSymT::openItem {sch_lib::rk09712200my::sym_1} SYMBOL SYM; " }; 
+#if { [catch {edit -pg {sch_lib::rk09712200my::sym_1} -prop {Pin_Names_Rotate} -value {False};  }] } {     puts "Unable to load script edit -pg {sch_lib::rk09712200my::sym_1} -prop {Pin_Names_Rotate} -value {False}; " }; 
+if { [catch {edit -pg {sch_lib::rk09712200my::sym_1} -prop {Pin_Names_Rotate} -value {False};  }] } {     puts "Unable to load script edit -pg {sch_lib::rk09712200my::sym_1} -prop {Pin_Names_Rotate} -value {False}; " }; 
+#execCmd closeItem -pg {{"cellID":"rk09712200my","keyType":"cell","libID":"sch_lib"}}
+#execCmd closeItem -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+#cps::closeView {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+closeSymbol [list -pg {"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}] close_all
+execCmd closeItem -pg {{"cellID":"rk09712200my","keyType":"cell","libID":"sch_lib"}}
+cps::closeView {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+execCmd closeItem -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+cleanUpWebPage {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+## Recorded on 2025-11-29T16:12:56
+#refreshDesignExplorer
+#pinTable {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+#updateReadOnlyStatus {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+selectItem {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+updateReadOnlyStatus {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+pinTable {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+refreshDesignExplorer
+cps::setComponentExplorerWidgetVisibilityOff
+cps::setComponentExplorerWidgetVisibilityOff
+cpSdaLckT::lockProject {sch.cpm} 1
+#cps::openProject "D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm" 1
+cps::openProject "D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm" 1
+#cpSymT::openItem "sch_lib::rk09712200my::sym_1" SYMBOL SYM
+cpSymT::openItem "sch_lib::rk09712200my::sym_1" SYMBOL SYM
+#zoom -fit
+zoom -fit
+#if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::rk09712200my::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::rk09712200my::sym_1}  -display 1 -unit Inches; " }; 
+if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::rk09712200my::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::rk09712200my::sym_1}  -display 1 -unit Inches; " }; 
+execCmd getOSName
+cps::getTheme
+fetch -returntype json -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data directives
+fetch -returntype json -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data all -clearViewOnlyViolations
+fetch -returntype json -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectObject 9996 8505
+selectObject 9996 8505
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject area 9996 8494 9996 8505
+selectObject area 9996 8494 9996 8505
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectWindow canvas; zoom -val 146
+selectWindow canvas; zoom -val 146
+#selectWindow canvas; zoom -val 161
+selectWindow canvas; zoom -val 161
+#selectWindow canvas; zoom -val 177
+selectWindow canvas; zoom -val 177
+#selectWindow canvas; zoom -val 195
+selectWindow canvas; zoom -val 195
+#selectWindow canvas; zoom -val 215
+selectWindow canvas; zoom -val 215
+#selectWindow canvas; zoom -val 237
+selectWindow canvas; zoom -val 237
+#selectWindow canvas; zoom -val 261
+selectWindow canvas; zoom -val 261
+#selectWindow canvas; zoom -val 287
+selectWindow canvas; zoom -val 287
+#selectWindow canvas; zoom -val 316
+selectWindow canvas; zoom -val 316
+#selectWindow canvas; zoom -val 348
+selectWindow canvas; zoom -val 348
+#selectWindow canvas; zoom -val 383
+selectWindow canvas; zoom -val 383
+#selectWindow canvas; zoom -val 421
+selectWindow canvas; zoom -val 421
+#selectWindow canvas; zoom -val 463
+selectWindow canvas; zoom -val 463
+#selectWindow canvas; zoom -val 509
+selectWindow canvas; zoom -val 509
+#selectWindow canvas; zoom -val 560
+selectWindow canvas; zoom -val 560
+#selectWindow canvas; zoom -val 616
+selectWindow canvas; zoom -val 616
+#selectWindow canvas; zoom -val 678
+selectWindow canvas; zoom -val 678
+#selectWindow canvas; zoom -val 746
+selectWindow canvas; zoom -val 746
+#selectWindow canvas; zoom -val 821
+selectWindow canvas; zoom -val 821
+#selectWindow canvas; zoom -val 903
+selectWindow canvas; zoom -val 903
+#selectWindow canvas; zoom -val 993
+selectWindow canvas; zoom -val 993
+#selectObject -type PROP 10138 7417
+selectObject -type PROP 10138 7417
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#move
+#move -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset -100 500
+move -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset -100 500
+#selectObject -type PROP 9961 7406
+selectObject -type PROP 9961 7406
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#move
+#move -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset -75 -50
+move -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset -75 -50
+#selectObject 10258 7361
+selectObject 10258 7361
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject -type NOTE 10023 7469
+selectObject -type NOTE 10023 7469
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[{"PinID":"2","PinName":"2","ColName":"Text"}\]}')
+#rotate 90
+rotate 90
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} UpdateTable([list {"PartEditingMode":"FreeForm","PartType":"FlatPart","EnableEditing":"true","EnableSplitting":"true","TotalSections":"1","TotalSymbols":"0","RegistryConfig":{},"ActiveSection":"1","MappedSectionList":["1"],"SymbolProperties":[],"UpdateRows":[{"MasterPinID":"9dd74521-b33d-4a0d-8336-071c62059db4","Row":{"MasterPinID":"9dd74521-b33d-4a0d-8336-071c62059db4","PinID":"2","Name":"2","Text":"2","Type":"Analog","Scope":"Explicit","Side":"Top","Shape":"Line","Pos":"0","DIFF_PAIR_PINS_NEG":"","DIFF_PAIR_PINS_POS":"","PIN_DELAY":"","PIN_GROUP":"","CompletePinNumbersList":{"1":"2"}}}]}])
+fetch -returntype json -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectObject 9989 7430
+selectObject 9989 7430
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject -type NOTE 10051 7417
+selectObject -type NOTE 10051 7417
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[{"PinID":"2","PinName":"2","ColName":"Text"}\]}')
+#move
+#move -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 50 0
+move -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 50 0
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} UpdateTable([list {"PartEditingMode":"FreeForm","PartType":"FlatPart","EnableEditing":"true","EnableSplitting":"true","TotalSections":"1","TotalSymbols":"0","RegistryConfig":{},"ActiveSection":"1","MappedSectionList":["1"],"SymbolProperties":[],"UpdateRows":[{"MasterPinID":"9dd74521-b33d-4a0d-8336-071c62059db4","Row":{"MasterPinID":"9dd74521-b33d-4a0d-8336-071c62059db4","PinID":"2","Name":"2","Text":"2","Type":"Analog","Scope":"Explicit","Side":"Top","Shape":"Line","Pos":"0","DIFF_PAIR_PINS_NEG":"","DIFF_PAIR_PINS_POS":"","PIN_DELAY":"","PIN_GROUP":"","CompletePinNumbersList":{"1":"2"}}}]}])
+fetch -returntype json -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectObject -type SHAPE_GROUP 10032 7731
+selectObject -type SHAPE_GROUP 10032 7731
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#resize -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -bottom -left
+#draftResize -edit -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -bottom -left
+#
+
+#selectObject -type NOTE 10013 7732
+selectObject -type NOTE 10013 7732
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[{"PinID":"5","PinName":"5","ColName":"Text"}\]}')
+#rotate 90
+rotate 90
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} UpdateTable([list {"PartEditingMode":"FreeForm","PartType":"FlatPart","EnableEditing":"true","EnableSplitting":"true","TotalSections":"1","TotalSymbols":"0","RegistryConfig":{},"ActiveSection":"1","MappedSectionList":["1"],"SymbolProperties":[],"UpdateRows":[{"MasterPinID":"97486ec2-781a-4e98-a279-3834d9507b1b","Row":{"MasterPinID":"97486ec2-781a-4e98-a279-3834d9507b1b","PinID":"5","Name":"5","Text":"5","Type":"Analog","Scope":"Explicit","Side":"Bottom","Shape":"Line","Pos":"0","DIFF_PAIR_PINS_NEG":"","DIFF_PAIR_PINS_POS":"","PIN_DELAY":"","PIN_GROUP":"","CompletePinNumbersList":{"1":"5"}}}]}])
+fetch -returntype json -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectObject -type SHAPE_GROUP 10002 7728
+selectObject -type SHAPE_GROUP 10002 7728
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject -type NOTE 10075 7717
+selectObject -type NOTE 10075 7717
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[{"PinID":"5","PinName":"5","ColName":"Text"}\]}')
+#move
+#move -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 0 75
+move -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 0 75
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} UpdateTable([list {"PartEditingMode":"FreeForm","PartType":"FlatPart","EnableEditing":"true","EnableSplitting":"true","TotalSections":"1","TotalSymbols":"0","RegistryConfig":{},"ActiveSection":"1","MappedSectionList":["1"],"SymbolProperties":[],"UpdateRows":[{"MasterPinID":"97486ec2-781a-4e98-a279-3834d9507b1b","Row":{"MasterPinID":"97486ec2-781a-4e98-a279-3834d9507b1b","PinID":"5","Name":"5","Text":"5","Type":"Analog","Scope":"Explicit","Side":"Bottom","Shape":"Line","Pos":"0","DIFF_PAIR_PINS_NEG":"","DIFF_PAIR_PINS_POS":"","PIN_DELAY":"","PIN_GROUP":"","CompletePinNumbersList":{"1":"5"}}}]}])
+fetch -returntype json -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectObject 10447 7686
+selectObject 10447 7686
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#saveAll
+saveAll
+#selectObject -type NOTE 10086 7781
+selectObject -type NOTE 10086 7781
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[{"PinID":"5","PinName":"5","ColName":"Text"}\]}')
+#move
+#move -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 25 25
+move -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 25 25
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} UpdateTable([list {"PartEditingMode":"FreeForm","PartType":"FlatPart","EnableEditing":"true","EnableSplitting":"true","TotalSections":"1","TotalSymbols":"0","RegistryConfig":{},"ActiveSection":"1","MappedSectionList":["1"],"SymbolProperties":[],"UpdateRows":[{"MasterPinID":"97486ec2-781a-4e98-a279-3834d9507b1b","Row":{"MasterPinID":"97486ec2-781a-4e98-a279-3834d9507b1b","PinID":"5","Name":"5","Text":"5","Type":"Analog","Scope":"Explicit","Side":"Bottom","Shape":"Line","Pos":"0","DIFF_PAIR_PINS_NEG":"","DIFF_PAIR_PINS_POS":"","PIN_DELAY":"","PIN_GROUP":"","CompletePinNumbersList":{"1":"5"}}}]}])
+fetch -returntype json -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectObject 10345 7744
+selectObject 10345 7744
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#saveAll
+saveAll
+#selectObject 10657 7522
+selectObject 10657 7522
+callJS {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#execCmd closeItem -pg {{"cellID":"rk09712200my","keyType":"cell","libID":"sch_lib"}}
+#execCmd closeItem -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+#cps::closeView {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+closeSymbol [list -pg {"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}] close_all
+execCmd closeItem -pg {{"cellID":"rk09712200my","keyType":"cell","libID":"sch_lib"}}
+cps::closeView {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+execCmd closeItem -pg {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+cleanUpWebPage {{"cellID":"rk09712200my","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}

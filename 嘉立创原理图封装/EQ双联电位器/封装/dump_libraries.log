@@ -1,0 +1,39 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dump Library Log                                                 )
+(                                                                     )
+(    Software Version : 17.4S039                                      )
+(    Date/Time        : Sat Nov 29 16:09:39 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+*** file: D:/Coding/Cadence/SPB_Data/unnamed.brd ***
+
+
+
+  *** Creating all device files (see create_devices.log) ***
+
+
+  *** Creating padstacks. ***
+
+  PTH_C709SLOT433X433S1 being dumped.
+
+  PTH_C709SLOT433X433S1OFF0X0 being dumped.
+
+
+  *** Creating package symbols (.dra and .psm) ***
+
+  res-adj-th_rk09712200my being dumped.
+
+
+
+*********************** Summary *********************
+ERRORs reported:                           0
+
+Number of padstacks dumped:                2
+Number of package symbols dumped:          1
+
+Total number of symbols dumped:            1
+*****************************************************
+
