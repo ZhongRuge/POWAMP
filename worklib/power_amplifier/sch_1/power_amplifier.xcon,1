@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-11-29T13:23:01</modificationTime>
+    <modificationTime>2025-11-29T13:23:12</modificationTime>
     <savedLibrary>power_amplifier_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="power_amplifier" view="sch_1">
       <lastids>
-        <instanceid>148</instanceid>
-        <netid>91</netid>
-        <insttermid>644</insttermid>
+        <instanceid>150</instanceid>
+        <netid>93</netid>
+        <insttermid>652</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1201,6 +1201,66 @@
             </term>
           </terms>
         </cell>
+        <cell>
+          <id>S24</id>
+          <library>ic</library>
+          <name>ne5532dr</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T225</id>
+              <name>in1+</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T226</id>
+              <name>in1-</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T227</id>
+              <name>out1</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T228</id>
+              <name>vcc+</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T229</id>
+              <name>vcc-/gnd</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
+        <cell>
+          <id>S25</id>
+          <library>ic</library>
+          <name>ne5532dr</name>
+          <view>sym_2</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T230</id>
+              <name>in2+</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T231</id>
+              <name>in2-</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T232</id>
+              <name>out2</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
       </cells>
       <nets>
         <net>
@@ -1502,6 +1562,14 @@
         <net>
           <id>N91</id>
           <name>swdio</name>
+        </net>
+        <net>
+          <id>N92</id>
+          <name>vcc_amp+</name>
+        </net>
+        <net>
+          <id>N93</id>
+          <name>vcc_amp-</name>
         </net>
       </nets>
       <aliases>
@@ -4356,6 +4424,70 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I149</id>
+          <cellid>S24</cellid>
+          <name>page8_i1</name>
+          <pins>
+            <pin>
+              <id>M645</id>
+              <termid>T225</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M646</id>
+              <termid>T226</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M647</id>
+              <termid>T227</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M648</id>
+              <termid>T228</termid>
+              <connections>
+                <connection net="N92" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M649</id>
+              <termid>T229</termid>
+              <connections>
+                <connection net="N93" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I150</id>
+          <cellid>S25</cellid>
+          <name>page8_i2</name>
+          <pins>
+            <pin>
+              <id>M650</id>
+              <termid>T230</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M651</id>
+              <termid>T231</termid>
+              <connections>
+              </connections>
+            </pin>
+            <pin>
+              <id>M652</id>
+              <termid>T232</termid>
+              <connections>
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -4599,6 +4731,18 @@
               <instance ref="i17"></instance>
               <instance ref="i18"></instance>
               <instance ref="i19"></instance>
+            </instances>
+          </page>
+          <page number="8">
+            <physicalPageNumber>8</physicalPageNumber>
+            <errorStatus>false</errorStatus>
+            <nets>
+              <net ref="vcc_amp+"></net>
+              <net ref="vcc_amp-"></net>
+            </nets>
+            <instances>
+              <instance ref="i1"></instance>
+              <instance ref="i2"></instance>
             </instances>
           </page>
         </pages>

@@ -29,5 +29,8 @@
   capacitor c0805 *
   page5_i23
 #CELL
+  connector dc-005-5a *
+  page5_i24
+#CELL
   capacitor c0805 *
   page5_i9

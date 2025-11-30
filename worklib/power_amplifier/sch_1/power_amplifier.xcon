@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-11-29T17:21:12</modificationTime>
+    <modificationTime>2025-11-30T23:35:42</modificationTime>
     <savedLibrary>power_amplifier_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="power_amplifier" view="sch_1">
       <lastids>
-        <instanceid>181</instanceid>
-        <netid>115</netid>
-        <insttermid>727</insttermid>
+        <instanceid>182</instanceid>
+        <netid>116</netid>
+        <insttermid>730</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1301,6 +1301,31 @@
             </term>
           </terms>
         </cell>
+        <cell>
+          <id>S27</id>
+          <library>connector</library>
+          <name>dc-005-5a</name>
+          <view>sym_1</view>
+          <parameters>
+          </parameters>
+          <terms>
+            <term>
+              <id>T239</id>
+              <name>1</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T240</id>
+              <name>2</name>
+              <direction>inout</direction>
+            </term>
+            <term>
+              <id>T241</id>
+              <name>3</name>
+              <direction>inout</direction>
+            </term>
+          </terms>
+        </cell>
       </cells>
       <nets>
         <net>
@@ -1698,6 +1723,10 @@
         <net>
           <id>N115</id>
           <name>unnamed_8_res0805_i31_2</name>
+        </net>
+        <net>
+          <id>N116</id>
+          <name>dc_in</name>
         </net>
       </nets>
       <aliases>
@@ -5336,6 +5365,34 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I182</id>
+          <cellid>S27</cellid>
+          <name>page5_i24</name>
+          <pins>
+            <pin>
+              <id>M728</id>
+              <termid>T239</termid>
+              <connections>
+                <connection net="N116" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M729</id>
+              <termid>T240</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M730</id>
+              <termid>T241</termid>
+              <connections>
+                <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -5480,6 +5537,7 @@
             <physicalPageNumber>5</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
+              <net ref="dc_in"></net>
               <net ref="gndd"></net>
               <net ref="unnamed_5_c0805_i10_1"></net>
               <net ref="unnamed_5_c0805_i11_2"></net>
@@ -5500,6 +5558,7 @@
               <instance ref="i21"></instance>
               <instance ref="i22"></instance>
               <instance ref="i23"></instance>
+              <instance ref="i24"></instance>
             </instances>
           </page>
           <page number="6">

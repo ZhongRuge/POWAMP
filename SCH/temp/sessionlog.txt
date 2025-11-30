@@ -1,30 +1,22 @@
-11/29/25  16:11:22		Opening project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm
-11/29/25  16:11:22		cdslib D:/Coding/Cadence/Project/POWAMP/SCH/cds.lib opened
-11/29/25  16:11:22		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm opened
-11/29/25  16:11:22		Loading cell rk09712200my from library sch_lib
-11/29/25  16:11:22		Loading view sym_1 of cell rk09712200my
-11/29/25  16:11:22		Loading view chips of cell rk09712200my
-11/29/25  16:11:22		Loading view entity of cell rk09712200my
-11/29/25  16:11:22		Loading cell rk09712200my from library sch_lib
-11/29/25  16:11:22		Analyzing view relationships of cell rk09712200my in library sch_lib
-11/29/25  16:11:22		Completed loading cell rk09712200my from library sch_lib
-11/29/25  16:11:22		Starting validations on cell rk09712200my of library sch_lib
-11/29/25  16:11:22		Completed validations on cell rk09712200my of library sch_lib
-11/29/25  16:11:41		Starting validations on cell rk09712200my of library sch_lib
-11/29/25  16:11:41		Completed validations on cell rk09712200my of library sch_lib
-11/29/25  16:11:41		Completed saving cell rk09712200my in library sch_lib 
-11/29/25  16:12:06		Starting validations on cell rk09712200my of library sch_lib
-11/29/25  16:12:06		Completed validations on cell rk09712200my of library sch_lib
-11/29/25  16:12:06		Completed saving cell rk09712200my in library sch_lib 
-11/29/25  16:12:10		Starting validations on cell rk09712200my of library sch_lib
-11/29/25  16:12:10		Completed validations on cell rk09712200my of library sch_lib
-11/29/25  16:12:10		Completed saving cell rk09712200my in library sch_lib 
-11/29/25  16:12:48		Starting validations on cell rk09712200my of library sch_lib
-11/29/25  16:12:48		Completed validations on cell rk09712200my of library sch_lib
-11/29/25  16:12:50		Completed saving cell rk09712200my in library sch_lib 
-11/29/25  16:13:24		Loading view sym_1 of cell rk09712200my
-11/29/25  16:13:26		Loading view sym_1 of cell rk09712200my
-11/29/25  16:13:37		Starting validations on cell rk09712200my of library sch_lib
-11/29/25  16:13:37		Completed validations on cell rk09712200my of library sch_lib
-11/29/25  16:13:39		Completed saving cell rk09712200my in library sch_lib 
-11/29/25  16:13:45		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm is closed.
+11/30/25  02:02:36		Opening project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm
+11/30/25  02:02:36		cdslib D:/Coding/Cadence/Project/POWAMP/SCH/cds.lib opened
+11/30/25  02:02:36		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm opened
+11/30/25  02:02:36		Loading cell dc-005-5a from library sch_lib
+11/30/25  02:02:36		Loading view sym_1 of cell dc-005-5a
+11/30/25  02:02:36		Loading view chips of cell dc-005-5a
+11/30/25  02:02:36		Loading view entity of cell dc-005-5a
+11/30/25  02:02:36		Loading cell dc-005-5a from library sch_lib
+11/30/25  02:02:36		Analyzing view relationships of cell dc-005-5a in library sch_lib
+11/30/25  02:02:36		Completed loading cell dc-005-5a from library sch_lib
+11/30/25  02:02:36		Starting validations on cell dc-005-5a of library sch_lib
+11/30/25  02:02:36		BODY_NAME property value does not match the cell name. The mismatch will be auto-corrected when the cell is saved.
+11/30/25  02:02:36		Completed validations on cell dc-005-5a of library sch_lib
+11/30/25  02:02:51		Starting validations on cell dc-005-5a of library sch_lib
+11/30/25  02:02:51		Completed validations on cell dc-005-5a of library sch_lib
+11/30/25  02:02:51		Starting validations on cell dc-005-5a of library sch_lib
+11/30/25  02:02:51		Completed validations on cell dc-005-5a of library sch_lib
+11/30/25  02:02:51		Completed saving cell dc-005-5a in library sch_lib 
+11/30/25  02:03:16		Starting validations on cell dc-005-5a of library sch_lib
+11/30/25  02:03:16		Completed validations on cell dc-005-5a of library sch_lib
+11/30/25  02:03:16		Completed saving cell dc-005-5a in library sch_lib 
+11/30/25  02:03:17		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm is closed.

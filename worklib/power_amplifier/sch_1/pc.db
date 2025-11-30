@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Sat Nov 29 17:21:12 2025
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Sun Nov 30 23:35:42 2025
 #ISCELL
   standard b#20size#20page *
   *
@@ -164,6 +164,9 @@
 #CELL
   capacitor c0805 *
   page5_i23
+#CELL
+  connector dc-005-5a *
+  page5_i24
 #CELL
   capacitor c0805 *
   page5_i9
