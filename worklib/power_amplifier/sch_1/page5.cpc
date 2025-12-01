@@ -69,4 +69,28 @@
   page5_i36
 #CELL
   capacitor c0805 *
+  page5_i37
+#CELL
+  resistor res0805 *
+  page5_i38
+#CELL
+  resistor res0805 *
+  page5_i39
+#CELL
+  capacitor c0805 *
+  page5_i40
+#CELL
+  capacitor c0805 *
+  page5_i41
+#CELL
+  resistor res0805 *
+  page5_i42
+#CELL
+  resistor res0805 *
+  page5_i43
+#CELL
+  capacitor c0805 *
+  page5_i44
+#CELL
+  capacitor c0805 *
   page5_i9
