@@ -4,4 +4,6 @@
 	</component>
 	<component cell="ne5532dr" library="ic" partname="NE5532DR" partno="" quantity="1" >
 	</component>
+	<component cell="ma35v470m10x13" library="capacitor" partname="MA35V470M10X13" partno="" quantity="1" >
+	</component>
 </sc:shoppingCart>

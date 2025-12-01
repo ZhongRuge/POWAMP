@@ -32,5 +32,41 @@
   connector dc-005-5a *
   page5_i24
 #CELL
+  power bsmd2920-300-33v *
+  page5_i25
+#CELL
+  power ss54_c5200096 *
+  page5_i26
+#CELL
+  power smbj30a_c19077584 *
+  page5_i27
+#CELL
+  capacitor ma35v470m10x13 *
+  page5_i28
+#CELL
+  inductor l0805 *
+  page5_i29
+#CELL
+  capacitor ma35v470m10x13 *
+  page5_i30
+#CELL
+  capacitor c0805 *
+  page5_i31
+#CELL
+  capacitor c0805 *
+  page5_i32
+#CELL
+  power ltc3260 *
+  page5_i33
+#CELL
+  capacitor c0805 *
+  page5_i34
+#CELL
+  capacitor c0805 *
+  page5_i35
+#CELL
+  capacitor c0805 *
+  page5_i36
+#CELL
   capacitor c0805 *
   page5_i9

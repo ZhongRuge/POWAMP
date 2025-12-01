@@ -1,0 +1,194 @@
+(Cell	ma35v470m10x13
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/01/25,15:15:37)
+
+			(User	Lucky)
+
+			(Path	sch_lib.MA35V470M10X13)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.3)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	12/01/25,15:15:37)
+
+					(User	Lucky)
+
+					(Path	sch_lib.MA35V470M10X13)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000543ab4b8)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/01/25,15:15:37)
+
+							(User	Lucky)
+
+							(Path	sch_lib.MA35V470M10X13)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c1b03ae)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000e053a3db)
+
+			(Primitives	1
+
+				(Primitive	MA35V470M10X13
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/01/25,15:15:37)
+
+							(User	Lucky)
+
+							(Path	sch_lib.MA35V470M10X13)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	MA35V470M10X13
+
+							(PackType	MA35V470M10X13)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	cap-smd_bd10_0-l10_3-w10_3-fd)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001ec403ee)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.4-2019 S039 (4153571))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001cf903db)
+
+)
+

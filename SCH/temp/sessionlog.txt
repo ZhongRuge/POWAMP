@@ -1,22 +1,14 @@
-11/30/25  02:02:36		Opening project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm
-11/30/25  02:02:36		cdslib D:/Coding/Cadence/Project/POWAMP/SCH/cds.lib opened
-11/30/25  02:02:36		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm opened
-11/30/25  02:02:36		Loading cell dc-005-5a from library sch_lib
-11/30/25  02:02:36		Loading view sym_1 of cell dc-005-5a
-11/30/25  02:02:36		Loading view chips of cell dc-005-5a
-11/30/25  02:02:36		Loading view entity of cell dc-005-5a
-11/30/25  02:02:36		Loading cell dc-005-5a from library sch_lib
-11/30/25  02:02:36		Analyzing view relationships of cell dc-005-5a in library sch_lib
-11/30/25  02:02:36		Completed loading cell dc-005-5a from library sch_lib
-11/30/25  02:02:36		Starting validations on cell dc-005-5a of library sch_lib
-11/30/25  02:02:36		BODY_NAME property value does not match the cell name. The mismatch will be auto-corrected when the cell is saved.
-11/30/25  02:02:36		Completed validations on cell dc-005-5a of library sch_lib
-11/30/25  02:02:51		Starting validations on cell dc-005-5a of library sch_lib
-11/30/25  02:02:51		Completed validations on cell dc-005-5a of library sch_lib
-11/30/25  02:02:51		Starting validations on cell dc-005-5a of library sch_lib
-11/30/25  02:02:51		Completed validations on cell dc-005-5a of library sch_lib
-11/30/25  02:02:51		Completed saving cell dc-005-5a in library sch_lib 
-11/30/25  02:03:16		Starting validations on cell dc-005-5a of library sch_lib
-11/30/25  02:03:16		Completed validations on cell dc-005-5a of library sch_lib
-11/30/25  02:03:16		Completed saving cell dc-005-5a in library sch_lib 
-11/30/25  02:03:17		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm is closed.
+12/01/25  16:43:40		Opening project G:/Cadence/POWAMP/SCH/sch.cpm
+12/01/25  16:43:40		cdslib G:/Cadence/POWAMP/SCH/cds.lib opened
+12/01/25  16:43:40		Project G:/Cadence/POWAMP/SCH/sch.cpm opened
+12/01/25  16:43:40		Loading cell ltc3260 from library sch_lib
+12/01/25  16:43:40		Loading view sym_1 of cell ltc3260
+12/01/25  16:43:40		Loading view chips of cell ltc3260
+12/01/25  16:43:40		Loading view entity of cell ltc3260
+12/01/25  16:43:40		Loading cell ltc3260 from library sch_lib
+12/01/25  16:43:40		Analyzing view relationships of cell ltc3260 in library sch_lib
+12/01/25  16:43:40		Completed loading cell ltc3260 from library sch_lib
+12/01/25  16:43:40		Starting validations on cell ltc3260 of library sch_lib
+12/01/25  16:43:40		Completed validations on cell ltc3260 of library sch_lib
+12/01/25  16:44:10		Loading view sym_1 of cell ltc3260
+12/01/25  16:44:14		Project G:/Cadence/POWAMP/SCH/sch.cpm is closed.

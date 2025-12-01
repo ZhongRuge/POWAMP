@@ -5494,3 +5494,274 @@ execCmd closeItem -pg {{"cellID":"dc#2d005#2d5a#2d2#2e5","keyType":"cell","libID
 cps::closeView {{"cellID":"dc#2d005#2d5a#2d2#2e5","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
 execCmd closeItem -pg {{"cellID":"dc#2d005#2d5a#2d2#2e5","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
 cleanUpWebPage {{"cellID":"dc#2d005#2d5a#2d2#2e5","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+## Recorded on 2025-12-01T14:11:39
+#refreshDesignExplorer
+#pinTable {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+#updateReadOnlyStatus {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+selectItem {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+updateReadOnlyStatus {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+pinTable {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+refreshDesignExplorer
+cps::setComponentExplorerWidgetVisibilityOff
+cps::setComponentExplorerWidgetVisibilityOff
+cpSdaLckT::lockProject {sch.cpm} 1
+#cps::openProject "G:/Cadence/POWAMP/SCH/sch.cpm" 1
+cps::openProject "G:/Cadence/POWAMP/SCH/sch.cpm" 1
+#cpSymT::openItem "sch_lib::bsmd2920#2d300#2d33v::sym_1" SYMBOL SYM
+cpSymT::openItem "sch_lib::bsmd2920#2d300#2d33v::sym_1" SYMBOL SYM
+#zoom -fit
+zoom -fit
+#if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::bsmd2920#2d300#2d33v::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::bsmd2920#2d300#2d33v::sym_1}  -display 1 -unit Inches; " }; 
+if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::bsmd2920#2d300#2d33v::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::bsmd2920#2d300#2d33v::sym_1}  -display 1 -unit Inches; " }; 
+execCmd getOSName
+cps::getTheme
+fetch -returntype json -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data directives
+fetch -returntype json -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data all -clearViewOnlyViolations
+fetch -returntype json -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectObject -type PROP 10203 7513
+selectObject -type PROP 10203 7513
+callJS {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject 9946 7510
+selectObject 9946 7510
+callJS {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject -type PROP 9958 7524
+selectObject -type PROP 9958 7524
+callJS {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#move
+#move -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset -75 -50
+move -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset -75 -50
+#selectObject -type PROP 9969 7521
+selectObject -type PROP 9969 7521
+callJS {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#move
+#move -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset -200 -25
+move -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset -200 -25
+#selectObject -type PROP 10045 7481
+selectObject -type PROP 10045 7481
+callJS {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#move
+#move -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset -25 50
+move -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset -25 50
+#selectObject 10077 7439
+selectObject 10077 7439
+callJS {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject -type PROP 9771 7497
+selectObject -type PROP 9771 7497
+callJS {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#move
+#move -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 75 -75
+move -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 75 -75
+#selectObject -type PROP 10016 7535
+selectObject -type PROP 10016 7535
+callJS {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#move
+#move -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 0 200
+move -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 0 200
+#selectObject -type PROP 9837 7420
+selectObject -type PROP 9837 7420
+callJS {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#move
+#move -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 100 100
+move -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -offset 100 100
+#selectObject 10101 7480
+selectObject 10101 7480
+callJS {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#saveAll
+saveAll
+#execCmd closeItem -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"cell","libID":"sch_lib"}}
+#execCmd closeItem -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+#cps::closeView {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+closeSymbol [list -pg {"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}] close_all
+execCmd closeItem -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"cell","libID":"sch_lib"}}
+cps::closeView {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+execCmd closeItem -pg {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+cleanUpWebPage {{"cellID":"bsmd2920#2d300#2d33v","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+## Recorded on 2025-12-01T15:17:15
+#refreshDesignExplorer
+#pinTable {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+#updateReadOnlyStatus {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+selectItem {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+updateReadOnlyStatus {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+pinTable {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+refreshDesignExplorer
+cps::setComponentExplorerWidgetVisibilityOff
+cps::setComponentExplorerWidgetVisibilityOff
+cpSdaLckT::lockProject {sch.cpm} 1
+#cps::openProject "G:/Cadence/POWAMP/SCH/sch.cpm" 1
+cps::openProject "G:/Cadence/POWAMP/SCH/sch.cpm" 1
+#cpSymT::openItem "sch_lib::ma35v470m10x13::sym_1" SYMBOL SYM
+cpSymT::openItem "sch_lib::ma35v470m10x13::sym_1" SYMBOL SYM
+#zoom -fit
+zoom -fit
+#if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ma35v470m10x13::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ma35v470m10x13::sym_1}  -display 1 -unit Inches; " }; 
+if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ma35v470m10x13::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ma35v470m10x13::sym_1}  -display 1 -unit Inches; " }; 
+execCmd getOSName
+cps::getTheme
+fetch -returntype json -pg {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data directives
+fetch -returntype json -pg {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data all -clearViewOnlyViolations
+fetch -returntype json -pg {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectObject 10123 7456
+selectObject 10123 7456
+callJS {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#if { [catch {cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1 }] } {     puts "Unable to load script cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1" }; 
+if { [catch {cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1 }] } {     puts "Unable to load script cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1" }; 
+#if { [catch {cpSymT::openItem {sch_lib::ma35v470m10x13::sym_1} SYMBOL SYM;  }] } {     puts "Unable to load script cpSymT::openItem {sch_lib::ma35v470m10x13::sym_1} SYMBOL SYM; " }; 
+if { [catch {cpSymT::openItem {sch_lib::ma35v470m10x13::sym_1} SYMBOL SYM;  }] } {     puts "Unable to load script cpSymT::openItem {sch_lib::ma35v470m10x13::sym_1} SYMBOL SYM; " }; 
+#if { [catch {delete -pg {sch_lib::ma35v470m10x13::sym_1} -prop {} ; }] } {     puts "Unable to load script delete -pg {sch_lib::ma35v470m10x13::sym_1} -prop {} ;" }; 
+if { [catch {delete -pg {sch_lib::ma35v470m10x13::sym_1} -prop {} ; }] } {     puts "Unable to load script delete -pg {sch_lib::ma35v470m10x13::sym_1} -prop {} ;" }; 
+#if { [catch {cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1 }] } {     puts "Unable to load script cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1" }; 
+if { [catch {cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1 }] } {     puts "Unable to load script cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1" }; 
+#if { [catch {cpSymT::openItem {sch_lib::ma35v470m10x13::sym_1} SYMBOL SYM;  }] } {     puts "Unable to load script cpSymT::openItem {sch_lib::ma35v470m10x13::sym_1} SYMBOL SYM; " }; 
+if { [catch {cpSymT::openItem {sch_lib::ma35v470m10x13::sym_1} SYMBOL SYM;  }] } {     puts "Unable to load script cpSymT::openItem {sch_lib::ma35v470m10x13::sym_1} SYMBOL SYM; " }; 
+#if { [catch {add -pg {sch_lib::ma35v470m10x13::sym_1} -prop -name {VALUE} -value {?} ;  }] } {     puts "Unable to load script add -pg {sch_lib::ma35v470m10x13::sym_1} -prop -name {VALUE} -value {?} ; " }; 
+if { [catch {add -pg {sch_lib::ma35v470m10x13::sym_1} -prop -name {VALUE} -value {?} ;  }] } {     puts "Unable to load script add -pg {sch_lib::ma35v470m10x13::sym_1} -prop -name {VALUE} -value {?} ; " }; 
+#if { [catch {cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1 }] } {     puts "Unable to load script cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1" }; 
+if { [catch {cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1 }] } {     puts "Unable to load script cps::openProject G:/Cadence/POWAMP/SCH/sch.cpm 1" }; 
+#if { [catch {cpSymT::openItem {sch_lib::ma35v470m10x13::sym_1} SYMBOL SYM;  }] } {     puts "Unable to load script cpSymT::openItem {sch_lib::ma35v470m10x13::sym_1} SYMBOL SYM; " }; 
+if { [catch {cpSymT::openItem {sch_lib::ma35v470m10x13::sym_1} SYMBOL SYM;  }] } {     puts "Unable to load script cpSymT::openItem {sch_lib::ma35v470m10x13::sym_1} SYMBOL SYM; " }; 
+#if { [catch {edit -pg {sch_lib::ma35v470m10x13::sym_1} -prop {VALUE} -vis Value;  }] } {     puts "Unable to load script edit -pg {sch_lib::ma35v470m10x13::sym_1} -prop {VALUE} -vis Value; " }; 
+if { [catch {edit -pg {sch_lib::ma35v470m10x13::sym_1} -prop {VALUE} -vis Value;  }] } {     puts "Unable to load script edit -pg {sch_lib::ma35v470m10x13::sym_1} -prop {VALUE} -vis Value; " }; 
+#move
+#move -pg {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -pos 10125 7775
+move -pg {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -pos 10125 7775
+#selectObject 10436 7621
+selectObject 10436 7621
+callJS {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#saveAll
+saveAll
+#execCmd closeItem -pg {{"cellID":"ma35v470m10x13","keyType":"cell","libID":"sch_lib"}}
+#execCmd closeItem -pg {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+#cps::closeView {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+closeSymbol [list -pg {"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}] close_all
+execCmd closeItem -pg {{"cellID":"ma35v470m10x13","keyType":"cell","libID":"sch_lib"}}
+cps::closeView {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+execCmd closeItem -pg {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+cleanUpWebPage {{"cellID":"ma35v470m10x13","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+## Recorded on 2025-12-01T16:43:50
+#refreshDesignExplorer
+#pinTable {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+#pinTable {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+#updateReadOnlyStatus {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+#updateReadOnlyStatus {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+selectItem {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+selectItem {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} SYMBOL SYM activatetab
+updateReadOnlyStatus {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+updateReadOnlyStatus {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} {false}
+pinTable {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+pinTable {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -init {SymbolPinTable} {}
+refreshDesignExplorer
+refreshDesignExplorer
+cps::setComponentExplorerWidgetVisibilityOff
+cps::setComponentExplorerWidgetVisibilityOff
+cps::setComponentExplorerWidgetVisibilityOff
+cps::setComponentExplorerWidgetVisibilityOff
+cpSdaLckT::lockProject {sch.cpm} 1
+cpSdaLckT::lockProject {sch.cpm} 1
+#cps::openProject "G:/Cadence/POWAMP/SCH/sch.cpm" 1
+cps::openProject "G:/Cadence/POWAMP/SCH/sch.cpm" 1
+#cpSymT::openItem "sch_lib::ltc3260::sym_1" SYMBOL SYM
+cps::openProject "G:/Cadence/POWAMP/SCH/sch.cpm" 1
+#cpSymT::openItem "sch_lib::ltc3260::sym_1" SYMBOL SYM
+cpSymT::openItem "sch_lib::ltc3260::sym_1" SYMBOL SYM
+cpSymT::openItem "sch_lib::ltc3260::sym_1" SYMBOL SYM
+#zoom -fit
+#zoom -fit
+zoom -fit
+zoom -fit
+#cps::openProject "G:/Cadence/POWAMP/SCH/sch.cpm" 1
+cps::openProject "G:/Cadence/POWAMP/SCH/sch.cpm" 1
+#cpSymT::openItem "sch_lib::ltc3260::sym_1" SYMBOL SYM
+#cpSymT::openItem "sch_lib::ltc3260::sym_1" SYMBOL SYM
+cpSymT::openItem "sch_lib::ltc3260::sym_1" SYMBOL SYM
+cpSymT::openItem "sch_lib::ltc3260::sym_1" SYMBOL SYM
+#zoom -fit
+#zoom -fit
+zoom -fit
+#if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ltc3260::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ltc3260::sym_1}  -display 1 -unit Inches; " }; 
+zoom -fit
+#if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ltc3260::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ltc3260::sym_1}  -display 1 -unit Inches; " }; 
+if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ltc3260::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ltc3260::sym_1}  -display 1 -unit Inches; " }; 
+#if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ltc3260::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ltc3260::sym_1}  -display 1 -unit Inches; " }; 
+if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ltc3260::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ltc3260::sym_1}  -display 1 -unit Inches; " }; 
+#if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ltc3260::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ltc3260::sym_1}  -display 1 -unit Inches; " }; 
+if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ltc3260::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ltc3260::sym_1}  -display 1 -unit Inches; " }; 
+if { [catch {grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ltc3260::sym_1}  -display 1 -unit Inches;  }] } {     puts "Unable to load script grid -defaultdocgrid -size [list 0.050000 1 0.500000] -pg {sch_lib::ltc3260::sym_1}  -display 1 -unit Inches; " }; 
+execCmd getOSName
+cps::getTheme
+fetch -returntype json -pg {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data directives
+execCmd getOSName
+fetch -returntype json -pg {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data all -clearViewOnlyViolations
+cps::getTheme
+fetch -returntype json -pg {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data directives
+fetch -returntype json -pg {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data all -clearViewOnlyViolations
+fetch -returntype json -pg {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+fetch -returntype json -pg {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#execCmd closeItem -pg {{"cellID":"ltc3260","keyType":"cell","libID":"sch_lib"}}
+#execCmd closeItem -pg {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+#cps::closeView {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+closeSymbol [list -pg {"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}] close_all
+execCmd closeItem -pg {{"cellID":"ltc3260","keyType":"cell","libID":"sch_lib"}}
+cps::closeView {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+execCmd closeItem -pg {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+cleanUpWebPage {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+#selectObject -type PROP 9649 7094
+selectObject -type PROP 9649 7094
+callJS {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[{"PinID":"EN-","PinName":"EN-","ColName":"\$PN"}\]}')
+#move
+#move -pg {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -pos 9725 6695
+move -pg {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -pos 9725 6695
+callJS {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} UpdateTable([list {"PartEditingMode":"FreeForm","PartType":"FlatPart","EnableEditing":"true","EnableSplitting":"true","TotalSections":"1","TotalSymbols":"0","RegistryConfig":{},"ActiveSection":"1","MappedSectionList":["1"],"SymbolProperties":[],"UpdateRows":[{"MasterPinID":"8a679dcd-f314-423c-987b-a0688b7ecddc","Row":{"MasterPinID":"8a679dcd-f314-423c-987b-a0688b7ecddc","PinID":"EN-","Name":"EN-","Text":"EN-","Type":"Analog","Scope":"Explicit","Side":"Left","Shape":"Line","Pos":"9","DIFF_PAIR_PINS_NEG":"","DIFF_PAIR_PINS_POS":"","PIN_DELAY":"","PIN_GROUP":"","CompletePinNumbersList":{"1":"13"}}}]}])
+fetch -returntype json -pg {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#undo
+undo
+callJS {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} UpdateTable([list {"PartEditingMode":"FreeForm","PartType":"FlatPart","EnableEditing":"true","EnableSplitting":"true","TotalSections":"1","TotalSymbols":"0","RegistryConfig":{},"ActiveSection":"1","MappedSectionList":["1"],"SymbolProperties":[],"AddRows":[{"MasterPinID":"8a679dcd-f314-423c-987b-a0688b7ecddc","PinID":"EN-","Name":"EN-","Text":"EN-","Type":"Analog","Scope":"Explicit","Side":"Left","Shape":"Line","Pos":"9","DIFF_PAIR_PINS_NEG":"","DIFF_PAIR_PINS_POS":"","PIN_DELAY":"","PIN_GROUP":"","CompletePinNumbersList":{"1":"13"}}],"DeleteRows":{"UpdateOrderCache":"true","MasterPinIDs":["8a679dcd-f314-423c-987b-a0688b7ecddc"]}}])
+fetch -returntype json -pg {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectObject 9544 7126
+selectObject 9544 7126
+callJS {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject -type TERM 9648 7099
+selectObject -type TERM 9648 7099
+callJS {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectPin('{"SelectedRows":\[{"PinID":"EN-","PinName":"EN-"}\]}')
+#selectObject -type PROP 9630 7148
+selectObject -type PROP 9630 7148
+callJS {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[{"PinID":"EN+","PinName":"EN+","ColName":"\$PN"}\]}')
+#selectObject -type TERM 9663 7095
+selectObject -type TERM 9663 7095
+callJS {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectPin('{"SelectedRows":\[{"PinID":"EN-","PinName":"EN-"}\]}')
+#move
+#move -pg {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -pos 10900 7950 -updateside {Right}
+move -pg {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -pos 10900 7950 -updateside {Right}
+callJS {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} UpdateTable([list {"PartEditingMode":"FreeForm","PartType":"FlatPart","EnableEditing":"true","EnableSplitting":"true","TotalSections":"1","TotalSymbols":"0","RegistryConfig":{},"ActiveSection":"1","MappedSectionList":["1"],"SymbolProperties":[],"UpdateRows":[{"MasterPinID":"8a679dcd-f314-423c-987b-a0688b7ecddc","Row":{"MasterPinID":"8a679dcd-f314-423c-987b-a0688b7ecddc","PinID":"EN-","Name":"EN-","Text":"EN-","Type":"Analog","Scope":"Explicit","Side":"Right","Shape":"Line","Pos":"1","DIFF_PAIR_PINS_NEG":"","DIFF_PAIR_PINS_POS":"","PIN_DELAY":"","PIN_GROUP":"","CompletePinNumbersList":{"1":"13"}}}]}])
+fetch -returntype json -pg {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} -mode SymbolPinTable -data errors
+sdaLibAuthoringAsyncAutom::tableEditorLoaded
+#selectObject 10810 7436
+selectObject 10810 7436
+callJS {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#selectObject 10826 7396
+selectObject 10826 7396
+callJS {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}} selectCell('{"SelectedCells":\[\]}')
+#saveAll
+saveAll
+#saveAll
+saveAll
+#execCmd closeItem -pg {{"cellID":"ltc3260","keyType":"cell","libID":"sch_lib"}}
+#execCmd closeItem -pg {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+#cps::closeView {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+closeSymbol [list -pg {"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}] close_all
+execCmd closeItem -pg {{"cellID":"ltc3260","keyType":"cell","libID":"sch_lib"}}
+cps::closeView {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+execCmd closeItem -pg {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}
+cleanUpWebPage {{"cellID":"ltc3260","keyType":"view","libID":"sch_lib","viewID":"sym_1"}}

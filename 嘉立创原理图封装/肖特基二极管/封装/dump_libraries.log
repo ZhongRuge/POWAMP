@@ -1,0 +1,37 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dump Library Log                                                 )
+(                                                                     )
+(    Software Version : 17.4S039                                      )
+(    Date/Time        : Mon Dec  1 14:30:32 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+*** file: G:/Cadence/ULB/worklib/adcp_v1/physical/unnamed.brd ***
+
+
+
+  *** Creating all device files (see create_devices.log) ***
+
+
+  *** Creating padstacks. ***
+
+  SMD_R806X882P2S4 being dumped.
+
+
+  *** Creating package symbols (.dra and .psm) ***
+
+  smb_l4_3-w3_6-ls5_4-rd being dumped.
+
+
+
+*********************** Summary *********************
+ERRORs reported:                           0
+
+Number of padstacks dumped:                1
+Number of package symbols dumped:          1
+
+Total number of symbols dumped:            1
+*****************************************************
+
