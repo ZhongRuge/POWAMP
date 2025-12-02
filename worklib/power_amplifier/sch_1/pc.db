@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Tue Dec  2 17:11:09 2025
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Tue Dec  2 22:35:56 2025
 #ISCELL
   standard b#20size#20page *
   *
@@ -443,3 +443,51 @@
 #CELL
   capacitor c0805 *
   page9_i6
+#ISCELL
+  pages pages *
+  *
+#CELL
+  ic tpa6120a2dwpr *
+  page10_i1
+#CELL
+  resistor res0805 *
+  page10_i10
+#CELL
+  resistor res0805 *
+  page10_i11
+#CELL
+  resistor res0805 *
+  page10_i12
+#CELL
+  resistor res0805 *
+  page10_i13
+#CELL
+  capacitor c0805 *
+  page10_i2
+#CELL
+  capacitor c0805 *
+  page10_i3
+#CELL
+  capacitor c0805 *
+  page10_i4
+#CELL
+  capacitor c0805 *
+  page10_i5
+#CELL
+  resistor res0805 *
+  page10_i6
+#CELL
+  resistor res0805 *
+  page10_i7
+#CELL
+  resistor res0805 *
+  page10_i8
+#CELL
+  resistor res0805 *
+  page10_i9
+#ISCELL
+  pages pages *
+  *
+#CELL
+  ic tpa3116d2dad *
+  page11_i1

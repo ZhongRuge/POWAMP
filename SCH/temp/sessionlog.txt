@@ -1,14 +1,19 @@
-12/01/25  16:43:40		Opening project G:/Cadence/POWAMP/SCH/sch.cpm
-12/01/25  16:43:40		cdslib G:/Cadence/POWAMP/SCH/cds.lib opened
-12/01/25  16:43:40		Project G:/Cadence/POWAMP/SCH/sch.cpm opened
-12/01/25  16:43:40		Loading cell ltc3260 from library sch_lib
-12/01/25  16:43:40		Loading view sym_1 of cell ltc3260
-12/01/25  16:43:40		Loading view chips of cell ltc3260
-12/01/25  16:43:40		Loading view entity of cell ltc3260
-12/01/25  16:43:40		Loading cell ltc3260 from library sch_lib
-12/01/25  16:43:40		Analyzing view relationships of cell ltc3260 in library sch_lib
-12/01/25  16:43:40		Completed loading cell ltc3260 from library sch_lib
-12/01/25  16:43:40		Starting validations on cell ltc3260 of library sch_lib
-12/01/25  16:43:40		Completed validations on cell ltc3260 of library sch_lib
-12/01/25  16:44:10		Loading view sym_1 of cell ltc3260
-12/01/25  16:44:14		Project G:/Cadence/POWAMP/SCH/sch.cpm is closed.
+12/02/25  22:34:25		Opening project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm
+12/02/25  22:34:25		cdslib D:/Coding/Cadence/Project/POWAMP/SCH/cds.lib opened
+12/02/25  22:34:25		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm opened
+12/02/25  22:34:26		Loading cell tpa3116d2dad from library sch_lib
+12/02/25  22:34:26		Loading view sym_1 of cell tpa3116d2dad
+12/02/25  22:34:26		Loading view chips of cell tpa3116d2dad
+12/02/25  22:34:26		Loading view entity of cell tpa3116d2dad
+12/02/25  22:34:26		Loading cell tpa3116d2dad from library sch_lib
+12/02/25  22:34:26		Analyzing view relationships of cell tpa3116d2dad in library sch_lib
+12/02/25  22:34:26		Completed loading cell tpa3116d2dad from library sch_lib
+12/02/25  22:34:26		Starting validations on cell tpa3116d2dad of library sch_lib
+12/02/25  22:34:26		Completed validations on cell tpa3116d2dad of library sch_lib
+12/02/25  22:34:42		Starting validations on cell tpa3116d2dad of library sch_lib
+12/02/25  22:34:42		Completed validations on cell tpa3116d2dad of library sch_lib
+12/02/25  22:34:42		Completed saving cell tpa3116d2dad in library sch_lib 
+12/02/25  22:34:57		Starting validations on cell tpa3116d2dad of library sch_lib
+12/02/25  22:34:57		Completed validations on cell tpa3116d2dad of library sch_lib
+12/02/25  22:34:57		Completed saving cell tpa3116d2dad in library sch_lib 
+12/02/25  22:34:59		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm is closed.
