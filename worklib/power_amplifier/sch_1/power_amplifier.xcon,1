@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-12-01T22:32:39</modificationTime>
+    <modificationTime>2025-12-02T16:32:41</modificationTime>
     <savedLibrary>power_amplifier_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="power_amplifier" view="sch_1">
       <lastids>
-        <instanceid>205</instanceid>
-        <netid>133</netid>
-        <insttermid>791</insttermid>
+        <instanceid>208</instanceid>
+        <netid>136</netid>
+        <insttermid>805</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1932,14 +1932,6 @@
           <name>byp-</name>
         </net>
         <net>
-          <id>N129</id>
-          <name>ldo+</name>
-        </net>
-        <net>
-          <id>N130</id>
-          <name>ldo-</name>
-        </net>
-        <net>
           <id>N131</id>
           <name>unnamed_5_c0805_i35_1</name>
         </net>
@@ -1950,6 +1942,18 @@
         <net>
           <id>N133</id>
           <name>vout</name>
+        </net>
+        <net>
+          <id>N134</id>
+          <name>gnda</name>
+        </net>
+        <net>
+          <id>N135</id>
+          <name>vol_out_l</name>
+        </net>
+        <net>
+          <id>N136</id>
+          <name>vol_out_r</name>
         </net>
       </nets>
       <aliases>
@@ -4890,7 +4894,7 @@
               <id>M654</id>
               <termid>T108</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N134" />
               </connections>
             </pin>
           </pins>
@@ -4911,7 +4915,7 @@
               <id>M656</id>
               <termid>T108</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N134" />
               </connections>
             </pin>
           </pins>
@@ -4974,7 +4978,7 @@
               <id>M662</id>
               <termid>T108</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N134" />
               </connections>
             </pin>
           </pins>
@@ -5079,7 +5083,7 @@
               <id>M672</id>
               <termid>T108</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N134" />
               </connections>
             </pin>
           </pins>
@@ -5093,7 +5097,7 @@
               <id>M673</id>
               <termid>T225</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N134" />
               </connections>
             </pin>
             <pin>
@@ -5331,7 +5335,7 @@
               <id>M701</id>
               <termid>T230</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N134" />
               </connections>
             </pin>
             <pin>
@@ -5562,7 +5566,7 @@
               <id>M725</id>
               <termid>T108</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N134" />
               </connections>
             </pin>
           </pins>
@@ -5583,7 +5587,7 @@
               <id>M727</id>
               <termid>T108</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N134" />
               </connections>
             </pin>
           </pins>
@@ -5835,14 +5839,14 @@
               <id>M753</id>
               <termid>T256</termid>
               <connections>
-                <connection net="N119" />
+                <connection net="N120" />
               </connections>
             </pin>
             <pin>
               <id>M754</id>
               <termid>T257</termid>
               <connections>
-                <connection net="N119" />
+                <connection net="N120" />
               </connections>
             </pin>
             <pin>
@@ -5856,14 +5860,14 @@
               <id>M756</id>
               <termid>T259</termid>
               <connections>
-                <connection net="N129" />
+                <connection net="N92" />
               </connections>
             </pin>
             <pin>
               <id>M757</id>
               <termid>T260</termid>
               <connections>
-                <connection net="N130" />
+                <connection net="N93" />
               </connections>
             </pin>
             <pin>
@@ -5896,7 +5900,7 @@
               <id>M762</id>
               <termid>T265</termid>
               <connections>
-                <connection net="N119" />
+                <connection net="N120" />
               </connections>
             </pin>
             <pin>
@@ -5917,7 +5921,7 @@
               <id>M770</id>
               <termid>T107</termid>
               <connections>
-                <connection net="N119" />
+                <connection net="N120" />
               </connections>
             </pin>
             <pin>
@@ -5980,7 +5984,7 @@
               <id>M776</id>
               <termid>T107</termid>
               <connections>
-                <connection net="N129" />
+                <connection net="N92" />
               </connections>
             </pin>
             <pin>
@@ -6001,7 +6005,7 @@
               <id>M778</id>
               <termid>T162</termid>
               <connections>
-                <connection net="N129" />
+                <connection net="N92" />
               </connections>
             </pin>
             <pin>
@@ -6071,7 +6075,7 @@
               <id>M785</id>
               <termid>T108</termid>
               <connections>
-                <connection net="N130" />
+                <connection net="N93" />
               </connections>
             </pin>
           </pins>
@@ -6085,7 +6089,7 @@
               <id>M786</id>
               <termid>T162</termid>
               <connections>
-                <connection net="N130" />
+                <connection net="N93" />
               </connections>
             </pin>
             <pin>
@@ -6135,6 +6139,55 @@
               <termid>T108</termid>
               <connections>
                 <connection net="N3" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
+        <instance>
+          <id>I208</id>
+          <cellid>S26</cellid>
+          <name>page9_i1</name>
+          <pins>
+            <pin>
+              <id>M800</id>
+              <termid>T233</termid>
+              <connections>
+                <connection net="N134" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M801</id>
+              <termid>T234</termid>
+              <connections>
+                <connection net="N135" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M802</id>
+              <termid>T235</termid>
+              <connections>
+                <connection net="N96" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M803</id>
+              <termid>T236</termid>
+              <connections>
+                <connection net="N134" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M804</id>
+              <termid>T237</termid>
+              <connections>
+                <connection net="N136" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M805</id>
+              <termid>T238</termid>
+              <connections>
+                <connection net="N103" />
               </connections>
             </pin>
           </pins>
@@ -6289,8 +6342,6 @@
               <net ref="byp-"></net>
               <net ref="dc_in"></net>
               <net ref="gndd"></net>
-              <net ref="ldo+"></net>
-              <net ref="ldo-"></net>
               <net ref="unnamed_5_bsmd2920-300-33v_i25_1"></net>
               <net ref="unnamed_5_bsmd2920-300-33v_i25_2"></net>
               <net ref="unnamed_5_c0805_i10_1"></net>
@@ -6300,6 +6351,8 @@
               <net ref="unnamed_5_c0805_i35_1"></net>
               <net ref="unnamed_5_c0805_i35_2"></net>
               <net ref="vbus_filt"></net>
+              <net ref="vcc_amp+"></net>
+              <net ref="vcc_amp-"></net>
               <net ref="vcc_bus"></net>
               <net ref="vdd18_dac"></net>
               <net ref="vdd33_sa"></net>
@@ -6424,7 +6477,7 @@
             <nets>
               <net ref="dac_out_l"></net>
               <net ref="dac_out_r"></net>
-              <net ref="gndd"></net>
+              <net ref="gnda"></net>
               <net ref="l_bax-"></net>
               <net ref="pre_l"></net>
               <net ref="pre_r"></net>
@@ -6483,6 +6536,20 @@
               <instance ref="i31"></instance>
               <instance ref="i32"></instance>
               <instance ref="i33"></instance>
+            </instances>
+          </page>
+          <page number="9">
+            <physicalPageNumber>9</physicalPageNumber>
+            <errorStatus>false</errorStatus>
+            <nets>
+              <net ref="gnda"></net>
+              <net ref="tone_out_l"></net>
+              <net ref="tone_out_r"></net>
+              <net ref="vol_out_l"></net>
+              <net ref="vol_out_r"></net>
+            </nets>
+            <instances>
+              <instance ref="i1"></instance>
             </instances>
           </page>
         </pages>

@@ -2,16 +2,17 @@ Log File Report from Page Management Commands
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Current Design             :   POWER_AMPLIFIER
-Current Page List          :   1-7
-Current Total Pages        :   7
-Current Active Page        :   4
+Current Page List          :   1-9
+Current Total Pages        :   9
+Current Active Page        :   9
 
 Command:   Page Move
 
-   Pages to Move         :   7
-   Move Location         :   4
-ERROR(SPCOCN-2170): Page Move cannot continue due to the following pages being locked: 7
-ERROR(SPCOCN-2151): Page Move cannot continue until the following modified pages are saved: 4,7
+   Pages to Move         :   8
+   Move Location         :   9
+ERROR(SPCOCN-2159): No moves required. Pages already in requested location.
+ERROR(SPCOCN-2170): Page Move cannot continue due to the following pages being locked: 1
+ERROR(SPCOCN-2151): Page Move cannot continue until the following modified pages are saved: 9
 
 
 Page Move Processing Terminated. 

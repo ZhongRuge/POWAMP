@@ -92,5 +92,8 @@
   capacitor c0805 *
   page5_i44
 #CELL
+  resistor res0805 *
+  page5_i45
+#CELL
   capacitor c0805 *
   page5_i9

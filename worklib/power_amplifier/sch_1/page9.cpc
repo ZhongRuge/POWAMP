@@ -1,0 +1,18 @@
+#ISCELL
+  pages pages *
+  *
+#CELL
+  resistor rk09712200my *
+  page9_i1
+#CELL
+  ic ne5532dr *
+  page9_i2
+#CELL
+  ic ne5532dr *
+  page9_i3
+#CELL
+  capacitor c0805 *
+  page9_i5
+#CELL
+  capacitor c0805 *
+  page9_i6
