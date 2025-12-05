@@ -5,22 +5,22 @@
   ic tpa3116d2dad *
   page11_i1
 #CELL
-  resistor res0805 *
+  capacitor c0805 *
   page11_i10
 #CELL
   capacitor c0805 *
   page11_i11
 #CELL
-  capacitor c0805 *
+  resistor res0805 *
   page11_i12
 #CELL
-  capacitor c0805 *
+  resistor res0805 *
   page11_i13
 #CELL
   resistor res0805 *
   page11_i2
 #CELL
-  capacitor c0805 *
+  resistor res0805 *
   page11_i3
 #CELL
   capacitor c0805 *
@@ -35,5 +35,8 @@
   capacitor c0805 *
   page11_i7
 #CELL
-  resistor res0805 *
+  capacitor ma35v470m10x13 *
+  page11_i8
+#CELL
+  capacitor c0805 *
   page11_i9
