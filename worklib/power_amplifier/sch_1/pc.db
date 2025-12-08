@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Fri Dec  5 09:14:08 2025
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Mon Dec  8 21:45:57 2025
 #ISCELL
   standard b#20size#20page *
   *
@@ -504,8 +504,35 @@
   resistor res0805 *
   page11_i13
 #CELL
+  capacitor c0805 *
+  page11_i14
+#CELL
+  capacitor c0805 *
+  page11_i15
+#CELL
+  capacitor c0805 *
+  page11_i16
+#CELL
+  capacitor c0805 *
+  page11_i17
+#CELL
+  capacitor c0805 *
+  page11_i18
+#CELL
+  capacitor c0805 *
+  page11_i19
+#CELL
   resistor res0805 *
   page11_i2
+#CELL
+  capacitor c0805 *
+  page11_i20
+#CELL
+  capacitor ma35v470m10x13 *
+  page11_i21
+#CELL
+  capacitor c0805 *
+  page11_i22
 #CELL
   resistor res0805 *
   page11_i3
