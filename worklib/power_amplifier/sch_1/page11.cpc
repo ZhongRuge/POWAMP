@@ -47,11 +47,71 @@
   capacitor c0805 *
   page11_i22
 #CELL
+  inductor l0805 *
+  page11_i23
+#CELL
+  inductor l0805 *
+  page11_i24
+#CELL
+  inductor l0805 *
+  page11_i25
+#CELL
+  inductor l0805 *
+  page11_i26
+#CELL
+  capacitor c0805 *
+  page11_i27
+#CELL
+  capacitor c0805 *
+  page11_i28
+#CELL
+  capacitor c0805 *
+  page11_i29
+#CELL
   resistor res0805 *
   page11_i3
 #CELL
   capacitor c0805 *
+  page11_i30
+#CELL
+  resistor res0805 *
+  page11_i31
+#CELL
+  resistor res0805 *
+  page11_i32
+#CELL
+  capacitor c0805 *
+  page11_i35
+#CELL
+  capacitor c0805 *
+  page11_i36
+#CELL
+  capacitor c0805 *
+  page11_i37
+#CELL
+  capacitor c0805 *
   page11_i4
+#CELL
+  capacitor c0805 *
+  page11_i42
+#CELL
+  resistor res0805 *
+  page11_i43
+#CELL
+  capacitor c0805 *
+  page11_i44
+#CELL
+  capacitor c0805 *
+  page11_i45
+#CELL
+  capacitor c0805 *
+  page11_i46
+#CELL
+  capacitor c0805 *
+  page11_i47
+#CELL
+  resistor res0805 *
+  page11_i48
 #CELL
   capacitor c0805 *
   page11_i5
