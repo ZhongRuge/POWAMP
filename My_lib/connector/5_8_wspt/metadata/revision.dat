@@ -1,0 +1,194 @@
+(Cell	5_8_wspt
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.5)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/10/25,10:28:10)
+
+			(User	63524)
+
+			(Path	sch_lib.5.8 WSPT)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.2)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	12/10/25,10:28:10)
+
+					(User	63524)
+
+					(Path	sch_lib.5.8 WSPT)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000fdb334a5)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/10/25,10:28:10)
+
+							(User	63524)
+
+							(Path	sch_lib.5.8 WSPT)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e6603dd)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000006b595d7b)
+
+			(Primitives	1
+
+				(Primitive	5.8 WSPT
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/10/25,10:28:10)
+
+							(User	63524)
+
+							(Path	sch_lib.5.8 WSPT)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	5.8 WSPT
+
+							(PackType	5.8 WSPT)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	sw-th_6p-l5_8-w5_8-p2_00-ls4_5-tl_k8-5851e-l1)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c76038e)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.4-2019 S039 (4153571))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b930382)
+
+)
+

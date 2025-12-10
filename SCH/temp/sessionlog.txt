@@ -1,19 +1,16 @@
-12/02/25  22:34:25		Opening project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm
-12/02/25  22:34:25		cdslib D:/Coding/Cadence/Project/POWAMP/SCH/cds.lib opened
-12/02/25  22:34:25		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm opened
-12/02/25  22:34:26		Loading cell tpa3116d2dad from library sch_lib
-12/02/25  22:34:26		Loading view sym_1 of cell tpa3116d2dad
-12/02/25  22:34:26		Loading view chips of cell tpa3116d2dad
-12/02/25  22:34:26		Loading view entity of cell tpa3116d2dad
-12/02/25  22:34:26		Loading cell tpa3116d2dad from library sch_lib
-12/02/25  22:34:26		Analyzing view relationships of cell tpa3116d2dad in library sch_lib
-12/02/25  22:34:26		Completed loading cell tpa3116d2dad from library sch_lib
-12/02/25  22:34:26		Starting validations on cell tpa3116d2dad of library sch_lib
-12/02/25  22:34:26		Completed validations on cell tpa3116d2dad of library sch_lib
-12/02/25  22:34:42		Starting validations on cell tpa3116d2dad of library sch_lib
-12/02/25  22:34:42		Completed validations on cell tpa3116d2dad of library sch_lib
-12/02/25  22:34:42		Completed saving cell tpa3116d2dad in library sch_lib 
-12/02/25  22:34:57		Starting validations on cell tpa3116d2dad of library sch_lib
-12/02/25  22:34:57		Completed validations on cell tpa3116d2dad of library sch_lib
-12/02/25  22:34:57		Completed saving cell tpa3116d2dad in library sch_lib 
-12/02/25  22:34:59		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm is closed.
+12/10/25  10:38:02		Opening project D:/Projects/POWAMP/SCH/sch.cpm
+12/10/25  10:38:02		cdslib D:/Projects/POWAMP/SCH/cds.lib opened
+12/10/25  10:38:02		Project D:/Projects/POWAMP/SCH/sch.cpm opened
+12/10/25  10:38:02		Loading cell 5_8_wspt from library sch_lib
+12/10/25  10:38:02		Loading view sym_1 of cell 5_8_wspt
+12/10/25  10:38:02		Loading view chips of cell 5_8_wspt
+12/10/25  10:38:02		Loading view entity of cell 5_8_wspt
+12/10/25  10:38:02		Loading cell 5_8_wspt from library sch_lib
+12/10/25  10:38:02		Analyzing view relationships of cell 5_8_wspt in library sch_lib
+12/10/25  10:38:02		Completed loading cell 5_8_wspt from library sch_lib
+12/10/25  10:38:02		Starting validations on cell 5_8_wspt of library sch_lib
+12/10/25  10:38:02		Completed validations on cell 5_8_wspt of library sch_lib
+12/10/25  10:38:28		Starting validations on cell 5_8_wspt of library sch_lib
+12/10/25  10:38:28		Completed validations on cell 5_8_wspt of library sch_lib
+12/10/25  10:38:28		Completed saving cell 5_8_wspt in library sch_lib 
+12/10/25  10:38:28		Project D:/Projects/POWAMP/SCH/sch.cpm is closed.

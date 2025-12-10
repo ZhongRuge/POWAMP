@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-12-09T15:58:52</modificationTime>
+    <modificationTime>2025-12-09T15:58:55</modificationTime>
     <savedLibrary>power_amplifier_lib</savedLibrary>
   </header>
   <designs>
@@ -7286,7 +7286,7 @@
               <id>M883</id>
               <termid>T306</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N183" />
               </connections>
             </pin>
             <pin>
@@ -8664,6 +8664,7 @@
               <net ref="pvcc"></net>
               <net ref="rinn"></net>
               <net ref="rinp"></net>
+              <net ref="s_mute"></net>
               <net ref="sd_lr"></net>
               <net ref="unnamed_11_c0805_i11_2"></net>
               <net ref="unnamed_11_c0805_i16_1"></net>

@@ -5,14 +5,14 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-12-09T15:08:27</modificationTime>
+    <modificationTime>2025-12-09T15:58:52</modificationTime>
     <savedLibrary>power_amplifier_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="power_amplifier" view="sch_1">
       <lastids>
         <instanceid>279</instanceid>
-        <netid>182</netid>
+        <netid>183</netid>
         <insttermid>1000</insttermid>
       </lastids>
       <cells>
@@ -2380,6 +2380,10 @@
           <id>N182</id>
           <name>unnamed_11_c0805_i45_1</name>
         </net>
+        <net>
+          <id>N183</id>
+          <name>s_mute</name>
+        </net>
       </nets>
       <aliases>
       </aliases>
@@ -4660,6 +4664,7 @@
               <id>M572</id>
               <termid>T178</termid>
               <connections>
+                <connection net="N183" />
               </connections>
             </pin>
             <pin>
@@ -8497,6 +8502,7 @@
               <net ref="i2c_sda"></net>
               <net ref="pd0-osc_in"></net>
               <net ref="pd1-osc_out"></net>
+              <net ref="s_mute"></net>
               <net ref="stm32_nrst"></net>
               <net ref="swclk"></net>
               <net ref="swdio"></net>

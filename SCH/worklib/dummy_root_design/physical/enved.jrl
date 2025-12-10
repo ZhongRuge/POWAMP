@@ -1,17 +1,21 @@
 \t (00:00:00) enved 17.4 S039 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Mon Dec  1 14:08:49 2025
-\t (00:00:00)         Host=LUCK User=Lucky Pid=22052 CPUs=12
-\t (00:00:00) CmdLine= enved -proj G:\Cadence\POWAMP\SCH\sch.cpm
+\t (00:00:00)     Journal start - Wed Dec 10 10:29:36 2025
+\t (00:00:00)         Host=÷”»Á∏Ë User=63524 Pid=6776 CPUs=14
+\t (00:00:00) CmdLine= enved -proj D:\Projects\POWAMP\SCH\sch.cpm
 \t (00:00:00) 
-\i (00:00:01) setwindow form.prfedit
-\i (00:00:01) FORM prfedit treelist  My_favorites 
+\i (00:00:00) setwindow form.prfedit
+\i (00:00:00) FORM prfedit treelist  My_favorites 
 \i (00:00:03) FORM prfedit treelist  Paths 
+\i (00:00:04) FORM prfedit treelist  Config Paths 
+\i (00:00:04) FORM prfedit treelist  Editor Paths 
 \i (00:00:04) FORM prfedit treelist  Library Paths 
-\i (00:00:05) FORM prfedit padpath  
-\i (00:00:09) FORM prfedit parampath  
+\i (00:00:06) FORM prfedit padpath  
 \i (00:00:12) FORM prfedit psmpath  
-\i (00:00:15) FORM prfedit steppath  
-\i (00:00:24) fillin "G:/Cadence/POWAMP/PCB"
-\i (00:00:26) FORM prfedit apply  
-\i (00:00:27) FORM prfedit done  
-\t (00:00:27)     Journal end - Mon Dec  1 14:09:16 2025
+\i (00:00:30) fillin "D:/Projects/POWAMP/PCB"
+\i (00:00:33) FORM prfedit padpath  
+\i (00:00:46) fillin "D:/Projects/POWAMP/PCB"
+\i (00:00:48) FORM prfedit steppath  
+\i (00:00:55) fillin "D:/Projects/POWAMP/PCB"
+\i (00:00:58) FORM prfedit apply  
+\i (00:00:58) FORM prfedit done  
+\t (00:00:59)     Journal end - Wed Dec 10 10:30:35 2025
