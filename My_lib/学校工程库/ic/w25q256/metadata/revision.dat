@@ -1,0 +1,194 @@
+(Cell	w25q256
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.29)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	09/18/19,14:46:45)
+
+			(User	Norman)
+
+			(Path	ic.w25q256)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	11/03/20,14:56:29)
+
+			(User	Administrator)
+
+			(Path	ic.w25q256)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.20)
+
+				(ModificationStatus	NULL)
+
+				(Status	Modified)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	)
+
+					(User	)
+
+					(Path	)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000d650e660)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/03/20,14:47:44)
+
+							(User	Administrator)
+
+							(Path	ic.w25q256)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c6a0381)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000001888dc93)
+
+			(Primitives	1
+
+				(Primitive	W25Q256
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.14)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/18/19,14:48:33)
+
+							(User	Norman)
+
+							(Path	ic.w25q256)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	W25Q256
+
+							(PackType	W25Q256)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001bec037a)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S102 (v16-6-112JG))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001d7b03d7)
+
+)
+

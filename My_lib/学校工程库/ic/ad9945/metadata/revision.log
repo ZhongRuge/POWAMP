@@ -1,0 +1,15 @@
+
+	(Comment
+		(Time 12/07/16,15:53:43)
+		(User Administrator)
+		(MsgId ECO_021)
+		(Text "Package AD9945 added to cell")
+		(Param1 AD9945)
+	)
+	(Comment
+		(Time 12/07/16,18:18:54)
+		(User Administrator)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)

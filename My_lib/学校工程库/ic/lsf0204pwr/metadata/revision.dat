@@ -1,0 +1,162 @@
+(Cell	lsf0204pwr
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/15/16,21:06:34)
+
+			(User	Administrator)
+
+			(Path	ic.lsf0204pwr)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	000000001a59ae17)
+
+			(Primitives	1
+
+				(Primitive	LSF0204
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/15/16,21:06:34)
+
+							(User	Administrator)
+
+							(Path	ic.lsf0204pwr)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	LSF0204
+
+							(PackType	LSF0204)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000aea7449a)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/15/16,21:06:34)
+
+							(User	Administrator)
+
+							(Path	ic.lsf0204pwr)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001caa03a8)
+
+		)
+
+		(Checksum	000000001d8b03d3)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001ca203aa)
+
+)
+

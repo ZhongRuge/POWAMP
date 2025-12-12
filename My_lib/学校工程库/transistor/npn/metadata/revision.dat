@@ -1,0 +1,103 @@
+(Cell	npn
+
+	(RevisionInfoBlock
+
+		(Baselined	0)
+
+		(Revision	1.0)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo
+
+			(Time	01/27/05,16:15:35)
+
+			(User	tianjiejia)
+
+			(Path	others.npn)
+
+		)
+
+		(LastModifyInfo
+
+			(Time	01/27/05,16:19:03)
+
+			(User	tianjiejia)
+
+			(Path	others.npn)
+
+		)
+
+	)
+
+	(Views
+
+		(View Chips
+			(Primitives	1
+				(Primitive	NPN_SOT23
+					(RevisionInfoBlock
+						(Baselined	0)
+						(Revision	0.0)
+						(ModificationStatus	NULL)
+						(Status	Created)
+						(ErrorStatus	0)
+						(CreateInfo
+							(Time	01/27/05,16:15:35)
+							(User	tianjiejia)
+							(Path	others.npn)
+						)
+					)
+
+					(LogicalPhysicalPartRelation
+						(LogicalPart	NPN_SOT23
+							(PackType	NPN_SOT23)
+						)
+					)
+
+					(Packages	1
+						(FunctionGroups	1
+							(FunctionGroup	1[1]
+								(Linkages
+									(Linkage	Symbol
+										(Name	sym_1)
+									)
+								)
+							)
+						)
+					)
+				)
+			)
+		)
+
+		(View	Symbol
+			(Symbols	1
+				(Symbol	sym_1
+					(RevisionInfoBlock
+						(Baselined	0)
+						(Revision	0.0)
+						(ModificationStatus	NULL)
+						(Status	Created)
+						(ErrorStatus	0)
+						(CreateInfo
+							(Time	01/27/05,16:15:35)
+							(User	tianjiejia)
+							(Path	others.npn)
+						)
+					)
+				)
+			)
+		)
+
+
+
+
+
+
+	)
+
+)
+

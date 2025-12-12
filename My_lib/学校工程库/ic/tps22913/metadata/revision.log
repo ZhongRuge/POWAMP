@@ -1,0 +1,32 @@
+
+	(Comment
+		(Time 06/01/13,19:00:46)
+		(User Administrator)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+
+	(Comment
+		(Time 06/01/13,19:06:18)
+		(User Administrator)
+		(MsgId ECO_021)
+		(Text "Package TPS22913 added to cell")
+		(Param1 TPS22913)
+	)
+
+	(Comment
+		(Time 06/01/13,19:09:11)
+		(User Administrator)
+		(MsgId ECO_022)
+		(Text "Package TPS22913 deleted from cell")
+		(Param1 TPS22913)
+	)
+	(Comment
+		(Time 06/01/13,19:09:41)
+		(User Administrator)
+		(MsgId ECO_021)
+		(Text "Package TPS22913 added to cell")
+		(Param1 TPS22913)
+	)
+

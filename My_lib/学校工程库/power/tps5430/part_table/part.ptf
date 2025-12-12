@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS5430'
+
+{========================================================================================}
+:VALUE(OPT)   = JEDEC_TYPE    | DESCRIPTION                                     ;
+{========================================================================================}
+ 'TPS5430'(!) = 'sop8-50-157' | '3A,wide input Range,SETP-DOWN SWIFT CONVERTER'
+
+END_PART
+
+END.
+

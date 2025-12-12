@@ -1,0 +1,170 @@
+(Cell	xr21v1410
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.5)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	09/13/12,15:36:26)
+
+			(User	wamgoo)
+
+			(Path	ic.xr21v1410)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	09/13/12,16:42:07)
+
+			(User	wamgoo)
+
+			(Path	ic.xr21v1410)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000940598d4)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.5)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/13/12,15:55:41)
+
+							(User	wamgoo)
+
+							(Path	ic.xr21v1410)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001ab5035c)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000007ed853c7)
+
+			(Primitives	1
+
+				(Primitive	XR21V1410
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/13/12,15:36:29)
+
+							(User	wamgoo)
+
+							(Path	ic.xr21v1410)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	XR21V1410
+
+							(PackType	XR21V1410)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b7b0360)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c2f0376)
+
+)
+

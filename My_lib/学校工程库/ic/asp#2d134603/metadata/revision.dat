@@ -1,0 +1,218 @@
+(Cell	asp-134603
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.11)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	11/04/14,19:23:49)
+
+			(User	jin)
+
+			(Path	capcitor.asp-134603)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	11/04/14,19:40:23)
+
+			(User	jin)
+
+			(Path	capcitor.asp-134603)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	2
+
+				(Symbol	sym_2
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000e6fffcd0)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.6)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/04/14,19:24:13)
+
+							(User	jin)
+
+							(Path	capcitor.asp-134603)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000009e8bfd7d)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.6)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/04/14,19:24:13)
+
+							(User	jin)
+
+							(Path	capcitor.asp-134603)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001ccd03e8)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000e0e0683e)
+
+			(Primitives	1
+
+				(Primitive	ASP-134603
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/04/14,19:23:49)
+
+							(User	jin)
+
+							(Path	capcitor.asp-134603)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	ASP-134603
+
+							(PackType	ASP-134603)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	2
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+							(FunctionGroup	2[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_2)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001f910411)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b5c0348)
+
+)
+

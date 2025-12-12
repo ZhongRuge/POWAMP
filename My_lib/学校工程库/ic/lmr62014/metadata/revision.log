@@ -1,0 +1,15 @@
+
+	(Comment
+		(Time 05/23/17,20:26:00)
+		(User sj)
+		(MsgId ECO_021)
+		(Text "Package LMR62014 added to cell")
+		(Param1 LMR62014)
+	)
+	(Comment
+		(Time 05/23/17,20:27:02)
+		(User sj)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)

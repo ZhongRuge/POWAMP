@@ -1,0 +1,170 @@
+(Cell	sn74lvc2g240
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	09/09/16,15:02:10)
+
+			(User	Administrator)
+
+			(Path	ic.sn74lvc2g240)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	09/09/16,15:31:13)
+
+			(User	Administrator)
+
+			(Path	ic.sn74lvc2g240)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000ea8fc8f7)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/09/16,15:04:14)
+
+							(User	Administrator)
+
+							(Path	ic.sn74lvc2g240)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001f24041d)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000005e72ac3c)
+
+			(Primitives	1
+
+				(Primitive	SN74LVC2G240
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/09/16,15:12:20)
+
+							(User	Administrator)
+
+							(Path	ic.sn74lvc2g240)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	SN74LVC2G240
+
+							(PackType	SN74LVC2G240)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c63038b)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b7b037b)
+
+)
+

@@ -1,0 +1,170 @@
+(Cell	nuf2042xv6
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	08/10/16,10:43:39)
+
+			(User	Administrator)
+
+			(Path	ic.nuf2042xv6)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	08/10/16,10:56:27)
+
+			(User	Administrator)
+
+			(Path	ic.nuf2042xv6)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000a6fc9e12)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/10/16,10:43:41)
+
+							(User	Administrator)
+
+							(Path	ic.nuf2042xv6)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e4c03e2)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000aca84f1b)
+
+			(Primitives	1
+
+				(Primitive	NUF2042XV6
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/10/16,10:49:58)
+
+							(User	Administrator)
+
+							(Path	ic.nuf2042xv6)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	NUF2042XV6
+
+							(PackType	NUF2042XV6)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001e910410)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b540346)
+
+)
+

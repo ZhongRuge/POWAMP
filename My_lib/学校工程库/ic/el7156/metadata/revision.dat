@@ -1,0 +1,170 @@
+(Cell	el7156
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/16/16,13:00:15)
+
+			(User	Administrator)
+
+			(Path	ic.el7156)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/16/16,13:03:50)
+
+			(User	Administrator)
+
+			(Path	ic.el7156)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000001ca2c8ec)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/16/16,13:02:15)
+
+							(User	Administrator)
+
+							(Path	ic.el7156)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001dae040b)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000004313a814)
+
+			(Primitives	1
+
+				(Primitive	EL7156
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/16/16,13:00:17)
+
+							(User	Administrator)
+
+							(Path	ic.el7156)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	EL7156
+
+							(PackType	EL7156)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c8c03d6)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001ca303ad)
+
+)
+

@@ -1,0 +1,32 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive '74LVC1G07';
+  pin
+    'A':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'GND':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    'VCC':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    'Y':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+  end_pin;
+  body
+    PART_NAME='74LVC1G07';
+    BODY_NAME='74LVC1G07';
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+    NC_PINS='(1)';
+  end_body;
+end_primitive;
+
+END.

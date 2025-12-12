@@ -1,0 +1,172 @@
+(Cell	ad7683
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	04/10/13,22:20:16)
+
+			(User	Administrator)
+
+			(Path	ic.ad7683)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	04/10/13,22:26:26)
+
+			(User	Administrator)
+
+			(Path	ic.ad7683)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	00000000d3550d5a)
+
+			(Primitives	1
+
+				(Primitive	AD7683
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/10/13,22:20:16)
+
+							(User	Administrator)
+
+							(Path	ic.ad7683)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	AD7683
+
+							(PackType	AD7683)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000e921c5a0)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/10/13,22:20:20)
+
+							(User	Administrator)
+
+							(Path	ic.ad7683)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e490411)
+
+		)
+
+		(Checksum	000000001b5f034a)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c6403a7)
+
+)
+

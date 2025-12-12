@@ -1,0 +1,36 @@
+
+	(Comment
+		(Time 03/14/14,15:55:02)
+		(User lanzhu2410)
+		(MsgId ECO_021)
+		(Text "Package OSC-6 added to cell")
+		(Param1 OSC-6)
+	)
+	(Comment
+		(Time 03/14/14,15:55:14)
+		(User lanzhu2410)
+		(MsgId ECO_022)
+		(Text "Package OSC-6 deleted from cell")
+		(Param1 OSC-6)
+	)
+	(Comment
+		(Time 03/14/14,15:55:16)
+		(User lanzhu2410)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+	(Comment
+		(Time 03/14/14,15:58:20)
+		(User lanzhu2410)
+		(MsgId ECO_021)
+		(Text "Package OSC-6 added to cell")
+		(Param1 OSC-6)
+	)
+	(Comment
+		(Time 03/14/14,15:58:52)
+		(User lanzhu2410)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)

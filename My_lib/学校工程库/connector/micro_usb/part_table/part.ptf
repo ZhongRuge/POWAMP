@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MICRO_USB'
+
+{========================================================================================}
+:VALUE(OPT)   | JEDEC_TYPE(OPT)        = DESCRIPTIONS          ;
+{========================================================================================}
+ 'MICRO_USB'  | 'MICRO_USB_standard_2'(!) = 'MICRO USB CONNECTOR'
+
+END_PART
+
+END.
+

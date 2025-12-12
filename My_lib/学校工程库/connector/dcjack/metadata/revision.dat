@@ -1,0 +1,95 @@
+(Cell	dcjack
+
+	(RevisionInfoBlock
+
+		(Baselined	0)
+
+		(Revision	1.0)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo
+
+			(Time	06/20/05,10:43:25)
+
+			(User	Laguna)
+
+			(Path	connector.DCJACK)
+
+		)
+
+	)
+
+	(Views
+
+		(View Chips
+			(Primitives	1
+				(Primitive	DCJACK
+					(RevisionInfoBlock
+						(Baselined	0)
+						(Revision	1.0)
+						(ModificationStatus	NULL)
+						(Status	Created)
+						(ErrorStatus	0)
+						(CreateInfo
+							(Time	06/20/05,10:43:25)
+							(User	Laguna)
+							(Path	connector.DCJACK)
+						)
+					)
+
+					(LogicalPhysicalPartRelation
+						(LogicalPart	DCJACK
+							(PackType	DCJACK)
+						)
+					)
+
+					(Packages	1
+						(FunctionGroups	1
+							(FunctionGroup	1[1]
+								(Linkages
+									(Linkage	Symbol
+										(Name	sym_1)
+									)
+								)
+							)
+						)
+						(Linkages
+						)
+					)
+				)
+			)
+		)
+
+		(View	Symbol
+			(Symbols	1
+				(Symbol	sym_1
+					(RevisionInfoBlock
+						(Baselined	0)
+						(Revision	1.0)
+						(ModificationStatus	NULL)
+						(Status	Created)
+						(ErrorStatus	0)
+						(CreateInfo
+							(Time	06/20/05,10:43:25)
+							(User	Laguna)
+							(Path	connector.DCJACK)
+						)
+					)
+				)
+			)
+		)
+
+
+
+
+
+
+	)
+
+)
+

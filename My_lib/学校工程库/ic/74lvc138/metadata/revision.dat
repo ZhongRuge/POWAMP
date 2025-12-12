@@ -1,0 +1,170 @@
+(Cell	74lvc138
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.5)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	01/09/06,15:48:50)
+
+			(User	WAYNE)
+
+			(Path	sym_temp.74lvc138)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	01/09/06,15:52:45)
+
+			(User	WAYNE)
+
+			(Path	sym_temp.74lvc138)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000059af7015)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/09/06,15:48:50)
+
+							(User	WAYNE)
+
+							(Path	sym_temp.74lvc138)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c4e0383)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000005fb9377d)
+
+			(Primitives	1
+
+				(Primitive	74LVC138
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/09/06,15:48:50)
+
+							(User	WAYNE)
+
+							(Path	sym_temp.74lvc138)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	74LVC138
+
+							(PackType	74LVC138)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001bf20377)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c62037d)
+
+)
+

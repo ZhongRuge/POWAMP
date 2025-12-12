@@ -1,16 +1,13 @@
-12/10/25  10:38:02		Opening project D:/Projects/POWAMP/SCH/sch.cpm
-12/10/25  10:38:02		cdslib D:/Projects/POWAMP/SCH/cds.lib opened
-12/10/25  10:38:02		Project D:/Projects/POWAMP/SCH/sch.cpm opened
-12/10/25  10:38:02		Loading cell 5_8_wspt from library sch_lib
-12/10/25  10:38:02		Loading view sym_1 of cell 5_8_wspt
-12/10/25  10:38:02		Loading view chips of cell 5_8_wspt
-12/10/25  10:38:02		Loading view entity of cell 5_8_wspt
-12/10/25  10:38:02		Loading cell 5_8_wspt from library sch_lib
-12/10/25  10:38:02		Analyzing view relationships of cell 5_8_wspt in library sch_lib
-12/10/25  10:38:02		Completed loading cell 5_8_wspt from library sch_lib
-12/10/25  10:38:02		Starting validations on cell 5_8_wspt of library sch_lib
-12/10/25  10:38:02		Completed validations on cell 5_8_wspt of library sch_lib
-12/10/25  10:38:28		Starting validations on cell 5_8_wspt of library sch_lib
-12/10/25  10:38:28		Completed validations on cell 5_8_wspt of library sch_lib
-12/10/25  10:38:28		Completed saving cell 5_8_wspt in library sch_lib 
-12/10/25  10:38:28		Project D:/Projects/POWAMP/SCH/sch.cpm is closed.
+12/12/25  20:41:37		Opening project G:/Cadence/POWAMP/SCH/sch.cpm
+12/12/25  20:41:37		cdslib G:/Cadence/POWAMP/SCH/cds.lib opened
+12/12/25  20:41:37		Project G:/Cadence/POWAMP/SCH/sch.cpm opened
+12/12/25  20:41:37		Loading cell usb2_0 from library sch_lib
+12/12/25  20:41:37		Loading view sym_1 of cell usb2_0
+12/12/25  20:41:37		Loading view chips of cell usb2_0
+12/12/25  20:41:37		Loading view entity of cell usb2_0
+12/12/25  20:41:37		Loading cell usb2_0 from library sch_lib
+12/12/25  20:41:37		Analyzing view relationships of cell usb2_0 in library sch_lib
+12/12/25  20:41:37		Completed loading cell usb2_0 from library sch_lib
+12/12/25  20:41:37		Starting validations on cell usb2_0 of library sch_lib
+12/12/25  20:41:37		Completed validations on cell usb2_0 of library sch_lib
+12/12/25  21:07:03		Project G:/Cadence/POWAMP/SCH/sch.cpm is closed.

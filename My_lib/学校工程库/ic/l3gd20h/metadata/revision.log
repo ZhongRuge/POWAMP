@@ -1,0 +1,36 @@
+
+	(Comment
+		(Time 09/06/16,14:04:26)
+		(User Administrator)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+	(Comment
+		(Time 09/06/16,14:18:10)
+		(User Administrator)
+		(MsgId ECO_082)
+		(Text "Symbol sym_1 deleted from cell")
+		(Param1 sym_1)
+	)
+	(Comment
+		(Time 09/06/16,14:18:13)
+		(User Administrator)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+	(Comment
+		(Time 09/06/16,14:28:42)
+		(User Administrator)
+		(MsgId ECO_021)
+		(Text "Package L3GD20H added to cell")
+		(Param1 L3GD20H)
+	)
+	(Comment
+		(Time 09/06/16,14:33:18)
+		(User Administrator)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)

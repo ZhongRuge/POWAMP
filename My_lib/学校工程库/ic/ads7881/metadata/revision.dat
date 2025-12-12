@@ -1,0 +1,170 @@
+(Cell	ads7881
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.7)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	04/04/14,09:19:57)
+
+			(User	Administrator)
+
+			(Path	ic.ads7881)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	04/04/14,10:04:07)
+
+			(User	Administrator)
+
+			(Path	ic.ads7881)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000009b38f4a8)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.5)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/04/14,09:36:42)
+
+							(User	Administrator)
+
+							(Path	ic.ads7881)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cbe03ba)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000521dc08a)
+
+			(Primitives	1
+
+				(Primitive	ADS7881
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/04/14,10:03:25)
+
+							(User	Administrator)
+
+							(Path	ic.ads7881)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	ADS7881
+
+							(PackType	ADS7881)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001e4903e1)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bc4037d)
+
+)
+

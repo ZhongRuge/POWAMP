@@ -1,0 +1,170 @@
+(Cell	ad9834
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	10/26/12,12:25:25)
+
+			(User	Administrator)
+
+			(Path	ic.ad9834)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	10/26/12,13:49:15)
+
+			(User	Administrator)
+
+			(Path	ic.ad9834)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000000377de17)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/26/12,12:26:23)
+
+							(User	Administrator)
+
+							(Path	ic.ad9834)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b6a0383)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000725a00d2)
+
+			(Primitives	1
+
+				(Primitive	AD9834
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/26/12,12:25:25)
+
+							(User	Administrator)
+
+							(Path	ic.ad9834)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	AD9834
+
+							(PackType	AD9834)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c9d0382)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c52037f)
+
+)
+

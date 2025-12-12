@@ -1,0 +1,170 @@
+(Cell	head2x11
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	04/14/14,20:19:57)
+
+			(User	lanzhu)
+
+			(Path	connector.head2x11)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	04/14/14,20:19:32)
+
+			(User	lanzhu)
+
+			(Path	connector.head2x14)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000aa5de073)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/14/14,20:19:57)
+
+							(User	lanzhu)
+
+							(Path	connector.head2x11)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e7603db)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000b18e877b)
+
+			(Primitives	1
+
+				(Primitive	HEAD2X11
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/14/14,20:19:57)
+
+							(User	lanzhu)
+
+							(Path	connector.head2x11)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	HEAD2X11
+
+							(PackType	HEAD2X11)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c0a037e)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c3e03a5)
+
+)
+

@@ -16,3 +16,6 @@
 #CELL
   capacitor c0805 *
   page9_i6
+#CELL
+  connector 5_8_zsgt *
+  page9_i7

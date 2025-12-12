@@ -1,0 +1,170 @@
+(Cell	tps2051bdbv
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	11/12/14,19:15:04)
+
+			(User	jin)
+
+			(Path	ic.tps2051bdbv)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	11/12/14,19:21:21)
+
+			(User	jin)
+
+			(Path	ic.tps2051bdbv)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000031158f7d)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/12/14,19:15:10)
+
+							(User	jin)
+
+							(Path	ic.tps2051bdbv)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001ad20384)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000fa65bef6)
+
+			(Primitives	1
+
+				(Primitive	TPS2051BDBV
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/12/14,19:15:04)
+
+							(User	jin)
+
+							(Path	ic.tps2051bdbv)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TPS2051BDBV
+
+							(PackType	TPS2051BDBV)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b0a037f)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c3803a5)
+
+)
+

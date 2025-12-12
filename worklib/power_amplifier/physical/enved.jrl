@@ -1,12 +1,13 @@
 \t (00:00:00) enved 17.4 S039 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Fri Nov 28 19:00:13 2025
-\t (00:00:00)         Host=DESKTOP-OD6O7GO User=63524 Pid=27308 CPUs=32
-\t (00:00:00) CmdLine= enved -proj D:\Coding\Cadence\Project\POWAMP\power_amplifier.cpm
+\t (00:00:00)     Journal start - Fri Dec 12 19:39:10 2025
+\t (00:00:00)         Host=LUCK User=Lucky Pid=17180 CPUs=12
+\t (00:00:00) CmdLine= enved -proj G:\Cadence\POWAMP\power_amplifier.cpm
 \t (00:00:00) 
 \i (00:00:01) setwindow form.prfedit
 \i (00:00:01) FORM prfedit treelist  My_favorites 
-\i (00:00:03) FORM prfedit treelist  Paths 
-\i (00:00:05) FORM prfedit treelist  Library Paths 
-\i (00:00:06) FORM prfedit padpath  
-\i (00:00:08) FORM prfedit cancel  
-\t (00:00:08)     Journal end - Fri Nov 28 19:00:21 2025
+\i (00:00:02) FORM prfedit treelist  Paths 
+\i (00:00:03) FORM prfedit treelist  Library Paths 
+\i (00:00:06) FORM prfedit psmpath  
+\i (00:00:13) FORM prfedit apply  
+\i (00:00:14) FORM prfedit done  
+\t (00:00:14)     Journal end - Fri Dec 12 19:39:24 2025

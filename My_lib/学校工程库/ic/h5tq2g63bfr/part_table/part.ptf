@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'H5TQ2G63BFR'
+
+{========================================================================================}
+:CODE(OPT)   | VALUE(OPT)   = JEDEC_TYPE | DESCRIPTION | CHECKLIST | MANUFACTORY | MANU_PART_NO ;
+{========================================================================================}
+ '40020008'  | 'H5TQ2G63BFR-G7C'(!)        = 'BGA96-32-512'         | 'DDR3 SDRAM-16bit-2Gb-1066MHz-BGA96'          | ''        | 'HYNIX'          | 'H5TQ2G63BFR-G7C'          
+
+END_PART
+
+END.
+

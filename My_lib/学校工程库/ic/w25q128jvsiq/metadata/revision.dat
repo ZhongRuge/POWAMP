@@ -1,0 +1,212 @@
+(Cell	w25q128jvsiq
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	07/24/23,18:01:18)
+
+			(User	Lucky)
+
+			(Path	ic.w25q128jvsiq)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	09/06/23,14:11:28)
+
+			(User	Lucky)
+
+			(Path	ic.w25q128jvsiq)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.2)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	07/24/23,18:01:18)
+
+					(User	Lucky)
+
+					(Path	ic.w25q128jvsiq)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000ea4dd4fd)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/06/23,13:59:34)
+
+							(User	Lucky)
+
+							(Path	ic.w25q128jvsiq)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001f270441)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000786f191e)
+
+			(Primitives	1
+
+				(Primitive	W25Q128JVSIQ_TR
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/24/23,18:01:18)
+
+							(User	Lucky)
+
+							(Path	ic.w25q128jvsiq)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	W25Q128JVSIQ_TR
+
+							(PackType	W25Q128JVSIQ_TR)
+
+							(PackType	W25Q128JVSIQ_TR_SMD)
+
+						)
+
+					)
+
+					(Packages	2
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	SOIC_208MIL_WIN)
+
+							)
+
+							(AltSymbolsFootPrints	
+
+								(Name	soic_208mil_win)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b3d0390)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S102 (v16-6-112JG))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c270377)
+
+)
+

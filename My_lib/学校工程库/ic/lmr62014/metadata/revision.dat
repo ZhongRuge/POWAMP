@@ -1,0 +1,170 @@
+(Cell	lmr62014
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	05/23/17,20:25:58)
+
+			(User	sj)
+
+			(Path	ic.lmr62014)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	05/23/17,20:28:26)
+
+			(User	sj)
+
+			(Path	ic.lmr62014)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000a3148ce4)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/23/17,20:27:02)
+
+							(User	sj)
+
+							(Path	ic.lmr62014)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c6e03ae)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000006232f735)
+
+			(Primitives	1
+
+				(Primitive	LMR62014
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/23/17,20:26:00)
+
+							(User	sj)
+
+							(Path	ic.lmr62014)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	LMR62014
+
+							(PackType	LMR62014)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001e39040d)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b8a037b)
+
+)
+

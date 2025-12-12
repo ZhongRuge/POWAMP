@@ -1,0 +1,170 @@
+(Cell	tps22913
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	06/01/13,19:00:41)
+
+			(User	Administrator)
+
+			(Path	ic.tps22913)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	06/01/13,19:11:46)
+
+			(User	Administrator)
+
+			(Path	ic.tps22913)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000d5ba7393)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	06/01/13,19:00:46)
+
+							(User	Administrator)
+
+							(Path	ic.tps22913)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001dae03b3)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000008c1aa2c4)
+
+			(Primitives	1
+
+				(Primitive	TPS22913
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	06/01/13,19:09:41)
+
+							(User	Administrator)
+
+							(Path	ic.tps22913)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TPS22913
+
+							(PackType	TPS22913)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d9c03bb)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001cd803d9)
+
+)
+

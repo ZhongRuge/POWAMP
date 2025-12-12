@@ -1,0 +1,170 @@
+(Cell	tpl0202-10mrter
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.5)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	09/17/12,10:48:32)
+
+			(User	Administrator)
+
+			(Path	ic.tpl0202-10mrter)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	09/17/12,14:45:33)
+
+			(User	Administrator)
+
+			(Path	ic.tpl0202-10mrter)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000bc9885ca)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/17/12,10:48:35)
+
+							(User	Administrator)
+
+							(Path	ic.tpl0202-10mrter)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001da903e8)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000340ca1f5)
+
+			(Primitives	1
+
+				(Primitive	TPL0202-10MRTER
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/17/12,11:04:43)
+
+							(User	Administrator)
+
+							(Path	ic.tpl0202-10mrter)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TPL0202-10MRTER
+
+							(PackType	TPL0202-10MRTER)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c7303dc)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bda03a9)
+
+)
+

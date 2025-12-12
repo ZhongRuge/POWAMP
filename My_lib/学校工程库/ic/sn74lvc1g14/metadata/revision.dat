@@ -1,0 +1,172 @@
+(Cell	sn74lvc1g14
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	04/17/06,17:04:27)
+
+			(User	N)
+
+			(Path	mytemplib.sn74lvc1g14)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	04/17/06,17:11:01)
+
+			(User	N)
+
+			(Path	mytemplib.sn74lvc1g14)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	0000000099f4e5c7)
+
+			(Primitives	1
+
+				(Primitive	SN74LVC1G14
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/17/06,17:04:27)
+
+							(User	N)
+
+							(Path	mytemplib.sn74lvc1g14)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	SN74LVC1G14
+
+							(PackType	SN74LVC1G14)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000007abaa1ef)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/17/06,17:04:27)
+
+							(User	N)
+
+							(Path	mytemplib.sn74lvc1g14)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c9003b5)
+
+		)
+
+		(Checksum	000000001ba50378)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c54037c)
+
+)
+

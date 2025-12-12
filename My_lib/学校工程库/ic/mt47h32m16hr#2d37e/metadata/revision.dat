@@ -1,0 +1,170 @@
+(Cell	mt47h32m16hr-37e
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.6)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	08/28/12,21:17:09)
+
+			(User	Administrator)
+
+			(Path	bussystem_lib.mt47h32m16hr-37e)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	08/28/12,21:36:35)
+
+			(User	Administrator)
+
+			(Path	bussystem_lib.mt47h32m16hr-37e)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000d01af12d)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/28/12,21:17:09)
+
+							(User	Administrator)
+
+							(Path	bussystem_lib.mt47h32m16hr-37e)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d3e03d4)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000002fa1a54f)
+
+			(Primitives	1
+
+				(Primitive	MT47H32M16HR-37E
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/28/12,21:17:09)
+
+							(User	Administrator)
+
+							(Path	bussystem_lib.mt47h32m16hr-37e)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	MT47H32M16HR-37E
+
+							(PackType	MT47H32M16HR-37E)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001e4103e1)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	Concept_HDL_studio)
+
+	)
+
+	(Checksum	000000001b9c0375)
+
+)
+

@@ -1,0 +1,170 @@
+(Cell	tpa6204a1drbr
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/03/13,22:34:28)
+
+			(User	Administrator)
+
+			(Path	ic.tpa6204a1drbr)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/03/13,22:39:06)
+
+			(User	Administrator)
+
+			(Path	ic.tpa6204a1drbr)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000013dbe298)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/03/13,22:34:30)
+
+							(User	Administrator)
+
+							(Path	ic.tpa6204a1drbr)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cd303b3)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000354a7b9d)
+
+			(Primitives	1
+
+				(Primitive	TPA6204A1DRBR
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/03/13,22:36:59)
+
+							(User	Administrator)
+
+							(Path	ic.tpa6204a1drbr)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TPA6204A1DRBR
+
+							(PackType	TPA6204A1DRBR)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b98037f)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001ba10385)
+
+)
+

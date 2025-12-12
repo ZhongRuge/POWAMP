@@ -1,0 +1,178 @@
+(Cell	b3fs_1012
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.10)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	10/14/11,21:58:19)
+
+			(User	Administrator)
+
+			(Path	others.b3fs_1012)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	10/16/11,09:20:14)
+
+			(User	Administrator)
+
+			(Path	others.b3fs_1012)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000702e7d69)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.6)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/14/11,21:58:22)
+
+							(User	Administrator)
+
+							(Path	others.b3fs_1012)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001baa0389)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000b3c5edcb)
+
+			(Primitives	1
+
+				(Primitive	B3FS_1012
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/14/11,21:59:45)
+
+							(User	Administrator)
+
+							(Path	others.b3fs_1012)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	B3FS_1012
+
+							(PackType	B3FS_1012)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Schematic
+
+			(Pages	0)
+
+			(Checksum	000000001ebd03e6)
+
+		)
+
+		(Checksum	000000001db403db)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001ce703d5)
+
+)
+

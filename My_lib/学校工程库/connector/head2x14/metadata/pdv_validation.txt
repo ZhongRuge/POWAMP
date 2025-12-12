@@ -1,0 +1,1 @@
+pdv_170,Cell 'head2x14':Pins A30,A29 are not present in any of the packages or symbols.,Warning

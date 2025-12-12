@@ -1,0 +1,170 @@
+(Cell	tps61041
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/10/15,10:10:10)
+
+			(User	sunstar)
+
+			(Path	power.tps61041)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/10/15,10:18:59)
+
+			(User	sunstar)
+
+			(Path	power.tps61041)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000008d898bfc)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/10/15,10:10:16)
+
+							(User	sunstar)
+
+							(Path	power.tps61041)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cee03f1)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000f6021dc0)
+
+			(Primitives	1
+
+				(Primitive	TPS61041
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/10/15,10:13:09)
+
+							(User	sunstar)
+
+							(Path	power.tps61041)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TPS61041
+
+							(PackType	TPS61041)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b630371)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b410348)
+
+)
+

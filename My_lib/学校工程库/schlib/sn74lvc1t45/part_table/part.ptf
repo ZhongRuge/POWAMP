@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SN74LVC1T45'
+
+{========================================================================================}
+:VALUE(OPT)    = JEDEC_TYPE   | DESCRIPTION                              ;
+{========================================================================================}
+ 'sn74lvc1t45'(!) = 'sop6_26_95' | 'single-bit dual-supply bus transcerver'
+
+END_PART
+
+END.
+

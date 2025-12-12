@@ -1,0 +1,170 @@
+(Cell	tps73130
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/07/16,19:44:21)
+
+			(User	Administrator)
+
+			(Path	power.tps73130)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/07/16,19:53:10)
+
+			(User	Administrator)
+
+			(Path	power.tps73130)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000419d8b46)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/07/16,19:48:43)
+
+							(User	Administrator)
+
+							(Path	power.tps73130)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001bb50387)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000fc75d454)
+
+			(Primitives	1
+
+				(Primitive	TPS73130
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/07/16,19:44:23)
+
+							(User	Administrator)
+
+							(Path	power.tps73130)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TPS73130
+
+							(PackType	TPS73130)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c5903df)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bef03b0)
+
+)
+

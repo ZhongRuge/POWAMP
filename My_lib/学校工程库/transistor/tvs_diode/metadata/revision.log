@@ -1,0 +1,26 @@
+
+	(Comment
+		(Time 03/07/07,16:33:28)
+		(User rrock)
+		(MsgId ECO_021)
+		(Text "Package TVS_DIODE added to cell")
+		(Param1 TVS_DIODE)
+	)
+
+	(Comment
+		(Time 03/07/07,16:33:53)
+		(User rrock)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+
+
+
+	(Comment
+		(Time 03/07/07,16:40:05)
+		(User rrock)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)

@@ -1,0 +1,249 @@
+\t (00:00:03) allegro 15.7 p007 (v15-7-42E) i86
+\t (00:00:03) 
+
+\t (00:00:03) Starting new drawing...
+\i (00:00:03) trapsize 731
+\i (00:00:04) trapsize 857
+\i (00:00:04) trapsize 857
+\i (00:00:07) roam start
+\i (00:00:07) roam end
+\i (00:00:07) zoom out 
+\i (00:00:07) setwindow pcb
+\i (00:00:07) zoom out 12754.3 6942.9
+\i (00:00:07) trapsize 1250
+\i (00:00:08) zoom out 
+\i (00:00:08) setwindow pcb
+\i (00:00:08) zoom out 20350.0 10525.0
+\i (00:00:08) trapsize 1250
+\i (00:00:12) open 
+\i (00:00:45) fillin "D:\cadencework157\DVL_20130108_done\DVL\worklib\dvl\physical\DVL169.brd"
+\i (00:00:45) cd "D:\cadencework157\DVL_20130108_done\DVL\worklib\dvl\physical"
+\t (00:00:45) Opening existing drawing...
+\t (00:00:45) Grids are drawn 256.00, 256.00 apart for enhanced viewability.
+\i (00:00:45) trapsize 12740
+\d (00:00:46) Database opened: D:/cadencework157/DVL_20130108_done/DVL/worklib/dvl/physical/DVL169.brd
+\i (00:00:47) roam start
+\i (00:00:47) roam x 48
+\i (00:00:47) roam y -48
+\i (00:00:47) roam x 64
+\i (00:00:47) roam y -32
+\i (00:00:47) roam x 16
+\i (00:00:47) roam end
+\i (00:00:47) zoom in 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in 16762.52 26453.61
+\t (00:00:47) Grids are drawn 64.00, 64.00 apart for enhanced viewability.
+\i (00:00:47) trapsize 6370
+\i (00:00:49) zoom in 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom in 16125.50 26071.40
+\i (00:00:49) trapsize 3185
+\i (00:00:49) zoom out 
+\i (00:00:49) setwindow pcb
+\i (00:00:49) zoom out 15845.21 26364.43
+\i (00:00:49) trapsize 6370
+\i (00:00:50) roam start
+\i (00:00:50) roam y 16
+\i (00:00:50) roam y 16
+\i (00:00:50) roam end
+\i (00:00:53) place manual 
+\i (00:00:56) setwindow form.plc_manual
+\i (00:00:56) FORM plc_manual cancel  
+\i (00:00:58) setwindow pcb
+\i (00:00:58) color 
+\i (00:00:58) setwindow form.cvf_main
+\i (00:00:58) FORM cvf_main class_list Stack-Up
+\i (00:01:00) FORM cvf_main global_vis All Visible 
+\f (00:01:00) Change visibility of all classes?
+\i (00:01:01) fillin yes 
+\i (00:01:01) FORM cvf_main ok  
+\i (00:01:04) setwindow pcb
+\i (00:01:04) roam start
+\i (00:01:04) roam x -96
+\i (00:01:04) roam y 32
+\i (00:01:04) roam x -80
+\i (00:01:04) roam y 32
+\i (00:01:04) roam x -32
+\i (00:01:04) roam end
+\i (00:01:05) zoom in 
+\i (00:01:05) setwindow pcb
+\i (00:01:05) zoom in 14405.55 23332.22
+\i (00:01:05) trapsize 3185
+\i (00:01:08) zoom in 
+\i (00:01:08) setwindow pcb
+\i (00:01:08) zoom in 14329.10 22867.20
+\t (00:01:08) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:01:08) trapsize 1593
+\i (00:01:09) zoom in 
+\i (00:01:09) setwindow pcb
+\i (00:01:09) zoom in 14399.18 23227.12
+\i (00:01:09) trapsize 796
+\i (00:01:11) show element 
+\i (00:01:13) zoom in 
+\i (00:01:13) setwindow pcb
+\i (00:01:13) zoom in 14300.44 23104.49
+\t (00:01:13) Grids are drawn 4.00, 4.00 apart for enhanced viewability.
+\i (00:01:13) trapsize 398
+\i (00:01:20) setwindow form.find
+\i (00:01:20) FORM find components NO 
+\i (00:01:20) FORM find pins YES 
+\i (00:01:23) setwindow pcb
+\i (00:01:23) zoom in 
+\i (00:01:23) setwindow pcb
+\i (00:01:23) zoom in 14275.76 23213.58
+\i (00:01:23) trapsize 199
+\i (00:01:24) roam start
+\i (00:01:24) roam x 32
+\i (00:01:24) roam y -80
+\i (00:01:24) roam x 48
+\i (00:01:24) roam y -176
+\i (00:01:24) roam x 48
+\i (00:01:24) roam y -80
+\i (00:01:24) roam y -64
+\i (00:01:24) roam y -64
+\i (00:01:24) roam end
+\i (00:01:26) setwindow form.find
+\i (00:01:26) FORM find drc_errors NO 
+\i (00:01:29) FORM find nets NO 
+\i (00:01:37) setwindow pcb
+\i (00:01:37) zoom out 
+\i (00:01:37) setwindow pcb
+\i (00:01:37) zoom out 14399.30 23377.12
+\i (00:01:37) trapsize 398
+\i (00:01:38) roam start
+\i (00:01:38) roam y -80
+\i (00:01:38) roam y -80
+\i (00:01:38) roam y -64
+\i (00:01:38) roam y -64
+\i (00:01:38) roam y -32
+\i (00:01:38) roam y -16
+\i (00:01:38) roam end
+\i (00:01:39) roam start
+\i (00:01:39) roam y -48
+\i (00:01:39) roam x -16
+\i (00:01:39) roam y -112
+\i (00:01:39) roam x -32
+\i (00:01:39) roam y -128
+\i (00:01:40) roam end
+\i (00:01:40) zoom out 
+\i (00:01:40) setwindow pcb
+\i (00:01:40) zoom out 14277.07 23807.90
+\t (00:01:40) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:01:40) trapsize 796
+\i (00:04:06) trapsize 679
+\i (00:04:06) trapsize 796
+\i (00:04:08) roam start
+\i (00:04:08) roam y -16
+\i (00:04:08) roam y -32
+\i (00:04:08) roam y -32
+\i (00:04:08) roam x 16
+\i (00:04:08) roam y -32
+\i (00:04:08) roam x 16
+\i (00:04:08) roam y -32
+\i (00:04:08) roam y -32
+\i (00:04:08) roam y -16
+\i (00:04:09) roam end
+\i (00:04:09) zoom in 
+\i (00:04:09) setwindow pcb
+\i (00:04:09) zoom in 14144.36 24230.40
+\t (00:04:09) Grids are drawn 4.00, 4.00 apart for enhanced viewability.
+\i (00:04:09) trapsize 398
+\i (00:04:10) zoom out 
+\i (00:04:10) setwindow pcb
+\i (00:04:10) zoom out 14210.45 24289.32
+\t (00:04:10) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:04:10) trapsize 796
+\i (00:04:12) shadow toggle 
+\i (00:04:14) zoom out 
+\i (00:04:14) setwindow pcb
+\i (00:04:14) zoom out 14474.80 24512.28
+\i (00:04:14) trapsize 1593
+\i (00:04:15) shadow toggle 
+\i (00:04:16) color 
+\i (00:04:16) setwindow form.cvf_main
+\i (00:04:16) FORM cvf_main class_list Stack-Up
+\i (00:04:18) FORM cvf_main global_vis All Invisible 
+\f (00:04:18) Change visibility of all classes?
+\i (00:04:19) fillin yes 
+\i (00:04:22) FORM cvf_main apply  
+\i (00:04:29) FORM cvf_main class_list Geometry 
+\i (00:04:32) FORM cvf_main package_geometry/assembly_top/visible YES 
+\i (00:04:33) FORM cvf_main package_geometry/assembly_top/visible NO 
+\i (00:04:34) FORM cvf_main package_geometry/silkscreen_top/visible YES 
+\i (00:04:34) FORM cvf_main package_geometry/silkscreen_bottom/visible YES 
+\i (00:04:35) FORM cvf_main apply  
+\i (00:04:37) FORM cvf_main class_list Components 
+\i (00:04:39) FORM cvf_main ref_des/silkscreen_top/visible YES 
+\i (00:04:39) FORM cvf_main ref_des/silkscreen_bottom/visible YES 
+\i (00:04:40) FORM cvf_main apply  
+\i (00:04:41) FORM cvf_main ok  
+\i (00:04:43) setwindow form.vf_vis
+\i (00:04:43) FORM vf_vis all_all_visible YES 
+\i (00:04:44) setwindow pcb
+\i (00:04:44) zoom in 
+\i (00:04:44) setwindow pcb
+\i (00:04:44) zoom in 14076.67 23884.82
+\i (00:04:44) trapsize 796
+\i (00:04:45) roam start
+\i (00:04:45) roam x 16
+\i (00:04:45) roam y 80
+\i (00:04:45) roam end
+\i (00:04:46) roam start
+\i (00:04:46) roam y -48
+\i (00:04:46) roam y -96
+\i (00:04:46) roam y -80
+\i (00:04:46) roam end
+\i (00:04:47) show element 
+\i (00:04:50) zoom in 
+\i (00:04:50) setwindow pcb
+\i (00:04:50) zoom in 14024.91 24190.58
+\t (00:04:50) Grids are drawn 4.00, 4.00 apart for enhanced viewability.
+\i (00:04:50) trapsize 398
+\i (00:04:52) zoom out 
+\i (00:04:52) setwindow pcb
+\i (00:04:52) zoom out 14053.58 24179.44
+\t (00:04:52) Grids are drawn 16.00, 16.00 apart for enhanced viewability.
+\i (00:04:52) trapsize 796
+\i (00:04:53) roam start
+\i (00:04:53) roam y -16
+\i (00:04:53) roam x -16
+\i (00:04:53) roam y -16
+\i (00:04:53) roam y -16
+\i (00:04:53) roam x -16
+\i (00:04:53) roam y -16
+\i (00:04:54) roam x -16
+\i (00:04:54) roam y -16
+\i (00:04:54) roam end
+\i (00:04:54) zoom out 
+\i (00:04:54) setwindow pcb
+\i (00:04:54) zoom out 14008.99 24338.69
+\i (00:04:54) trapsize 1593
+\i (00:04:55) roam start
+\i (00:04:55) roam y 16
+\i (00:04:55) roam x 32
+\i (00:04:55) roam y 112
+\i (00:04:55) roam x 16
+\i (00:04:55) roam y 128
+\i (00:04:55) roam x 16
+\i (00:04:55) roam y 64
+\i (00:04:55) roam end
+\i (00:04:55) zoom in 
+\i (00:04:55) setwindow pcb
+\i (00:04:55) zoom in 14510.64 22921.32
+\i (00:04:55) trapsize 796
+\i (00:04:59) roam start
+\i (00:04:59) roam y 32
+\i (00:04:59) roam y 48
+\i (00:04:59) roam end
+\i (00:05:03) trapsize 679
+\i (00:05:03) trapsize 796
+\i (00:07:02) zoom out 
+\i (00:07:02) setwindow pcb
+\i (00:07:02) zoom out 14617.35 23010.51
+\i (00:07:02) trapsize 1593
+\i (00:07:43) xNet Port_1_A 
+\i (00:07:43) xname_flush 
+\i (00:07:43) trapsize 781
+\i (00:10:57) exit 
+\f (00:10:58) Do you want to save the changes you made to DVL169.brd?
+\i (00:11:00) fillin no 

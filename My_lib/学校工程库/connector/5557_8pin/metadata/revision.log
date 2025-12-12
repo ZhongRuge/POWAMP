@@ -1,0 +1,21 @@
+	(Comment
+		(Time 06/10/20,20:52:19)
+		(User wjl)
+		(MsgId ECO_021)
+		(Text "Package 5557_8PIN added to cell")
+		(Param1 "5557_8PIN")
+	)
+	(Comment
+		(Time 06/10/20,20:53:31)
+		(User wjl)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 "sym_1")
+	)
+	(Comment
+		(Time 06/10/20,20:53:49)
+		(User wjl)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 "part.ptf")
+	)

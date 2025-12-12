@@ -1,0 +1,14 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'W25Q128JVSIQ_TR'
+CLASS=IC
+
+{========================================================================================}
+:PACK_TYPE | VALUE             = MANUFACTURER_PART_NUMBER | COPYRIGHT                                                  | MFR_NAME  | JEDEC_TYPE        | PART_NUMBER       ;
+{========================================================================================}
+ 'SMD'     | 'W25Q128JVSIQ_TR'(!) = 'W25Q128JVSIQ TR'        | 'Copyright (C) 2023 Ultra Librarian. All rights reserved.' | 'Winbond' | 'SOIC_208MIL_WIN' | 'W25Q128JVSIQ_TR'
+
+END_PART
+
+END.
+

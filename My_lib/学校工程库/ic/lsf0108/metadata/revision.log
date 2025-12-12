@@ -1,0 +1,16 @@
+
+	(Comment
+		(Time 05/29/14,19:44:18)
+		(User Administrator)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+
+	(Comment
+		(Time 05/29/14,19:50:55)
+		(User Administrator)
+		(MsgId ECO_021)
+		(Text "Package LSF0108 added to cell")
+		(Param1 LSF0108)
+	)

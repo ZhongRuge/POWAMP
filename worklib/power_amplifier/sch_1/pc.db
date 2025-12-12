@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Wed Dec 10 12:03:40 2025
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Fri Dec 12 21:04:37 2025
 #ISCELL
   standard b#20size#20page *
   *
@@ -27,7 +27,7 @@
   capacitor c0805 *
   page2_i35
 #CELL
-  resistor res0805 *
+  resistor r *
   page2_i36
 #CELL
   capacitor c0805 *
@@ -36,71 +36,68 @@
   inductor l0805 *
   page2_i38
 #CELL
-  resistor res0805 *
+  resistor r *
   page2_i39
 #CELL
   capacitor c3216 *
   page2_i40
 #CELL
-  resistor res0805 *
+  resistor r *
   page2_i41
 #CELL
-  resistor res0805 *
+  resistor r *
   page2_i42
 #CELL
-  resistor res0805 *
+  resistor r *
   page2_i43
 #CELL
-  resistor res0805 *
+  resistor r *
   page2_i44
 #CELL
-  resistor res0805 *
+  resistor r *
   page2_i45
 #CELL
-  resistor res0805 *
+  resistor r *
   page2_i46
 #CELL
-  resistor res0805 *
+  resistor r *
   page2_i47
 #CELL
-  resistor res0805 *
+  resistor r *
   page2_i48
 #CELL
-  resistor res0805 *
+  resistor r *
   page2_i49
 #CELL
-  resistor res0805 *
+  resistor r *
   page2_i50
 #CELL
-  resistor res0805 *
+  resistor r *
   page2_i51
 #CELL
-  resistor res0805 *
+  resistor r *
   page2_i52
 #CELL
-  resistor res0805 *
+  resistor r *
   page2_i53
 #CELL
-  resistor res0805 *
+  resistor r *
   page2_i54
-#CELL
-  resistor res0805 *
-  page2_i55
-#CELL
-  resistor res0805 *
-  page2_i56
-#CELL
-  resistor res0805 *
-  page2_i57
 #CELL
   capacitor c0805 *
   page2_i58
+#CELL
+  resistor r *
+  page2_i59
+#CELL
+  resistor r *
+  page2_i60
+#CELL
+  resistor r *
+  page2_i61
 #ISCELL
   pages pages *
   *
-#CELL
-  connector usb2_0 *
-  page3_i13
 #CELL
   inductor acm2012-2-900 *
   page3_i14
@@ -114,8 +111,11 @@
   capacitor c0805 *
   page3_i17
 #CELL
-  protection esd05 *
-  page3_i2
+  protection usblc6-2sc6 *
+  page3_i18
+#CELL
+  connector hc-usb2_0-l195-p *
+  page3_i20
 #ISCELL
   pages pages *
   *
@@ -443,6 +443,9 @@
 #CELL
   capacitor c0805 *
   page9_i6
+#CELL
+  connector 5_8_zsgt *
+  page9_i7
 #ISCELL
   pages pages *
   *
@@ -599,6 +602,9 @@
 #CELL
   resistor res0805 *
   page11_i48
+#CELL
+  resistor res0805 *
+  page11_i49
 #CELL
   capacitor c0805 *
   page11_i5

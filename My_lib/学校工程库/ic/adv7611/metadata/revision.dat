@@ -1,0 +1,172 @@
+(Cell	adv7611
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.15)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	11/05/14,10:27:02)
+
+			(User	jin)
+
+			(Path	ic.adv7611)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	11/05/14,10:59:34)
+
+			(User	jin)
+
+			(Path	ic.adv7611)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	000000009db7690e)
+
+			(Primitives	1
+
+				(Primitive	ADV7611
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/05/14,10:27:02)
+
+							(User	jin)
+
+							(Path	ic.adv7611)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	ADV7611
+
+							(PackType	ADV7611)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000024d3fe88)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.13)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/05/14,10:27:19)
+
+							(User	jin)
+
+							(Path	ic.adv7611)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001ca5038c)
+
+		)
+
+		(Checksum	000000001c8803a9)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bc90382)
+
+)
+

@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SOT-23-3'
+
+{========================================================================================}
+:VALUE(OPT)      = JEDEC_TYPE | DESCRIPTION                                                                                 ;
+{========================================================================================}
+ 'ESD5302F'(~ESD5302F) = 'SOT-23-3' | 'Low Capacitance TVS Diode Array 0.35pF 5V Air:¡À25kV Contact:¡À22kV Lightning:4A(8/20¦Ìs)'
+
+END_PART
+
+END.
+

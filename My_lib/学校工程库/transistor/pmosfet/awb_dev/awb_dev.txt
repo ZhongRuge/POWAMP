@@ -1,0 +1,3 @@
+start DEVICE_INFO
+    MODEL_TYPE=901
+end DEVICE_INFO

@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SN74LVC1G14'
+
+{========================================================================================}
+:VALUE(OPT)    = JEDEC_TYPE  | DESCRIPTION                       ;
+{========================================================================================}
+ 'sn74lvc1g14'(!) = 'r-pdso-n5' | 'Single schmitt-trigger inverter'
+
+END_PART
+
+END.
+

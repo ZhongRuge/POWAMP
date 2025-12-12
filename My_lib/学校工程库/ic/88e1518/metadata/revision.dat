@@ -1,0 +1,172 @@
+(Cell	88e1518
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	11/19/14,15:16:06)
+
+			(User	jin)
+
+			(Path	ic.88e1518)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	11/19/14,15:30:30)
+
+			(User	jin)
+
+			(Path	ic.88e1518)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	00000000bb986db2)
+
+			(Primitives	1
+
+				(Primitive	88E1518
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/19/14,15:16:06)
+
+							(User	jin)
+
+							(Path	ic.88e1518)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	88E1518
+
+							(PackType	88E1518)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000f7de075e)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/19/14,15:16:38)
+
+							(User	jin)
+
+							(Path	ic.88e1518)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001bb30351)
+
+		)
+
+		(Checksum	000000001c450372)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b47034a)
+
+)
+

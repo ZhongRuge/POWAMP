@@ -1,0 +1,170 @@
+(Cell	po
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.11)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	09/15/10,19:39:25)
+
+			(User	mywamgoo)
+
+			(Path	resistor.po)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	09/15/10,19:44:25)
+
+			(User	mywamgoo)
+
+			(Path	resistor.po)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000006bf8744b)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.9)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/15/10,19:39:25)
+
+							(User	mywamgoo)
+
+							(Path	resistor.po)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cec03b8)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000e83295e7)
+
+			(Primitives	1
+
+				(Primitive	PO
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/15/10,19:39:25)
+
+							(User	mywamgoo)
+
+							(Path	resistor.po)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	PO
+
+							(PackType	PO)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b52038e)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b6c037b)
+
+)
+

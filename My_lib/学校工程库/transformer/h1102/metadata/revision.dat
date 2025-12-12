@@ -1,0 +1,170 @@
+(Cell	h1102
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	1.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	09/16/05,10:56:03)
+
+			(User	xiejany)
+
+			(Path	idt.h1102)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	09/14/06,14:25:36)
+
+			(User	Administrator)
+
+			(Path	transformer.h1102)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000006dd181f5)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/16/05,10:56:03)
+
+							(User	xiejany)
+
+							(Path	idt.h1102)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cfd03b4)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000008c7f13e0)
+
+			(Primitives	1
+
+				(Primitive	H1102
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/16/05,10:56:03)
+
+							(User	xiejany)
+
+							(Path	idt.h1102)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	H1102
+
+							(PackType	H1102)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001caf038a)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	Allegro_Design_Editor_620)
+
+	)
+
+	(Checksum	000000001d7b03d8)
+
+)
+

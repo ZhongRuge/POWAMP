@@ -1,0 +1,1 @@
+pdv_170,Cell 'aha4524':Pins E_CS*,TRISTATE*,RESET*,D_CS* are not present in any of the packages or symbols.,Warning

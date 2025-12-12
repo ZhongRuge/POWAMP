@@ -1,0 +1,52 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'W25Q128JVSIQ_TR','W25Q128JVSIQ_TR_SMD';
+  pin
+    'GND':
+      PIN_NUMBER='(4)';
+      PINUSE='GROUND';
+    'CLK':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'VCC':
+      PIN_NUMBER='(8)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      ALLOW_CONNECT='TRUE';
+    'DO(IO1)':
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'WP#(IO2)':
+      PIN_NUMBER='(3)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'DI(IO0)':
+      PIN_NUMBER='(5)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'HOLD#RESET#(IO3)':
+      PIN_NUMBER='(7)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'CS#':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+  end_pin;
+  body
+    PART_NAME='W25Q128JVSIQ_TR';
+    ALT_SYMBOLS='(soic_208mil_win)';
+    NO_LOAD_CHECK='TRUE';
+    PIN_COUNT='8';
+    BODY_NAME='W25Q128JVSIQ';
+    JEDEC_TYPE='SOIC_208MIL_WIN';
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+  end_body;
+end_primitive;
+
+END.

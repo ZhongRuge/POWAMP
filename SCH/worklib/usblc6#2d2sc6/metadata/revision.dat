@@ -1,0 +1,194 @@
+(Cell	usblc6-2sc6
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/12/25,20:26:24)
+
+			(User	Lucky)
+
+			(Path	sch_lib.USBLC6-2SC6)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.2)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	12/12/25,20:26:24)
+
+					(User	Lucky)
+
+					(Path	sch_lib.USBLC6-2SC6)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000be0b94df)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/12/25,20:26:24)
+
+							(User	Lucky)
+
+							(Path	sch_lib.USBLC6-2SC6)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e5b0411)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000006cfd5bb6)
+
+			(Primitives	1
+
+				(Primitive	USBLC6-2SC6
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/12/25,20:26:24)
+
+							(User	Lucky)
+
+							(Path	sch_lib.USBLC6-2SC6)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	USBLC6-2SC6
+
+							(PackType	USBLC6-2SC6)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	sot-23-6_l2_9-w1_6-p0_95-ls2_8-bl)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c9703bd)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.4-2019 S039 (4153571))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bf703ae)
+
+)
+

@@ -1,0 +1,172 @@
+(Cell	tps54316
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	01/10/06,11:47:57)
+
+			(User	WAYNE)
+
+			(Path	sym_temp.tps54316)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	01/10/06,11:54:33)
+
+			(User	WAYNE)
+
+			(Path	sym_temp.tps54316)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000003605eb04)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/10/06,11:47:57)
+
+							(User	WAYNE)
+
+							(Path	sym_temp.tps54316)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b59037a)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000870930f4)
+
+			(Primitives	1
+
+				(Primitive	TPS54316
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/10/06,11:47:57)
+
+							(User	WAYNE)
+
+							(Path	sym_temp.tps54316)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TPS54316
+
+							(PackType	TPS54316)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001bad037e)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001d6c03d8)
+
+)
+

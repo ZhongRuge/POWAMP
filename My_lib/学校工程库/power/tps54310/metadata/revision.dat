@@ -1,0 +1,170 @@
+(Cell	tps54310
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	1.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/14/07,15:11:08)
+
+			(User	xuj)
+
+			(Path	sch_lib.tps54310)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000006482fd6e)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/14/07,15:16:36)
+
+							(User	xuj)
+
+							(Path	sch_lib.tps54310)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001bcb03ba)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000005df2ab13)
+
+			(Primitives	1
+
+				(Primitive	TPS54310
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/14/07,15:11:16)
+
+							(User	xuj)
+
+							(Path	sch_lib.tps54310)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TPS54310
+
+							(PackType	TPS54310)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	tssop20_pwp)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001e340444)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b49034a)
+
+)
+

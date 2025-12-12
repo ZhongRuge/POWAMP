@@ -1,0 +1,172 @@
+(Cell	lm324
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/13/16,15:08:14)
+
+			(User	Administrator)
+
+			(Path	ic.lm324)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/13/16,15:10:42)
+
+			(User	Administrator)
+
+			(Path	ic.lm324)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	000000006216b0cc)
+
+			(Primitives	1
+
+				(Primitive	lm324
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/13/16,15:08:14)
+
+							(User	Administrator)
+
+							(Path	ic.lm324)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	LM324
+
+							(PackType	lm324)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000005b73484b)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/13/16,15:08:14)
+
+							(User	Administrator)
+
+							(Path	ic.lm324)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001de503bf)
+
+		)
+
+		(Checksum	000000001cfe03db)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001ded0409)
+
+)
+

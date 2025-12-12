@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS2051BDBV'
+
+{========================================================================================}
+:VALUE(OPT)    = JEDEC_TYPE  | DESCRIPTION                          ;
+{========================================================================================}
+ 'TPS2051BDBV'(!) = 'tps2051bd' | 'current-limited,power-distribution'
+
+END_PART
+
+END.
+

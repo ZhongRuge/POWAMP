@@ -1,0 +1,22 @@
+
+	(Comment
+		(Time 09/03/12,14:38:53)
+		(User wamgoo)
+		(MsgId ECO_021)
+		(Text "Package W25Q128FV added to cell")
+		(Param1 W25Q128FV)
+	)
+	(Comment
+		(Time 09/03/12,14:44:02)
+		(User wamgoo)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+	(Comment
+		(Time 09/03/12,14:46:21)
+		(User wamgoo)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)

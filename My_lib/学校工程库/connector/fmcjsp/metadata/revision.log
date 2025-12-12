@@ -1,0 +1,23 @@
+
+	(Comment
+		(Time 11/04/14,10:52:25)
+		(User jin)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+
+	(Comment
+		(Time 11/04/14,10:57:12)
+		(User jin)
+		(MsgId ECO_021)
+		(Text "Package FMCJSP added to cell")
+		(Param1 FMCJSP)
+	)
+	(Comment
+		(Time 11/04/14,10:57:20)
+		(User jin)
+		(MsgId ECO_022)
+		(Text "Package FMCJSP deleted from cell")
+		(Param1 FMCJSP)
+	)

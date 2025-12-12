@@ -1,0 +1,170 @@
+(Cell	passive_4pin
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/27/13,14:29:16)
+
+			(User	Administrator)
+
+			(Path	oscillator.passive_4pin)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/27/13,14:47:01)
+
+			(User	Administrator)
+
+			(Path	oscillator.passive_4pin)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000003452a7b8)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/27/13,14:29:20)
+
+							(User	Administrator)
+
+							(Path	oscillator.passive_4pin)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b310381)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000cb81a736)
+
+			(Primitives	1
+
+				(Primitive	PASSIVE_4PIN
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/27/13,14:34:07)
+
+							(User	Administrator)
+
+							(Path	oscillator.passive_4pin)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	PASSIVE_4PIN
+
+							(PackType	PASSIVE_4PIN)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001e5a040b)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c5c03a3)
+
+)
+

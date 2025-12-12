@@ -1,0 +1,170 @@
+(Cell	tvs_diode
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.8)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/07/07,16:33:26)
+
+			(User	rrock)
+
+			(Path	dvr_lib.tvs_diode)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/07/07,16:41:05)
+
+			(User	rrock)
+
+			(Path	dvr_lib.tvs_diode)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000ced95583)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/07/07,16:33:53)
+
+							(User	rrock)
+
+							(Path	dvr_lib.tvs_diode)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e3603bb)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000e7375349)
+
+			(Primitives	1
+
+				(Primitive	TVS_DIODE
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/07/07,16:33:28)
+
+							(User	rrock)
+
+							(Path	dvr_lib.tvs_diode)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TVS_DIODE
+
+							(PackType	TVS_DIODE)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b110351)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	Concept_HDL_studio)
+
+	)
+
+	(Checksum	000000001b15033f)
+
+)
+

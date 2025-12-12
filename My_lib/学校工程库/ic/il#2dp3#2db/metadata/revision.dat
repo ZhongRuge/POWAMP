@@ -1,0 +1,172 @@
+(Cell	il-p3-b
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/13/16,13:27:10)
+
+			(User	Administrator)
+
+			(Path	ic.il-p3-b)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/13/16,13:34:26)
+
+			(User	Administrator)
+
+			(Path	ic.il-p3-b)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	00000000f4cfb07e)
+
+			(Primitives	1
+
+				(Primitive	IL-P3-B
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/13/16,13:27:10)
+
+							(User	Administrator)
+
+							(Path	ic.il-p3-b)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	IL-P3-B
+
+							(PackType	IL-P3-B)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000e8eb2e8d)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/13/16,13:27:10)
+
+							(User	Administrator)
+
+							(Path	ic.il-p3-b)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	00000000206a0469)
+
+		)
+
+		(Checksum	000000001ada034d)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001d6103d3)
+
+)
+

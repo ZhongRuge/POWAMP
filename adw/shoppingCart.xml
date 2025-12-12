@@ -6,4 +6,24 @@
 	</component>
 	<component cell="ma35v470m10x13" library="capacitor" partname="MA35V470M10X13" partno="" quantity="1" >
 	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="07090265"/>
+		<property name="VALUE"  value="22"/>
+	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="07090522"/>
+		<property name="VALUE"  value="0"/>
+	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="97090113"/>
+		<property name="VALUE"  value="270"/>
+	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="07090601"/>
+		<property name="VALUE"  value="33"/>
+	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="07090247"/>
+		<property name="VALUE"  value="10K"/>
+	</component>
 </sc:shoppingCart>

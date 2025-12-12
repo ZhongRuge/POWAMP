@@ -1,0 +1,170 @@
+(Cell	tps3808g09dbvr
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	1.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/14/07,15:21:12)
+
+			(User	xuj)
+
+			(Path	sch_lib.tps3808g09dbvr)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	11/03/07,09:21:12)
+
+			(User	Administrator)
+
+			(Path	schlib.tps3808g09dbvr)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000e81ea82a)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/14/07,15:23:21)
+
+							(User	xuj)
+
+							(Path	sch_lib.tps3808g09dbvr)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d9003e0)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000eca8ce52)
+
+			(Primitives	1
+
+				(Primitive	TPS3808G09DBVR
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/14/07,15:21:15)
+
+							(User	xuj)
+
+							(Path	sch_lib.tps3808g09dbvr)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TPS3808G09DBVR
+
+							(PackType	TPS3808G09DBVR)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c080379)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b450350)
+
+)
+

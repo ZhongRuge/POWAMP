@@ -1,0 +1,39 @@
+
+	(Comment
+		(Time 03/10/14,16:06:35)
+		(User lanzhu2410)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+
+	(Comment
+		(Time 03/10/14,16:13:21)
+		(User lanzhu2410)
+		(MsgId ECO_021)
+		(Text "Package TPS51200 added to cell")
+		(Param1 TPS51200)
+	)
+	(Comment
+		(Time 03/10/14,16:14:04)
+		(User lanzhu2410)
+		(MsgId ECO_021)
+		(Text "Package TPS51200_1 added to cell")
+		(Param1 TPS51200_1)
+	)
+	(Comment
+		(Time 03/10/14,16:14:11)
+		(User lanzhu2410)
+		(MsgId ECO_022)
+		(Text "Package TPS51200 deleted from cell")
+		(Param1 TPS51200)
+	)
+	(Comment
+		(Time 03/10/14,16:16:33)
+		(User lanzhu2410)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)
+
+

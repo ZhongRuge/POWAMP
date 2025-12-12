@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SN74LVC245APW'
+
+{========================================================================================}
+:VALUE           = JEDEC_TYPE | DESCRIPTIONS                                          ;
+{========================================================================================}
+ 'SN74LVC245APW'(!) = 'sop20-26-180'   | 'OCTAL BUS TRANSCEIVER WITH 3-STATE OUTPUTS TSSOP-PW'
+
+END_PART
+
+END.
+

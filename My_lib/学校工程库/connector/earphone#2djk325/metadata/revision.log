@@ -1,0 +1,15 @@
+
+	(Comment
+		(Time 10/27/14,20:23:39)
+		(User sunstar)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+	(Comment
+		(Time 10/27/14,20:24:39)
+		(User sunstar)
+		(MsgId ECO_021)
+		(Text "Package EARPHONE-JK325 added to cell")
+		(Param1 EARPHONE-JK325)
+	)

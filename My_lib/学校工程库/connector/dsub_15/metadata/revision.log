@@ -1,0 +1,14 @@
+	(Comment
+		(Time 12/30/11,20:44:22)
+		(User lxk)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+	(Comment
+		(Time 12/30/11,20:44:48)
+		(User lxk)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)

@@ -1,0 +1,170 @@
+(Cell	osc-6
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/14/14,15:54:59)
+
+			(User	lanzhu2410)
+
+			(Path	oscillator.osc-6)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/14/14,16:01:24)
+
+			(User	lanzhu2410)
+
+			(Path	oscillator.osc-6)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000003ebe9d3e)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/14/14,15:55:16)
+
+							(User	lanzhu2410)
+
+							(Path	oscillator.osc-6)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e4b0415)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000005ac7e879)
+
+			(Primitives	1
+
+				(Primitive	OSC-6
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/14/14,15:58:20)
+
+							(User	lanzhu2410)
+
+							(Path	oscillator.osc-6)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	OSC-6
+
+							(PackType	OSC-6)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001bc903b9)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001ccb03ae)
+
+)
+

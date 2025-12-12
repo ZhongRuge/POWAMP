@@ -1,0 +1,170 @@
+(Cell	fm25h20
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/10/14,10:32:21)
+
+			(User	lanzhu2410)
+
+			(Path	ic.fm25h20)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/10/14,10:40:56)
+
+			(User	lanzhu2410)
+
+			(Path	ic.fm25h20)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000007805c09f)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/10/14,10:32:27)
+
+							(User	lanzhu2410)
+
+							(Path	ic.fm25h20)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b2d0387)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000001d760b52)
+
+			(Primitives	1
+
+				(Primitive	FM25H20
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/10/14,10:35:25)
+
+							(User	lanzhu2410)
+
+							(Path	ic.fm25h20)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	FM25H20
+
+							(PackType	FM25H20)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c2503b2)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b910373)
+
+)
+

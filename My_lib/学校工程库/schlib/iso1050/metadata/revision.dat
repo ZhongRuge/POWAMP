@@ -1,0 +1,170 @@
+(Cell	iso1050
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.5)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	08/10/09,21:23:15)
+
+			(User	longfei)
+
+			(Path	schlib.iso1050)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	08/10/09,21:25:31)
+
+			(User	longfei)
+
+			(Path	schlib.iso1050)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000008e69d882)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/10/09,21:23:15)
+
+							(User	longfei)
+
+							(Path	schlib.iso1050)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c8e0393)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000a2f4b0b6)
+
+			(Primitives	1
+
+				(Primitive	ISO1050
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/10/09,21:23:15)
+
+							(User	longfei)
+
+							(Path	schlib.iso1050)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	ISO1050
+
+							(PackType	ISO1050)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001db903b6)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_design_expert)
+
+	)
+
+	(Checksum	000000001cd003ac)
+
+)
+

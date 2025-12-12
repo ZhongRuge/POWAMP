@@ -1,0 +1,21 @@
+	(Comment
+		(Time 08/10/20,20:10:52)
+		(User wjl)
+		(MsgId ECO_021)
+		(Text "Package LMR14020SDDAR added to cell")
+		(Param1 "LMR14020SDDAR")
+	)
+	(Comment
+		(Time 08/10/20,20:13:54)
+		(User wjl)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 "sym_1")
+	)
+	(Comment
+		(Time 08/10/20,20:17:47)
+		(User wjl)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 "part.ptf")
+	)

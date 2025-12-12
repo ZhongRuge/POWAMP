@@ -1,0 +1,55 @@
+
+	(Comment
+		(Time 02/26/14,15:08:22)
+		(User Administrator)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+
+
+	(Comment
+		(Time 02/26/14,15:30:06)
+		(User Administrator)
+		(MsgId ECO_021)
+		(Text "Package OV7620_PIN added to cell")
+		(Param1 OV7620_PIN)
+	)
+	(Comment
+		(Time 02/26/14,15:30:14)
+		(User Administrator)
+		(MsgId ECO_022)
+		(Text "Package OV7620_PIN deleted from cell")
+		(Param1 OV7620_PIN)
+	)
+	(Comment
+		(Time 02/26/14,15:30:27)
+		(User Administrator)
+		(MsgId ECO_021)
+		(Text "Package OV7620_PIN added to cell")
+		(Param1 OV7620_PIN)
+	)
+	(Comment
+		(Time 02/26/14,15:30:51)
+		(User Administrator)
+		(MsgId ECO_022)
+		(Text "Package OV7620_PIN deleted from cell")
+		(Param1 OV7620_PIN)
+	)
+	(Comment
+		(Time 02/26/14,15:31:20)
+		(User Administrator)
+		(MsgId ECO_021)
+		(Text "Package OV7620_PIN added to cell")
+		(Param1 OV7620_PIN)
+	)
+
+
+
+	(Comment
+		(Time 02/26/14,15:35:27)
+		(User Administrator)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)

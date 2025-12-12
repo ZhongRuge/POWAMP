@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PCI_LACK2PIN'
+
+{========================================================================================}
+:VALUE(OPT)     = JEDEC_TYPE               | DESCRIPTION ;
+{========================================================================================}
+ 'pci_lack2pin'(!) = '62pinedgeconn_lack2pin' | 'connector'
+
+END_PART
+
+END.
+

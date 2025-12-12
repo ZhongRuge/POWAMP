@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XC7A100T-FGG484PKG'
+
+{========================================================================================}
+:CODE(OPT)   | VALUE(OPT)          = JEDEC_TYPE       | DESCRIPTION                                           | CHECKLIST | MANUFACTORY | MANU_PART_NO        ;
+{========================================================================================}
+ ''          | 'XC7A100T-2FGG484C'(!) = 'fgg484-40-906' | 'FPGA-101440 logic cell-285 可用I/O-速度等级(-2)-FBGA484-结温（0～85℃）' | ''        | 'Xilinix'   | 'XC7A100T-2FGG484C'
+
+END_PART
+
+END.
+

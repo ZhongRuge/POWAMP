@@ -1,0 +1,160 @@
+(Cell	msp430f5418aipn
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	01/16/09,11:34:06)
+
+			(User	cluch)
+
+			(Path	library_lib.msp430f5418aipn)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000105f0575)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/16/09,11:34:06)
+
+							(User	cluch)
+
+							(Path	library_lib.msp430f5418aipn)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001ae6034e)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000a204c2fe)
+
+			(Primitives	1
+
+				(Primitive	MSP430F5418AIPN
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/16/09,11:34:06)
+
+							(User	cluch)
+
+							(Path	library_lib.msp430f5418aipn)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	MSP430F5418AIPN
+
+							(PackType	MSP430F5418AIPN)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001fd1043c)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	Concept_HDL_expert)
+
+	)
+
+	(Checksum	000000001c9403a7)
+
+)
+

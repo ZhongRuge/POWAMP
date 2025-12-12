@@ -1,0 +1,170 @@
+(Cell	ds1339
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	08/07/06,09:46:06)
+
+			(User	rrock)
+
+			(Path	xscale.ds1339)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	08/07/06,09:47:00)
+
+			(User	rrock)
+
+			(Path	xscale.ds1339)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000002233a8a7)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/07/06,09:46:06)
+
+							(User	rrock)
+
+							(Path	xscale.ds1339)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b14037c)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000e802edf3)
+
+			(Primitives	1
+
+				(Primitive	DS1339
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/07/06,09:46:06)
+
+							(User	rrock)
+
+							(Path	xscale.ds1339)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	DS1339
+
+							(PackType	DS1339)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001aef037f)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001d8803de)
+
+)
+

@@ -1,0 +1,116 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : power_amplifier.brd                           )
+(    Software Version : 17.4S039                                      )
+(    Date/Time        : Fri Dec 12 21:04:54 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'G:\Cadence\POWAMP\worklib\power_amplifier\packaged'
+Design Directory:            'G:/Cadence/POWAMP/worklib/power_amplifier/physical'
+Old design name:             'G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd'
+New design name:             'G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd'
+
+CmdLine: netrev -proj G:\Cadence\POWAMP\power_amplifier.cpm -y 1 -O G:\Cadence\POWAMP\worklib\power_amplifier\physical\power_amplifier.brd G:\Cadence\POWAMP\worklib\power_amplifier\physical\power_amplifier.brd -q G:\Cadence\POWAMP\temp\constraints_difference_report.xml -$
+
+------ Preparing to read pst files ------
+
+Starting to read G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstchip.dat 
+   Finished reading G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstchip.dat (00:00:00.25)
+Starting to read G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstxprt.dat 
+   Finished reading G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstxprt.dat (00:00:00.00)
+Starting to read G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstxnet.dat 
+   Finished reading G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+
+
+===========================================================
+Start Constraint Diff3 Import
+	Constraint File:    G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstcmdb.dat
+	Allegro Baseline:   C:/Users/Lucky/AppData/Local/Temp/#Taaaaah24864.tmp
+	Start time: Fri Dec 12 21:04:54 2025
+===========================================================
+
+
+The constraint difference report file can be viewed using the following command:
+cdnFlowOOSMsg.exe -file file:///G:/Cadence/POWAMP/temp/constraints_difference_report.xml
+
+===========================================================
+Finished Constraint Update	Time: Fri Dec 12 21:04:54 2025
+===========================================================
+
+------ Library Paths ------
+MODULEPATH =  . 
+           G:/Cadence/SPB_17.4/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           G:/Cadence/SPB_17.4/share/local/pcb/symbols 
+           G:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
+           G:/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
+           G:/Cadence/PCB/Footprint 
+           G:/Cadence/POWAMP/PCB 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           G:/Cadence/SPB_17.4/share/local/pcb/padstacks 
+           G:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
+           G:/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
+           G:/Cadence/PCB/pad 
+           G:/Cadence/POWAMP/PCB 
+           Y:/CadenceLib17.4/PCB/pad 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Dec 12 21:04:54 2025
+   DESIGN NAME : 'POWER_AMPLIFIER'
+   PACKAGING ON 12-Dec-2025 AT 21:04:49
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   DIRECTORIES  <none>
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   LIBRARIES  'power_amplifier_lib' 'standard' 'capacitor' 'ic' 'inductor'
+              'pages' 'resistor' 'connector' 'protection' 'oscillator' 'power'
+   MASTER_LIBRARIES  <none>
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 31
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:02:19
+elapsed time  0:00:00
+

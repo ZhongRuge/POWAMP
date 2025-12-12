@@ -1,0 +1,170 @@
+(Cell	s11156-2048-02
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	05/24/17,19:19:23)
+
+			(User	sj)
+
+			(Path	ic.s11156-2048-02)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	05/24/17,21:04:19)
+
+			(User	sj)
+
+			(Path	ic.s11156-2048-02)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000d59f1667)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/24/17,21:00:21)
+
+							(User	sj)
+
+							(Path	ic.s11156-2048-02)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cc0038d)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000c1b4c175)
+
+			(Primitives	1
+
+				(Primitive	S11156-2048-02
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/24/17,20:55:25)
+
+							(User	sj)
+
+							(Path	ic.s11156-2048-02)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	S11156-2048-02
+
+							(PackType	S11156-2048-02)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001dbe03af)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001dda0407)
+
+)
+

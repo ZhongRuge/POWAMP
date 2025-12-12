@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STM32F100CBT6'
+
+{========================================================================================}
+:VALUE(OPT)      = JEDEC_TYPE      | DESCRIPTION                                                                                              ;
+{========================================================================================}
+ 'STM32F100CBT6'(!) = 'LQFP48-20-342' | 'advanced ARM -based 32-bit MCU with 128KB Flash,12 timers,ADC,DAC&8 comm interfaces,LQFP48 7x7mm·â×°¡£'
+
+END_PART
+
+END.
+

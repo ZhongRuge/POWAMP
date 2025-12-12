@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SN74LVC2G240'
+
+{========================================================================================}
+:VALUE(OPT)     = JEDEC_TYPE    | DESCRIPTION                                         ;
+{========================================================================================}
+ 'SN74LVC2G240'(!) = 'SOP8-26-134' | 'Dual Buffer Driver With 3-State Outputs,VSSOP·â×°'
+
+END_PART
+
+END.
+

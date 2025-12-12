@@ -1,0 +1,15 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'B3FS_1012'
+
+{========================================================================================}
+:VALUE(OPT)   = JEDEC_TYPE     | DESCRIPTIONS         ;
+{========================================================================================}
+ 'B3FS_1012'(!) = 'SOP4-122-252' | 'Tactile Switch SMD'
+ 'B3FS_1012_new2'(!) = 'SOP4-167-255' | 'Tactile Switch SMD'
+  'B3FS_1012_new'(!) = 'SOP4-177-315' | 'Tactile Switch SMD'
+
+END_PART
+
+END.
+

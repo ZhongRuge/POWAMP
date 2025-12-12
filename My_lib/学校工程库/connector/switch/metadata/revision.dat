@@ -1,0 +1,170 @@
+(Cell	switch
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/28/16,17:56:23)
+
+			(User	Administrator)
+
+			(Path	connector.switch)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/28/16,18:00:16)
+
+			(User	Administrator)
+
+			(Path	connector.switch)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000002506e2ef)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/28/16,17:57:06)
+
+							(User	Administrator)
+
+							(Path	connector.switch)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b5b03b0)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000066e13dfc)
+
+			(Primitives	1
+
+				(Primitive	SWITCH
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/28/16,17:56:25)
+
+							(User	Administrator)
+
+							(Path	connector.switch)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	SWITCH
+
+							(PackType	SWITCH)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b9703aa)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001beb03a9)
+
+)
+

@@ -1,0 +1,194 @@
+(Cell	rj45-jk-jxk
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/29/18,13:37:58)
+
+			(User	Administrator)
+
+			(Path	connector.rj45-jk-jxk)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/29/18,14:14:29)
+
+			(User	Administrator)
+
+			(Path	connector.rj45-jk-jxk)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.1)
+
+				(ModificationStatus	NULL)
+
+				(Status	)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	)
+
+					(User	)
+
+					(Path	)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000004087298d)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/29/18,13:52:56)
+
+							(User	Administrator)
+
+							(Path	connector.rj45-jk-jxk)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001a6a035b)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000db64c177)
+
+			(Primitives	1
+
+				(Primitive	RJ45-JK-JXK
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/29/18,13:38:06)
+
+							(User	Administrator)
+
+							(Path	connector.rj45-jk-jxk)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	RJ45-JK-JXK
+
+							(PackType	RJ45-JK-JXK)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001ee00411)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-p001 (v16-6-112A))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c580372)
+
+)
+

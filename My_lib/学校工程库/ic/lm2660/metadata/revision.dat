@@ -1,0 +1,170 @@
+(Cell	lm2660
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.6)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/17/13,15:36:31)
+
+			(User	Administrator)
+
+			(Path	power.lm2660)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/17/13,15:50:01)
+
+			(User	Administrator)
+
+			(Path	power.lm2660)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000001a97c490)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/17/13,15:36:34)
+
+							(User	Administrator)
+
+							(Path	power.lm2660)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c320383)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000065a70c11)
+
+			(Primitives	1
+
+				(Primitive	LM2660
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/17/13,15:49:19)
+
+							(User	Administrator)
+
+							(Path	power.lm2660)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	LM2660
+
+							(PackType	LM2660)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001bf4038a)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	Concept_HDL_expert)
+
+	)
+
+	(Checksum	000000001c9803aa)
+
+)
+

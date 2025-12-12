@@ -1,0 +1,170 @@
+(Cell	bq24315
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	09/07/16,12:22:07)
+
+			(User	Administrator)
+
+			(Path	capcitor.bq24315)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	09/07/16,13:00:05)
+
+			(User	Administrator)
+
+			(Path	capcitor.bq24315)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000008b6ddfb8)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/07/16,12:24:14)
+
+							(User	Administrator)
+
+							(Path	capcitor.bq24315)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e340419)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000002a39d6d4)
+
+			(Primitives	1
+
+				(Primitive	BQ24315
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/07/16,12:53:19)
+
+							(User	Administrator)
+
+							(Path	capcitor.bq24315)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	BQ24315
+
+							(PackType	BQ24315)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d110415)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b220342)
+
+)
+

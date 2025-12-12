@@ -1,0 +1,170 @@
+(Cell	stm32f407vgt7
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	09/02/16,12:08:05)
+
+			(User	Administrator)
+
+			(Path	ic.stm32f407vgt7)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	09/02/16,12:19:01)
+
+			(User	Administrator)
+
+			(Path	ic.stm32f407vgt7)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000059b4261)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/02/16,12:08:05)
+
+							(User	Administrator)
+
+							(Path	ic.stm32f407vgt7)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b06034e)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000029c0bf0a)
+
+			(Primitives	1
+
+				(Primitive	STM32F407VGT7
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/02/16,12:08:05)
+
+							(User	Administrator)
+
+							(Path	ic.stm32f407vgt7)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	STM32F407VGT7
+
+							(PackType	STM32F407VGT7)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c000384)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b1a0344)
+
+)
+

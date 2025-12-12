@@ -1,0 +1,16 @@
+
+	(Comment
+		(Time 12/07/10,19:21:03)
+		(User mywamgoo)
+		(MsgId ECO_021)
+		(Text "Package TSC2046IPWR added to cell")
+		(Param1 TSC2046IPWR)
+	)
+	(Comment
+		(Time 12/07/10,19:28:57)
+		(User mywamgoo)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+

@@ -1,0 +1,170 @@
+(Cell	ide_con_40
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	1.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	08/16/05,21:07:13)
+
+			(User	WAYNE)
+
+			(Path	amd.ide_con_40)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	04/28/06,10:50:07)
+
+			(User	WAYNE)
+
+			(Path	sym_temp.ide_con_40)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000b17ce6c9)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/16/05,21:07:13)
+
+							(User	WAYNE)
+
+							(Path	amd.ide_con_40)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001da503e5)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000bcdd67a8)
+
+			(Primitives	1
+
+				(Primitive	IDE_CON_40
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/16/05,21:07:13)
+
+							(User	WAYNE)
+
+							(Path	amd.ide_con_40)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	IDE_CON_40
+
+							(PackType	IDE_CON_40)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001db303e4)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001cb603a7)
+
+)
+

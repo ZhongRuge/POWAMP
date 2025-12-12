@@ -1,0 +1,170 @@
+(Cell	opa4348aid
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	09/07/12,16:01:18)
+
+			(User	Administrator)
+
+			(Path	ic.opa4348aid)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	01/05/12,12:31:22)
+
+			(User	lxk)
+
+			(Path	mylib.opa4277ua)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000007348788b)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/07/12,16:01:18)
+
+							(User	Administrator)
+
+							(Path	ic.opa4348aid)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001a930360)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000cbc7c2de)
+
+			(Primitives	1
+
+				(Primitive	OPA4348AID
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/07/12,16:01:18)
+
+							(User	Administrator)
+
+							(Path	ic.opa4348aid)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	OPA4348AID
+
+							(PackType	OPA4348AID)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[4]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d8e03e3)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	Concept_HDL_studio)
+
+	)
+
+	(Checksum	000000001cb303ae)
+
+)
+

@@ -1,0 +1,14 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'N25Q128A13ESE40F'
+
+{========================================================================================}
+:CODE(OPT)   | VALUE(OPT)         = JEDEC_TYPE    | DESCRIPTION                              | CHECKLIST | MANUFACTORY | MANU_PART_NO       ;
+{========================================================================================}
+ '40060013'  | 'N25Q128A13ESE40F'(!) = 'SOP8-50-370' | 'SPI FLASH-128Mbit-3.3V-108MHz-·â×°SO8W' | ''        | 'MICRON'    | 'N25Q128A13ESE40F'
+ ''          | 'XT25F128BSSIGT/U'(!) = 'SOP8-50-370' | 'SPI FLASH-128Mbit-3.3V-108MHz-·â×°SO8W' | ''        | 'XTX'       | ''                
+
+END_PART
+
+END.
+

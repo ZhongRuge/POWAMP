@@ -1,0 +1,172 @@
+(Cell	USB_CON
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	04/27/06,14:51:49)
+
+			(User	WAYNE)
+
+			(Path	sym_temp.USB_CON)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	04/27/06,14:58:28)
+
+			(User	WAYNE)
+
+			(Path	sym_temp.USB_CON)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000012aaa7c6)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/27/06,14:51:49)
+
+							(User	WAYNE)
+
+							(Path	sym_temp.USB_CON)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d0603d7)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000281baaa5)
+
+			(Primitives	1
+
+				(Primitive	USB_CON
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/27/06,14:51:49)
+
+							(User	WAYNE)
+
+							(Path	sym_temp.USB_CON)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	USB_CON
+
+							(PackType	USB_CON)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b8803ad)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bed03ac)
+
+)
+

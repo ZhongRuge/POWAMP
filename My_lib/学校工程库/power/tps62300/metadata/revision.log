@@ -1,0 +1,23 @@
+
+	(Comment
+		(Time 03/12/14,13:10:50)
+		(User lanzhu2410)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+
+	(Comment
+		(Time 03/12/14,13:15:40)
+		(User lanzhu2410)
+		(MsgId ECO_021)
+		(Text "Package TPS62300 added to cell")
+		(Param1 TPS62300)
+	)
+	(Comment
+		(Time 03/12/14,13:17:32)
+		(User lanzhu2410)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)

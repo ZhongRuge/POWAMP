@@ -2,9 +2,6 @@
   pages pages *
   *
 #CELL
-  connector usb2_0 *
-  page3_i13
-#CELL
   inductor acm2012-2-900 *
   page3_i14
 #CELL
@@ -17,5 +14,8 @@
   capacitor c0805 *
   page3_i17
 #CELL
-  protection esd05 *
-  page3_i2
+  protection usblc6-2sc6 *
+  page3_i18
+#CELL
+  connector hc-usb2_0-l195-p *
+  page3_i20

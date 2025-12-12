@@ -1,0 +1,170 @@
+(Cell	op1177
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.6)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	08/21/09,09:59:34)
+
+			(User	longfei)
+
+			(Path	schlib.op1177)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	08/21/09,10:10:02)
+
+			(User	longfei)
+
+			(Path	schlib.op1177)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000820bfd7b)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.5)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/21/09,09:59:34)
+
+							(User	longfei)
+
+							(Path	schlib.op1177)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c8c03e0)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000004136ad64)
+
+			(Primitives	1
+
+				(Primitive	OP1177
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/21/09,09:59:34)
+
+							(User	longfei)
+
+							(Path	schlib.op1177)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	OP1177
+
+							(PackType	OP1177)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d3703aa)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_design_expert)
+
+	)
+
+	(Checksum	000000001bd503a5)
+
+)
+

@@ -1,0 +1,170 @@
+(Cell	lmc7101
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/13/16,19:45:48)
+
+			(User	Administrator)
+
+			(Path	ic.lmc7101)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/13/16,19:53:59)
+
+			(User	Administrator)
+
+			(Path	ic.lmc7101)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000007a68c1a1)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/13/16,19:47:10)
+
+							(User	Administrator)
+
+							(Path	ic.lmc7101)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c9d03ad)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000004aba1fb8)
+
+			(Primitives	1
+
+				(Primitive	LMC7101
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/13/16,19:45:53)
+
+							(User	Administrator)
+
+							(Path	ic.lmc7101)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	LMC7101
+
+							(PackType	LMC7101)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001a54032a)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b5f0372)
+
+)
+

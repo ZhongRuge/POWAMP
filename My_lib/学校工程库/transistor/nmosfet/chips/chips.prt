@@ -1,0 +1,28 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'NMOSFET';
+  pin
+    'S':
+      PIN_NUMBER='(3)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+    'D':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+    'G':
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+  end_pin;
+  body
+    PART_NAME='nmosfet';
+    BODY_NAME='NMOSFET';
+    PHYS_DES_PREFIX='Q';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+END.

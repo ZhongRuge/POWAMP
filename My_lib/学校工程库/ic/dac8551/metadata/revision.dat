@@ -1,0 +1,170 @@
+(Cell	dac8551
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/09/13,20:43:28)
+
+			(User	Administrator)
+
+			(Path	ic.dac8551)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/09/13,20:52:32)
+
+			(User	Administrator)
+
+			(Path	ic.dac8551)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000a87fc76c)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/09/13,20:43:34)
+
+							(User	Administrator)
+
+							(Path	ic.dac8551)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001da803ea)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000453ee491)
+
+			(Primitives	1
+
+				(Primitive	DAC8551
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/09/13,20:43:28)
+
+							(User	Administrator)
+
+							(Path	ic.dac8551)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	DAC8551
+
+							(PackType	DAC8551)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c5603ba)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bd703a6)
+
+)
+

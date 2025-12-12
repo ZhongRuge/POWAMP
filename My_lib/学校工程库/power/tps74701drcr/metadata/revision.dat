@@ -1,0 +1,170 @@
+(Cell	tps74701drcr
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.11)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	07/17/12,16:02:26)
+
+			(User	Administrator)
+
+			(Path	power.tps74701drcr)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	07/17/12,16:20:43)
+
+			(User	Administrator)
+
+			(Path	power.tps74701drcr)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000002e4015a6)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/17/12,16:02:29)
+
+							(User	Administrator)
+
+							(Path	power.tps74701drcr)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001ba60379)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000765992e6)
+
+			(Primitives	1
+
+				(Primitive	TPS74701DRCR
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	07/17/12,16:11:58)
+
+							(User	Administrator)
+
+							(Path	power.tps74701drcr)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TPS74701DRCR
+
+							(PackType	TPS74701DRCR)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001ca703c1)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	Concept_HDL_studio)
+
+	)
+
+	(Checksum	000000001cb603a4)
+
+)
+

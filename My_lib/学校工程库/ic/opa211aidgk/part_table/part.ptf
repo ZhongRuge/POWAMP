@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'OPA211AIDGK'
+
+{========================================================================================}
+:VALUE(OPT='OPA211AIDGK')   = JEDEC_TYPE      | DESCRIPTION                       ;
+{========================================================================================}
+ 'OPA211AIDGK'(!)           = 'vssop8_opa211' | 'low power operational amplifier'
+
+END_PART
+
+END.
+

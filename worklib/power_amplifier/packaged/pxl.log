@@ -6,7 +6,7 @@
     Packager-XL 17.4-2019 S039 (4153571) WIN32 11/4/2023 12:00:00 IST
     (C) Copyright 1994, Cadence Design Systems, Inc.
 
-    Run on Tue Dec  2 17:11:55 2025
+    Run on Fri Dec 12 21:04:49 2025
 
 
  **********************************************
@@ -125,16 +125,14 @@
 
 Creating Configuration "cfg_package" for Design "power_amplifier"
 
-INFO(SPCODD-181): Loading D:\Coding\Cadence\SPB_17.4\share\cdssetup\cdsprop.tm~
-	f.
-      INFO(SPCODD-181): Loading D:\Coding\Cadence\SPB_17.4\share\cdssetup\cdsprop.pa~
-	f.
+INFO(SPCODD-181): Loading G:\Cadence\SPB_17.4\share\cdssetup\cdsprop.tmf.
+      INFO(SPCODD-181): Loading G:\Cadence\SPB_17.4\share\cdssetup\cdsprop.paf.
       
  *********************************
  *  Loading the design database  *
  *********************************
 
-INFO(SPCODD-181): Loading ./My_lib/protection/esd05/part_table/part.ptf.
+INFO(SPCODD-181): Loading ./My_lib/resistor/r/part_table/part.ptf.
       INFO(SPCODD-181): Loading ./My_lib/connector/5557_4pin/part_table/part_1.ptf.
       
  *************************
@@ -169,9 +167,9 @@ Loading ./worklib/power_amplifier/packaged/pxl.state.
 
 INFO(SPCOPK-1442): No errors detected
 INFO(SPCOPK-1444): No warnings detected
-    Start time   17:11:55
-    End time     17:11:56
-    Elapsed time  0:00:01
+    Start time   21:04:49
+    End time     21:04:52
+    Elapsed time  0:00:03
 
  ***************************************************************************
  *  Packager-XL execution done.

@@ -1,0 +1,20 @@
+FILE_TYPE = CONNECTIVITY;
+{Concept-HDL 05.10-p009 (Production) 06-Mar-98}
+0"NC";
+1"G<SIZE-1..0> \I";
+2"P3_3V \G";
+%"SYNONYM"
+"1","(1850,2050)","0","standard","4P";
+;
+CDS_LIB"standard"
+BODY_TYPE"PLUMBING"
+NEEDS_NO_SIZE"TRUE";
+"A\NWC\NAC"1;
+"A\NWC\NAC"2;
+%"DRAWING"
+"1","(1275,1750)","0","standard","";
+;
+LAST_MODIFIED"Wed Jan 27 10:21:56 1999"
+ABBREV"P3_3V"
+TITLE"P3_3V";
+END.

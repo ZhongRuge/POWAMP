@@ -1,0 +1,194 @@
+(Cell	rj45_1000m_180
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	06/17/20,20:02:04)
+
+			(User	wjl)
+
+			(Path	connector.rj45_1000m_180)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	06/17/20,20:36:59)
+
+			(User	wjl)
+
+			(Path	connector.rj45_1000m_180)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.1)
+
+				(ModificationStatus	NULL)
+
+				(Status	)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	)
+
+					(User	)
+
+					(Path	)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000071f6d3c9)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	06/17/20,20:07:15)
+
+							(User	wjl)
+
+							(Path	connector.rj45_1000m_180)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c7903b8)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000001d0ac37b)
+
+			(Primitives	1
+
+				(Primitive	RJ45_1000M_180
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	06/17/20,20:02:11)
+
+							(User	wjl)
+
+							(Path	connector.rj45_1000m_180)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	RJ45_1000M_180
+
+							(PackType	RJ45_1000M_180)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b100358)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-p001 (v16-6-112A))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b170345)
+
+)
+

@@ -1,0 +1,170 @@
+(Cell	isl55110
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/20/16,18:17:51)
+
+			(User	Administrator)
+
+			(Path	ic.isl55110)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/20/16,18:29:43)
+
+			(User	Administrator)
+
+			(Path	ic.isl55110)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000e49dc89f)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/20/16,18:19:58)
+
+							(User	Administrator)
+
+							(Path	ic.isl55110)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001dba03f1)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000fb67a9c3)
+
+			(Primitives	1
+
+				(Primitive	ISL55110
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/20/16,18:17:54)
+
+							(User	Administrator)
+
+							(Path	ic.isl55110)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	ISL55110
+
+							(PackType	ISL55110)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001bb903aa)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001ceb03d4)
+
+)
+

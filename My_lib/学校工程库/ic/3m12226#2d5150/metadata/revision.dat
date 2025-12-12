@@ -1,0 +1,170 @@
+(Cell	3m12226-5150
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/16/16,15:05:49)
+
+			(User	wjl)
+
+			(Path	connector.3m12226-5150)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/16/16,15:10:53)
+
+			(User	wjl)
+
+			(Path	connector.3m12226-5150)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000004972377e)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/16/16,15:05:49)
+
+							(User	wjl)
+
+							(Path	connector.3m12226-5150)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001a87035d)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000394cac07)
+
+			(Primitives	1
+
+				(Primitive	3M12226-5150
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/16/16,15:05:49)
+
+							(User	wjl)
+
+							(Path	connector.3m12226-5150)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	3M12226-5150
+
+							(PackType	3M12226-5150)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c8a03b1)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c9003a4)
+
+)
+

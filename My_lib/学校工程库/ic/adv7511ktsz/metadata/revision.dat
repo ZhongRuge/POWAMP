@@ -1,0 +1,180 @@
+(Cell	adv7511ktsz
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	05/29/14,13:13:28)
+
+			(User	Administrator)
+
+			(Path	ic.adv7511ktsz)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	05/29/14,14:08:07)
+
+			(User	Administrator)
+
+			(Path	ic.adv7511ktsz)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	00000000d4f26aba)
+
+			(Primitives	1
+
+				(Primitive	ADV7511KTSZ
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/29/14,13:13:28)
+
+							(User	Administrator)
+
+							(Path	ic.adv7511ktsz)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	ADV7511KTSZ
+
+							(PackType	ADV7511KTSZ)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	ADV7511KTSZ)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000080bffc5f)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/29/14,13:13:40)
+
+							(User	Administrator)
+
+							(Path	ic.adv7511ktsz)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b520357)
+
+		)
+
+		(Checksum	000000001b38034a)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b720377)
+
+)
+

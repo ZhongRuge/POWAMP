@@ -1,0 +1,37 @@
+
+	(Comment
+		(Time 06/18/05,15:35:06)
+		(User Laguna)
+		(MsgId ECO_021)
+		(Text "Package 74HC4316 added to cell")
+		(Param1 74HC4316)
+	)
+	(Comment
+		(Time 06/18/05,16:34:44)
+		(User Laguna)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+	(Comment
+		(Time 06/18/05,16:34:48)
+		(User Laguna)
+		(MsgId ECO_082)
+		(Text "Symbol sym_1 deleted from cell")
+		(Param1 sym_1)
+	)
+	(Comment
+		(Time 06/18/05,16:34:50)
+		(User Laguna)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+	(Comment
+		(Time 06/18/05,16:34:57)
+		(User Laguna)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)
+

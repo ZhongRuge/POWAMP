@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAX485'
+
+{========================================================================================}
+:CODE       | VALUE    = JEDEC_TYPE    | CHECKLIST | DESCRIPTIONS ;
+{========================================================================================}
+ '38090062' | 'MAX483E'(!) = 'SOP8-50-150' | ''        | 'Interface Drive,ADM483E,RS485/RS422 Transceiver,SOIC8'
+
+END_PART
+
+END.
+

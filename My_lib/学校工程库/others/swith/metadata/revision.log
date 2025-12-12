@@ -1,0 +1,39 @@
+
+	(Comment
+		(Time 05/29/14,09:55:48)
+		(User Administrator)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+	(Comment
+		(Time 05/29/14,10:02:32)
+		(User Administrator)
+		(MsgId ECO_021)
+		(Text "Package SWITH added to cell")
+		(Param1 SWITH)
+	)
+	(Comment
+		(Time 05/29/14,10:02:54)
+		(User Administrator)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)
+
+
+	(Comment
+		(Time 06/05/14,18:15:02)
+		(User Administrator)
+		(MsgId ECO_022)
+		(Text "Package SWITH deleted from cell")
+		(Param1 SWITH)
+	)
+
+	(Comment
+		(Time 06/05/14,18:15:48)
+		(User Administrator)
+		(MsgId ECO_021)
+		(Text "Package SWITH added to cell")
+		(Param1 SWITH)
+	)

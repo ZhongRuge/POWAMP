@@ -1,0 +1,170 @@
+(Cell	aha4524
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/01/13,19:28:58)
+
+			(User	lanzhu2410)
+
+			(Path	ic.aha4524)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/01/13,20:09:43)
+
+			(User	lanzhu2410)
+
+			(Path	ic.aha4524)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000004a79fd63)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/01/13,19:29:01)
+
+							(User	lanzhu2410)
+
+							(Path	ic.aha4524)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001ce103b9)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000006b75bf90)
+
+			(Primitives	1
+
+				(Primitive	AHA4524
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/01/13,19:55:26)
+
+							(User	lanzhu2410)
+
+							(Path	ic.aha4524)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	AHA4524
+
+							(PackType	AHA4524)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b2a035f)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c4003a5)
+
+)
+

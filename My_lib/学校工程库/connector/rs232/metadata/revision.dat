@@ -1,0 +1,180 @@
+(Cell	rs232
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	08/21/06,11:45:53)
+
+			(User	N)
+
+			(Path	tmpschlib.rs232)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	08/21/06,11:49:03)
+
+			(User	N)
+
+			(Path	tmpschlib.rs232)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000d4b3296f)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/21/06,11:45:53)
+
+							(User	N)
+
+							(Path	tmpschlib.rs232)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cec03b5)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000005bd4fbdc)
+
+			(Primitives	1
+
+				(Primitive	RS232
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/21/06,11:45:53)
+
+							(User	N)
+
+							(Path	tmpschlib.rs232)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	RS232
+
+							(PackType	RS232)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	"RS232")
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001cbf03b9)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001dad03db)
+
+)
+

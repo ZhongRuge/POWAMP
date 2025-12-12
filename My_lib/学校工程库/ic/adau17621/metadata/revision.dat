@@ -1,0 +1,170 @@
+(Cell	adau17621
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.9)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	11/16/14,15:56:08)
+
+			(User	jin)
+
+			(Path	ic.adau17621)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	11/16/14,19:38:01)
+
+			(User	jin)
+
+			(Path	ic.adau17621)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000009e5e11c3)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.9)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/16/14,15:56:19)
+
+							(User	jin)
+
+							(Path	ic.adau17621)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001ce203b1)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000008bf7703d)
+
+			(Primitives	1
+
+				(Primitive	ADAU17621
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/16/14,15:56:08)
+
+							(User	jin)
+
+							(Path	ic.adau17621)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	ADAU17621
+
+							(PackType	ADAU17621)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d7903eb)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c0003b0)
+
+)
+

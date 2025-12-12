@@ -1,0 +1,194 @@
+(Cell	sn74ahc1g32drl
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	10/10/19,21:50:14)
+
+			(User	Norman)
+
+			(Path	ic.sn74ahc1g32drl)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	04/17/06,17:15:25)
+
+			(User	N)
+
+			(Path	mytemplib.sn74lvc1g02)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.4)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	10/10/19,21:50:14)
+
+					(User	Norman)
+
+					(Path	ic.sn74ahc1g32drl)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000a9be9a1f)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/10/19,21:50:14)
+
+							(User	Norman)
+
+							(Path	ic.sn74ahc1g32drl)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e7b0413)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000a388e032)
+
+			(Primitives	1
+
+				(Primitive	SN74AHC1G32DRL
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/10/19,21:50:14)
+
+							(User	Norman)
+
+							(Path	ic.sn74ahc1g32drl)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	SN74AHC1G32DRL
+
+							(PackType	SN74AHC1G32DRL)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c32037b)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-p001 (v16-6-112A))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b620376)
+
+)
+

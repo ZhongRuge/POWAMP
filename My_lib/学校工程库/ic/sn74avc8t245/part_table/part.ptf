@@ -1,0 +1,14 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SN74AVC8T245'
+
+{========================================================================================}
+:VALUE(OPT)       = JEDEC_TYPE | DESCRIPTIONS                                ;
+{========================================================================================}
+ 'SN74AVC8T245PW'(!) = 'TSSOP24'  | '8BIT BUS TANSCEIVER,VCCA,VCCB: -0.5V-4.6V'
+ 'SN74LVC8T245PW'(!) = 'TSSOP24'  | '8BIT BUS TRANSCEIVER,VCCA,VCCB:-0.5V-6.5V'
+
+END_PART
+
+END.
+

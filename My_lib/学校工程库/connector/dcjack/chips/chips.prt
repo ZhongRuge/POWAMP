@@ -1,0 +1,22 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'DCJACK';
+  pin
+    'GND':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'NOC':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'VCC':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(-0.01,0.01)';
+  end_pin;
+  body
+    PART_NAME='DCJACK';
+    BODY_NAME='DCJACK';
+    PHYS_DES_PREFIX='J';
+    CLASS='IO';
+  end_body;
+end_primitive;
+
+END.

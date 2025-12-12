@@ -1,0 +1,14 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '5PIN'
+
+{========================================================================================}
+:VALUE(OPT)   = JEDEC_TYPE   | DESCRIPTION            ;
+{========================================================================================}
+ '5pin'(!)    = '5PIN_POWER' | '5pin_power connector'
+ '5pin_usb'(!) = '5pin_100'   | 'MICRO USB'           
+
+END_PART
+
+END.
+

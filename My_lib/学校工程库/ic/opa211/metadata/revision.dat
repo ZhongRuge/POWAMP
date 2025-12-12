@@ -1,0 +1,170 @@
+(Cell	opa211
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.9)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	01/19/12,13:36:25)
+
+			(User	Administrator)
+
+			(Path	ic.opa211)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	01/19/12,13:49:08)
+
+			(User	Administrator)
+
+			(Path	ic.opa211)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000a7047db1)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/19/12,13:38:23)
+
+							(User	Administrator)
+
+							(Path	ic.opa211)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c7a03ab)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000008971bc9c)
+
+			(Primitives	1
+
+				(Primitive	OPA211
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/19/12,13:36:25)
+
+							(User	Administrator)
+
+							(Path	ic.opa211)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	OPA211
+
+							(PackType	OPA211)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001e4e03dc)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001cd003da)
+
+)
+

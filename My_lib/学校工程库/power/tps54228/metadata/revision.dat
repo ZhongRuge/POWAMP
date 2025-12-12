@@ -1,0 +1,170 @@
+(Cell	tps54228
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.5)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	05/28/14,18:25:01)
+
+			(User	Administrator)
+
+			(Path	power.tps54228)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	05/28/14,19:21:12)
+
+			(User	Administrator)
+
+			(Path	power.tps54228)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000b54de226)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.5)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/28/14,18:25:06)
+
+							(User	Administrator)
+
+							(Path	power.tps54228)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d4303af)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000bb102a19)
+
+			(Primitives	1
+
+				(Primitive	TPS54228
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/28/14,19:20:57)
+
+							(User	Administrator)
+
+							(Path	power.tps54228)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TPS54228
+
+							(PackType	TPS54228)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001ca703b6)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001cb903a8)
+
+)
+

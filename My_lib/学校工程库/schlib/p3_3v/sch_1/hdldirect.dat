@@ -1,0 +1,10 @@
+(
+ (file_type "hdldirect.dat" "1.0" )
+ (view "sch_1" )
+ (modtime "verilog.v" 917403717 638 )
+ (cells )
+ (global_signals 
+  ("glbl" "P3_3V" "STD_LOGIC" "" ))
+ (single_page 
+  ("" ))
+ (multiple_pages ))

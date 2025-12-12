@@ -1,0 +1,170 @@
+(Cell	mpu-6000
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	09/06/16,16:29:30)
+
+			(User	Administrator)
+
+			(Path	ic.mpu-6000)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	09/06/16,16:45:55)
+
+			(User	Administrator)
+
+			(Path	ic.mpu-6000)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000007b9c26f9)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/06/16,16:29:34)
+
+							(User	Administrator)
+
+							(Path	ic.mpu-6000)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cea03bd)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000082fcc471)
+
+			(Primitives	1
+
+				(Primitive	MPU-6000
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/06/16,16:36:26)
+
+							(User	Administrator)
+
+							(Path	ic.mpu-6000)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	MPU-6000
+
+							(PackType	MPU-6000)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001dcb03ed)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001dd70407)
+
+)
+

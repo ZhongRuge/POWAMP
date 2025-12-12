@@ -1,0 +1,28 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FLCRYSTAL'
+
+{========================================================================================}
+:CODE       | VALUE         = JEDEC_TYPE      | DESCRIPTION                                          | checklist | MANUFACTORY | MANU_PART_NO ;
+{========================================================================================}
+ '12020024' | '25MHz'(!)    = 'SX4-FLCRYSTAL' | '晶体谐振器-25MHz-30ppm-尺寸3.2*2.5mm-表贴-70℃' | ''        | 'Pericom'   | 'FL2500028' 
+ '12020015' | '24MHz'(!)    = 'SX4-FLCRYSTAL' | '晶体谐振器-24MHz-30ppm-尺寸3.2*2.5mm-表贴-70℃' | ''        | 'Pericom'   | 'FL2400041' 
+ '12020016' | '12.288MHz'(!) = 'SX4-FLCRYSTAL' | '晶体谐振器-12.288MHz-30ppm-尺寸3.2*2.5mm-表贴-70℃' | ''        | 'Pericom'   | 'FL1220015' 
+ '12020026' | '14.31818MHz'(!) = 'SX4-FLCRYSTAL' | '晶体谐振器-14.31818MHz-30ppm-尺寸3.2*2.5mm-表贴-70℃'| ''        | 'Pericom'          | 'FL1430013'          
+ '12020027' | '48MHz'(!) = 'SX4-FLCRYSTAL' | '晶体谐振器-48MHz-20ppm-尺寸3.2*2.5mm-表贴-70℃'| ''        | 'Pericom'          | 'FL4800018'        
+ '12020029' | '12MHz'(!) = 'SX4-FLCRYSTAL' | '晶体谐振器-12MHz-20ppm-尺寸3.2*2.5mm-表贴-（-20~70℃）'| ''        | 'Pericom'          | 'FL1200092'        
+ '12020030' | '18MHz'(!) = 'SX4-FLCRYSTAL' | '晶体谐振器-18MHz-30ppm-尺寸3.2*2.5mm-表贴-70℃'| ''        | 'HOSONIC'          | 'E3SB18.0000F10E33'        
+ '12020031' | '28.375MHz'(!) = 'SX4-FLCRYSTAL' | '晶体谐振器-28.375MHz-30ppm-尺寸3.2*2.5mm-表贴-70℃'| ''        | 'HOSONIC'          | 'E3SB28.3750F10E33'        
+ '12020032' | '37.125MHz'(!) = 'SX4-FLCRYSTAL' | '晶体谐振器-37.125MHz-30ppm-尺寸3.2*2.5mm-表贴-70℃'| ''        | 'HOSONIC'          | 'E3SB37.1250F10E33'     
+ '12020034' | '20MHz'(!) = 'SX4-FLCRYSTAL' | '晶体谐振器-20MHz-30ppm-尺寸3.2*2.5mm-表贴-70℃'| ''        | 'HOSONIC'          | 'E3SB20.0000F12E33'
+ '12020035' | '28.63636MHz'(!) = 'SX4-FLCRYSTAL' | '晶体谐振器-28.63636MHz-50ppm-尺寸3.2*2.5mm-表贴-70℃'   | ''        | 'HOSONIC'   | 'E3SB28.63636F12E33'
+ '12020036' | '14.31818MHz'(!) = 'SX4-FLCRYSTAL' | '晶体谐振器-14.31818MHz-50ppm-尺寸3.2*2.5mm-表贴-70℃'   | ''        | 'HOSONIC'   | 'E3SB14.31818F12E33' 
+ '12020037' | '24MHz'(!) = 'SX4-FLCRYSTAL' | '晶体谐振器-24MHz-30ppm-尺寸3.2*2.5mm-表贴--40~85℃'   | ''        | 'Taitien'   | 'XXCEELNANF-24M' 
+ '12020038' | '12.288MHz'(!) = 'SX4-FLCRYSTAL' | '晶体谐振器-12.288MHz-30ppm-尺寸3.2*2.5mm-表贴--40~85℃'   | ''        | 'Taitien'   | 'XXCEELNANF-12.288M' 
+ '12020039' | '25MHz'(!) = 'SX4-FLCRYSTAL' | '晶体谐振器-25MHz-30ppm-尺寸3.2*2.5mm-表贴--40~85℃'   | ''        | 'Taitien'   | 'XXCEELNANF-25M' 
+ '12020040' | '20MHz'(!) = 'SX4-FLCRYSTAL' | '晶体谐振器-20MHz-30ppm-尺寸3.2*2.5mm-表贴--40~85℃'   | ''        | 'Taitien'   | 'XXDEELNANF-20M'
+ 
+END_PART
+
+END.
+

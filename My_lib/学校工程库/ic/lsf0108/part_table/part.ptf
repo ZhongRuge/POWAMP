@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LSF0108'
+
+{========================================================================================}
+:VALUE(OPT)   | JEDEC_TYPE(OPT)   = DESCRIPTION                                  ;
+{========================================================================================}
+ 'lsf0108'    | 'sop20-26-200'(!) = 'bidirection multi-voltage level translator'
+
+END_PART
+
+END.
+

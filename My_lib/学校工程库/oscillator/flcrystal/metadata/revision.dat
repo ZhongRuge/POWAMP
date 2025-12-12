@@ -1,0 +1,180 @@
+(Cell	flcrystal
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.16)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	11/27/10,15:27:57)
+
+			(User	Administrator)
+
+			(Path	ipc_dome_main_lib.flcrystal)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	11/27/10,15:34:33)
+
+			(User	Administrator)
+
+			(Path	ipc_dome_main_lib.flcrystal)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000c1fab4bf)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.10)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/27/10,15:27:57)
+
+							(User	Administrator)
+
+							(Path	ipc_dome_main_lib.flcrystal)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001ed6043a)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000ff9103be)
+
+			(Primitives	1
+
+				(Primitive	FLCRYSTAL
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/27/10,15:27:57)
+
+							(User	Administrator)
+
+							(Path	ipc_dome_main_lib.flcrystal)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	FLCRYSTAL
+
+							(PackType	FLCRYSTAL)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	FLcrystal)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001be4038a)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c9203a9)
+
+)
+

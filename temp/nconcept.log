@@ -1,0 +1,526 @@
+Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023
+
+
+mpsdeclare
+mpsdeclare
+mpsdeclare
+mpsdeclare
+mpsdeclare
+mpsdeclare
+mpsdeclare
+set ORTHOG_wire
+set
+set move_ORTHOG
+set
+set autoroute ON
+set
+set autoheavy ON
+set
+set attributes_dir "G:\Cadence\SPB_17.4/tools/fet/concept/attributes"
+set
+set dots_FILLED
+set
+set autodot ON
+set
+set logic_dot_radius 13
+set
+set body_dot_radius 13
+set
+set tap_body CTAP
+set
+set size 1.000
+set
+set LEFT
+set
+set capslock_ON
+set
+set inline_textedit ON
+set
+set user_editor "notepad"
+set
+set prop_display VALUE
+set
+set pinprop_vis OFF
+set
+set pin_size 0.805
+set
+set rotate ON
+set
+set autopath ON
+set
+set sticky_OFF
+set
+set rmb OFF
+set
+set autopan OFF
+set
+set image_color_wire default
+set
+set image_color_dot default
+set
+set image_color_body default
+set
+set image_color_arc default
+set
+set image_color_prop default
+set
+set image_color_occprop default
+set
+set image_color_note default
+set
+set image_background_color black
+set
+set color_wire yellow
+set
+set color_dot white
+set
+set color_body green
+set
+set color_arc yellow
+set
+set color_prop orange
+set
+set occ_color red
+set
+set color_note purple
+set
+set background_color black
+set
+set highlight_color "default"
+set
+set DECIMAL
+set
+set default_grid OFF
+set
+set default_grid DOTS
+set
+set default_body_grid OFF
+set
+set default_body_grid DOTS
+set
+set default_doc_grid OFF
+set
+set default_doc_grid DOTS
+set
+set check_on_write ON
+set
+set check_missing_pins ON
+set
+set check_shorted_pin ON
+set
+set check_unconn_wires ON
+set
+set check_voltage_on_hdl ON
+set
+set check_parts_at_same_loc ON
+set
+set check_arcs_at_same_loc ON
+set
+set check_hidden_wires ON
+set
+set check_pins_at_origin ON
+set
+set check_pin_near_wire_endpt ON
+set
+set check_pin_wire_dist_thresh "DEFAULT"
+set
+set check_two_wires_at_pins ON
+set
+set check_signames ON
+set
+set check_signame_in_body ON
+set
+set check_body_place_holders ON
+set
+set check_prop_place_holders ON
+set
+set check_pack_sec_type_props ON
+set
+set check_nonsyncprops ON
+set
+set confirm_write OFF
+set
+set ascii
+set
+set delete_ascii OFF
+set
+set binary
+set
+set delete_binary OFF
+set
+set nodependency
+set
+set hdl_direct on
+set
+set click_to_type ON
+set
+set save_workspace ON
+set
+set addform ON
+set
+set editform ON
+set
+set libform ON
+set
+set catpath 
+set
+set wplot_thin_width 1
+set
+set wplot_thick_width 10
+set
+set wplot_scale 100
+set
+set wplot_adjust_scale
+set
+set wplot_sheet
+set
+set wplot_dpi -1
+set
+set multiformat_vectors ON
+set
+set ppt_optionset_path ""
+set
+set ppt_browser OFF
+set
+set lmb ON
+set
+set path_prefix "I"
+set
+set check_global_local_short ON
+set
+set max_drawings "50"
+set
+set modify_multiprop OFF
+set
+set check_power_props ON
+set
+set allow_power_pins ON
+set
+set powerprop_vis VALUE
+set
+set pathprop_invisible OFF
+set
+set allow_property_locking ON
+set
+set retver_replace OFF
+set
+set allow_comp_overlap OFF
+set
+set retain_location_on_copyall ON
+set
+set expand_before_global_navigate PROMPT
+set
+set check_page_synch ON
+set
+set dont_annotate_opt_value OFF
+set
+set retain_prev_hilite OFF
+set
+set lock_for_same_user OFF
+set
+set sync_on_page_edit OFF
+set
+set generate_sch_metadata OFF
+set
+set hardloc_copy ON
+set
+set allow_page_locking ON
+set
+set thick_block_border OFF
+set
+set thick_vector_pin_width OFF
+set
+set show_pnn_signame OFF
+set
+set hide_hierarchy_pages OFF
+set
+set page_name_prop ""
+set
+set page_name_case PRESERVE
+set
+set preserve_zoom_info ON
+set
+set lock_file_perm 444
+set
+set custom_cdslib_search ON
+set
+set replace_ptf_props OFF
+set
+set ign_quotes_mps_msg OFF
+set
+set show_unconnected_pins OFF
+set
+set honor_sch_custom_texts off
+set
+set hyperlinks on
+set
+set use_mono_as_symbol_color off
+set
+set preselect_flag off
+set
+set windowsmode_flag off
+set
+set delete_unattached_invisible_props ON
+set
+set honor_pptoptions_on_modify OFF
+set
+set check_grid_on_tap ON
+set
+set retain_font_settings_on_symbol_add ON
+set
+set retain_font_settings_on_symbol_ba ON
+set
+set update_lower_level_cm OFF
+set
+set disallow_design_load_thread OFF
+set
+set cm_always_active OFF
+set
+set donot_reuse_path OFF
+set
+set allow_prop_on_prop OFF
+set
+set invisible_pn_overlay OFF
+set
+set multisig_error OFF
+set
+set wait_seconds_for_conn_lock 0
+set
+set autoupdate_on_port_mismatch ON
+set
+set write_find_mkr_file OFF
+set
+set honor_source_modorder_on_reimport OFF
+set
+set preserve_pin_text_rotation ON
+set
+set combined_markers_on_hierwrite ON
+set
+set unnamed_net_using_full_pinname OFF
+set
+set dont_change_perm_on_reimport OFF
+set
+set retain_instance_prop_on_version OFF
+set
+set auto_update_default_models OFF
+set
+set hss_partial_instantiation OFF
+set
+set hss_vector_ports_same_symb ON
+set
+set hss_distribute_ports_method PORTCOUNT
+set
+set check_ibd_invalid_itaps ON
+set
+set check_multiple_ibd_props ON
+set
+set ibd_attach_mode OFF
+set
+set hss_dsn_sym_1_full ON
+set
+set var_color_comp aqua
+set
+get
+get
+set var_color_prop blue
+set
+get
+get
+set var_color_dni peach
+set
+get
+get
+set var_color_cross_dni orange
+set
+get
+get
+set var_show_dnicross ON
+set
+get
+get
+set var_prop_dni_hide ON
+set
+get
+get
+set var_dni_show_props ON
+set
+get
+get
+set show_variant_colors ON
+set
+set check_uprev_lower_level_blocks OFF
+set
+set search_key_props_only OFF
+set
+set get_key_props_from_modify OFF
+set
+set allow_empty_lock_file OFF
+set
+set dont_force_origin_ongrid OFF
+set
+set align_to_grid_in_script OFF
+set
+set replace_act_as_modify OFF
+set
+set retain_hardpack_sheet_import OFF
+set
+set sort_rows_on_attrform_launch ON
+set
+set savehier_readonly_msg_as_info OFF
+set
+set flatten_block_on_add OFF
+set
+set honor_pptoption_on_add_or_replace OFF
+set
+set list_valid_versions_metadata ON
+set
+set hviewer_show_prop ""
+set
+set dropdown_tooltip_combo ON
+set
+set update_last_mod_save_hier OFF
+set
+set check_pack_sync_on_exit OFF
+set
+set check_pack_sync_on_import OFF
+set
+set allow_pinText_swap ON
+set
+set handle_prop_wrt_compangle OFF
+set
+set cds_dehdl_powertree OFF
+set
+set set_footprint_compatibility INST
+set
+set xref_set_zoom_2points ON
+set
+set bbox_shown_on_any_move OFF
+set
+set show_xnets OFF
+set
+set default_grid 0.05 5
+set
+set default_body_grid 0.050 2
+set
+set default_doc_grid 0.100 5
+set
+INFO(SPCOCN-1737): Reading G:\Cadence\POWAMP\cds.lib file.
+nmapedit power_amplifier
+nmapedit
+_!editincontext
+INFO(SPCOCN-1446): New schematic POWER_AMPLIFIER.SCH.1.1 started as drawing #1.
+library
+library
+library
+library
+library
+library
+library
+library
+library
+library
+library
+get
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.1 into drawing #1.
+backannotate
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.2 into drawing #1.
+INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.2:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): Writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.5 into drawing #1.
+INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.5:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): Writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.8 into drawing #1.
+INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.8:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): Writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.11 into drawing #1.
+INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.11:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): Writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.3 into drawing #1.
+INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.3:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): Writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.4 into drawing #1.
+INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.4:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): Writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.6 into drawing #1.
+INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.6:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): Writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.7 into drawing #1.
+INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.7:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): Writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.9 into drawing #1.
+INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.9:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): Writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.10 into drawing #1.
+INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.10:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): Writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+
+CSDirect Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023
+
+Netlisting block power_amplifier
+
+Processing page 2
+
+Processing page 3
+
+Processing page 4
+
+Processing page 5
+
+Processing page 6
+
+Processing page 7
+
+Processing page 8
+
+Processing page 9
+
+Processing page 10
+
+Processing page 11
+
+No netlisting errors found. 
+
+INFO(SPCOCN-1054): ...written
+nmapedit
+_!editincontext
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.1 into drawing #1.
+exit

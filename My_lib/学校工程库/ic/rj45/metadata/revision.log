@@ -1,0 +1,50 @@
+
+	(Comment
+		(Time 11/19/14,15:55:14)
+		(User jin)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+
+
+
+	(Comment
+		(Time 11/19/14,15:58:50)
+		(User jin)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)
+
+
+	(Comment
+		(Time 11/19/14,17:57:05)
+		(User jin)
+		(MsgId ECO_022)
+		(Text "Package 88E1518 deleted from cell")
+		(Param1 88E1518)
+	)
+	(Comment
+		(Time 11/19/14,17:57:10)
+		(User jin)
+		(MsgId ECO_021)
+		(Text "Package RJ45 added to cell")
+		(Param1 RJ45)
+	)
+
+
+	(Comment
+		(Time 11/21/14,11:11:12)
+		(User jin)
+		(MsgId ECO_212)
+		(Text "PTF file part.ptf deleted")
+		(Param1 part.ptf)
+	)
+	(Comment
+		(Time 11/21/14,11:11:14)
+		(User jin)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)

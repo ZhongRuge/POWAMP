@@ -1,0 +1,24 @@
+
+	(Comment
+		(Time 07/08/16,12:03:13)
+		(User bin)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)
+	(Comment
+		(Time 07/08/16,12:06:13)
+		(User bin)
+		(MsgId ECO_211)
+		(Text "PTF file part_1.ptf added")
+		(Param1 part_1.ptf)
+	)
+	(Comment
+		(Time 07/08/16,12:06:23)
+		(User bin)
+		(MsgId ECO_212)
+		(Text "PTF file part_1.ptf deleted")
+		(Param1 part_1.ptf)
+	)
+
+

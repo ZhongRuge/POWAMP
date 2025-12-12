@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LSM303D'
+
+{========================================================================================}
+:VALUE(OPT)   = JEDEC_TYPE     | DESCRIPTION                                                                           ;
+{========================================================================================}
+ 'LSM303D'(!) = 'LGA16-20-108' | 'Ultra-compact high-performance eCompass module:3D accelerometer and 3D magnetometer'
+
+END_PART
+
+END.
+

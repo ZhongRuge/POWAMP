@@ -1,0 +1,23 @@
+FILE_TYPE=LIBRARY_PARTS;
+TIME=' Created/Modified on Mon Jul 29 19:17:33 2002' ;
+primitive '74ALVC32';
+  pin
+    'A':
+      PIN_NUMBER='(1,4,9,12)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'B':
+      PIN_NUMBER='(2,5,10,13)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'Y':
+      PIN_NUMBER='(3,6,8,11)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+  end_pin;
+  body
+    POWER_PINS='(+3.3V:14)';
+    POWER_PINS='(GND:7)';
+    CLASS='IC';
+    PART_NAME='74ALVC32';
+    JEDEC_TYPE="so-14";
+  end_body;
+end_primitive;
+END.

@@ -1,0 +1,21 @@
+	(Comment
+		(Time 10/11/19,15:39:01)
+		(User Norman)
+		(MsgId ECO_021)
+		(Text "Package OP284 added to cell")
+		(Param1 "OP284")
+	)
+	(Comment
+		(Time 10/11/19,15:46:03)
+		(User Norman)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 "sym_1")
+	)
+	(Comment
+		(Time 10/11/19,15:49:13)
+		(User Norman)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 "part.ptf")
+	)

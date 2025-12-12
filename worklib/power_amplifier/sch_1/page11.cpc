@@ -113,6 +113,9 @@
   resistor res0805 *
   page11_i48
 #CELL
+  resistor res0805 *
+  page11_i49
+#CELL
   capacitor c0805 *
   page11_i5
 #CELL

@@ -1,0 +1,180 @@
+(Cell	rtl8201bl lqfp48
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	08/04/06,21:43:08)
+
+			(User	rrock)
+
+			(Path	motppc.rtl8201bl lqfp48)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	08/04/06,21:46:35)
+
+			(User	rrock)
+
+			(Path	motppc.rtl8201bl lqfp48)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000f702e8f4)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/04/06,21:43:08)
+
+							(User	rrock)
+
+							(Path	motppc.rtl8201bl lqfp48)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cd703b7)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000004114054a)
+
+			(Primitives	1
+
+				(Primitive	RTL8201BL LQFP48
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/04/06,21:43:08)
+
+							(User	rrock)
+
+							(Path	motppc.rtl8201bl lqfp48)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	RTL8201BL LQFP48
+
+							(PackType	RTL8201BL LQFP48)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	"REALTEK_LQFP48")
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d7803ab)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bf303ab)
+
+)
+

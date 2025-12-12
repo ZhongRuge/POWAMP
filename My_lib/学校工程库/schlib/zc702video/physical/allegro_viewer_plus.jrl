@@ -1,0 +1,35 @@
+\t (00:00:01) allegro_viewer_plus 15.7 p007 (v15-7-42E) i86
+\t (00:00:01) 
+
+\t (00:00:01) Starting new drawing...
+\i (00:00:01) trapsize 548
+\i (00:00:01) trapsize 616
+\i (00:00:01) trapsize 616
+\i (02:59:47) trapsize 548
+\i (02:59:47) trapsize 616
+\i (03:00:20) define grid 
+\i (03:00:26) setwindow form.grid
+\i (03:00:26) FORM grid top subclass_x_grids 5.0 
+\i (03:00:28) FORM grid top subclass_y_grids 5.0 
+\i (03:00:30) FORM grid bottom subclass_x_grids 5.0 
+\i (03:00:32) FORM grid bottom subclass_y_grids 5.0 
+\i (03:00:32) FORM grid done  
+\i (03:00:39) setwindow pcb
+\i (03:00:39) zoom out 
+\i (03:00:39) setwindow pcb
+\i (03:00:39) zoom out 2943.7 7266.9
+\i (03:00:39) trapsize 962
+\i (03:00:40) zoom out 
+\i (03:00:40) setwindow pcb
+\i (03:00:40) zoom out 5653.9 12096.2
+\i (03:00:40) trapsize 962
+\i (03:00:41) zoom out 
+\i (03:00:41) setwindow pcb
+\i (03:00:41) zoom out 6000.0 12403.9
+\i (03:00:41) trapsize 962
+\i (03:02:05) exit 
+\f (03:02:05) Do you want to save the changes you made to Concept_HDL_expert.brd?
+\i (03:02:08) fillin menu_cancel 
+\i (03:02:20) exit 
+\f (03:02:20) Do you want to save the changes you made to Concept_HDL_expert.brd?
+\i (03:02:21) fillin no 

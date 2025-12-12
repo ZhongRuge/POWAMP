@@ -1,0 +1,1 @@
+pdv_170,Cell 'w25q128bvsfig':Pins WP#/IO3,NC1*,NC2*,NC3*,NC4*,NC5*,NC6*,NC7*,NC8* are not present in any of the packages or symbols.,Warning

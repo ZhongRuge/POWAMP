@@ -1,0 +1,180 @@
+(Cell	sn74avc8t245
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	1.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/15/07,15:11:58)
+
+			(User	xuj)
+
+			(Path	sch_lib.sn74avc8t245)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	01/09/12,13:04:53)
+
+			(User	Administrator)
+
+			(Path	ic.sn74avc8t245)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000ed762655)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/15/07,15:19:51)
+
+							(User	xuj)
+
+							(Path	sch_lib.sn74avc8t245)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d150389)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000bb071f15)
+
+			(Primitives	1
+
+				(Primitive	SN74AVC8T245
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/15/07,15:12:01)
+
+							(User	xuj)
+
+							(Path	sch_lib.sn74avc8t245)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	SN74AVC8T245
+
+							(PackType	SN74AVC8T245)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	TSSOP24)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001cc203b3)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_design_studio)
+
+	)
+
+	(Checksum	000000001ca903a2)
+
+)
+

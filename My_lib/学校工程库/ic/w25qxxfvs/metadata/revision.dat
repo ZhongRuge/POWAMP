@@ -1,0 +1,170 @@
+(Cell	w25qxxfvs
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	09/05/12,15:12:00)
+
+			(User	Administrator)
+
+			(Path	ic.w25qxxfvs)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	09/05/12,15:42:46)
+
+			(User	Administrator)
+
+			(Path	ic.w25qxxfvs)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000007633d0a9)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/05/12,15:12:03)
+
+							(User	Administrator)
+
+							(Path	ic.w25qxxfvs)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b4e0382)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000053f120d1)
+
+			(Primitives	1
+
+				(Primitive	W25QXXFVS
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/05/12,15:27:10)
+
+							(User	Administrator)
+
+							(Path	ic.w25qxxfvs)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	W25QXXFVS
+
+							(PackType	W25QXXFVS)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c7b0384)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	Concept_HDL_studio)
+
+	)
+
+	(Checksum	000000001c3e037d)
+
+)
+

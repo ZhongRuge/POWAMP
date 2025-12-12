@@ -1,0 +1,170 @@
+(Cell	adm2682ebriz
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	08/24/17,22:12:41)
+
+			(User	Administrator)
+
+			(Path	ic.adm2682ebriz)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	08/24/17,22:37:11)
+
+			(User	Administrator)
+
+			(Path	ic.adm2682ebriz)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000001ab877a0)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/24/17,22:22:47)
+
+							(User	Administrator)
+
+							(Path	ic.adm2682ebriz)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cd603ac)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000b9d626a6)
+
+			(Primitives	1
+
+				(Primitive	ADM2682EBRIZ
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/24/17,22:17:09)
+
+							(User	Administrator)
+
+							(Path	ic.adm2682ebriz)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	ADM2682EBRIZ
+
+							(PackType	ADM2682EBRIZ)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001e2603d9)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001baf037f)
+
+)
+

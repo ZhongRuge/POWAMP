@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'L3GD20H'
+
+{========================================================================================}
+:VALUE(OPT)   = JEDEC_TYPE     | DESCRIPTION                                               ;
+{========================================================================================}
+ 'L3GD20H'(!) = 'lga16-20-108' | 'MEMS motion sensor: three-axis digital output gyroscope'
+
+END_PART
+
+END.
+

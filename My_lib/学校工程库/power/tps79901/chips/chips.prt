@@ -1,0 +1,53 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'TPS79901';
+  pin
+    'EN':
+      PIN_NUMBER='(3)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+    'OUT':
+      PIN_NUMBER='(5)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'FB':
+      PIN_NUMBER='(4)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+    'IN':
+      PIN_NUMBER='(1)';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='GROUND';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    BODY_NAME='TPS79901';
+    PART_NAME='TPS79901';
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+  end_body;
+end_primitive;
+
+END.

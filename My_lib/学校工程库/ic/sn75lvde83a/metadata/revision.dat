@@ -1,0 +1,170 @@
+(Cell	sn75lvde83a
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.12)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/28/11,15:31:35)
+
+			(User	lxk)
+
+			(Path	mylib.sn75lvde83a)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/28/11,15:34:33)
+
+			(User	lxk)
+
+			(Path	mylib.sn75lvde83a)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000b613f22e)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.9)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/28/11,15:32:36)
+
+							(User	lxk)
+
+							(Path	mylib.sn75lvde83a)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c7603ac)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000888e8601)
+
+			(Primitives	1
+
+				(Primitive	SN75LVDE83A
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/28/11,15:31:35)
+
+							(User	lxk)
+
+							(Path	mylib.sn75lvde83a)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	SN75LVDE83A
+
+							(PackType	SN75LVDE83A)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c2003b1)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_design_expert)
+
+	)
+
+	(Checksum	000000001b77036d)
+
+)
+

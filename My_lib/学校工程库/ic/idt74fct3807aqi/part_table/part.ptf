@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IDT74FCT3807AQI'
+
+{========================================================================================}
+:VALUE(OPT='IDT74FCT3807AQI')   = JEDEC_TYPE            | DESCRIPTION                      ;
+{========================================================================================}
+ 'IDT74FCT3807AQI'(!)           = 'idt74fct3807_soic20' | '3.3V CMOS 1-to-10 clock driver'
+
+END_PART
+
+END.
+

@@ -1,0 +1,172 @@
+(Cell	74lvc16245
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	01/09/06,16:43:26)
+
+			(User	WAYNE)
+
+			(Path	sym_temp.74lvc16245)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	01/09/06,16:46:16)
+
+			(User	WAYNE)
+
+			(Path	sym_temp.74lvc16245)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000004384ee0e)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/09/06,16:43:26)
+
+							(User	WAYNE)
+
+							(Path	sym_temp.74lvc16245)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001bb103b3)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000022337cc9)
+
+			(Primitives	1
+
+				(Primitive	74LVC16245
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/09/06,16:43:26)
+
+							(User	WAYNE)
+
+							(Path	sym_temp.74lvc16245)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	74LVC16245
+
+							(PackType	74LVC16245)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001cc703b3)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001cc203a7)
+
+)
+

@@ -1,0 +1,170 @@
+(Cell	rj45
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.8)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	11/19/14,15:53:53)
+
+			(User	jin)
+
+			(Path	ic.rj45)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	11/21/14,11:11:29)
+
+			(User	jin)
+
+			(Path	ic.rj45)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000700c1fb3)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.5)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/19/14,15:55:14)
+
+							(User	jin)
+
+							(Path	ic.rj45)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001bd403a7)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000d7797996)
+
+			(Primitives	1
+
+				(Primitive	RJ45
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/19/14,17:57:10)
+
+							(User	jin)
+
+							(Path	ic.rj45)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	RJ45
+
+							(PackType	RJ45)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d6303e4)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	Concept_HDL_expert)
+
+	)
+
+	(Checksum	000000001bae037b)
+
+)
+

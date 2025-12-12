@@ -1,0 +1,39 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dump Library Log                                                 )
+(                                                                     )
+(    Software Version : 17.4S039                                      )
+(    Date/Time        : Fri Dec 12 20:46:35 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+*** file: G:/Cadence/POWAMP/worklib/power_amplifier/physical/unnamed.brd ***
+
+
+
+  *** Creating all device files (see create_devices.log) ***
+
+
+  *** Creating padstacks. ***
+
+  PTH_C591SLOT362X364S2OFF0X0 being dumped.
+
+  PTH_C787SLOT532X532S2OFF0X0 being dumped.
+
+
+  *** Creating package symbols (.dra and .psm) ***
+
+  usb-th_73725-0110blf being dumped.
+
+
+
+*********************** Summary *********************
+ERRORs reported:                           0
+
+Number of padstacks dumped:                2
+Number of package symbols dumped:          1
+
+Total number of symbols dumped:            1
+*****************************************************
+

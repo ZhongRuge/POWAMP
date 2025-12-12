@@ -1,0 +1,170 @@
+(Cell	ov7620_pin
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.6)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	02/26/14,15:08:17)
+
+			(User	Administrator)
+
+			(Path	connector.ov7620_pin)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	02/26/14,15:46:04)
+
+			(User	Administrator)
+
+			(Path	connector.ov7620_pin)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000002ea5918b)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	02/26/14,15:08:22)
+
+							(User	Administrator)
+
+							(Path	connector.ov7620_pin)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cbb03b2)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000d39591fa)
+
+			(Primitives	1
+
+				(Primitive	OV7620_PIN
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	02/26/14,15:31:20)
+
+							(User	Administrator)
+
+							(Path	connector.ov7620_pin)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	OV7620_PIN
+
+							(PackType	OV7620_PIN)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c2603ae)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bc703a6)
+
+)
+

@@ -1,0 +1,194 @@
+(Cell	idt74fct3807aqi
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	10/12/19,10:18:31)
+
+			(User	Norman)
+
+			(Path	ic.idt74fct3807aqi)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	10/12/19,11:14:50)
+
+			(User	Norman)
+
+			(Path	ic.idt74fct3807aqi)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.1)
+
+				(ModificationStatus	NULL)
+
+				(Status	)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	)
+
+					(User	)
+
+					(Path	)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000cff1beb1)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/12/19,10:23:11)
+
+							(User	Norman)
+
+							(Path	ic.idt74fct3807aqi)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001fb7043b)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000e62ec445)
+
+			(Primitives	1
+
+				(Primitive	IDT74FCT3807AQI
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/12/19,10:18:36)
+
+							(User	Norman)
+
+							(Path	ic.idt74fct3807aqi)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	IDT74FCT3807AQI
+
+							(PackType	IDT74FCT3807AQI)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c070384)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-p001 (v16-6-112A))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b3d034b)
+
+)
+

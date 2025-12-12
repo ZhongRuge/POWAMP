@@ -1,0 +1,170 @@
+(Cell	dsub_25
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.5)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/30/11,17:46:39)
+
+			(User	lxk)
+
+			(Path	mylib.dsub_25)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/30/11,20:46:18)
+
+			(User	lxk)
+
+			(Path	mylib.dsub_25)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000fad908f5)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/30/11,17:46:46)
+
+							(User	lxk)
+
+							(Path	mylib.dsub_25)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e8503e8)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000a322d1da)
+
+			(Primitives	1
+
+				(Primitive	DSUB_25
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/30/11,17:46:39)
+
+							(User	lxk)
+
+							(Path	mylib.dsub_25)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	DSUB_25
+
+							(PackType	DSUB_25)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001dbf03db)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	Concept_HDL_expert)
+
+	)
+
+	(Checksum	000000001de10407)
+
+)
+

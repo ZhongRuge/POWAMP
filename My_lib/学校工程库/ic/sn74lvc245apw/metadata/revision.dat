@@ -1,0 +1,160 @@
+(Cell	sn74lvc245apw
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	1.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/01/05,20:45:55)
+
+			(User	Administrator)
+
+			(Path	motppc.sn74lvc245apw)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000a193d209)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/01/05,20:45:55)
+
+							(User	Administrator)
+
+							(Path	motppc.sn74lvc245apw)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c43037e)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000ef764a0b)
+
+			(Primitives	1
+
+				(Primitive	SN74LVC245APW
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/01/05,20:45:55)
+
+							(User	Administrator)
+
+							(Path	motppc.sn74lvc245apw)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	SN74LVC245APW
+
+							(PackType	SN74LVC245APW)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d1503b8)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b980379)
+
+)
+

@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MS5611-01BA'
+
+{========================================================================================}
+:VALUE(OPT)    = JEDEC_TYPE   | DESCRIPTION                                            ;
+{========================================================================================}
+ 'MS5611-01BA'(!) = 'QFN8-49-87' | 'Barometric Pressure Sensor,with stainless  steel cap'
+
+END_PART
+
+END.
+

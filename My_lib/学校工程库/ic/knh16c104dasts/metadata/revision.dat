@@ -1,0 +1,170 @@
+(Cell	knh16c104dasts
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	08/09/16,21:02:42)
+
+			(User	Administrator)
+
+			(Path	ic.knh16c104dasts)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	08/09/16,21:09:22)
+
+			(User	Administrator)
+
+			(Path	ic.knh16c104dasts)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000c32c6d7f)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/09/16,21:02:50)
+
+							(User	Administrator)
+
+							(Path	ic.knh16c104dasts)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d4003e3)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000009863f30f)
+
+			(Primitives	1
+
+				(Primitive	KNH16C104DASTS
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/09/16,21:06:59)
+
+							(User	Administrator)
+
+							(Path	ic.knh16c104dasts)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	KNH16C104DASTS
+
+							(PackType	KNH16C104DASTS)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001dd003e0)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_design_expert)
+
+	)
+
+	(Checksum	000000001caf03a2)
+
+)
+

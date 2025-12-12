@@ -1,0 +1,1 @@
+pdv_170,Cell 'rj45':Pins LD1+,LD1-,LD2+,LD2- are not present in any of the packages or symbols.,Warning

@@ -1,0 +1,170 @@
+(Cell	max4224
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/13/16,19:20:39)
+
+			(User	Administrator)
+
+			(Path	ic.max4224)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/13/16,19:45:12)
+
+			(User	Administrator)
+
+			(Path	ic.max4224)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000aa19ce0a)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/13/16,19:22:05)
+
+							(User	Administrator)
+
+							(Path	ic.max4224)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e3e0406)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000a68a387d)
+
+			(Primitives	1
+
+				(Primitive	MAX4224
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/13/16,19:20:41)
+
+							(User	Administrator)
+
+							(Path	ic.max4224)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	MAX4224
+
+							(PackType	MAX4224)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d5603b4)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bb1037a)
+
+)
+

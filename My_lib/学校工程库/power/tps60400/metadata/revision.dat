@@ -1,0 +1,170 @@
+(Cell	tps60400
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	1.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	08/12/05,15:59:02)
+
+			(User	WAYNE)
+
+			(Path	amd.tps60400)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	01/09/06,21:34:50)
+
+			(User	WAYNE)
+
+			(Path	sym_temp.tps60400)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000c96c94da)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/12/05,16:03:38)
+
+							(User	WAYNE)
+
+							(Path	amd.tps60400)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d5303e8)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000050e7db6e)
+
+			(Primitives	1
+
+				(Primitive	TPS60400
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/12/05,16:01:12)
+
+							(User	WAYNE)
+
+							(Path	amd.tps60400)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TPS60400
+
+							(PackType	TPS60400)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001dbc03e5)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001da703d8)
+
+)
+

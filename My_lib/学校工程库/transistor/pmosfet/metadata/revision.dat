@@ -1,0 +1,194 @@
+(Cell	pmosfet
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.5)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	04/27/06,20:45:38)
+
+			(User	WAYNE)
+
+			(Path	sym_temp.pmosfet)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	04/27/06,20:59:11)
+
+			(User	WAYNE)
+
+			(Path	sym_temp.pmosfet)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.1)
+
+				(ModificationStatus	NULL)
+
+				(Status	)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	)
+
+					(User	)
+
+					(Path	)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000048725578)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/27/06,20:45:38)
+
+							(User	WAYNE)
+
+							(Path	sym_temp.pmosfet)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001a55032f)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000038377fec)
+
+			(Primitives	1
+
+				(Primitive	PMOSFET
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/27/06,20:45:38)
+
+							(User	WAYNE)
+
+							(Path	sym_temp.pmosfet)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	PMOSFET
+
+							(PackType	PMOSFET)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b520381)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-p001 (v16-6-112A))
+
+		(License	PCB_design_expert)
+
+	)
+
+	(Checksum	000000001b380347)
+
+)
+

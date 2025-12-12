@@ -1,0 +1,172 @@
+(Cell	ds90cr287
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/14/16,12:07:37)
+
+			(User	wjl)
+
+			(Path	ic.ds90cr287)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/14/16,12:12:36)
+
+			(User	wjl)
+
+			(Path	ic.ds90cr287)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	000000006cf4b362)
+
+			(Primitives	1
+
+				(Primitive	DS90CR287
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/14/16,12:07:37)
+
+							(User	wjl)
+
+							(Path	ic.ds90cr287)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	DS90CR287
+
+							(PackType	DS90CR287)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000014b50545)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/14/16,12:07:37)
+
+							(User	wjl)
+
+							(Path	ic.ds90cr287)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c7303b6)
+
+		)
+
+		(Checksum	000000001ba9037a)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c9103a9)
+
+)
+

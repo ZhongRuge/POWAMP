@@ -1,0 +1,194 @@
+(Cell	ref5025
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	10/11/19,12:48:12)
+
+			(User	Norman)
+
+			(Path	power.ref5025)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	04/20/12,12:37:42)
+
+			(User	lxk)
+
+			(Path	mylib.ref5050)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.2)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	10/11/19,12:48:12)
+
+					(User	Norman)
+
+					(Path	power.ref5025)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000e9f1cdb8)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/11/19,12:48:12)
+
+							(User	Norman)
+
+							(Path	power.ref5025)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e940417)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000008997319b)
+
+			(Primitives	1
+
+				(Primitive	REF5025
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/11/19,12:48:12)
+
+							(User	Norman)
+
+							(Path	power.ref5025)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	REF5025
+
+							(PackType	REF5025)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001cd703aa)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-p001 (v16-6-112A))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001cf403d5)
+
+)
+

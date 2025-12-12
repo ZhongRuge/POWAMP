@@ -1,0 +1,38 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'OPA4348AID';
+  pin
+    '-IN':
+      PIN_NUMBER='(2,6,9,13)';
+      INPUT_LOAD='(-0.01,0.01)';
+    '+IN':
+      PIN_NUMBER='(3,5,10,12)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'OUT':
+      PIN_NUMBER='(1,7,8,14)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'V+':
+      PIN_NUMBER='(4,4,4,4)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+    'V-':
+      PIN_NUMBER='(11,11,11,11)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='opa4348aid';
+    BODY_NAME='OPA4348AID';
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+  end_body;
+end_primitive;
+
+END.

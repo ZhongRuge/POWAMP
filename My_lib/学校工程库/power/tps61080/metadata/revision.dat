@@ -1,0 +1,170 @@
+(Cell	tps61080
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	05/27/12,15:01:04)
+
+			(User	Administrator)
+
+			(Path	power.tps61080)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	05/27/12,15:08:18)
+
+			(User	Administrator)
+
+			(Path	power.tps61080)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000002f5e073d)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/27/12,15:01:07)
+
+							(User	Administrator)
+
+							(Path	power.tps61080)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c9003b1)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000ecb44fe5)
+
+			(Primitives	1
+
+				(Primitive	TPS61080
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/27/12,15:04:55)
+
+							(User	Administrator)
+
+							(Path	power.tps61080)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TPS61080
+
+							(PackType	TPS61080)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001a39032a)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	Concept_HDL_studio)
+
+	)
+
+	(Checksum	000000001b6c0375)
+
+)
+

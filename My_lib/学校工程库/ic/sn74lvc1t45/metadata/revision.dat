@@ -1,0 +1,170 @@
+(Cell	sn74lvc1t45
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/12/14,16:39:41)
+
+			(User	lanzhu2410)
+
+			(Path	ic.sn74lvc1t45)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/12/14,16:42:27)
+
+			(User	lanzhu2410)
+
+			(Path	ic.sn74lvc1t45)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000020829c2a)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/12/14,16:39:44)
+
+							(User	lanzhu2410)
+
+							(Path	ic.sn74lvc1t45)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001acc037c)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000a01cd9db)
+
+			(Primitives	1
+
+				(Primitive	SN74LVC1T45
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/12/14,16:41:52)
+
+							(User	lanzhu2410)
+
+							(Path	ic.sn74lvc1t45)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	SN74LVC1T45
+
+							(PackType	SN74LVC1T45)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001f5a0415)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	Concept_HDL_expert)
+
+	)
+
+	(Checksum	000000001c380378)
+
+)
+

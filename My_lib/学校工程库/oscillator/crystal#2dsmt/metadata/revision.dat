@@ -1,0 +1,170 @@
+(Cell	crystal-smt
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.6)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/27/13,16:21:30)
+
+			(User	Administrator)
+
+			(Path	oscillator.crystal-smt)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/27/13,16:42:18)
+
+			(User	Administrator)
+
+			(Path	oscillator.crystal-smt)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000007bf68796)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/27/13,16:24:35)
+
+							(User	Administrator)
+
+							(Path	oscillator.crystal-smt)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cd50394)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000a22af356)
+
+			(Primitives	1
+
+				(Primitive	CRYSTAL-SMT
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/27/13,16:26:26)
+
+							(User	Administrator)
+
+							(Path	oscillator.crystal-smt)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	CRYSTAL-SMT
+
+							(PackType	CRYSTAL-SMT)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	00000000206a0476)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	Concept_HDL_expert)
+
+	)
+
+	(Checksum	000000001ad9034b)
+
+)
+

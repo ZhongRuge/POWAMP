@@ -1,0 +1,170 @@
+(Cell	ltc2641
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.9)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/06/08,11:18:25)
+
+			(User	tianxiang)
+
+			(Path	ic.ltc2641)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/17/08,11:26:04)
+
+			(User	tianxiang)
+
+			(Path	ic.ltc2641)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000006c1ad870)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/06/08,11:18:25)
+
+							(User	tianxiang)
+
+							(Path	ic.ltc2641)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d1603af)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000009f3aac6c)
+
+			(Primitives	1
+
+				(Primitive	LTC2641
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/06/08,11:18:25)
+
+							(User	tianxiang)
+
+							(Path	ic.ltc2641)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	LTC2641
+
+							(PackType	LTC2641)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d9f03d0)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_design_expert)
+
+	)
+
+	(Checksum	000000001cb903ac)
+
+)
+

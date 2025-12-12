@@ -1,0 +1,25 @@
+
+	(Comment
+		(Time 03/15/07,15:12:01)
+		(User xuj)
+		(MsgId ECO_021)
+		(Text "Package SN74AVC8T245 added to cell")
+		(Param1 SN74AVC8T245)
+	)
+
+	(Comment
+		(Time 03/15/07,15:19:51)
+		(User xuj)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+
+
+	(Comment
+		(Time 01/09/12,12:59:33)
+		(User Administrator)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)

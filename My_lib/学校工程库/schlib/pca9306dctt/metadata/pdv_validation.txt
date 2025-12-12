@@ -1,0 +1,1 @@
+pdv_140,Symbol 'sym_1':Pin VREF1,SCL1,GND,SDA1 is not on Standard Grid,Error

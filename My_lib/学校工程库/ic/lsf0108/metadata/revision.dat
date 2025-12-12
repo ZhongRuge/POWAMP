@@ -1,0 +1,170 @@
+(Cell	lsf0108
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	05/29/14,19:44:14)
+
+			(User	Administrator)
+
+			(Path	ic.lsf0108)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	05/29/14,19:51:17)
+
+			(User	Administrator)
+
+			(Path	ic.lsf0108)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000006a5db8d3)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/29/14,19:44:18)
+
+							(User	Administrator)
+
+							(Path	ic.lsf0108)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d8403e2)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000186150d0)
+
+			(Primitives	1
+
+				(Primitive	LSF0108
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/29/14,19:50:55)
+
+							(User	Administrator)
+
+							(Path	ic.lsf0108)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	LSF0108
+
+							(PackType	LSF0108)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001ba80380)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c5d0378)
+
+)
+

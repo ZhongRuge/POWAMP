@@ -1,0 +1,170 @@
+(Cell	tps5430
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	01/19/08,12:34:45)
+
+			(User	Rock)
+
+			(Path	ppc.tps5430)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	01/19/08,12:38:44)
+
+			(User	Rock)
+
+			(Path	ppc.tps5430)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000011e9f95e)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/19/08,12:37:37)
+
+							(User	Rock)
+
+							(Path	ppc.tps5430)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c3c03ba)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000092e5db50)
+
+			(Primitives	1
+
+				(Primitive	TPS5430
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	01/19/08,12:34:47)
+
+							(User	Rock)
+
+							(Path	ppc.tps5430)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TPS5430
+
+							(PackType	TPS5430)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001e460406)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	Allegro_Design_Editor_620)
+
+	)
+
+	(Checksum	000000001b53034b)
+
+)
+

@@ -1,0 +1,172 @@
+(Cell	ad5660
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	04/10/13,21:45:00)
+
+			(User	Administrator)
+
+			(Path	ic.ad5660)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	04/10/13,21:51:25)
+
+			(User	Administrator)
+
+			(Path	ic.ad5660)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	00000000f63ee4ba)
+
+			(Primitives	1
+
+				(Primitive	AD5660
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/10/13,21:45:00)
+
+							(User	Administrator)
+
+							(Path	ic.ad5660)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	AD5660
+
+							(PackType	AD5660)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000aecfc903)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/10/13,21:45:31)
+
+							(User	Administrator)
+
+							(Path	ic.ad5660)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e450438)
+
+		)
+
+		(Checksum	000000001b56034f)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b79037c)
+
+)
+

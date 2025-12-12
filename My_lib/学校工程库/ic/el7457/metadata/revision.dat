@@ -1,0 +1,170 @@
+(Cell	el7457
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	05/22/17,17:30:00)
+
+			(User	sj)
+
+			(Path	ic.el7457)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	05/22/17,17:41:33)
+
+			(User	sj)
+
+			(Path	ic.el7457)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000003be78b41)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/22/17,17:34:02)
+
+							(User	sj)
+
+							(Path	ic.el7457)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d2603b1)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000ca1b5247)
+
+			(Primitives	1
+
+				(Primitive	EL7457
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/22/17,17:30:03)
+
+							(User	sj)
+
+							(Path	ic.el7457)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	EL7457
+
+							(PackType	EL7457)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c1d038a)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c5103a6)
+
+)
+

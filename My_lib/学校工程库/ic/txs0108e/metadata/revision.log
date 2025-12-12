@@ -1,0 +1,37 @@
+
+	(Comment
+		(Time 08/06/16,21:44:49)
+		(User Administrator)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+	(Comment
+		(Time 08/06/16,21:55:47)
+		(User Administrator)
+		(MsgId ECO_021)
+		(Text "Package TXS0108E added to cell")
+		(Param1 TXS0108E)
+	)
+	(Comment
+		(Time 08/06/16,22:00:57)
+		(User Administrator)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)
+
+	(Comment
+		(Time 09/14/16,22:05:56)
+		(User Administrator)
+		(MsgId ECO_022)
+		(Text "Package TXS0108E deleted from cell")
+		(Param1 TXS0108E)
+	)
+	(Comment
+		(Time 09/14/16,22:06:00)
+		(User Administrator)
+		(MsgId ECO_021)
+		(Text "Package TXS0108E added to cell")
+		(Param1 TXS0108E)
+	)

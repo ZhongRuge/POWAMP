@@ -1,0 +1,170 @@
+(Cell	stm32f100cbt6
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	09/09/16,13:41:34)
+
+			(User	Administrator)
+
+			(Path	ic.stm32f100cbt6)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	09/09/16,13:57:00)
+
+			(User	Administrator)
+
+			(Path	ic.stm32f100cbt6)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000020363c30)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/09/16,13:41:34)
+
+							(User	Administrator)
+
+							(Path	ic.stm32f100cbt6)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001a7b0345)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000097a3be58)
+
+			(Primitives	1
+
+				(Primitive	STM32F100CBT6
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/09/16,13:41:34)
+
+							(User	Administrator)
+
+							(Path	ic.stm32f100cbt6)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	STM32F100CBT6
+
+							(PackType	STM32F100CBT6)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d5203dc)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bd003a7)
+
+)
+

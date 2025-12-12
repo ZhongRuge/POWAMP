@@ -1,0 +1,14 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'OPA2211'
+
+{========================================================================================}
+:VALUE(OPT)    = JEDEC_TYPE    | DESCRIPTION                                  ;
+{========================================================================================}
+ 'OPA2211AIDR'(!) = 'SOP8-50-157' | 'Low Power,Precision Operational Amplifiers'
+ 'OPA2277U'(!) = 'SOP8-50-157' | 'High Precision Operational Amplifiers'     
+
+END_PART
+
+END.
+

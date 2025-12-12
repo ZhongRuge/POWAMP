@@ -1,0 +1,14 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADA4941-1'
+=''
+
+{========================================================================================}
+:VALUE(OPT)   = JEDEC_TYPE | DESCRIPTION                                    ;
+{========================================================================================}
+ 'ADA4941-1'(!) = 'lfcsp_8'  | 'Single-Supply,Differential 18-bit ADC Driver'
+
+END_PART
+
+END.
+

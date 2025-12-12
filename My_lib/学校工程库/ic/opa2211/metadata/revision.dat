@@ -1,0 +1,180 @@
+(Cell	opa2211
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.6)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	05/09/11,15:17:28)
+
+			(User	mywamgoo)
+
+			(Path	ic.opa2211)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	07/07/06,16:47:13)
+
+			(User	N)
+
+			(Path	tmpschlib.AD712)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000a0389100)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/09/11,15:17:28)
+
+							(User	mywamgoo)
+
+							(Path	ic.opa2211)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b790347)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000ca4edeb6)
+
+			(Primitives	1
+
+				(Primitive	OPA2211
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/09/11,15:17:28)
+
+							(User	mywamgoo)
+
+							(Path	ic.opa2211)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	OPA2211
+
+							(PackType	OPA2211)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[2]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	SO-8)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001e270415)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	Concept_HDL_expert)
+
+	)
+
+	(Checksum	000000001b4d034a)
+
+)
+

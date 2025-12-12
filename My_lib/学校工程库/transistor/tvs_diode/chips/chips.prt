@@ -1,0 +1,19 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'TVS_DIODE';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+    '2':
+      PIN_NUMBER='(2)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+  end_pin;
+  body
+    PART_NAME='TVS_DIODE';
+    BODY_NAME='TVS_DIODE';
+    PHYS_DES_PREFIX='D';
+    CLASS='DISCRETE';
+  end_body;
+end_primitive;
+
+END.

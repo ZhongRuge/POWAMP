@@ -1,0 +1,17 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '4PIN'
+
+{========================================================================================}
+:VALUE(OPT)   = JEDEC_TYPE    | DESCRIPTION                 ;
+{========================================================================================}
+ '4pin'(!)    = '4PIN_POWER'  | '4pin pitch 3.96mm--water' 
+ '4pin_usb'(!) = '53375-4'     | '4pin pitch 2.54mm'        
+ 'sata_power'(!) = 'SATA_POWER'  | '4pin pitch SATA'          
+ 'PHD-2*2'(!) = 'PHD4-40-160' | 'PHDÐÍË«ÅÅ4½Å2mm*2mm½Ó²å¼þ'
+
+
+END_PART
+
+END.
+

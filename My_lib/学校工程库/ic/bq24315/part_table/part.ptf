@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BQ24315'
+
+{========================================================================================}
+:VALUE(OPT)   = JEDEC_TYPE    | DESCRIPTION                                                                      ;
+{========================================================================================}
+ 'BQ24315'(!) = 'WSON8-20-75' | 'Overvoltage and overcurrent protection and Li+ charger front-end protection IC'
+
+END_PART
+
+END.
+

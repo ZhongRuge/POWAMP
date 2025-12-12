@@ -1,0 +1,17 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TP'
+
+{========================================================================================}
+:VALUE(OPT)   = JEDEC_TYPE      | DESCRIPTIONS            ;
+{========================================================================================}
+ 'TP_SMD'(!)  = 'SMD-1P-32'     | 'SMD TEST POINT'       
+ 'TP_TH'(!)   = 'TP1'           | 'THROUG HOLE TEST POIT'
+ 'TP_SMD_2'(!) = 'TP-SMD-CIR-1p' | 'SMD cir TEST POINT'   
+ 'TP_TH2'(!)  = 'TP2'           | 'THROUG HOLE TEST POIT'
+ 'TP_SMD_4'(!)   = 'TP-SMD-CIR-2P' | 'SMD CIR TEST POINT 40cir'
+
+END_PART
+
+END.
+

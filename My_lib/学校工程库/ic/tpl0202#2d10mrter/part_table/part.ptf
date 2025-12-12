@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPL0202-10MRTER'
+
+{========================================================================================}
+:VALUE(OPT)        = JEDEC_TYPE     | DESCRIPTION                                         ;
+{========================================================================================}
+ 'TPL0202-10MRTER'(!) = 'QFN16-20-120' | '2-Ch,256-taps,digital potentiometer,SPI interface'
+
+END_PART
+
+END.
+

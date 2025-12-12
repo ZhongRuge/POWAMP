@@ -1,0 +1,170 @@
+(Cell	5pin
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.10)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/16/11,12:48:34)
+
+			(User	mywamgoo)
+
+			(Path	connector.5pin)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/16/11,12:53:45)
+
+			(User	mywamgoo)
+
+			(Path	connector.5pin)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000dde49ed6)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/16/11,12:48:34)
+
+							(User	mywamgoo)
+
+							(Path	connector.5pin)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001f1f041a)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000002aa41d32)
+
+			(Primitives	1
+
+				(Primitive	5PIN
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/16/11,12:48:34)
+
+							(User	mywamgoo)
+
+							(Path	connector.5pin)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	5PIN
+
+							(PackType	5PIN)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b76037e)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b8a0380)
+
+)
+

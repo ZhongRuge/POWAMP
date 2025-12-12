@@ -1,0 +1,170 @@
+(Cell	ad9945
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/07/16,15:53:32)
+
+			(User	Administrator)
+
+			(Path	ic.ad9945)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/07/16,18:19:14)
+
+			(User	Administrator)
+
+			(Path	ic.ad9945)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000864acf9d)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/07/16,18:18:54)
+
+							(User	Administrator)
+
+							(Path	ic.ad9945)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001cbb03ea)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000003572a0de)
+
+			(Primitives	1
+
+				(Primitive	AD9945
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/07/16,15:53:43)
+
+							(User	Administrator)
+
+							(Path	ic.ad9945)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	AD9945
+
+							(PackType	AD9945)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c1403ae)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bb703a3)
+
+)
+

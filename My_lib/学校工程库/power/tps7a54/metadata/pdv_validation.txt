@@ -1,0 +1,1 @@
+SPLBPD-170,Cell 'tps7a54':Pin(s) IN<0>,IN<1>,GND<0>,GND<1>,GND<2>,OUT<0>,OUT<1> is (are) not present in any package or symbol. You can choose Pins - Add from the Package Pin page and delete these pins. If the HAS_FIXED_SIZE value has been reduced, reload the part.,Warning

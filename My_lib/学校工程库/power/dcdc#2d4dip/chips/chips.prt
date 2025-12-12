@@ -1,0 +1,25 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'DCDC-4DIP';
+  pin
+    'VOUT-':
+      PIN_NUMBER='(3)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'VOUT+':
+      PIN_NUMBER='(4)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+    'VIN+':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'VIN-':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+  end_pin;
+  body
+    PART_NAME='DCDC-4DIP';
+    BODY_NAME='DCDC-4DIP';
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+  end_body;
+end_primitive;
+
+END.

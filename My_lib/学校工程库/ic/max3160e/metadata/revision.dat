@@ -1,0 +1,170 @@
+(Cell	max3160e
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.20)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	04/09/14,15:30:26)
+
+			(User	lanzhu)
+
+			(Path	ic.max3160e)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	04/09/14,16:02:09)
+
+			(User	lanzhu)
+
+			(Path	ic.max3160e)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000037bdd9f8)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/09/14,15:30:30)
+
+							(User	lanzhu)
+
+							(Path	ic.max3160e)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d6803ec)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000004f79613e)
+
+			(Primitives	1
+
+				(Primitive	MAX3160E
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/09/14,15:54:25)
+
+							(User	lanzhu)
+
+							(Path	ic.max3160e)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	MAX3160E
+
+							(PackType	MAX3160E)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001cc403ae)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001ce303d5)
+
+)
+

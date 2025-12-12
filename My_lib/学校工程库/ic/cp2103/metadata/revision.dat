@@ -1,0 +1,170 @@
+(Cell	cp2103
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.6)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	11/18/14,10:03:27)
+
+			(User	jin)
+
+			(Path	ic.cp2103)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	11/18/14,10:43:18)
+
+			(User	jin)
+
+			(Path	ic.cp2103)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000003eebbed9)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.5)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/18/14,10:05:59)
+
+							(User	jin)
+
+							(Path	ic.cp2103)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001f2b0444)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000031ec6c1f)
+
+			(Primitives	1
+
+				(Primitive	CP2103
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	11/18/14,10:42:00)
+
+							(User	jin)
+
+							(Path	ic.cp2103)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	CP2103
+
+							(PackType	CP2103)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001a13031f)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b450371)
+
+)
+

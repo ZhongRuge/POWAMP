@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NTHD4102PT1G'
+
+{========================================================================================}
+:VALUE(OPT)     = JEDEC_TYPE   | DESCRIPTION                                     ;
+{========================================================================================}
+ 'NTHD4102PT1G'(!) = 'SOP8-26-73' | 'Power Mosfet-20V,-4.1A,Dual P-Channel ChipFET'
+
+END_PART
+
+END.
+

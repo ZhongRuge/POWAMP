@@ -1,0 +1,216 @@
+(Cell	rn
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	1.0.15)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/27/04,10:35:47)
+
+			(User	zhuyuehua)
+
+			(Path	r.rn)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/27/04,11:19:41)
+
+			(User	zhuyuehua)
+
+			(Path	r.rn)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	2
+
+				(Symbol	sym_2
+
+					(Symbol_Type	Fixed)
+
+					(Checksum	000000004402071a)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/27/04,10:57:53)
+
+							(User	zhuyuehua)
+
+							(Path	r.rn)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Sizable)
+
+					(Checksum	00000000d6db62c5)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/27/04,10:35:50)
+
+							(User	zhuyuehua)
+
+							(Path	r.rn)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	0000000030840415)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000131e9bea)
+
+			(Primitives	1
+
+				(Primitive	RN
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/27/04,11:18:45)
+
+							(User	zhuyuehua)
+
+							(Path	r.rn)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	RN
+
+							(PackType	RN)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[4]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_2)
+
+									)
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	00000000419f03e6)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.20-s005)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	00000000168c0383)
+
+)
+

@@ -1,0 +1,160 @@
+(Cell	ltc1019
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.4)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/10/08,16:06:15)
+
+			(User	tianxiang)
+
+			(Path	ic.ltc1019)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000d0ebe5a8)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/10/08,16:06:15)
+
+							(User	tianxiang)
+
+							(Path	ic.ltc1019)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001eb5040f)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000de8baff8)
+
+			(Primitives	1
+
+				(Primitive	LTC1019
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/10/08,16:06:15)
+
+							(User	tianxiang)
+
+							(Path	ic.ltc1019)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	LTC1019
+
+							(PackType	LTC1019)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d9f03ac)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_design_expert)
+
+	)
+
+	(Checksum	000000001ce603dc)
+
+)
+

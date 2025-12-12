@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IDT49FCT805APYG'
+
+{========================================================================================}
+:VALUE(OPT)        = JEDEC_TYPE     | DESCRIPITION                  ;
+{========================================================================================}
+ 'IDT49FCT805APYG'(!) = 'SOP20-26-208' | 'FAST COMS BUFFER/CLK DRIVER'
+
+END_PART
+
+END.
+

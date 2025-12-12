@@ -1,0 +1,170 @@
+(Cell	imx290
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.5)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	04/19/17,14:12:45)
+
+			(User	wjl)
+
+			(Path	ic.imx290)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	04/19/17,14:35:13)
+
+			(User	wjl)
+
+			(Path	ic.imx290)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000001b470841)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/19/17,14:12:45)
+
+							(User	wjl)
+
+							(Path	ic.imx290)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b52034c)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000d5efb4b7)
+
+			(Primitives	1
+
+				(Primitive	IMX290LQR-C
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	04/19/17,14:12:45)
+
+							(User	wjl)
+
+							(Path	ic.imx290)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	IMX290LQR-C
+
+							(PackType	IMX290LQR-C)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c47037a)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b80037b)
+
+)
+

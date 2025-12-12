@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SN74LVC1G02'
+
+{========================================================================================}
+:VALUE(OPT)    = JEDEC_TYPE  | DESCRIPITON                        ;
+{========================================================================================}
+ 'sn74lvc1g02'(!) = 'r-pdso-n5' | 'single 2-input positive-nor gate'
+
+END_PART
+
+END.
+

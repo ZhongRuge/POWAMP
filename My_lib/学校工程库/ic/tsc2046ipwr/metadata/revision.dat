@@ -1,0 +1,170 @@
+(Cell	tsc2046ipwr
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.8)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/07/10,19:20:59)
+
+			(User	mywamgoo)
+
+			(Path	ic.tsc2046ipwr)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/07/10,19:29:07)
+
+			(User	mywamgoo)
+
+			(Path	ic.tsc2046ipwr)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000046870aa)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/07/10,19:28:57)
+
+							(User	mywamgoo)
+
+							(Path	ic.tsc2046ipwr)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001aa7037c)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000017ff9971)
+
+			(Primitives	1
+
+				(Primitive	TSC2046IPWR
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/07/10,19:21:03)
+
+							(User	mywamgoo)
+
+							(Path	ic.tsc2046ipwr)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TSC2046IPWR
+
+							(PackType	TSC2046IPWR)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c5503e2)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001ba90379)
+
+)
+

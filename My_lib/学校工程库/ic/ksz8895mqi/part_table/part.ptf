@@ -1,0 +1,14 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'KSZ8895MQI'
+
+{========================================================================================}
+:CODE(OPT)   | VALUE(OPT)     = JEDEC_TYPE      | DESCRIPTION                                                          | CHEKLIST | MANUFACTORY | MANU_PART_NO  ;
+{========================================================================================}
+ '38019032'  | 'KSZ8895MQXIA'(!) = 'QFP128-20-680' | 'switch-5port 10/100 managed ethernet with mii/rmii interface'       | ''       | 'micrel'    | 'KSZ8895MQI' 
+ '38019033'  | 'KSZ8895FQXIA'(!) = 'QFP128-20-680' | 'Switch-5port 10/100 managed ethernet with mii/rmii inerface-´ø¹â¿Ú' | ''       | 'micrel'    | 'KSZ8895FMQI'
+
+END_PART
+
+END.
+

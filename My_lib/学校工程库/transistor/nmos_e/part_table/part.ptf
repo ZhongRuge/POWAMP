@@ -1,0 +1,15 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NMOS_E'
+
+{========================================================================================}
+:CODE       | VALUE(OPT)              = JEDEC_TYPE | DESCRIPTION                                                 | CHECKLIST | MANUFACTORY ;
+{========================================================================================}
+ '15060003' | 'SSM3K15FS'(~NMOS_E-SSM3K15FS) = 'SOT-416'  | 'MOS管-N沟道-漏源击穿电压V(BR)dss-30V-连续漏极电流Id-100mA' | ''        | 'Toshiba'  
+ '15060011' | 'BSS138-7-F'(!) = 'SOT23'    | 'MOS管-N沟道-漏源击穿电压V(BR)dss为50V-连续漏极电流Id为200mA' | ''        | 'DIODES' 
+ '15060013' | 'FDV301N'(!) = 'SOT23'    | 'MOS管-N沟道-漏源击穿电压V(BR)dss为25V-连续漏极电流Id为220mA' | ''        | 'FAIRCHILD' 
+
+END_PART
+
+END.
+

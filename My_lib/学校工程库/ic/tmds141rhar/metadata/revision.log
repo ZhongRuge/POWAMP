@@ -1,0 +1,23 @@
+
+	(Comment
+		(Time 08/24/12,10:29:57)
+		(User wamgoo)
+		(MsgId ECO_021)
+		(Text "Package TMDS141RHAR added to cell")
+		(Param1 TMDS141RHAR)
+	)
+	(Comment
+		(Time 08/24/12,10:48:30)
+		(User wamgoo)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+
+	(Comment
+		(Time 08/24/12,19:25:45)
+		(User wamgoo)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)

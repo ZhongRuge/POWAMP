@@ -1,0 +1,25 @@
+
+	(Comment
+		(Time 09/17/12,10:48:35)
+		(User Administrator)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+
+
+	(Comment
+		(Time 09/17/12,11:04:43)
+		(User Administrator)
+		(MsgId ECO_021)
+		(Text "Package TPL0202-10MRTER added to cell")
+		(Param1 TPL0202-10MRTER)
+	)
+
+	(Comment
+		(Time 09/17/12,14:40:36)
+		(User Administrator)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)

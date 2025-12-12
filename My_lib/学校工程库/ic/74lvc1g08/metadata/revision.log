@@ -1,0 +1,17 @@
+
+	(Comment
+		(Time 10/13/05,10:57:03)
+		(User Laguna)
+		(MsgId ECO_021)
+		(Text "Package 74LVC1G08 added to cell")
+		(Param1 74LVC1G08)
+	)
+
+	(Comment
+		(Time 10/13/05,11:01:25)
+		(User Laguna)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+

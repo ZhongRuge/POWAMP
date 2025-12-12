@@ -1,0 +1,170 @@
+(Cell	w25q128bvsfig
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.9)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	10/30/12,14:15:07)
+
+			(User	Administrator)
+
+			(Path	ic.w25q128bvsfig)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	10/30/12,14:24:27)
+
+			(User	Administrator)
+
+			(Path	ic.w25q128bvsfig)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000c8787678)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.5)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/30/12,14:15:10)
+
+							(User	Administrator)
+
+							(Path	ic.w25q128bvsfig)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001bf60367)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000018878913)
+
+			(Primitives	1
+
+				(Primitive	W25Q128BVSFIG
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/30/12,14:19:29)
+
+							(User	Administrator)
+
+							(Path	ic.w25q128bvsfig)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	W25Q128BVSFIG
+
+							(PackType	W25Q128BVSFIG)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001bea03b6)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001d9c03d5)
+
+)
+

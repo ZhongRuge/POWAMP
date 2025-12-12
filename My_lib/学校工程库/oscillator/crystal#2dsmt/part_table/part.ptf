@@ -1,0 +1,16 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CRYSTAL-SMT'
+
+{========================================================================================}
+:CODE(OPT)   | VALUE(OPT)   = JEDEC_TYPE | DESCRIPTION   | CHECKLIST ;
+{========================================================================================}
+ '20130001'  | '12.288MHz'(!) = 'DSX321G'  | 'YOKE SMT Crystal,S3225A,3.2*2.5*0.8mm' | ''       
+ '20130002'  | '24MHz'(!) = 'DSX321G'     | 'YOKE SMT Crystal,S3225A,3.2*2.5*0.8mm' | ''       
+ '20130003'  | '25MHz'(!) = 'DSX321G'     | 'YOKE SMT Crystal,S3225A,3.2*2.5*0.8mm' | ''  
+ '20130004'  | '27MHz'(!) = 'DSX321G'     | 'YOKE SMT Crystal,S3225A,3.2*2.5*0.8mm' | ''    
+
+END_PART
+
+END.
+

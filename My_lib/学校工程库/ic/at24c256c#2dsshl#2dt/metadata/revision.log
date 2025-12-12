@@ -1,0 +1,21 @@
+	(Comment
+		(Time 11/07/23,10:46:57)
+		(User hanqingzhi)
+		(MsgId ECO_021)
+		(Text "Package AT24C256C-SSHL-T added to cell")
+		(Param1 "AT24C256C-SSHL-T")
+	)
+	(Comment
+		(Time 11/07/23,11:03:00)
+		(User hanqingzhi)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 "sym_1")
+	)
+	(Comment
+		(Time 11/07/23,11:05:12)
+		(User hanqingzhi)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 "part.ptf")
+	)

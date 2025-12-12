@@ -1,0 +1,16 @@
+
+	(Comment
+		(Time 04/27/06,20:46:46)
+		(User WAYNE)
+		(MsgId ECO_082)
+		(Text "Symbol sym_2 deleted from cell")
+		(Param1 sym_2)
+	)
+
+	(Comment
+		(Time 04/27/06,20:48:19)
+		(User WAYNE)
+		(MsgId ECO_211)
+		(Text "PTF file part.ptf added")
+		(Param1 part.ptf)
+	)

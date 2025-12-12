@@ -1,0 +1,181 @@
+-- pcdb file, Rev:1.0 written by Design Entry HDL 15.70-p004 5-Jun-2006 on Wed Nov 05 18:59:12 2014
+#ISCELL
+  standard b#20size#20page *
+  *
+#ISCELL
+  standard b#20size#20page *
+  *
+#CELL
+  ic mt41j128m16 *
+  page2_i1
+#ISCELL
+  standard b#20size#20page *
+  *
+#CELL
+  power xrp7664 *
+  page3_i1
+#CELL
+  capcitor c *
+  page3_i10
+#CELL
+  inductor l *
+  page3_i11
+#ISCELL
+  sch_lib p3_3v *
+  page3_i12
+#CELL
+  resistor r *
+  page3_i13
+#CELL
+  resistor r *
+  page3_i14
+#CELL
+  capcitor cp *
+  page3_i15
+#CELL
+  capcitor c *
+  page3_i16
+#CELL
+  capcitor c *
+  page3_i17
+#CELL
+  capcitor cp *
+  page3_i18
+#CELL
+  capcitor cp *
+  page3_i19
+#CELL
+  capcitor cp *
+  page3_i2
+#CELL
+  capcitor c *
+  page3_i20
+#CELL
+  capcitor cp *
+  page3_i22
+#CELL
+  capcitor c *
+  page3_i23
+#CELL
+  inductor l *
+  page3_i24
+#CELL
+  resistor r *
+  page3_i25
+#CELL
+  capcitor c *
+  page3_i26
+#CELL
+  power xrp7664 *
+  page3_i27
+#CELL
+  capcitor c *
+  page3_i29
+#CELL
+  capcitor c *
+  page3_i3
+#CELL
+  resistor r *
+  page3_i30
+#CELL
+  capcitor c *
+  page3_i31
+#CELL
+  resistor r *
+  page3_i32
+#CELL
+  capcitor c *
+  page3_i33
+#CELL
+  capcitor c *
+  page3_i34
+#CELL
+  capcitor cp *
+  page3_i35
+#ISCELL
+  sch_lib gndd *
+  page3_i36
+#CELL
+  resistor r *
+  page3_i37
+#ISCELL
+  sch_lib p5v *
+  page3_i38
+#CELL
+  power tps54228 *
+  page3_i39
+#ISCELL
+  sch_lib gndd *
+  page3_i4
+#CELL
+  resistor r *
+  page3_i40
+#CELL
+  capcitor cp *
+  page3_i41
+#CELL
+  capcitor c *
+  page3_i42
+#ISCELL
+  sch_lib gndd *
+  page3_i43
+#CELL
+  capcitor c *
+  page3_i44
+#CELL
+  capcitor c *
+  page3_i45
+#CELL
+  resistor r *
+  page3_i46
+#CELL
+  resistor r *
+  page3_i47
+#CELL
+  capcitor c *
+  page3_i48
+#CELL
+  inductor l *
+  page3_i49
+#CELL
+  resistor r *
+  page3_i5
+#CELL
+  capcitor cp *
+  page3_i50
+#CELL
+  capcitor c *
+  page3_i51
+#CELL
+  capcitor c *
+  page3_i52
+#CELL
+  capcitor cp *
+  page3_i53
+#ISCELL
+  sch_lib gndd *
+  page3_i54
+#CELL
+  resistor r *
+  page3_i55
+#CELL
+  transistor led_s *
+  page3_i56
+#ISCELL
+  sch_lib gndd *
+  page3_i57
+#CELL
+  capcitor c *
+  page3_i6
+#CELL
+  resistor r *
+  page3_i7
+#CELL
+  capcitor c *
+  page3_i8
+#CELL
+  capcitor c *
+  page3_i9
+#ISCELL
+  standard b#20size#20page *
+  *

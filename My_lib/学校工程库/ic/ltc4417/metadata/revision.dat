@@ -1,0 +1,170 @@
+(Cell	ltc4417
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	09/13/16,16:14:09)
+
+			(User	Administrator)
+
+			(Path	ic.ltc4417)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	09/13/16,16:27:13)
+
+			(User	Administrator)
+
+			(Path	ic.ltc4417)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000d9ed329b)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/13/16,16:14:09)
+
+							(User	Administrator)
+
+							(Path	ic.ltc4417)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e0703e7)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000f45cb0c9)
+
+			(Primitives	1
+
+				(Primitive	LTC4417
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/13/16,16:14:09)
+
+							(User	Administrator)
+
+							(Path	ic.ltc4417)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	LTC4417
+
+							(PackType	LTC4417)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b1a0376)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c0e0376)
+
+)
+

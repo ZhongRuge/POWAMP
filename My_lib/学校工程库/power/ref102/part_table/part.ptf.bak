@@ -1,0 +1,14 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'REF102'
+
+{========================================================================================}
+:VALUE(OPT)   = JEDEC_TYPE    | DESCRIPTION                       ;
+{========================================================================================}
+ 'REF102'(!)  = 'SOP8-50-173' | '10V precision voltage reference'
+ 'REF02'(!)   = 'SOP8-50-173' | '5V presision voltage reference' 
+
+END_PART
+
+END.
+

@@ -1,0 +1,172 @@
+(Cell	ctm1040
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	05/30/08,20:17:55)
+
+			(User	cluch)
+
+			(Path	library_lib.ctm1040)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	05/30/08,21:09:32)
+
+			(User	cluch)
+
+			(Path	library_lib.ctm1040)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Chips
+
+			(Checksum	000000007798824d)
+
+			(Primitives	1
+
+				(Primitive	CTM1040
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/30/08,20:17:55)
+
+							(User	cluch)
+
+							(Path	library_lib.ctm1040)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	CTM1040
+
+							(PackType	CTM1040)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000008be9c29d)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	05/30/08,20:17:55)
+
+							(User	cluch)
+
+							(Path	library_lib.ctm1040)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001a9f037d)
+
+		)
+
+		(Checksum	000000001c7e03b0)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c9d03a6)
+
+)
+

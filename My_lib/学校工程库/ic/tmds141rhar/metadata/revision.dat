@@ -1,0 +1,170 @@
+(Cell	tmds141rhar
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.5)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	08/24/12,10:29:54)
+
+			(User	wamgoo)
+
+			(Path	ic.tmds141rhar)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	08/24/12,19:27:41)
+
+			(User	wamgoo)
+
+			(Path	ic.tmds141rhar)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000000f7ff6f2)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/24/12,10:48:30)
+
+							(User	wamgoo)
+
+							(Path	ic.tmds141rhar)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001d9a03e8)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000db779a9d)
+
+			(Primitives	1
+
+				(Primitive	TMDS141RHAR
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	08/24/12,10:29:57)
+
+							(User	wamgoo)
+
+							(Path	ic.tmds141rhar)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TMDS141RHAR
+
+							(PackType	TMDS141RHAR)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c62038d)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b78037c)
+
+)
+

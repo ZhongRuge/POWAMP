@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 02-Dec-2025 AT 17:11:55 }
+{ Packager-XL run on 12-Dec-2025 AT 21:04:49 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='POWER_AMPLIFIER';
- POST_TIME='02-Dec-2025 AT 17:11:55';
+ POST_TIME='12-Dec-2025 AT 21:04:49';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -62,7 +62,7 @@ hips)',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
  FOOTPRINT='c0805',
  PHYS_PAGE='2',
- XY='(-1650,3000)',
+ XY='(-2200,3000)',
  ROT='1',
  VER='1',
  CDS_LIB='capacitor',
@@ -125,7 +125,7 @@ hips)',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
  FOOTPRINT='C3216',
  PHYS_PAGE='2',
- XY='(0,3850)',
+ XY='(350,3850)',
  ROT='0',
  VER='1',
  CDS_LIB='capacitor',
@@ -1466,7 +1466,7 @@ ips)',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE9',
  FOOTPRINT='c0805',
  PHYS_PAGE='9',
- XY='(-3200,3550)',
+ XY='(-1525,4950)',
  ROT='0',
  VER='1',
  CDS_LIB='capacitor',
@@ -1487,12 +1487,765 @@ ips)',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE9',
  FOOTPRINT='c0805',
  PHYS_PAGE='9',
- XY='(-3200,2850)',
+ XY='(-1525,4250)',
  ROT='0',
  VER='1',
  CDS_LIB='capacitor',
  CDS_PART_NAME='C0805',
  VALUE='0.1UF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C69 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I2@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i2@capacitor.c0805(c~
+hips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i2@capacitor.c0805(c~
+hips)',
+ PATH='I2',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='10',
+ XY='(-3975,5450)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='0.1UF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C70 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I3@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i3@capacitor.c0805(c~
+hips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i3@capacitor.c0805(c~
+hips)',
+ PATH='I3',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='10',
+ XY='(-3975,5100)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='0.1UF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C71 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I4@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i4@capacitor.c0805(c~
+hips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i4@capacitor.c0805(c~
+hips)',
+ PATH='I4',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='10',
+ XY='(-2175,5450)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='0.1UF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C72 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I5@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i5@capacitor.c0805(c~
+hips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i5@capacitor.c0805(c~
+hips)',
+ PATH='I5',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='10',
+ XY='(-2175,5100)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='0.1UF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C73 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I9@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i9@capacitor.c0805(c~
+hips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i9@capacitor.c0805(c~
+hips)',
+ PATH='I9',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-4675,5825)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='1UF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C74 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I10@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i10@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i10@capacitor.c0805(~
+chips)',
+ PATH='I10',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-4675,5650)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='1UF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C75 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I14@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i14@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i14@capacitor.c0805(~
+chips)',
+ PATH='I14',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-4675,5400)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='1UF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C76 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I15@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i15@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i15@capacitor.c0805(~
+chips)',
+ PATH='I15',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-4675,5225)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='1UF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C77 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I11@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i11@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i11@capacitor.c0805(~
+chips)',
+ PATH='I11',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-4150,3925)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='1UF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C78 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I5@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i5@capacitor.c0805(c~
+hips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i5@capacitor.c0805(c~
+hips)',
+ PATH='I5',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-4125,4800)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='10NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C79 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I4@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i4@capacitor.c0805(c~
+hips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i4@capacitor.c0805(c~
+hips)',
+ PATH='I4',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-3050,4675)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='100NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C80 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I6@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i6@capacitor.c0805(c~
+hips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i6@capacitor.c0805(c~
+hips)',
+ PATH='I6',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-2450,4750)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='1NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C81 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I22@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i22@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i22@capacitor.c0805(~
+chips)',
+ PATH='I22',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-2450,3300)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='1NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C82 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I7@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i7@capacitor.c0805(c~
+hips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i7@capacitor.c0805(c~
+hips)',
+ PATH='I7',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-2225,4750)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='100NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C83 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I20@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i20@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i20@capacitor.c0805(~
+chips)',
+ PATH='I20',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-2225,3300)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='100NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C84 'MA35V470M10X13':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I8@CAPACITOR.MA35V470M10X13(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i8@capacitor.ma35v47~
+0m10x13(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i8@capacitor.ma35v47~
+0m10x13(chips)',
+ PATH='I8',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ TIME='*',
+ SYMBOL='MA35V470M10X13',
+ SHEETTOTAL='*',
+ SHEETNUMBER='*',
+ RULE='*',
+ REVISION='*',
+ PROJECTNAME='*',
+ PIN_TEXT_VISIBLE='True',
+ PIN_NUMBERS_VISIBLE='True',
+ PIN_NAMES_ROTATE='True',
+ ORIGIN='Altium',
+ ORGANIZATION='*',
+ MODIFIEDDATE='*',
+ IMAGEPATH='*',
+ ENGINEER='*',
+ DRAWNBY='*',
+ DOCUMENTNUMBER='*',
+ DOCUMENTNAME='*',
+ DOCUMENTFULLPATHANDNAME='*',
+ DATE='*',
+ CURRENTTIME='*',
+ CURRENTDATE='*',
+ COMPANYNAME='*',
+ CHECKEDBY='*',
+ AUTHOR='*',
+ APPROVEDBY='*',
+ APPLICATION_BUILDNUMBER='*',
+ ADDRESS4='*',
+ ADDRESS3='*',
+ ADDRESS2='*',
+ ADDRESS1='*',
+ PHYS_PAGE='11',
+ XY='(-2025,4750)',
+ ROT='3',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='MA35V470M10X13',
+ VALUE='220UF',
+ PRIM_FILE='./My_lib/capacitor/ma35v470m10x13/chips/chips.prt';
+
+PART_NAME
+ C85 'MA35V470M10X13':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I21@CAPACITOR.MA35V470M10X13(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i21@capacitor.ma35v4~
+70m10x13(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i21@capacitor.ma35v4~
+70m10x13(chips)',
+ PATH='I21',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ TIME='*',
+ SYMBOL='MA35V470M10X13',
+ SHEETTOTAL='*',
+ SHEETNUMBER='*',
+ RULE='*',
+ REVISION='*',
+ PROJECTNAME='*',
+ PIN_TEXT_VISIBLE='True',
+ PIN_NUMBERS_VISIBLE='True',
+ PIN_NAMES_ROTATE='True',
+ ORIGIN='Altium',
+ ORGANIZATION='*',
+ MODIFIEDDATE='*',
+ IMAGEPATH='*',
+ ENGINEER='*',
+ DRAWNBY='*',
+ DOCUMENTNUMBER='*',
+ DOCUMENTNAME='*',
+ DOCUMENTFULLPATHANDNAME='*',
+ DATE='*',
+ CURRENTTIME='*',
+ CURRENTDATE='*',
+ COMPANYNAME='*',
+ CHECKEDBY='*',
+ AUTHOR='*',
+ APPROVEDBY='*',
+ APPLICATION_BUILDNUMBER='*',
+ ADDRESS4='*',
+ ADDRESS3='*',
+ ADDRESS2='*',
+ ADDRESS1='*',
+ PHYS_PAGE='11',
+ XY='(-2025,3300)',
+ ROT='3',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='MA35V470M10X13',
+ VALUE='220UF',
+ PRIM_FILE='./My_lib/capacitor/ma35v470m10x13/chips/chips.prt';
+
+PART_NAME
+ C86 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I16@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i16@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i16@capacitor.c0805(~
+chips)',
+ PATH='I16',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-1825,4175)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='220NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C87 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I17@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i17@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i17@capacitor.c0805(~
+chips)',
+ PATH='I17',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-1825,3975)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='220NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C88 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I18@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i18@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i18@capacitor.c0805(~
+chips)',
+ PATH='I18',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-1825,3875)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='220NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C89 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I19@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i19@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i19@capacitor.c0805(~
+chips)',
+ PATH='I19',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-1825,3675)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='220NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C90 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I27@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i27@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i27@capacitor.c0805(~
+chips)',
+ PATH='I27',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-475,4700)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='680NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C91 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I28@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i28@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i28@capacitor.c0805(~
+chips)',
+ PATH='I28',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-475,4225)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='680NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C92 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I29@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i29@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i29@capacitor.c0805(~
+chips)',
+ PATH='I29',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-475,3500)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='680NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C93 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I30@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i30@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i30@capacitor.c0805(~
+chips)',
+ PATH='I30',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(-475,3075)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='680NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C94 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I35@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i35@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i35@capacitor.c0805(~
+chips)',
+ PATH='I35',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(200,4725)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='1NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C95 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I37@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i37@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i37@capacitor.c0805(~
+chips)',
+ PATH='I37',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(200,4275)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='1NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C96 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I46@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i46@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i46@capacitor.c0805(~
+chips)',
+ PATH='I46',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(200,3625)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='1NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C97 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I47@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i47@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i47@capacitor.c0805(~
+chips)',
+ PATH='I47',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(200,3175)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='1NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C98 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I42@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i42@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i42@capacitor.c0805(~
+chips)',
+ PATH='I42',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(800,4575)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='10NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C99 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I36@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i36@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i36@capacitor.c0805(~
+chips)',
+ PATH='I36',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(800,4375)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='10NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C100 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I44@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i44@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i44@capacitor.c0805(~
+chips)',
+ PATH='I44',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(800,3475)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='10NF',
+ PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
+
+PART_NAME
+ C101 'C0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I45@CAPACITOR.C0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i45@capacitor.c0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i45@capacitor.c0805(~
+chips)',
+ PATH='I45',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='c0805',
+ PHYS_PAGE='11',
+ XY='(800,3275)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='capacitor',
+ CDS_PART_NAME='C0805',
+ VALUE='10NF',
  PRIM_FILE='./My_lib/capacitor/c0805/chips/chips.prt';
 
 PART_NAME
@@ -1594,6 +2347,56 @@ SECTION_NUMBER 1
  CDS_LIB='power',
  CDS_PART_NAME='SMBJ30A_C19077584',
  PRIM_FILE='./My_lib/power/smbj30a_c19077584/chips/chips.prt';
+
+PART_NAME
+ D3 'USBLC6-2SC6':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE3_I18@PROTECTION.USBLC6-2SC6(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page3_i18@protection.\usblc~
+6-2sc6\(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page3_i18@protection.\usblc~
+6-2sc6\(chips)',
+ PATH='I18',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE3',
+ TIME='*',
+ SYMBOL='USBLC6-2SC6',
+ SHEETTOTAL='*',
+ SHEETNUMBER='*',
+ RULE='*',
+ REVISION='*',
+ PROJECTNAME='*',
+ PIN_TEXT_VISIBLE='True',
+ PIN_NUMBERS_VISIBLE='True',
+ PIN_NAMES_ROTATE='True',
+ ORIGIN='Altium',
+ ORGANIZATION='*',
+ MODIFIEDDATE='*',
+ IMAGEPATH='*',
+ ENGINEER='*',
+ DRAWNBY='*',
+ DOCUMENTNUMBER='*',
+ DOCUMENTNAME='*',
+ DOCUMENTFULLPATHANDNAME='*',
+ DATE='*',
+ CURRENTTIME='*',
+ CURRENTDATE='*',
+ COMPANYNAME='*',
+ CHECKEDBY='*',
+ AUTHOR='*',
+ APPROVEDBY='*',
+ APPLICATION_BUILDNUMBER='*',
+ ADDRESS4='*',
+ ADDRESS3='*',
+ ADDRESS2='*',
+ ADDRESS1='*',
+ PHYS_PAGE='3',
+ XY='(525,4100)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='protection',
+ CDS_PART_NAME='USBLC6-2SC6',
+ PRIM_FILE='./My_lib/protection/usblc6#2d2sc6/chips/chips.prt';
 
 PART_NAME
  F1 'BSMD2920-300-33V':;
@@ -1780,7 +2583,7 @@ SECTION_NUMBER 1
  ADDRESS2='*',
  ADDRESS1='*',
  PHYS_PAGE='3',
- XY='(100,3175)',
+ XY='(-1725,2800)',
  ROT='0',
  VER='1',
  CDS_LIB='inductor',
@@ -1809,403 +2612,487 @@ ips)',
  PRIM_FILE='./My_lib/inductor/l0805/chips/chips.prt';
 
 PART_NAME
- R1 'RES0805':;
+ L6 'L0805':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I44@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i44@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i44@resistor.res0805(~
-chips)',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I23@INDUCTOR.L0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i23@inductor.l0805(c~
+hips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i23@inductor.l0805(c~
+hips)',
+ PATH='I23',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='l0805',
+ PHYS_PAGE='11',
+ XY='(-950,4975)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='inductor',
+ CDS_PART_NAME='L0805',
+ VALUE='10UH',
+ PRIM_FILE='./My_lib/inductor/l0805/chips/chips.prt';
+
+PART_NAME
+ L7 'L0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I24@INDUCTOR.L0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i24@inductor.l0805(c~
+hips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i24@inductor.l0805(c~
+hips)',
+ PATH='I24',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='l0805',
+ PHYS_PAGE='11',
+ XY='(-950,3975)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='inductor',
+ CDS_PART_NAME='L0805',
+ VALUE='10UH',
+ PRIM_FILE='./My_lib/inductor/l0805/chips/chips.prt';
+
+PART_NAME
+ L8 'L0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I25@INDUCTOR.L0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i25@inductor.l0805(c~
+hips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i25@inductor.l0805(c~
+hips)',
+ PATH='I25',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='l0805',
+ PHYS_PAGE='11',
+ XY='(-950,3875)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='inductor',
+ CDS_PART_NAME='L0805',
+ VALUE='10UH',
+ PRIM_FILE='./My_lib/inductor/l0805/chips/chips.prt';
+
+PART_NAME
+ L9 'L0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I26@INDUCTOR.L0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i26@inductor.l0805(c~
+hips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i26@inductor.l0805(c~
+hips)',
+ PATH='I26',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='l0805',
+ PHYS_PAGE='11',
+ XY='(-950,2875)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='inductor',
+ CDS_PART_NAME='L0805',
+ VALUE='10UH',
+ PRIM_FILE='./My_lib/inductor/l0805/chips/chips.prt';
+
+PART_NAME
+ R1 'R-07090247,10K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I44@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i44@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i44@resistor.r(chips)~
+',
  PATH='I44',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
+ CODE='07090247',
  PHYS_PAGE='2',
  XY='(-3150,1500)',
  ROT='1',
  VER='1',
  CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
+ CDS_PART_NAME='R-07090247,10K',
  VALUE='10K',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
- R2 'RES0805':;
+ R2 'R-07090247,10K':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I45@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i45@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i45@resistor.res0805(~
-chips)',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I45@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i45@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i45@resistor.r(chips)~
+',
  PATH='I45',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
+ CODE='07090247',
  PHYS_PAGE='2',
  XY='(-2900,1500)',
  ROT='1',
  VER='1',
  CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
+ CDS_PART_NAME='R-07090247,10K',
  VALUE='10K',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
- R3 'RES0805':;
+ R3 'R-07090247,10K':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I46@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i46@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i46@resistor.res0805(~
-chips)',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I46@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i46@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i46@resistor.r(chips)~
+',
  PATH='I46',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
+ CODE='07090247',
  PHYS_PAGE='2',
  XY='(-2650,1500)',
  ROT='1',
  VER='1',
  CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
+ CDS_PART_NAME='R-07090247,10K',
  VALUE='10K',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
- R4 'RES0805':;
+ R4 'R-07090247,10K':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I47@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i47@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i47@resistor.res0805(~
-chips)',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I47@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i47@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i47@resistor.r(chips)~
+',
  PATH='I47',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
+ CODE='07090247',
  PHYS_PAGE='2',
- XY='(-1600,1650)',
+ XY='(-1675,1650)',
  ROT='0',
  VER='1',
  CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
+ CDS_PART_NAME='R-07090247,10K',
  VALUE='10K',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
- R5 'RES0805':;
+ R5 'R-97090113,270':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I36@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i36@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i36@resistor.res0805(~
-chips)',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I36@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i36@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i36@resistor.r(chips)~
+',
  PATH='I36',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
+ CODE='97090113',
  PHYS_PAGE='2',
- XY='(-1400,2900)',
+ XY='(-1500,2900)',
  ROT='0',
  VER='1',
  CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
- VALUE='270R',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+ CDS_PART_NAME='R-97090113,270',
+ VALUE='270',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
- R6 'RES0805':;
+ R6 'R-07090265,22':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I39@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i39@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i39@resistor.res0805(~
-chips)',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I39@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i39@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i39@resistor.r(chips)~
+',
  PATH='I39',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
+ CODE='07090265',
  PHYS_PAGE='2',
- XY='(-400,3850)',
+ XY='(-300,3850)',
  ROT='0',
  VER='1',
  CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
- VALUE='22R',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+ CDS_PART_NAME='R-07090265,22',
+ VALUE='22',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
- R7 'RES0805':;
+ R7 'R-07090247,10K':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I42@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i42@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i42@resistor.res0805(~
-chips)',
- PATH='I42',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
- PHYS_PAGE='2',
- XY='(550,3000)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
- VALUE='0R',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
-
-PART_NAME
- R8 'RES0805':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I43@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i43@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i43@resistor.res0805(~
-chips)',
- PATH='I43',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
- PHYS_PAGE='2',
- XY='(550,2950)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
- VALUE='0R',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
-
-PART_NAME
- R9 'RES0805':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I48@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i48@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i48@resistor.res0805(~
-chips)',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I48@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i48@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i48@resistor.r(chips)~
+',
  PATH='I48',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
+ CODE='07090247',
  PHYS_PAGE='2',
  XY='(550,1500)',
  ROT='1',
  VER='1',
  CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
+ CDS_PART_NAME='R-07090247,10K',
  VALUE='10K',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
- R10 'RES0805':;
+ R8 'R-07090522,0':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I41@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i41@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i41@resistor.res0805(~
-chips)',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I41@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i41@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i41@resistor.r(chips)~
+',
  PATH='I41',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
+ CODE='07090522',
  PHYS_PAGE='2',
  XY='(600,3200)',
  ROT='0',
  VER='1',
  CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
- VALUE='0R',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+ CDS_PART_NAME='R-07090522,0',
+ VALUE='0',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
- R11 'RES0805':;
+ R9 'R-07090522,0':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I49@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i49@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i49@resistor.res0805(~
-chips)',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I42@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i42@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i42@resistor.r(chips)~
+',
+ PATH='I42',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='07090522',
+ PHYS_PAGE='2',
+ XY='(600,3000)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-07090522,0',
+ VALUE='0',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R10 'R-07090522,0':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I43@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i43@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i43@resistor.r(chips)~
+',
+ PATH='I43',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='07090522',
+ PHYS_PAGE='2',
+ XY='(600,2950)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-07090522,0',
+ VALUE='0',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R11 'R-07090247,10K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I49@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i49@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i49@resistor.r(chips)~
+',
  PATH='I49',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
+ CODE='07090247',
  PHYS_PAGE='2',
  XY='(800,1500)',
  ROT='1',
  VER='1',
  CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
+ CDS_PART_NAME='R-07090247,10K',
  VALUE='10K',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
- R12 'RES0805':;
+ R12 'R-07090247,10K':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I50@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i50@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i50@resistor.res0805(~
-chips)',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I50@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i50@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i50@resistor.r(chips)~
+',
  PATH='I50',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
+ CODE='07090247',
  PHYS_PAGE='2',
  XY='(1050,1500)',
  ROT='1',
  VER='1',
  CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
+ CDS_PART_NAME='R-07090247,10K',
  VALUE='10K',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
- R13 'RES0805':;
+ R13 'R-07090247,10K':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I51@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i51@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i51@resistor.res0805(~
-chips)',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I51@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i51@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i51@resistor.r(chips)~
+',
  PATH='I51',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
+ CODE='07090247',
  PHYS_PAGE='2',
  XY='(1300,1500)',
  ROT='1',
  VER='1',
  CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
+ CDS_PART_NAME='R-07090247,10K',
  VALUE='10K',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
- R14 'RES0805':;
+ R14 'R-07090247,10K':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I52@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i52@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i52@resistor.res0805(~
-chips)',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I52@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i52@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i52@resistor.r(chips)~
+',
  PATH='I52',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
+ CODE='07090247',
  PHYS_PAGE='2',
  XY='(1550,1500)',
  ROT='1',
  VER='1',
  CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
+ CDS_PART_NAME='R-07090247,10K',
  VALUE='10K',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
- R15 'RES0805':;
+ R15 'R-07090522,0':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I53@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i53@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i53@resistor.res0805(~
-chips)',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I53@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i53@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i53@resistor.r(chips)~
+',
  PATH='I53',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
+ CODE='07090522',
  PHYS_PAGE='2',
  XY='(1850,4300)',
  ROT='0',
  VER='1',
  CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
- VALUE='0R',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+ CDS_PART_NAME='R-07090522,0',
+ VALUE='0',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
- R16 'RES0805':;
+ R16 'R-07090601,33':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I54@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i54@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i54@resistor.res0805(~
-chips)',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I54@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i54@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i54@resistor.r(chips)~
+',
  PATH='I54',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
+ CODE='07090601',
  PHYS_PAGE='2',
- XY='(2100,3300)',
+ XY='(2275,3225)',
  ROT='0',
  VER='1',
  CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
- VALUE='33R',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+ CDS_PART_NAME='R-07090601,33',
+ VALUE='33',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
- R17 'RES0805':;
+ R17 'R-07090601,33':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I55@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i55@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i55@resistor.res0805(~
-chips)',
- PATH='I55',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I59@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i59@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i59@resistor.r(chips)~
+',
+ PATH='I59',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
+ CODE='07090601',
  PHYS_PAGE='2',
- XY='(2100,3050)',
+ XY='(2275,3050)',
  ROT='0',
  VER='1',
  CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
- VALUE='33R',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+ CDS_PART_NAME='R-07090601,33',
+ VALUE='33',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
- R18 'RES0805':;
+ R18 'R-07090601,33':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I56@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i56@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i56@resistor.res0805(~
-chips)',
- PATH='I56',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I60@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i60@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i60@resistor.r(chips)~
+',
+ PATH='I60',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
+ CODE='07090601',
  PHYS_PAGE='2',
- XY='(2100,2800)',
+ XY='(2275,2900)',
  ROT='0',
  VER='1',
  CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
- VALUE='33R',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+ CDS_PART_NAME='R-07090601,33',
+ VALUE='33',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
- R19 'RES0805':;
+ R19 'R-07090601,33':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I57@RESISTOR.RES0805(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i57@resistor.res0805(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i57@resistor.res0805(~
-chips)',
- PATH='I57',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I61@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i61@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i61@resistor.r(chips)~
+',
+ PATH='I61',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- FOOTPRINT='r0805',
+ CODE='07090601',
  PHYS_PAGE='2',
- XY='(2100,2550)',
+ XY='(2275,2725)',
  ROT='0',
  VER='1',
  CDS_LIB='resistor',
- CDS_PART_NAME='RES0805',
- VALUE='33R',
- PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+ CDS_PART_NAME='R-07090601,33',
+ VALUE='33',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
  R20 'RES0805':;
@@ -2812,12 +3699,419 @@ SECTION_NUMBER 1
  ADDRESS2='*',
  ADDRESS1='*',
  PHYS_PAGE='9',
- XY='(-2850,4650)',
+ XY='(-3450,4825)',
  ROT='0',
  VER='1',
  CDS_LIB='resistor',
  CDS_PART_NAME='RK09712200MY',
  PRIM_FILE='./My_lib/resistor/rk09712200my/chips/chips.prt';
+
+PART_NAME
+ R45 'RES0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I6@RESISTOR.RES0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i6@resistor.res0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i6@resistor.res0805(~
+chips)',
+ PATH='I6',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ FOOTPRINT='r0805',
+ PHYS_PAGE='10',
+ XY='(-650,5550)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='RES0805',
+ VALUE='50R',
+ PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+
+PART_NAME
+ R46 'RES0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I7@RESISTOR.RES0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i7@resistor.res0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i7@resistor.res0805(~
+chips)',
+ PATH='I7',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ FOOTPRINT='r0805',
+ PHYS_PAGE='10',
+ XY='(-650,5350)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='RES0805',
+ VALUE='1K',
+ PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+
+PART_NAME
+ R47 'RES0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I8@RESISTOR.RES0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i8@resistor.res0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i8@resistor.res0805(~
+chips)',
+ PATH='I8',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ FOOTPRINT='r0805',
+ PHYS_PAGE='10',
+ XY='(-650,5175)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='RES0805',
+ VALUE='1K',
+ PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+
+PART_NAME
+ R48 'RES0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I12@RESISTOR.RES0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i12@resistor.res0805~
+(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i12@resistor.res0805~
+(chips)',
+ PATH='I12',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ FOOTPRINT='r0805',
+ PHYS_PAGE='10',
+ XY='(-550,4500)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='RES0805',
+ VALUE='50R',
+ PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+
+PART_NAME
+ R49 'RES0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I10@RESISTOR.RES0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i10@resistor.res0805~
+(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i10@resistor.res0805~
+(chips)',
+ PATH='I10',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ FOOTPRINT='r0805',
+ PHYS_PAGE='10',
+ XY='(-550,4300)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='RES0805',
+ VALUE='1K',
+ PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+
+PART_NAME
+ R50 'RES0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I13@RESISTOR.RES0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i13@resistor.res0805~
+(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i13@resistor.res0805~
+(chips)',
+ PATH='I13',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ FOOTPRINT='r0805',
+ PHYS_PAGE='10',
+ XY='(-550,4125)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='RES0805',
+ VALUE='1K',
+ PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+
+PART_NAME
+ R51 'RES0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I9@RESISTOR.RES0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i9@resistor.res0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i9@resistor.res0805(~
+chips)',
+ PATH='I9',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ FOOTPRINT='r0805',
+ PHYS_PAGE='10',
+ XY='(75,5350)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='RES0805',
+ VALUE='39R',
+ PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+
+PART_NAME
+ R52 'RES0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I11@RESISTOR.RES0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i11@resistor.res0805~
+(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i11@resistor.res0805~
+(chips)',
+ PATH='I11',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ FOOTPRINT='r0805',
+ PHYS_PAGE='10',
+ XY='(175,4300)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='RES0805',
+ VALUE='39R',
+ PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+
+PART_NAME
+ R53 'RES0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I49@RESISTOR.RES0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i49@resistor.res0805~
+(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i49@resistor.res0805~
+(chips)',
+ PATH='I49',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='r0805',
+ PHYS_PAGE='11',
+ XY='(-4000,3350)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='RES0805',
+ VALUE='100K',
+ PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+
+PART_NAME
+ R54 'RES0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I12@RESISTOR.RES0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i12@resistor.res0805~
+(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i12@resistor.res0805~
+(chips)',
+ PATH='I12',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='r0805',
+ PHYS_PAGE='11',
+ XY='(-3925,4050)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='RES0805',
+ VALUE='100K',
+ PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+
+PART_NAME
+ R55 'RES0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I13@RESISTOR.RES0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i13@resistor.res0805~
+(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i13@resistor.res0805~
+(chips)',
+ PATH='I13',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='r0805',
+ PHYS_PAGE='11',
+ XY='(-3925,3800)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='RES0805',
+ VALUE='20K',
+ PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+
+PART_NAME
+ R56 'RES0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I2@RESISTOR.RES0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i2@resistor.res0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i2@resistor.res0805(~
+chips)',
+ PATH='I2',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='r0805',
+ PHYS_PAGE='11',
+ XY='(-3800,4475)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='RES0805',
+ VALUE='100K',
+ PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+
+PART_NAME
+ R57 'RES0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I3@RESISTOR.RES0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i3@resistor.res0805(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i3@resistor.res0805(~
+chips)',
+ PATH='I3',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='r0805',
+ PHYS_PAGE='11',
+ XY='(-3450,4675)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='RES0805',
+ VALUE='3.3R',
+ PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+
+PART_NAME
+ R58 'RES0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I31@RESISTOR.RES0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i31@resistor.res0805~
+(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i31@resistor.res0805~
+(chips)',
+ PATH='I31',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='r0805',
+ PHYS_PAGE='11',
+ XY='(800,4825)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='RES0805',
+ VALUE='3.3R',
+ PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+
+PART_NAME
+ R59 'RES0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I32@RESISTOR.RES0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i32@resistor.res0805~
+(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i32@resistor.res0805~
+(chips)',
+ PATH='I32',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='r0805',
+ PHYS_PAGE='11',
+ XY='(800,4125)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='RES0805',
+ VALUE='3.3R',
+ PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+
+PART_NAME
+ R60 'RES0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I43@RESISTOR.RES0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i43@resistor.res0805~
+(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i43@resistor.res0805~
+(chips)',
+ PATH='I43',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='r0805',
+ PHYS_PAGE='11',
+ XY='(800,3725)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='RES0805',
+ VALUE='3.3R',
+ PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+
+PART_NAME
+ R61 'RES0805':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I48@RESISTOR.RES0805(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i48@resistor.res0805~
+(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i48@resistor.res0805~
+(chips)',
+ PATH='I48',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ FOOTPRINT='r0805',
+ PHYS_PAGE='11',
+ XY='(800,3025)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='RES0805',
+ VALUE='3.3R',
+ PRIM_FILE='./My_lib/resistor/res0805/chips/chips.prt';
+
+PART_NAME
+ S1 '5.8 ZSGT':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE9_I7@CONNECTOR.5_8_ZSGT(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page9_i7@connector.\5_8_zsg~
+t\(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page9_i7@connector.\5_8_zsg~
+t\(chips)',
+ PATH='I7',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE9',
+ TIME='*',
+ SYMBOL='5.8 ZSGT',
+ SHEETTOTAL='*',
+ SHEETNUMBER='*',
+ RULE='*',
+ REVISION='*',
+ PROJECTNAME='*',
+ PIN_TEXT_VISIBLE='True',
+ PIN_NUMBERS_VISIBLE='True',
+ PIN_NAMES_ROTATE='True',
+ ORIGIN='Altium',
+ ORGANIZATION='*',
+ MODIFIEDDATE='*',
+ IMAGEPATH='*',
+ ENGINEER='*',
+ DRAWNBY='*',
+ DOCUMENTNUMBER='*',
+ DOCUMENTNAME='*',
+ DOCUMENTFULLPATHANDNAME='*',
+ DATE='*',
+ CURRENTTIME='*',
+ CURRENTDATE='*',
+ COMPANYNAME='*',
+ CHECKEDBY='*',
+ AUTHOR='*',
+ APPROVEDBY='*',
+ APPLICATION_BUILDNUMBER='*',
+ ADDRESS4='*',
+ ADDRESS3='*',
+ ADDRESS2='*',
+ ADDRESS1='*',
+ PHYS_PAGE='9',
+ XY='(-3575,2725)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='connector',
+ CDS_PART_NAME='5.8 ZSGT',
+ PRIM_FILE='./My_lib/connector/5_8_zsgt/chips/chips.prt';
 
 PART_NAME
  U1 'SA9227A':;
@@ -2889,20 +4183,20 @@ SECTION_NUMBER 1
  PRIM_FILE='./My_lib/ic/at24c64d#2dsshm#2dt/chips/chips.prt';
 
 PART_NAME
- U3 'HC-USB2.0-L195-J':;
+ U3 'HC-USB2.0-L195-P':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE3_I13@CONNECTOR.USB2_0(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page3_i13@connector.usb2_0(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page3_i13@connector.usb2_0(~
-chips)',
- PATH='I13',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE3_I20@CONNECTOR.HC-USB2_0-L195-P(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page3_i20@connector.\hc-usb~
+2_0-l195-p\(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page3_i20@connector.\hc-usb~
+2_0-l195-p\(chips)',
+ PATH='I20',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE3',
  TIME='*',
- SYMBOL='HC-USB2.0-L195-J',
- SHEETTOTAL='1',
- SHEETNUMBER='1',
+ SYMBOL='HC-USB2.0-L195-P',
+ SHEETTOTAL='*',
+ SHEETNUMBER='*',
  RULE='*',
  REVISION='*',
  PROJECTNAME='*',
@@ -2931,31 +4225,13 @@ chips)',
  ADDRESS2='*',
  ADDRESS1='*',
  PHYS_PAGE='3',
- XY='(-1350,3925)',
+ XY='(-1875,4075)',
  ROT='0',
  VER='1',
  CDS_LIB='connector',
- CDS_PART_NAME='HC-USB2.0-L195-J',
- PRIM_FILE='./My_lib/connector/usb2_0/chips/chips.prt';
-
-PART_NAME
- U4 'ESD05-ESD05,SOT-26':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE3_I2@PROTECTION.ESD05(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page3_i2@protection.esd05(c~
-hips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page3_i2@protection.esd05(c~
-hips)',
- PATH='I2',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE3',
- PHYS_PAGE='3',
- XY='(100,3850)',
- ROT='0',
- VER='1',
- CDS_LIB='protection',
- CDS_PART_NAME='ESD05-ESD05,SOT-26',
- PRIM_FILE='./My_lib/protection/esd05/chips/chips.prt';
+ CDS_PART_NAME='HC-USB2.0-L195-P',
+ VALUE='*',
+ PRIM_FILE='./My_lib/connector/hc#2dusb2_0#2dl195#2dp/chips/chips.prt';
 
 PART_NAME
  U5 'AMS1117-3.3':;
@@ -3357,7 +4633,7 @@ SECTION_NUMBER 1
  PIN_NAMES_ROTATE='True',
  ORIGIN='Altium',
  PHYS_PAGE='9',
- XY='(-2950,3200)',
+ XY='(-1275,4600)',
  ROT='0',
  VER='1',
  CDS_LIB='ic',
@@ -3378,12 +4654,112 @@ SECTION_NUMBER 2
  PIN_NAMES_ROTATE='True',
  ORIGIN='Altium',
  PHYS_PAGE='9',
- XY='(-2925,2125)',
+ XY='(900,4625)',
  ROT='0',
  VER='2',
  CDS_LIB='ic',
  CDS_PART_NAME='NE5532DR',
  PRIM_FILE='./My_lib/ic/ne5532dr/chips/chips.prt';
+
+PART_NAME
+ U15 'TPA6120A2DWPR':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I1@IC.TPA6120A2DWPR(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i1@ic.tpa6120a2dwpr(~
+chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i1@ic.tpa6120a2dwpr(~
+chips)',
+ PATH='I1',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ TIME='*',
+ SYMBOL='TPA6120A2DWPR',
+ SHEETTOTAL='*',
+ SHEETNUMBER='*',
+ RULE='*',
+ REVISION='*',
+ PROJECTNAME='*',
+ PIN_TEXT_VISIBLE='True',
+ PIN_NUMBERS_VISIBLE='True',
+ PIN_NAMES_ROTATE='True',
+ ORIGIN='Altium',
+ ORGANIZATION='*',
+ MODIFIEDDATE='*',
+ IMAGEPATH='*',
+ ENGINEER='*',
+ DRAWNBY='*',
+ DOCUMENTNUMBER='*',
+ DOCUMENTNAME='*',
+ DOCUMENTFULLPATHANDNAME='*',
+ DATE='*',
+ CURRENTTIME='*',
+ CURRENTDATE='*',
+ COMPANYNAME='*',
+ CHECKEDBY='*',
+ AUTHOR='*',
+ APPROVEDBY='*',
+ APPLICATION_BUILDNUMBER='*',
+ ADDRESS4='*',
+ ADDRESS3='*',
+ ADDRESS2='*',
+ ADDRESS1='*',
+ PHYS_PAGE='10',
+ XY='(-3075,5275)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='ic',
+ CDS_PART_NAME='TPA6120A2DWPR',
+ PRIM_FILE='./My_lib/ic/tpa6120a2dwpr/chips/chips.prt';
+
+PART_NAME
+ U16 'TPA3116D2DAD':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I1@IC.TPA3116D2DAD(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i1@ic.tpa3116d2dad(c~
+hips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i1@ic.tpa3116d2dad(c~
+hips)',
+ PATH='I1',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ TIME='*',
+ SYMBOL='TPA3116D2DAD',
+ SHEETTOTAL='*',
+ SHEETNUMBER='*',
+ RULE='*',
+ REVISION='*',
+ PROJECTNAME='*',
+ PIN_TEXT_VISIBLE='True',
+ PIN_NUMBERS_VISIBLE='True',
+ PIN_NAMES_ROTATE='True',
+ ORIGIN='Altium',
+ ORGANIZATION='*',
+ MODIFIEDDATE='*',
+ IMAGEPATH='*',
+ ENGINEER='*',
+ DRAWNBY='*',
+ DOCUMENTNUMBER='*',
+ DOCUMENTNAME='*',
+ DOCUMENTFULLPATHANDNAME='*',
+ DATE='*',
+ CURRENTTIME='*',
+ CURRENTDATE='*',
+ COMPANYNAME='*',
+ CHECKEDBY='*',
+ AUTHOR='*',
+ APPROVEDBY='*',
+ APPLICATION_BUILDNUMBER='*',
+ ADDRESS4='*',
+ ADDRESS3='*',
+ ADDRESS2='*',
+ ADDRESS1='*',
+ PHYS_PAGE='11',
+ XY='(-2975,3900)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='ic',
+ CDS_PART_NAME='TPA3116D2DAD',
+ PRIM_FILE='./My_lib/ic/tpa3116d2dad/chips/chips.prt';
 
 PART_NAME
  X1 'X322512MSB4SI':;

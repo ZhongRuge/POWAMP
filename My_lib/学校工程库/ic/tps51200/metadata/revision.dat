@@ -1,0 +1,170 @@
+(Cell	tps51200
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.5)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/10/14,16:06:29)
+
+			(User	lanzhu2410)
+
+			(Path	ic.tps51200)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/10/14,16:37:19)
+
+			(User	lanzhu2410)
+
+			(Path	ic.tps51200)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000924d1220)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/10/14,16:06:35)
+
+							(User	lanzhu2410)
+
+							(Path	ic.tps51200)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b100349)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000e1a964a3)
+
+			(Primitives	1
+
+				(Primitive	TPS51200_1
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/10/14,16:14:04)
+
+							(User	lanzhu2410)
+
+							(Path	ic.tps51200)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TPS51200_1
+
+							(PackType	TPS51200_1)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001ec8041a)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001ca403a8)
+
+)
+

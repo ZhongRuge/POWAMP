@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PCA9306DCTT'
+
+{========================================================================================}
+:VALUE(OPT)    = JEDEC_TYPE    | DESCRIPTION                                           ;
+{========================================================================================}
+ 'PCA9306DCTT'(!) = 'SOP8-26-100' | 'DUAL BIDIRECTIONAL IIC BUS VOLTAGE-LEVEL TRANSLATOR'
+
+END_PART
+
+END.
+

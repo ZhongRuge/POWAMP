@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TCA62724FMG'
+
+{========================================================================================}
+:VALUE(OPT)    = JEDEC_TYPE     | DESCRIPTION                                          ;
+{========================================================================================}
+ 'TCA62724FMG'(!) = 'SON10-20-110' | '3-Channel Constant-Current LED Driver-150mA-10-SON'
+
+END_PART
+
+END.
+

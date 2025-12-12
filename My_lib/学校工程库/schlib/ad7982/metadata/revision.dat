@@ -1,0 +1,172 @@
+(Cell	ad7982
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/20/08,11:11:45)
+
+			(User	cluch)
+
+			(Path	library_lib.ad7982)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/20/08,11:21:03)
+
+			(User	cluch)
+
+			(Path	library_lib.ad7982)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000fef8fcb4)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/20/08,11:18:31)
+
+							(User	cluch)
+
+							(Path	library_lib.ad7982)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001ff80449)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000016f300c4)
+
+			(Primitives	1
+
+				(Primitive	AD7982
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/20/08,11:11:49)
+
+							(User	cluch)
+
+							(Path	library_lib.ad7982)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	AD7982
+
+							(PackType	AD7982)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c4d03aa)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001cb503d2)
+
+)
+

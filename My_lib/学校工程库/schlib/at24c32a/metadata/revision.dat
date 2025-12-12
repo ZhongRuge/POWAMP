@@ -1,0 +1,172 @@
+(Cell	at24c32a
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	10/16/07,18:54:53)
+
+			(User	Administrator)
+
+			(Path	ppc.at24c32a)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	10/16/07,18:58:48)
+
+			(User	Administrator)
+
+			(Path	ppc.at24c32a)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000003624cde7)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/16/07,18:57:46)
+
+							(User	Administrator)
+
+							(Path	ppc.at24c32a)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001bcb03b3)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000079dd02a8)
+
+			(Primitives	1
+
+				(Primitive	AT24C32A
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/16/07,18:54:55)
+
+							(User	Administrator)
+
+							(Path	ppc.at24c32a)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	AT24C32A
+
+							(PackType	AT24C32A)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b970385)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.50-p002)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b6d0354)
+
+)
+

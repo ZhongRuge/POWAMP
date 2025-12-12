@@ -1,0 +1,16 @@
+
+	(Comment
+		(Time 03/03/07,16:01:39)
+		(User Tshirt)
+		(MsgId ECO_021)
+		(Text "Package HEAD2X8 added to cell")
+		(Param1 HEAD2X8)
+	)
+	(Comment
+		(Time 03/03/07,16:01:41)
+		(User Tshirt)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 sym_1)
+	)
+

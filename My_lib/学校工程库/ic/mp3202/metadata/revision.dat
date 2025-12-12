@@ -1,0 +1,170 @@
+(Cell	mp3202
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/26/13,13:52:33)
+
+			(User	Administrator)
+
+			(Path	ic.mp3202)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/26/13,14:42:33)
+
+			(User	Administrator)
+
+			(Path	ic.mp3202)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000afff9c0a)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.3)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/26/13,13:52:38)
+
+							(User	Administrator)
+
+							(Path	ic.mp3202)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001fd20441)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000fadad4ce)
+
+			(Primitives	1
+
+				(Primitive	MP3202
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/26/13,13:52:33)
+
+							(User	Administrator)
+
+							(Path	ic.mp3202)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	MP3202
+
+							(PackType	MP3202)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001e3e040b)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	15.70-p003)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c6403a5)
+
+)
+
