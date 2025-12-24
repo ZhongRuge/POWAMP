@@ -1,0 +1,194 @@
+(Cell	c3216x7r1c106kt000n
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.2)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/24/25,10:12:50)
+
+			(User	Lucky)
+
+			(Path	sch_lib.C3216X7R1C106KT000N)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.2)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	12/24/25,10:12:50)
+
+					(User	Lucky)
+
+					(Path	sch_lib.C3216X7R1C106KT000N)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000002580a652)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/24/25,10:12:50)
+
+							(User	Lucky)
+
+							(Path	sch_lib.C3216X7R1C106KT000N)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001ad5034e)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000070409fa8)
+
+			(Primitives	1
+
+				(Primitive	C3216X7R1C106KT000N
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/24/25,10:12:50)
+
+							(User	Lucky)
+
+							(Path	sch_lib.C3216X7R1C106KT000N)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	C3216X7R1C106KT000N
+
+							(PackType	C3216X7R1C106KT000N)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	c1206)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c8903b0)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.4-2019 S039 (4153571))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bc7037b)
+
+)
+

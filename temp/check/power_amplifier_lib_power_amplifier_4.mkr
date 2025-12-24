@@ -1,0 +1,37 @@
+(marker_file
+ (version 1.0)
+ (markers
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 40)
+   (error_num 1)
+   (short_msg "ERROR(SPCOCN-1999): Wire hidden by component.")
+   (long_msg "ERROR(SPCOCN-1999): Wire hidden by component. (check_hiddenwires)")
+   (location
+    (
+     (object_kind "wire")
+     (canonical_name "_!drawerror (-1550,5100);")
+     (parent_canonical_name "unused")
+     (drawing_name "@power_amplifier_lib.power_amplifier(sch_1):page2")
+    )
+   )
+  )
+  (
+   (tool "Concept")
+   (class "SCHEMATIC")
+   (severity 40)
+   (error_num 2)
+   (short_msg "ERROR(SPCOCN-1999): Wire hidden by component.")
+   (long_msg "ERROR(SPCOCN-1999): Wire hidden by component. (check_hiddenwires)")
+   (location
+    (
+     (object_kind "wire")
+     (canonical_name "_!drawerror (-1250,5100);")
+     (parent_canonical_name "unused")
+     (drawing_name "@power_amplifier_lib.power_amplifier(sch_1):page2")
+    )
+   )
+  )
+ )
+)

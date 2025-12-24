@@ -11,13 +11,10 @@
   capacitor c3216 *
   page2_i31
 #CELL
-  capacitor c3216 *
-  page2_i32
-#CELL
   inductor l0805 *
   page2_i33
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page2_i34
 #CELL
   capacitor c0805 *
@@ -91,3 +88,6 @@
 #CELL
   resistor r *
   page2_i61
+#CELL
+  capacitor c3216x7r1c106kt000n *
+  page2_i62

@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Fri Dec 12 21:04:37 2025
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Wed Dec 24 13:15:47 2025
 #ISCELL
   standard b#20size#20page *
   *
@@ -15,13 +15,10 @@
   capacitor c3216 *
   page2_i31
 #CELL
-  capacitor c3216 *
-  page2_i32
-#CELL
   inductor l0805 *
   page2_i33
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page2_i34
 #CELL
   capacitor c0805 *
@@ -95,6 +92,9 @@
 #CELL
   resistor r *
   page2_i61
+#CELL
+  capacitor c3216x7r1c106kt000n *
+  page2_i62
 #ISCELL
   pages pages *
   *
@@ -123,7 +123,7 @@
   capacitor c0805 *
   page4_i10
 #CELL
-  resistor res0805 *
+  resistor r *
   page4_i11
 #CELL
   oscillator x322512msb4si *
@@ -228,7 +228,7 @@
   capacitor c0805 *
   page5_i44
 #CELL
-  resistor res0805 *
+  resistor r *
   page5_i45
 #CELL
   capacitor c0805 *

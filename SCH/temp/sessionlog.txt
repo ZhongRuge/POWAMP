@@ -1,13 +1,21 @@
-12/12/25  20:41:37		Opening project G:/Cadence/POWAMP/SCH/sch.cpm
-12/12/25  20:41:37		cdslib G:/Cadence/POWAMP/SCH/cds.lib opened
-12/12/25  20:41:37		Project G:/Cadence/POWAMP/SCH/sch.cpm opened
-12/12/25  20:41:37		Loading cell usb2_0 from library sch_lib
-12/12/25  20:41:37		Loading view sym_1 of cell usb2_0
-12/12/25  20:41:37		Loading view chips of cell usb2_0
-12/12/25  20:41:37		Loading view entity of cell usb2_0
-12/12/25  20:41:37		Loading cell usb2_0 from library sch_lib
-12/12/25  20:41:37		Analyzing view relationships of cell usb2_0 in library sch_lib
-12/12/25  20:41:37		Completed loading cell usb2_0 from library sch_lib
-12/12/25  20:41:37		Starting validations on cell usb2_0 of library sch_lib
-12/12/25  20:41:37		Completed validations on cell usb2_0 of library sch_lib
-12/12/25  21:07:03		Project G:/Cadence/POWAMP/SCH/sch.cpm is closed.
+12/24/25  10:28:32		Opening project G:/Cadence/POWAMP/SCH/sch.cpm
+12/24/25  10:28:32		cdslib G:/Cadence/POWAMP/SCH/cds.lib opened
+12/24/25  10:28:32		Project G:/Cadence/POWAMP/SCH/sch.cpm opened
+12/24/25  10:28:32		Loading cell c from library sch_lib
+12/24/25  10:28:32		Loading cell c from library sch_lib
+12/24/25  10:28:32		Analyzing view relationships of cell c in library sch_lib
+12/24/25  10:28:32		Completed loading cell c from library sch_lib
+12/24/25  10:28:32		Starting validations on cell c of library sch_lib
+12/24/25  10:28:32		Completed validations on cell c of library sch_lib
+12/24/25  10:30:23		Starting validations on cell c of library sch_lib
+12/24/25  10:30:23		Completed validations on cell c of library sch_lib
+12/24/25  10:30:48		Pin numbers extracted from footprint c0805.psm
+12/24/25  10:32:44		Starting validations on cell c of library sch_lib
+12/24/25  10:32:44		Completed validations on cell c of library sch_lib
+12/24/25  10:32:44		Completed saving cell c in library sch_lib 
+12/24/25  10:34:33		Loading file part.ptf of PTF view part_table of cell c
+12/24/25  10:36:33		Loading file part.ptf of PTF view part_table of cell c
+12/24/25  13:15:53		Starting validations on cell c of library sch_lib
+12/24/25  13:15:53		Completed validations on cell c of library sch_lib
+12/24/25  13:15:54		Completed saving cell c in library sch_lib 
+12/24/25  13:15:54		Project G:/Cadence/POWAMP/SCH/sch.cpm is closed.

@@ -5,7 +5,7 @@
   capacitor c0805 *
   page4_i10
 #CELL
-  resistor res0805 *
+  resistor r *
   page4_i11
 #CELL
   oscillator x322512msb4si *
