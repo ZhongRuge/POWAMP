@@ -4,7 +4,7 @@
 
 		(Baselined	0)
 
-		(Revision	1.0.102)
+		(Revision	0.0.3)
 
 		(ModificationStatus	NULL)
 
@@ -14,11 +14,21 @@
 
 		(CreateInfo	
 
-			(Time	11/03/04,09:42:30)
+			(Time	12/24/25,21:00:17)
 
-			(User	tianjiejia)
+			(User	63524)
 
-			(Path	discrete.r)
+			(Path	sch_lib.r)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/24/25,21:03:05)
+
+			(User	63524)
+
+			(Path	sch_lib.r)
 
 		)
 
@@ -32,11 +42,11 @@
 
 				(Baselined	0)
 
-				(Revision	0.0.34)
+				(Revision	0.0.1)
 
 				(ModificationStatus	NULL)
 
-				(Status	)
+				(Status	Modified)
 
 				(ErrorStatus	0)
 
@@ -60,13 +70,13 @@
 
 					(Max_Size	0)
 
-					(Checksum	00000000b96c6673)
+					(Checksum	00000000dc0178c1)
 
 					(RevisionInfoBlock	
 
 						(Baselined	0)
 
-						(Revision	1.0.7)
+						(Revision	0.0.1)
 
 						(ModificationStatus	NULL)
 
@@ -76,11 +86,11 @@
 
 						(CreateInfo	
 
-							(Time	11/03/04,09:42:30)
+							(Time	12/24/25,21:01:16)
 
-							(User	tianjiejia)
+							(User	63524)
 
-							(Path	discrete.r)
+							(Path	sch_lib.r)
 
 						)
 
@@ -90,13 +100,13 @@
 
 			)
 
-			(Checksum	000000001cbd038b)
+			(Checksum	000000001d3503ac)
 
 		)
 
 		(View	Chips
 
-			(Checksum	00000000b9b766cb)
+			(Checksum	00000000564e6504)
 
 			(Primitives	1
 
@@ -106,21 +116,21 @@
 
 						(Baselined	0)
 
-						(Revision	1.0.0)
+						(Revision	0.0.2)
 
 						(ModificationStatus	NULL)
 
-						(Status	Created)
+						(Status	Modified)
 
 						(ErrorStatus	0)
 
 						(CreateInfo	
 
-							(Time	11/03/04,09:42:30)
+							(Time	)
 
-							(User	tianjiejia)
+							(User	)
 
-							(Path	discrete.r)
+							(Path	)
 
 						)
 
@@ -164,7 +174,7 @@
 
 		)
 
-		(Checksum	000000001c530388)
+		(Checksum	000000001ab00356)
 
 	)
 
@@ -172,13 +182,13 @@
 
 		(ToolName	PDV)
 
-		(Version	16.6-S102 (v16-6-112JG))
+		(Version	17.4-2019 S039 (4153571))
 
-		(License	PCB_design_expert)
+		(License	PCB_librarian_expert)
 
 	)
 
-	(Checksum	000000001b4b0350)
+	(Checksum	000000001c340373)
 
 )
 

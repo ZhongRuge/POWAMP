@@ -60,11 +60,12 @@ P "ImagePath" "*" -75 20 0 0 23 0 0 0 0 0 0 0 32
 P "ProjectName" "*" -75 20 0 0 23 0 0 0 0 0 0 0 32
 P "Application_BuildNumber" "*" -75 20 0 0 23 0 0 0 0 0 0 0 32
 P "Origin" "Altium" -75 20 0 0 23 0 0 0 0 0 0 0 32
-P "$LOCATION" "?" -75 20 0 0 23 0 0 0 0 0 0 0 0
-P "PATH" "?" -75 20 0 0 23 0 0 0 0 0 1 0 32
+P "$LOCATION" "?" -75 20 0 0 23 0 0 0 0 0 1 0 0
+P "VALUE" "?" -75 20 0 0 23 0 0 0 0 0 1 0 0
 P "Pin_Numbers_Visible" "False" -75 20 0 0 23 0 0 0 0 0 0 0 32
 P "PIN_TEXT_VISIBLE" "False" -75 20 0 0 23 0 0 0 0 0 0 0 32
 P "Pin_Names_Rotate" "True" -75 20 0 0 23 0 0 0 0 0 0 0 32
+P "PATH" "?" 0 0 0 0 48 0 0 0 0 0 0 0 32
 L 125 -25 100 -25 -1 0
 C 125 -25 "2" 155 -25 0 1 23 0 L
 X "PIN_TEXT" "2" 99 -29 0 0 23 0 0 2 0 0 1 0 0

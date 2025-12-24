@@ -90,4 +90,60 @@
 		<property name="CODE"  value="CC0805KKX7R9BB684"/>
 		<property name="VALUE"  value="680nF"/>
 	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="0805W8F220JT5E"/>
+		<property name="VALUE"  value="22"/>
+	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="RE0805FAR000"/>
+		<property name="VALUE"  value="0"/>
+	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="0805W8F2700T5E"/>
+		<property name="VALUE"  value="270"/>
+	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="0805W8F1002T5E"/>
+		<property name="VALUE"  value="10k"/>
+	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="FRC0805F3R30TS"/>
+		<property name="VALUE"  value="3.3"/>
+	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="0805W8F330JT5E"/>
+		<property name="VALUE"  value="33"/>
+	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="FRC0805F9093TS"/>
+		<property name="VALUE"  value="909k"/>
+	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="0805W8F1003T5E"/>
+		<property name="VALUE"  value="100k"/>
+	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="0805W8F4701T5E"/>
+		<property name="VALUE"  value="4.7k"/>
+	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="0805W8F3301T5E"/>
+		<property name="VALUE"  value="3.3k"/>
+	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="0805W8F1001T5E"/>
+		<property name="VALUE"  value="1k"/>
+	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="TD05G50R0BT"/>
+		<property name="VALUE"  value="50"/>
+	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="0805W8F390JT5E"/>
+		<property name="VALUE"  value="39"/>
+	</component>
+	<component cell="r" library="resistor" partname="R" partno="" quantity="1" >
+		<property name="CODE"  value="0805W8F2002T5E"/>
+		<property name="VALUE"  value="20k"/>
+	</component>
 </sc:shoppingCart>

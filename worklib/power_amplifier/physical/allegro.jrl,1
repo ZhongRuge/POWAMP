@@ -1,329 +1,175 @@
-\t (00:00:02) allegro 17.4 S039 Windows SPB 64-bit Edition
-\t (00:00:02)     Journal start - Fri Dec 12 20:21:05 2025
-\t (00:00:02)         Host=LUCK User=Lucky Pid=19796 CPUs=12
-\t (00:00:02) CmdLine= G:\Cadence\SPB_17.4\tools\bin\allegro.exe
-\t (00:00:02) 
-   (00:00:02) Loading axlcore.cxt 
-\t (00:00:03) Opening existing design...
-\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "power_amplifier"
-\d (00:00:03) Design opened: G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd
-\i (00:00:03) trapsize 1391
-\i (00:00:03) trapsize 1476
-\i (00:00:04) trapsize 1571
-\i (00:00:04) trapsize 1476
-\i (00:00:04) trapsize 1211
-\i (00:00:04) trapsize 1211
-\i (00:00:04) trapsize 1181
+\t (00:00:03) allegro 17.4 S039 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Wed Dec 24 21:49:29 2025
+\t (00:00:03)         Host=DESKTOP-OD6O7GO User=63524 Pid=38752 CPUs=32
+\t (00:00:03) CmdLine= D:\Coding\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "power_amplifier"
+\d (00:00:04) Design opened: D:/Coding/Cadence/Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd
+\i (00:00:04) trapsize 456
+\i (00:00:04) trapsize 467
+\i (00:00:04) trapsize 480
+\i (00:00:04) trapsize 467
+\i (00:00:04) trapsize 526
+\i (00:00:04) trapsize 517
 \i (00:00:04) generaledit 
-\i (00:03:08) trl altium2pcb 
-\i (00:03:08) helpcmd C:/Users/Lucky/AppData/Local/Temp/#Taaaaaf19796.tmp 
-\i (00:03:15) fillin no 
-   (00:03:15) Loading translators.cxt 
-   (00:03:15) Loading toolbox.cxt 
-   (00:03:15) Initializing toolbox...
-\i (00:03:15) generaledit 
-\i (00:03:17) status 
-\i (00:03:17) generaledit 
-\i (00:03:18) setwindow form.status
-\i (00:03:18) FORM status done  
-\i (00:03:28) setwindow pcb
-\i (00:03:28) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
-\i (00:03:28) new 
-\e (00:03:28) Do you want to save the changes you made to power_amplifier.brd?
-\i (00:03:31) fillin yes 
-\i (00:03:34) newdrawfillin "unnamed.brd" "Board"
-\i (00:03:34) setwindow form.trl_altium2pcb
-\i (00:03:34) FORM trl_altium2pcb cancel  
-\t (00:03:34) Starting new design...
-\i (00:03:37) setwindow pcb
-\i (00:03:37) trapsize 1181
-\i (00:03:37) trapsize 1181
-\i (00:03:37) helpcmd C:/Users/Lucky/AppData/Local/Temp/#Taaaaam19796.tmp 
-\i (00:03:37) generaledit 
-\i (00:03:39) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
-\i (00:03:42) trl altium2pcb 
-\i (00:03:43) setwindow form.trl_altium2pcb
-\i (00:03:43) FORM trl_altium2pcb pcb_ascii_browse  
-\i (00:04:00) fillin "G:/Downloads/SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL.pcbdoc"
-\i (00:04:02) FORM trl_altium2pcb run_translator  
-\t (00:04:02) Checking db records
-\t (00:04:02)     checking for orphans...
-\t (00:04:02)     Checked 100 percent
-   (00:04:02) Loading signal.cxt 
-\t (00:04:02) Checking db records
-\t (00:04:02)     checking for orphans...
-\t (00:04:02)     Checked 100 percent
-   (00:04:02) Info: Number of text blocks to be generated: 2
-\i (00:04:02) setwindow pcb
-\i (00:04:02) trapsize 11806
-\t (00:04:02) Performing DRC...
-\t (00:04:02) Multithreaded DRC update (12 threads).
-\t (00:04:02) No DRC errors detected.
-\i (00:04:02) trapsize 11806
-\t (00:04:02) Checking db records
-\t (00:04:02)     checking for orphans...
-\t (00:04:02)     Checked 100 percent
-\w (00:04:02) Dielectric layer thickness is 0 !
-\i (00:04:02) setwindow text
-\i (00:04:02) stick
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\w (00:04:02) Dielectric layer thickness is 0 !
-\t (00:04:02) Checking db records
-\t (00:04:02)     checking for orphans...
-\t (00:04:02)     Checked 100 percent
-\w (00:04:02) Run batch DRC to correctly regenerate DRC errs.
+\i (00:01:30) trapsize 801
+\i (00:01:31) trapsize 1494
+\i (00:01:31) trapsize 1491
+\i (00:01:31) trapsize 1489
+\i (00:01:31) trapsize 1414
+\i (00:01:31) trapsize 1412
+\i (00:01:33) new 
+\i (00:01:36) newdrawfillin "unnamed.brd" "Board"
+\t (00:01:36) Starting new design...
+\i (00:01:36) trapsize 1412
+\i (00:01:36) trapsize 1412
+\i (00:01:38) QtSignal spbdip_extents_group spbdip_extheight_edit editingFinished "17000.0"
+\i (00:01:38) QtSignal SPBDesignInitPrompt spbdip_ok_button clicked
+\i (00:01:38) generaledit 
+\i (00:01:49) trl altium2pcb 
+\i (00:01:49) helpcmd C:/Users/63524/AppData/Local/Temp/#Taaaaak38752.tmp 
+\i (00:01:53) setwindow form.trl_altium2pcb
+\i (00:01:53) FORM trl_altium2pcb pcb_ascii_browse  
+\i (00:01:58) fillin "D:/Download/L0805.pcbdoc"
+   (00:01:58) Loading translators.cxt 
+   (00:01:58) Loading toolbox.cxt 
+   (00:01:58) Initializing toolbox...
+\i (00:01:59) FORM trl_altium2pcb run_translator  
+\t (00:01:59) Checking db records
+\t (00:01:59)     checking for orphans...
+\t (00:01:59)     Checked 100 percent
+   (00:01:59) Loading signal.cxt 
+\t (00:01:59) Checking db records
+\t (00:01:59)     checking for orphans...
+\t (00:01:59)     Checked 100 percent
+   (00:01:59) Info: Number of text blocks to be generated: 2
+\i (00:01:59) setwindow pcb
+\i (00:01:59) trapsize 14120
+\t (00:01:59) Performing DRC...
+\t (00:01:59) The number of threads for DRC checking is reduced from 32 to the maximum supported (16).
+\t (00:01:59) Multithreaded DRC update (16 threads).
+\t (00:01:59) No DRC errors detected.
+\i (00:01:59) trapsize 14120
+\t (00:01:59) Checking db records
+\t (00:01:59)     checking for orphans...
+\t (00:01:59)     Checked 100 percent
+\w (00:01:59) Dielectric layer thickness is 0 !
+\i (00:01:59) setwindow text
+\i (00:01:59) stick
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\w (00:01:59) Dielectric layer thickness is 0 !
+\t (00:01:59) Checking db records
+\t (00:01:59)     checking for orphans...
+\t (00:01:59)     Checked 100 percent
+\w (00:01:59) Run batch DRC to correctly regenerate DRC errs.
 
-\t (00:04:02) Checking db records
-\t (00:04:02)     checking for orphans...
-\t (00:04:02)     Checked 100 percent
-\w (00:04:02) Run batch DRC to correctly regenerate DRC errs.
+\t (00:01:59) Checking db records
+\t (00:01:59)     checking for orphans...
+\t (00:01:59)     Checked 100 percent
+\w (00:01:59) Run batch DRC to correctly regenerate DRC errs.
 
-\t (00:04:02) Checking db records
-\t (00:04:02)     checking for orphans...
-\t (00:04:02)     Checked 100 percent
-\w (00:04:02) Run batch DRC to correctly regenerate DRC errs.
+\t (00:01:59) Checking db records
+\t (00:01:59)     checking for orphans...
+\t (00:01:59)     Checked 100 percent
+\w (00:01:59) Run batch DRC to correctly regenerate DRC errs.
 
-   (00:04:02) Loading skillExt.cxt 
-\t (00:04:03) Checking db records
-\t (00:04:03)     checking for orphans...
-\t (00:04:03)     Checked 100 percent
-\w (00:04:03) Run batch DRC to correctly regenerate DRC errs.
+   (00:01:59) Loading skillExt.cxt 
+\t (00:01:59) Checking db records
+\t (00:01:59)     checking for orphans...
+\t (00:01:59)     Checked 100 percent
+\w (00:01:59) Run batch DRC to correctly regenerate DRC errs.
 
-\t (00:04:03) Checking db records
-\t (00:04:03)     checking for orphans...
-\t (00:04:03)     Checked 100 percent
-\w (00:04:03) Run batch DRC to correctly regenerate DRC errs.
+\t (00:02:00) Checking db records
+\t (00:02:00)     checking for orphans...
+\t (00:02:00)     Checked 100 percent
+\w (00:02:00) Run batch DRC to correctly regenerate DRC errs.
 
-\t (00:04:03) Checking db records
-\t (00:04:03)     checking for orphans...
-\t (00:04:03)     Checked 100 percent
-\w (00:04:03) Run batch DRC to correctly regenerate DRC errs.
+\t (00:02:00) Checking db records
+\t (00:02:00)     checking for orphans...
+\t (00:02:00)     Checked 100 percent
+\w (00:02:00) Run batch DRC to correctly regenerate DRC errs.
 
-\t (00:04:03) Checking db records
-\t (00:04:03)     checking for orphans...
-\t (00:04:03)     Checked 100 percent
-\w (00:04:03) Run batch DRC to correctly regenerate DRC errs.
+\t (00:02:00) Checking db records
+\t (00:02:00)     checking for orphans...
+\t (00:02:00)     Checked 100 percent
+\w (00:02:00) Run batch DRC to correctly regenerate DRC errs.
 
-\t (00:04:03) Starting new design...
-\i (00:04:03) setwindow pcb
-\i (00:04:03) trapsize 76389
-\i (00:04:03) trapsize 76389
-\i (00:04:03) show element 
-\i (00:04:03) done 
-\i (00:04:03) trapsize 76389
-\t (00:04:03) Opening existing design...
-\w (00:04:03) Dielectric layer thickness is 0 !
-\w (00:04:03) Dielectric layer thickness is 0 !
-\w (00:04:03) Dielectric layer thickness is 0 !
-\i (00:04:03) trapsize 11806
-\i (00:04:03) trapsize 7552
-\t (00:04:03) Checking db records
-\t (00:04:03)     checking for orphans...
-\t (00:04:03)     Checked 100 percent
-\w (00:04:03) Run batch DRC to correctly regenerate DRC errs.
+\t (00:02:00) Starting new design...
+\i (00:02:00) setwindow pcb
+\i (00:02:00) trapsize 91362
+\i (00:02:00) trapsize 91362
+\i (00:02:00) show element 
+\i (00:02:00) done 
+\i (00:02:00) trapsize 91362
+\t (00:02:00) Opening existing design...
+\w (00:02:00) Dielectric layer thickness is 0 !
+\w (00:02:00) Dielectric layer thickness is 0 !
+\w (00:02:00) Dielectric layer thickness is 0 !
+\i (00:02:00) trapsize 14120
+\i (00:02:00) trapsize 9032
+\t (00:02:00) Checking db records
+\t (00:02:00)     checking for orphans...
+\t (00:02:00)     Checked 100 percent
+\w (00:02:00) Run batch DRC to correctly regenerate DRC errs.
 
-\t (00:04:03) Checking db records
-\t (00:04:03)     checking for orphans...
-\t (00:04:03)     Checked 100 percent
-\w (00:04:03) Run batch DRC to correctly regenerate DRC errs.
+\t (00:02:00) Checking db records
+\t (00:02:00)     checking for orphans...
+\t (00:02:00)     Checked 100 percent
+\w (00:02:00) Run batch DRC to correctly regenerate DRC errs.
 
-   (00:04:04) Info: Deleting 0 pad dangling clines.
-\i (00:04:04) trapsize 442
-\t (00:04:04) Checking db records
-\t (00:04:04)     checking for orphans...
-\t (00:04:04)     Checked 100 percent
-\w (00:04:04) Run batch DRC to correctly regenerate DRC errs.
+   (00:02:00) Info: Deleting 0 pad dangling clines.
+\i (00:02:00) trapsize 482
+\t (00:02:00) Checking db records
+\t (00:02:00)     checking for orphans...
+\t (00:02:00)     Checked 100 percent
+\w (00:02:00) Run batch DRC to correctly regenerate DRC errs.
 
-\t (00:04:04) Checking db records
-\t (00:04:04)     checking for orphans...
-\t (00:04:04)     Checked 100 percent
-\w (00:04:04) Run batch DRC to correctly regenerate DRC errs.
+\t (00:02:00) Checking db records
+\t (00:02:00)     checking for orphans...
+\t (00:02:00)     Checked 100 percent
+\w (00:02:00) Run batch DRC to correctly regenerate DRC errs.
 
-\t (00:04:04) Checking db records
-\t (00:04:04)     checking for orphans...
-\t (00:04:04)     Checked 100 percent
-\w (00:04:04) Run batch DRC to correctly regenerate DRC errs.
+\t (00:02:01) Checking db records
+\t (00:02:01)     checking for orphans...
+\t (00:02:01)     Checked 100 percent
+\w (00:02:01) Run batch DRC to correctly regenerate DRC errs.
 
-\i (00:04:06) setwindow form.trl_altium2pcb
-\i (00:04:06) FORM trl_altium2pcb cancel  
-\i (00:04:07) setwindow text
-\i (00:04:07) close
-\i (00:04:12) setwindow pcb
-\i (00:04:12) dlib 
-\i (00:04:13) setwindow form.dlib
-\i (00:04:13) FORM dlib browse_export  
-\i (00:04:30) fillin "G:/Cadence/POWAMP/嘉立创原理图封装/USB端ESD芯片/封装"
-\i (00:04:30) FORM dlib execute  
-\t (00:04:30) Starting Cadence export libraries...
-\i (00:04:33) FORM dlib cancel  
-\i (00:04:33) setwindow pcb
-\i (00:04:33) generaledit 
-\i (00:24:23) new 
-\i (00:24:25) newdrawfillin "unnamed.brd" "Board"
-\t (00:24:25) Starting new design...
-\i (00:24:25) trapsize 7552
-\i (00:24:25) trapsize 7552
-\i (00:24:25) helpcmd C:/Users/Lucky/AppData/Local/Temp/#Taaaahr19796.tmp 
-\i (00:24:25) generaledit 
-\i (00:24:29) trl altium2pcb 
-\i (00:24:55) setwindow form.trl_altium2pcb
-\i (00:24:55) FORM trl_altium2pcb pcb_ascii_browse  
-\i (00:25:09) fillin "G:/Downloads/USB-TH_73725-0110BLF.pcbdoc"
-\i (00:25:10) FORM trl_altium2pcb run_translator  
-\t (00:25:10) Checking db records
-\t (00:25:10)     checking for orphans...
-\t (00:25:10)     Checked 100 percent
-\t (00:25:10) Checking db records
-\t (00:25:10)     checking for orphans...
-\t (00:25:10)     Checked 100 percent
-   (00:25:10) Info: Number of text blocks to be generated: 2
-\i (00:25:10) setwindow pcb
-\i (00:25:10) trapsize 7552
-\t (00:25:10) Performing DRC...
-\t (00:25:10) Multithreaded DRC update (12 threads).
-\t (00:25:10) No DRC errors detected.
-\i (00:25:10) trapsize 7552
-\t (00:25:10) Checking db records
-\t (00:25:10)     checking for orphans...
-\t (00:25:10)     Checked 100 percent
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\w (00:25:10) Dielectric layer thickness is 0 !
-\t (00:25:10) Checking db records
-\t (00:25:10)     checking for orphans...
-\t (00:25:10)     Checked 100 percent
-\w (00:25:10) Run batch DRC to correctly regenerate DRC errs.
-
-\t (00:25:10) Checking db records
-\t (00:25:10)     checking for orphans...
-\t (00:25:10)     Checked 100 percent
-\w (00:25:10) Run batch DRC to correctly regenerate DRC errs.
-
-\t (00:25:10) Checking db records
-\t (00:25:10)     checking for orphans...
-\t (00:25:10)     Checked 100 percent
-\w (00:25:10) Run batch DRC to correctly regenerate DRC errs.
-
-\t (00:25:10) Checking db records
-\t (00:25:11)     checking for orphans...
-\t (00:25:11)     Checked 100 percent
-\w (00:25:11) Run batch DRC to correctly regenerate DRC errs.
-
-\t (00:25:11) Checking db records
-\t (00:25:11)     checking for orphans...
-\t (00:25:11)     Checked 100 percent
-\w (00:25:11) Run batch DRC to correctly regenerate DRC errs.
-
-\t (00:25:11) Checking db records
-\t (00:25:11)     checking for orphans...
-\t (00:25:11)     Checked 100 percent
-\w (00:25:11) Run batch DRC to correctly regenerate DRC errs.
-
-\t (00:25:11) Checking db records
-\t (00:25:11)     checking for orphans...
-\t (00:25:11)     Checked 100 percent
-\w (00:25:11) Run batch DRC to correctly regenerate DRC errs.
-
-\t (00:25:11) Starting new design...
-\i (00:25:11) trapsize 76389
-\i (00:25:11) trapsize 76389
-\i (00:25:11) show element 
-\i (00:25:11) done 
-\i (00:25:11) trapsize 76389
-\t (00:25:11) Opening existing design...
-\w (00:25:11) Dielectric layer thickness is 0 !
-\w (00:25:11) Dielectric layer thickness is 0 !
-\w (00:25:11) Dielectric layer thickness is 0 !
-\i (00:25:11) trapsize 7552
-\i (00:25:11) trapsize 7552
-\t (00:25:11) Checking db records
-\t (00:25:11)     checking for orphans...
-\t (00:25:11)     Checked 100 percent
-\w (00:25:11) Run batch DRC to correctly regenerate DRC errs.
-
-\t (00:25:11) Checking db records
-\t (00:25:11)     checking for orphans...
-\t (00:25:11)     Checked 100 percent
-\w (00:25:11) Run batch DRC to correctly regenerate DRC errs.
-
-   (00:25:11) Info: Deleting 0 pad dangling clines.
-\i (00:25:11) trapsize 890
-\t (00:25:12) Checking db records
-\t (00:25:12)     checking for orphans...
-\t (00:25:12)     Checked 100 percent
-\w (00:25:12) Run batch DRC to correctly regenerate DRC errs.
-
-\t (00:25:12) Checking db records
-\t (00:25:12)     checking for orphans...
-\t (00:25:12)     Checked 100 percent
-\w (00:25:12) Run batch DRC to correctly regenerate DRC errs.
-
-\t (00:25:12) Checking db records
-\t (00:25:12)     checking for orphans...
-\t (00:25:12)     Checked 100 percent
-\w (00:25:12) Run batch DRC to correctly regenerate DRC errs.
-
-\i (00:25:13) setwindow form.trl_altium2pcb
-\i (00:25:13) FORM trl_altium2pcb cancel  
-\i (00:25:14) FORM trl_altium2pcb cancel  
-\i (00:25:15) FORM trl_altium2pcb close  
-\i (00:25:18) setwindow pcb
-\i (00:25:18) tbx postproc 
-\i (00:25:18) setwindow form.tbx_postproc_main
-\i (00:25:18) FORM tbx_postproc_main job_tree  'Update Shapes' 
-   (00:25:18) Reading defaults from "G:/Cadence/SPB_17.4/share/pcb/toolbox/config/postproc.ini"
-\i (00:25:18) FORM tbx_postproc_main cancel  
-\i (00:25:21) setwindow pcb
-\i (00:25:21) dlib 
-\i (00:25:23) setwindow form.dlib
-\i (00:25:23) FORM dlib browse_export  
-\i (00:25:31) fillin "G:/Cadence/POWAMP/嘉立创原理图封装/USB2.0/封装"
-\i (00:25:32) FORM dlib execute  
-\t (00:25:32) Starting Cadence export libraries...
-\i (00:44:39) FORM dlib cancel  
-\i (00:44:39) setwindow pcb
-\i (00:44:39) generaledit 
-\i (00:44:39) exit 
-\t (00:44:40)     Journal end - Fri Dec 12 21:05:42 2025
+\i (00:02:03) setwindow form.trl_altium2pcb
+\i (00:02:03) FORM trl_altium2pcb cancel  
+\i (00:02:04) setwindow text
+\i (00:02:04) close
+\i (00:02:10) setwindow pcb
+\i (00:02:10) dlib 
+\i (00:02:11) setwindow form.dlib
+\i (00:02:11) FORM dlib browse_export  
+\i (00:02:26) fillin "D:/Coding/Cadence/Project/POWAMP/嘉立创原理图封装/BLM21PG300SN1D/fz"
+\i (00:02:28) FORM dlib execute  
+\t (00:02:28) Starting Cadence export libraries...
+\i (00:02:30) FORM dlib cancel  
+\i (00:02:30) setwindow pcb
+\i (00:02:30) generaledit 
+\i (00:35:08) exit 
+\t (00:35:12)     Journal end - Wed Dec 24 22:24:39 2025

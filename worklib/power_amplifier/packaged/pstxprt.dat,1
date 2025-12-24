@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 12-Dec-2025 AT 20:33:53 }
+{ Packager-XL run on 12-Dec-2025 AT 21:04:49 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='POWER_AMPLIFIER';
- POST_TIME='12-Dec-2025 AT 20:33:53';
+ POST_TIME='12-Dec-2025 AT 21:04:49';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -2391,7 +2391,7 @@ SECTION_NUMBER 1
  ADDRESS2='*',
  ADDRESS1='*',
  PHYS_PAGE='3',
- XY='(550,3925)',
+ XY='(525,4100)',
  ROT='0',
  VER='1',
  CDS_LIB='protection',
@@ -2583,7 +2583,7 @@ SECTION_NUMBER 1
  ADDRESS2='*',
  ADDRESS1='*',
  PHYS_PAGE='3',
- XY='(100,3175)',
+ XY='(-1725,2800)',
  ROT='0',
  VER='1',
  CDS_LIB='inductor',
@@ -4183,20 +4183,20 @@ SECTION_NUMBER 1
  PRIM_FILE='./My_lib/ic/at24c64d#2dsshm#2dt/chips/chips.prt';
 
 PART_NAME
- U3 'HC-USB2.0-L195-J':;
+ U3 'HC-USB2.0-L195-P':;
 
 SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE3_I13@CONNECTOR.USB2_0(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page3_i13@connector.usb2_0(~
-chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page3_i13@connector.usb2_0(~
-chips)',
- PATH='I13',
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE3_I20@CONNECTOR.HC-USB2_0-L195-P(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page3_i20@connector.\hc-usb~
+2_0-l195-p\(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page3_i20@connector.\hc-usb~
+2_0-l195-p\(chips)',
+ PATH='I20',
  DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE3',
  TIME='*',
- SYMBOL='HC-USB2.0-L195-J',
- SHEETTOTAL='1',
- SHEETNUMBER='1',
+ SYMBOL='HC-USB2.0-L195-P',
+ SHEETTOTAL='*',
+ SHEETNUMBER='*',
  RULE='*',
  REVISION='*',
  PROJECTNAME='*',
@@ -4225,12 +4225,13 @@ chips)',
  ADDRESS2='*',
  ADDRESS1='*',
  PHYS_PAGE='3',
- XY='(-1350,3925)',
+ XY='(-1875,4075)',
  ROT='0',
  VER='1',
  CDS_LIB='connector',
- CDS_PART_NAME='HC-USB2.0-L195-J',
- PRIM_FILE='./My_lib/connector/usb2_0/chips/chips.prt';
+ CDS_PART_NAME='HC-USB2.0-L195-P',
+ VALUE='*',
+ PRIM_FILE='./My_lib/connector/hc#2dusb2_0#2dl195#2dp/chips/chips.prt';
 
 PART_NAME
  U5 'AMS1117-3.3':;

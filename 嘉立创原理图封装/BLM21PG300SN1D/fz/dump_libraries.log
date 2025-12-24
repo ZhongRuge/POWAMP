@@ -1,0 +1,37 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dump Library Log                                                 )
+(                                                                     )
+(    Software Version : 17.4S039                                      )
+(    Date/Time        : Wed Dec 24 21:51:54 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+*** file: D:/Coding/Cadence/Project/POWAMP/worklib/power_amplifier/physical/unnamed.brd ***
+
+
+
+  *** Creating all device files (see create_devices.log) ***
+
+
+  *** Creating padstacks. ***
+
+  SMD_R446X542S2 being dumped.
+
+
+  *** Creating package symbols (.dra and .psm) ***
+
+  l0805 being dumped.
+
+
+
+*********************** Summary *********************
+ERRORs reported:                           0
+
+Number of padstacks dumped:                1
+Number of package symbols dumped:          1
+
+Total number of symbols dumped:            1
+*****************************************************
+

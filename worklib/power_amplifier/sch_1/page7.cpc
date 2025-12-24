@@ -8,13 +8,13 @@
   capacitor c *
   page7_i10
 #CELL
-  resistor res0805 *
+  resistor r *
   page7_i11
 #CELL
   capacitor c *
   page7_i12
 #CELL
-  resistor res0805 *
+  resistor r *
   page7_i13
 #CELL
   oscillator x322512msb4si *
@@ -29,10 +29,10 @@
   connector 5557_4pin *
   page7_i17
 #CELL
-  resistor res0805 *
+  resistor r *
   page7_i18
 #CELL
-  resistor res0805 *
+  resistor r *
   page7_i19
 #CELL
   capacitor c *

@@ -1,0 +1,53 @@
+Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023
+Copyright 2021 Cadence Design Systems, Inc
+
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-2065): The PLOT_DPI directive defines the Dots Per Inch setting used by the printer for printing. Ensure that you specify a positive integer value for the directive.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+INFO(SPCOCN-1737): Reading D:\Coding\Cadence\Project\POWAMP\cds.lib file.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.1 into drawing #1.
+INFO(SPCOCN-195): The following file will be used to identify the list of modules to be excluded: 'D:\Coding\Cadence\SPB_17.4\share\cdssetup\xmodules.dat'.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.1 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.2 into drawing #1.
+INFO(SPCOCN-1001): Component: I68 selected.
+WARNING(SPCOCN-1674): Some properties, such as LOCATION and $PN, may be lost when using Component - Replace command. Use Tools - Global Update - Global Component Change to replace components if you do not want to lose backannotated or user-defined properties.
+INFO(SPCOCN-1001): Component: I68 selected.
+INFO(SPCOCN-1070): Checking drawing...
+INFO(SPCOCN-1024): Drawing not written.
+INFO(SPCOCN-1070): Checking drawing...
+INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.2:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): Writing ASCII file...
+INFO(SPCOCN-1727): Appending master.tag page1.csa with page2.csa
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+
+CSDirect 17.4-2019 S039 (4153571)
+
+Netlisting block power_amplifier
+
+Processing page 2
+
+No netlisting errors found. 
+
+INFO(SPCOCN-1640): writing occurrence data...
+INFO(SPCOCN-1054): ...written

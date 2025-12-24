@@ -11,10 +11,10 @@
   capacitor c *
   page11_i11
 #CELL
-  resistor res0805 *
+  resistor r *
   page11_i12
 #CELL
-  resistor res0805 *
+  resistor r *
   page11_i13
 #CELL
   capacitor c *
@@ -35,7 +35,7 @@
   capacitor c *
   page11_i19
 #CELL
-  resistor res0805 *
+  resistor r *
   page11_i2
 #CELL
   capacitor c *
@@ -68,16 +68,16 @@
   capacitor c *
   page11_i29
 #CELL
-  resistor res0805 *
+  resistor r *
   page11_i3
 #CELL
   capacitor c *
   page11_i30
 #CELL
-  resistor res0805 *
+  resistor r *
   page11_i31
 #CELL
-  resistor res0805 *
+  resistor r *
   page11_i32
 #CELL
   capacitor c *
@@ -101,13 +101,13 @@
   capacitor c *
   page11_i47
 #CELL
-  resistor res0805 *
+  resistor r *
   page11_i49
 #CELL
   capacitor c *
   page11_i5
 #CELL
-  resistor res0805 *
+  resistor r *
   page11_i50
 #CELL
   capacitor c *
@@ -116,7 +116,7 @@
   capacitor c *
   page11_i52
 #CELL
-  resistor res0805 *
+  resistor r *
   page11_i53
 #CELL
   capacitor c *

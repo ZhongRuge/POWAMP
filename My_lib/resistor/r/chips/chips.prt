@@ -1,13 +1,13 @@
 FILE_TYPE=LIBRARY_PARTS;
 primitive 'R';
   pin
-    'B':
-      PIN_NUMBER='(2)';
+    'A':
+      PIN_NUMBER='(1)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
-    'A':
-      PIN_NUMBER='(1)';
+    'B':
+      PIN_NUMBER='(2)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
@@ -16,7 +16,7 @@ primitive 'R';
     PART_NAME='R';
     BODY_NAME='R';
     PHYS_DES_PREFIX='R';
-    CLASS='DISCRETE';
+    CLASS='IC';
   end_body;
 end_primitive;
 

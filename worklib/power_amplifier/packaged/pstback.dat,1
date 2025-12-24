@@ -1,4 +1,4 @@
-{ Packager-XL run on 12-Dec-2025 AT 20:33:53 }
+{ Packager-XL run on 12-Dec-2025 AT 21:04:49 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@power_amplifier_lib.power_amplifier(sch_1):page2";
 BODY = "SA9227A","I1": LOCATION = "U1" #&CDS_LOCATION = "U1" &SEC = "1" #&CDS_SEC = "1";
@@ -549,12 +549,6 @@ BODY = "RES0805","I49": LOCATION = "R53" #&CDS_LOCATION = "R53" &SEC = "1" #&CDS
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
 DRAWING = "@power_amplifier_lib.power_amplifier(sch_1):page3";
-BODY = "USB2_0","I13": LOCATION = "U3" #&CDS_LOCATION = "U3" &SEC = "1" #&CDS_SEC = "1";
-"D+":   PN = "3"  !CDS_PN = "3";
-"D-":   PN = "2"  !CDS_PN = "2";
-"GND":   PN = "4"  !CDS_PN = "4";
-"SHIELD":   PN = "5"  !CDS_PN = "5";
-"VBUS":   PN = "1"  !CDS_PN = "1";
 BODY = "ACM2012-2-900","I14": LOCATION = "L3" #&CDS_LOCATION = "L3" &SEC = "1" #&CDS_SEC = "1";
 "1":   PN = "1"  !CDS_PN = "1";
 "2":   PN = "2"  !CDS_PN = "2";
@@ -576,6 +570,15 @@ BODY = "USBLC6-2SC6","I18": LOCATION = "D3" #&CDS_LOCATION = "D3" &SEC = "1" #&C
 "4":   PN = "4"  !CDS_PN = "4";
 "5":   PN = "5"  !CDS_PN = "5";
 "6":   PN = "6"  !CDS_PN = "6";
+BODY = "HC-USB2_0-L195-P","I20": LOCATION = "U3" #&CDS_LOCATION = "U3" &SEC = "1" #&CDS_SEC = "1";
+"1":   PN = "1"  !CDS_PN = "1";
+"2":   PN = "2"  !CDS_PN = "2";
+"3":   PN = "3"  !CDS_PN = "3";
+"4":   PN = "4"  !CDS_PN = "4";
+"5":   PN = "5"  !CDS_PN = "5";
+"6":   PN = "6"  !CDS_PN = "6";
+"7":   PN = "7"  !CDS_PN = "7";
+"8":   PN = "8"  !CDS_PN = "8";
 DRAWING = "@power_amplifier_lib.power_amplifier(sch_1):page4";
 BODY = "X322512MSB4SI","I7": LOCATION = "X1" #&CDS_LOCATION = "X1" &SEC = "1" #&CDS_SEC = "1";
 "GND":   PN = "2"  !CDS_PN = "2";

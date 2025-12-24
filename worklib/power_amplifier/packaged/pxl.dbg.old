@@ -1,6 +1,6 @@
-Log File: C:\Users\Lucky\AppData\Local\Temp\sdzc.0
-Markers File: C:\Users\Lucky\AppData\Local\Temp\sdzc.1
-Debug File: C:\Users\Lucky\AppData\Local\Temp\sdzc.3
+Log File: C:\Users\63524\AppData\Local\Temp\sphg.0
+Markers File: C:\Users\63524\AppData\Local\Temp\sphg.1
+Debug File: C:\Users\63524\AppData\Local\Temp\sphg.3
      Debug[0] := TRUE
 Elapsed time since start = (00:00:00)
 
@@ -9,23 +9,11 @@ Elapsed time since start = (00:00:00)
  **************************************************************
 
 
- *************************
- *  Loading State Files  *
- *************************
-
-INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE3_I13@CONNECTOR.USB2_0(CHIPS) has been deleted from the design.
-      Elapsed time since start = (00:00:04)
-
- *****************************************
- *  End loading State Files  (00:00:00)  *
- *****************************************
-
-
  ****************************************
  *  Starting to assign physical parts.  *
  ****************************************
 
-Elapsed time since start = (00:00:04)
+Elapsed time since start = (00:00:01)
 
  ***********************************************
  *  End assigning physical parts.  (00:00:00)  *
@@ -36,7 +24,7 @@ Elapsed time since start = (00:00:04)
  *  Packaging  *
  ***************
 
-Elapsed time since start = (00:00:04)
+Elapsed time since start = (00:00:01)
 
  *******************************
  *  End packaging  (00:00:00)  *

@@ -44,9 +44,6 @@
   capacitor ma35v470m10x13 *
   page5_i28
 #CELL
-  inductor l0805 *
-  page5_i29
-#CELL
   capacitor ma35v470m10x13 *
   page5_i30
 #CELL
@@ -71,10 +68,10 @@
   capacitor c *
   page5_i37
 #CELL
-  resistor res0805 *
+  resistor r *
   page5_i38
 #CELL
-  resistor res0805 *
+  resistor r *
   page5_i39
 #CELL
   capacitor c *
@@ -83,10 +80,10 @@
   capacitor c *
   page5_i41
 #CELL
-  resistor res0805 *
+  resistor r *
   page5_i42
 #CELL
-  resistor res0805 *
+  resistor r *
   page5_i43
 #CELL
   capacitor c *
@@ -94,6 +91,9 @@
 #CELL
   resistor r *
   page5_i45
+#CELL
+  inductor fxl0630-100-m *
+  page5_i46
 #CELL
   capacitor c *
   page5_i9

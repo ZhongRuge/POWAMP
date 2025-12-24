@@ -8,13 +8,10 @@
   ic at24c64d-sshm-t *
   page2_i29
 #CELL
-  inductor l0805 *
-  page2_i33
-#CELL
   resistor r *
   page2_i36
 #CELL
-  inductor l0805 *
+  inductor blm21pg300sn1d *
   page2_i38
 #CELL
   resistor r *
@@ -91,3 +88,6 @@
 #CELL
   capacitor c3216x7r1c106kt000n *
   page2_i67
+#CELL
+  inductor blm21pg300sn1d *
+  page2_i68

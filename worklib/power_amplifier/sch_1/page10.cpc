@@ -5,16 +5,16 @@
   ic tpa6120a2dwpr *
   page10_i1
 #CELL
-  resistor res0805 *
+  resistor r *
   page10_i10
 #CELL
-  resistor res0805 *
+  resistor r *
   page10_i11
 #CELL
-  resistor res0805 *
+  resistor r *
   page10_i12
 #CELL
-  resistor res0805 *
+  resistor r *
   page10_i13
 #CELL
   capacitor c *
@@ -29,14 +29,14 @@
   capacitor c *
   page10_i5
 #CELL
-  resistor res0805 *
+  resistor r *
   page10_i6
 #CELL
-  resistor res0805 *
+  resistor r *
   page10_i7
 #CELL
-  resistor res0805 *
+  resistor r *
   page10_i8
 #CELL
-  resistor res0805 *
+  resistor r *
   page10_i9

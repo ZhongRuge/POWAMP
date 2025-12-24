@@ -2,81 +2,1517 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
-|                                                    Fri Dec 12 21:04:54 2025  |
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  GNDD         pins ADDED TO this existing net (pins not previously on any net)
-                                 U3.6                           
-                                 U3.7                           
-                                 U3.8                           
+  ADJ+         pins MOVED FROM this net (to net name listed on right)
+                                 U8.15                          
+                                                                           GNDA
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADJ-         pins MOVED FROM this net (to net name listed on right)
+                                 U8.4                           
+                                                                      VDD18_DAC
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BYP+         pins MOVED FROM this net (to net name listed on right)
+                                 U8.16                          
+                                                                      DAC_OUT_R
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BYP-         pins MOVED FROM this net (to net name listed on right)
+                                 C26.2                          
+                                                                           VOUT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DC_IN        pins MOVED FROM this net (to net name listed on right)
+                                 U7.2                           
+                                                                           GNDD
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 L5.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DDATA        pins MOVED FROM this net (to net name listed on right)
+                                 U9.2                           
+                                                                           GNDD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GNDD         pins MOVED FROM this net (to net name listed on right)
+                                 C1.1                           
+                                                                       VDD18_SA
+                                 C4.1                           
+                                                              UNNAMED_2_C_I65_B
+                                 C6.2                           
+                                                                   VDD33_SA_PLL
+                                 C10.1                          
+                                                                          SA_XI
+                                 C11.1                          
+                                                                          SA_XO
+                                 C47.1                          
+                                                                     PD0-OSC_IN
+                                 C48.1                          
+                                                                    PD1-OSC_OUT
+                                 U6.1                           
+                                                UNNAMED_5_BSMD2920-300-33V_I2_1
+                                 U8.2                           
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
-|                                                    Fri Dec 12 21:04:54 2025  |
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                                                          DDATA
+                                 U8.14                          
+                                                                      DAC_OUT_L
+                                 U11.8                          
+                                                                       VCC_AMP+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  I2C_SCL      pins MOVED FROM this net (to net name listed on right)
+                                 U9.1                           
+                                                                       VDD33_SA
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LIN+         pins MOVED FROM this net (to net name listed on right)
+                                 U15.4                          
+                                                                           RINP
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LIN-         pins MOVED FROM this net (to net name listed on right)
+                                 U15.5                          
+                                                                           RINN
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LOUT         pins MOVED FROM this net (to net name listed on right)
+                                 U15.2                          
+                                                                          SD_LR
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  L_BAX-       pins MOVED FROM this net (to net name listed on right)
+                                 U12.2                          
+                                                                          PRE_L
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PD0-OSC_IN   pins MOVED FROM this net (to net name listed on right)
+                                 C47.2                          
+                                                                           GNDD
+                                 U11.5                          
+                                                                           GNDA
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PD1-OSC_OUT  pins MOVED FROM this net (to net name listed on right)
+                                 C48.2                          
+                                                                           GNDD
+                                 U11.6                          
+                                                                         R_BAX-
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PRE_L        pins MOVED FROM this net (to net name listed on right)
+                                 U13.1                          
+                                                                      PRE_OUT_L
+                                 U13.2                          
+                                                                      PRE_OUT_L
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PRE_OUT_L    pins MOVED FROM this net (to net name listed on right)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 U14.1                          
+                                                                       VCC_AMP-
+                                 U14.2                          
+                                                                           LOUT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PRE_R        pins MOVED FROM this net (to net name listed on right)
+                                 U13.6                          
+                                                                      PRE_OUT_R
+                                 U13.7                          
+                                                                      PRE_OUT_R
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RIN+         pins MOVED FROM this net (to net name listed on right)
+                                 U15.17                         
+                                                                           PVCC
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROUT         pins MOVED FROM this net (to net name listed on right)
+                                 U15.19                         
+                                                                           PVCC
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  R_BAX-       pins MOVED FROM this net (to net name listed on right)
+                                 U12.6                          
+                                                                          PRE_R
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SA_XI        pins MOVED FROM this net (to net name listed on right)
+                                 C10.2                          
+                                                                           GNDD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SA_XO        pins MOVED FROM this net (to net name listed on right)
+                                 C11.2                          
+                                                                           GNDD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  STM32_NRST   pins MOVED FROM this net (to net name listed on right)
+                                 U11.7                          
+                                                                     TONE_OUT_R
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TONE_OUT_L   pins MOVED FROM this net (to net name listed on right)
+                                 U12.1                          
+                                                                          PRE_L
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TONE_OUT_R   pins MOVED FROM this net (to net name listed on right)
+                                 U12.7                          
+                                                                          PRE_R
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_BLM21PG300SN1D_I68_2 pins ADDED TO this new net
+                                 L1.2                           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  UNNAMED_2_C0805_I37_2 pins MOVED FROM this net (to net name listed on right)
+                                 C4.2                           
+                                                                           GNDD
+                                 C5.2                           
+                                                              UNNAMED_2_C_I65_B
+                                 U1.1                           
+                                                              UNNAMED_2_C_I65_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_C_I65_B pins ADDED TO this new net
+                                 L2.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_2_L0805_I33_2 pins MOVED FROM this net (to net name listed on right)
+                                 U1.3                           
+                                                 UNNAMED_2_BLM21PG300SN1D_I68_2
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_5_BSMD2920-300-33V_I2_1 pins MOVED FROM this net (to net name listed on right)
+                                 D2.1                           
+                                                UNNAMED_5_BSMD2920-300-33V_I25_
+                                 U7.1                           
+                                                                        VCC_BUS
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_5_C0805_I10_1 net RENAMED (to net name listed on right)           UNNAMED_5_C_I10_A 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_5_C0805_I11_2 net RENAMED (to net name listed on right)           UNNAMED_5_C_I11_B 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_5_C0805_I20_2 net RENAMED (to net name listed on right)           UNNAMED_5_C_I20_B 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_5_C0805_I22_1 net RENAMED (to net name listed on right)           UNNAMED_5_C_I22_A 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_5_C0805_I35_1 pins MOVED FROM this net (to net name listed on right)
+                                 C28.1                          
+                                                              UNNAMED_5_C_I35_A
+                                 U7.7                           
+                                                              UNNAMED_5_C_I35_A
+                                 U8.7                           
+                                                                      VDD18_DAC
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_5_C0805_I35_2 pins MOVED FROM this net (to net name listed on right)
+                                 C28.2                          
+                                                              UNNAMED_5_C_I35_B
+                                 U7.10                          
+                                                              UNNAMED_5_C_I35_B
+                                 U8.10                          
+                                                                        FLYP_VA
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  UNNAMED_8_C0805_I7_1 pins MOVED FROM this net (to net name listed on right)
+                                 C55.1                          
+                                                               UNNAMED_8_C_I7_A
+                                 R31.2                          
+                                                               UNNAMED_8_C_I7_A
+                                 U12.3                          
+                                                               UNNAMED_8_C_I7_A
+                                 U13.3                          
+                                                                      VOL_OUT_L
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_C0805_I8_1 net RENAMED (to net name listed on right)           UNNAMED_8_C_I8_A 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_C0805_I11_1 net RENAMED (to net name listed on right)           UNNAMED_8_C_I11_A 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_C0805_I12_1 pins MOVED FROM this net (to net name listed on right)
+                                 C63.1                          
+                                                              UNNAMED_8_C_I12_A
+                                 R38.2                          
+                                                              UNNAMED_8_C_I12_A
+                                 U12.5                          
+                                                              UNNAMED_8_C_I12_A
+                                 U13.5                          
+                                                                      VOL_OUT_R
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_C0805_I17_1 net RENAMED (to net name listed on right)           UNNAMED_8_C_I17_A 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_C0805_I17_2 net RENAMED (to net name listed on right)           UNNAMED_8_C_I17_B 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_C0805_I21_2 net RENAMED (to net name listed on right)           UNNAMED_8_C_I21_B 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_C0805_I22_1 net RENAMED (to net name listed on right)           UNNAMED_8_C_I22_A 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_C0805_I27_1 net RENAMED (to net name listed on right)           UNNAMED_8_C_I27_A 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_C0805_I27_2 net RENAMED (to net name listed on right)           UNNAMED_8_C_I27_B 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_C0805_I28_1 net RENAMED (to net name listed on right)           UNNAMED_8_C_I28_A 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_C0805_I30_2 net RENAMED (to net name listed on right)           UNNAMED_8_C_I30_B 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_RES0805_I19_2 net RENAMED (to net name listed on right)           UNNAMED_8_R_I19_B 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_RES0805_I20_1 net RENAMED (to net name listed on right)           UNNAMED_8_R_I20_A 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_8_RES0805_I29_1 net RENAMED (to net name listed on right)           UNNAMED_8_R_I29_A 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  UNNAMED_8_RES0805_I31_2 net RENAMED (to net name listed on right)           UNNAMED_8_R_I31_B 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C0805_I4_1 net RENAMED (to net name listed on right)           UNNAMED_11_C_I4_A 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C0805_I11_2 pins MOVED FROM this net (to net name listed on right)
+                                 C77.2                          
+                                                             UNNAMED_11_C_I11_B
+                                 R54.2                          
+                                                             UNNAMED_11_C_I11_B
+                                 U15.6                          
+                                                             UNNAMED_11_C_I11_B
+                                 U15.7                          
+                                                             UNNAMED_11_C_I11_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C0805_I16_1 pins MOVED FROM this net (to net name listed on right)
+                                 C86.1                          
+                                                             UNNAMED_11_C_I16_A
+                                 U15.30                         
+                                                             UNNAMED_11_C_I16_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C0805_I16_2 pins MOVED FROM this net (to net name listed on right)
+                                 C86.2                          
+                                                             UNNAMED_11_C_I16_B
+                                 L6.A                           
+                                                             UNNAMED_11_C_I16_B
+                                 U15.29                         
+                                                             UNNAMED_11_C_I16_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C0805_I17_1 pins MOVED FROM this net (to net name listed on right)
+                                 C87.1                          
+                                                             UNNAMED_11_C_I17_A
+                                 U15.26                         
+                                                             UNNAMED_11_C_I17_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C0805_I17_2 pins MOVED FROM this net (to net name listed on right)
+                                 C87.2                          
+                                                             UNNAMED_11_C_I17_B
+                                 L7.A                           
+                                                             UNNAMED_11_C_I17_B
+                                 U15.27                         
+                                                             UNNAMED_11_C_I17_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C0805_I18_1 pins MOVED FROM this net (to net name listed on right)
+                                 C88.1                          
+                                                             UNNAMED_11_C_I18_A
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 U15.24                         
+                                                             UNNAMED_11_C_I18_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C0805_I18_2 pins MOVED FROM this net (to net name listed on right)
+                                 C88.2                          
+                                                             UNNAMED_11_C_I18_B
+                                 L8.A                           
+                                                             UNNAMED_11_C_I18_B
+                                 U15.23                         
+                                                             UNNAMED_11_C_I18_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C0805_I19_1 pins MOVED FROM this net (to net name listed on right)
+                                 C89.1                          
+                                                             UNNAMED_11_C_I19_A
+                                 U15.20                         
+                                                             UNNAMED_11_C_I19_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C0805_I19_2 pins MOVED FROM this net (to net name listed on right)
+                                 C89.2                          
+                                                             UNNAMED_11_C_I19_B
+                                 L9.A                           
+                                                             UNNAMED_11_C_I19_B
+                                 U15.21                         
+                                                             UNNAMED_11_C_I19_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C0805_I36_1 net RENAMED (to net name listed on right)           UNNAMED_11_C_I36_A 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C0805_I42_2 net RENAMED (to net name listed on right)           UNNAMED_11_C_I42_B 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C0805_I44_2 net RENAMED (to net name listed on right)           UNNAMED_11_C_I52_B 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C0805_I45_1 net RENAMED (to net name listed on right)           UNNAMED_11_C_I51_A 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_RES0805_I12_1 pins MOVED FROM this net (to net name listed on right)
+                                 R54.1                          
+                                                             UNNAMED_11_R_I12_A
+                                 R55.2                          
+                                                             UNNAMED_11_R_I12_A
+                                 U15.8                          
+                                                             UNNAMED_11_R_I12_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB_5V0      pins MOVED FROM this net (to net name listed on right)
+                                 L4.1                           
+                                                                         USB_DN
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  USB_DN       pins MOVED FROM this net (to net name listed on right)
+                                 L3.1                           
+                                                                        USB_5V0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB_DP       pins MOVED FROM this net (to net name listed on right)
+                                 L3.2                           
+                                                                      VBUS_FILT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VBUS_FILT    pins MOVED FROM this net (to net name listed on right)
+                                 L4.2                           
+                                                                         USB_DP
+                                 U5.3                           
+                                                                       VDD33_SA
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC_AMP+     pins MOVED FROM this net (to net name listed on right)
+                                 C57.1                          
+                                                                       VCC_AMP-
+                                 C67.2                          
+                                                                       VCC_AMP-
+                                 U8.12                          
+                                                                           GNDA
+                                 U15.3                          
+                                                                          SD_LR
+                                 U15.18                         
+                                                                           PVCC
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC_AMP-     pins MOVED FROM this net (to net name listed on right)
+                                 C58.1                          
+                                                                       VCC_AMP+
+                                 C68.2                          
+                                                                       VCC_AMP+
+                                 U8.5                           
+                                                                          FILT+
+                                 U14.4                          
+                                                                           LIN+
+                                 U15.1                          
+                                                                           GNDA
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC_BUS      pins MOVED FROM this net (to net name listed on right)
+                                 U8.1                           
+                                                                        I2C_SCL
+                                 U8.11                          
+                                                                        FLYN_VA
+                                 U8.13                          
+                                                                           GNDD
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 L5.2                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD18_DAC    pins MOVED FROM this net (to net name listed on right)
+                                 U6.2                           
+                                                                          DC_IN
+                                 U9.4                           
+                                                                          SWCLK
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD18_SA     pins MOVED FROM this net (to net name listed on right)
+                                 C1.2                           
+                                                                           GNDD
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 L1.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD33_SA     pins MOVED FROM this net (to net name listed on right)
+                                 U5.2                           
+                                                                      VDD18_DAC
+                                 U11.1                          
+                                                                     TONE_OUT_L
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 L2.2                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VDD33_SA_PLL pins MOVED FROM this net (to net name listed on right)
+                                 C6.1                           
+                                                                           GNDD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VOL_OUT_L    pins MOVED FROM this net (to net name listed on right)
+                                 U14.3                          
+                                                                       VCC_AMP+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VOL_OUT_R    pins MOVED FROM this net (to net name listed on right)
+                                 U14.5                          
+                                                                           LIN-
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VOUT         pins MOVED FROM this net (to net name listed on right)
+                                 C27.2                          
+                                                                           BYP-
+                                 U8.6                           
+                                                                          FILT-
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- HC-USB2.0-L195-P
+ BLM21PG300SN1D
+ C3216X7R1C106KT000N
+ C-0805B104K500NT,0.1UF
+ C-0805B475K500NT,4.7UF
+ C-0805CG0R1C500NT,0.1PF
+ C-C1608X5R0J156MT000E,15UF
+ C-CC0805JRNPO9BN300,30PF
+ C-CC0805KKX7R9BB225,2.2UF
+ C-CC0805KKX7R9BB684,680NF
+ C-CC0805KRX7R9BB102,1NF
+ C-CGA0805X5R226M350MT,22UF
+ C-CL21B103KBANNNC,10NF
+ C-CL21B104KBCNNNC,100NF
+ C-CL21B105KBFNNNE,1UF
+ C-CL21B106KOQNNNE,10UF
+ C-CL21B223KBANNNC,22NF
+ C-CL21B224KBFNNNE,220NF
+ FXL0630-100-M
+ MA35V220M8X8
+ R-0805W8F220JT5E,22
+ R-0805W8F330JT5E,33
+ R-0805W8F390JT5E,39
+ R-0805W8F1001T5E,1K
+ R-0805W8F1002T5E,10K
+ R-0805W8F1003T5E,100K
+ R-0805W8F2002T5E,20K
+ R-0805W8F2700T5E,270
+ R-0805W8F3301T5E,3.3K
+ R-0805W8F4701T5E,4.7K
+ R-FRC0805F3R30TS,3.3
+ R-FRC0805F9093TS,909K
+ R-RE0805FAR000,0
+ R-TD05G50R0BT,50
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
+|                                                                    Page  11  |
 |------------------------------------------------------------------------------|
-|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
-|                                                    Fri Dec 12 21:04:54 2025  |
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
 |------------------------------------------------------------------------------|
 | COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U3                  HC-USB2.0-L195-P                      HC-USB2.0-L195-J
+ C1                  C3216X7R1C106KT000N                   C3216
+ C2                  C-0805B475K500NT,4.7UF                 C0805
+ C3                  C-0805B104K500NT,0.1UF                 C0805
+ C4                  C3216X7R1C106KT000N                   C3216
+ C5                  C-0805B104K500NT,0.1UF                 C0805
+ C6                  C3216X7R1C106KT000N                   C3216
+ C7                  C-0805B104K500NT,0.1UF                 C0805
+ C8                  C-CL21B106KOQNNNE,10UF                 C0805
+ C9                  C-0805B104K500NT,0.1UF                 C0805
+ C10                 C-CC0805JRNPO9BN300,30PF                 C0603
+ C11                 C-CC0805JRNPO9BN300,30PF                 C0603
+ C12                 C-CL21B106KOQNNNE,10UF                 C0805
+ C13                 C-0805B104K500NT,0.1UF                 C0805
+ C14                 C-0805B104K500NT,0.1UF                 C0805
+ C15                 C-0805B104K500NT,0.1UF                 C0805
+ C16                 C-CGA0805X5R226M350MT,22UF                 C0805
+ C18                 C-CL21B106KOQNNNE,10UF                 C0805
+ C20                 C-0805B104K500NT,0.1UF                 C0805
+ C21                 C-CGA0805X5R226M350MT,22UF                 C0805
+ C22                 C-CGA0805X5R226M350MT,22UF                 C0805
+ C23                 C-0805B104K500NT,0.1UF                 C0805
+ C24                 C-0805B104K500NT,0.1UF                 C0805
+ C25                 C-CL21B106KOQNNNE,10UF                 C0805
+ C26                 C-CL21B106KOQNNNE,10UF                 C0805
+ C27                 C-CL21B103KBANNNC,10NF                 C0805
+ C28                 C-CL21B105KBFNNNE,1UF                 C0805
+ C29                 C-CL21B103KBANNNC,10NF                 C0805
+ C30                 C-CL21B106KOQNNNE,10UF                 C0805
+ C31                 C-CL21B106KOQNNNE,10UF                 C0805
+ C32                 C-CC0805KKX7R9BB225,2.2UF                 C0805
+ C33                 C-CC0805KKX7R9BB225,2.2UF                 C0805
+ C34                 C-CC0805KKX7R9BB225,2.2UF                 C0805
+ C35                 C-CC0805KKX7R9BB225,2.2UF                 C0805
+ C36                 C-C1608X5R0J156MT000E,15UF                 C0805
+ C37                 C-CC0805KKX7R9BB225,2.2UF                 C0805
+ C38                 C-CC0805KKX7R9BB225,2.2UF                 C0805
+ C39                 C-0805CG0R1C500NT,0.1PF                 C0805
+ C40                 C-CC0805KKX7R9BB225,2.2UF                 C0805
+ C41                 C-0805CG0R1C500NT,0.1PF                 C0805
+ C42                 C-CC0805KKX7R9BB225,2.2UF                 C0805
+ C43                 C-CC0805KKX7R9BB225,2.2UF                 C0805
+ C44                 C-0805B104K500NT,0.1UF                 C0805
+ C45                 C-0805B475K500NT,4.7UF                 C0805
+ C46                 C-0805B104K500NT,0.1UF                 C0805
+ C47                 C-CC0805JRNPO9BN300,30PF                 C0603
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
+|                                                                    Page  12  |
 |------------------------------------------------------------------------------|
-|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
-|                                                    Fri Dec 12 21:04:54 2025  |
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C48                 C-CC0805JRNPO9BN300,30PF                 C0603
+ C49                 C-0805B104K500NT,0.1UF                 C0805
+ C50                 C-0805B104K500NT,0.1UF                 C0805
+ C51                 C-0805B104K500NT,0.1UF                 C0805
+ C52                 C-0805B104K500NT,0.1UF                 C0805
+ C53                 C-0805B104K500NT,0.1UF                 C0805
+ C54                 C-0805B104K500NT,0.1UF                 C0805
+ C55                 C-CC0805KRX7R9BB102,1NF                 C0805
+ C56                 C-CC0805KRX7R9BB102,1NF                 C0805
+ C57                 C-0805B104K500NT,0.1UF                 C0805
+ C58                 C-0805B104K500NT,0.1UF                 C0805
+ C59                 C-CL21B223KBANNNC,22NF                 C0805
+ C60                 C-CL21B223KBANNNC,22NF                 C0805
+ C61                 C-CL21B105KBFNNNE,1UF                 C0805
+ C62                 C-CL21B105KBFNNNE,1UF                 C0805
+ C63                 C-CC0805KRX7R9BB102,1NF                 C0805
+ C64                 C-CC0805KRX7R9BB102,1NF                 C0805
+ C65                 C-CL21B223KBANNNC,22NF                 C0805
+ C66                 C-CL21B223KBANNNC,22NF                 C0805
+ C67                 C-0805B104K500NT,0.1UF                 C0805
+ C68                 C-0805B104K500NT,0.1UF                 C0805
+ C69                 C-0805B104K500NT,0.1UF                 C0805
+ C70                 C-0805B104K500NT,0.1UF                 C0805
+ C71                 C-0805B104K500NT,0.1UF                 C0805
+ C72                 C-0805B104K500NT,0.1UF                 C0805
+ C73                 C-CL21B105KBFNNNE,1UF                 C0805
+ C74                 C-CL21B105KBFNNNE,1UF                 C0805
+ C75                 C-CL21B105KBFNNNE,1UF                 C0805
+ C76                 C-CL21B105KBFNNNE,1UF                 C0805
+ C77                 C-CL21B105KBFNNNE,1UF                 C0805
+ C78                 C-CL21B103KBANNNC,10NF                 C0805
+ C79                 C-CL21B104KBCNNNC,100NF                 C0805
+ C80                 C-CC0805KRX7R9BB102,1NF                 C0805
+ C81                 C-CC0805KRX7R9BB102,1NF                 C0805
+ C82                 C-CL21B104KBCNNNC,100NF                 C0805
+ C83                 C-CL21B104KBCNNNC,100NF                 C0805
+ C84                 MA35V220M8X8                          MA35V470M10X13
+ C85                 MA35V220M8X8                          MA35V470M10X13
+ C86                 C-CL21B224KBFNNNE,220NF                 C0805
+ C87                 C-CL21B224KBFNNNE,220NF                 C0805
+ C88                 C-CL21B224KBFNNNE,220NF                 C0805
+ C89                 C-CL21B224KBFNNNE,220NF                 C0805
+ C90                 C-CC0805KKX7R9BB684,680NF                 C0805
+ C91                 C-CC0805KKX7R9BB684,680NF                 C0805
+ C92                 C-CC0805KKX7R9BB684,680NF                 C0805
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  13  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C93                 C-CC0805KKX7R9BB684,680NF                 C0805
+ C94                 C-CC0805KRX7R9BB102,1NF                 C0805
+ C95                 C-CC0805KRX7R9BB102,1NF                 C0805
+ C96                 C-CC0805KRX7R9BB102,1NF                 C0805
+ C97                 C-CC0805KRX7R9BB102,1NF                 C0805
+ C98                 C-CL21B103KBANNNC,10NF                 C0805
+ C99                 C-CL21B103KBANNNC,10NF                 C0805
+ C100                C-CL21B103KBANNNC,10NF                 C0805
+ C101                C-CL21B103KBANNNC,10NF                 C0805
+ L1                  BLM21PG300SN1D                        L0805
+ L2                  BLM21PG300SN1D                        L0805
+ L5                  FXL0630-100-M                         L0805
+ R1                  R-0805W8F1002T5E,10K                  R-07090247,10K
+ R2                  R-0805W8F1002T5E,10K                  R-07090247,10K
+ R3                  R-0805W8F1002T5E,10K                  R-07090247,10K
+ R4                  R-0805W8F1002T5E,10K                  R-07090247,10K
+ R5                  R-0805W8F2700T5E,270                  R-97090113,270
+ R6                  R-0805W8F220JT5E,22                   R-07090265,22
+ R7                  R-0805W8F1002T5E,10K                  R-07090247,10K
+ R8                  R-RE0805FAR000,0                      R-07090522,0
+ R9                  R-RE0805FAR000,0                      R-07090522,0
+ R10                 R-RE0805FAR000,0                      R-07090522,0
+ R11                 R-0805W8F1002T5E,10K                  R-07090247,10K
+ R12                 R-0805W8F1002T5E,10K                  R-07090247,10K
+ R13                 R-0805W8F1002T5E,10K                  R-07090247,10K
+ R14                 R-0805W8F1002T5E,10K                  R-07090247,10K
+ R15                 R-RE0805FAR000,0                      R-07090522,0
+ R16                 R-0805W8F330JT5E,33                   R-07090601,33
+ R17                 R-0805W8F330JT5E,33                   R-07090601,33
+ R18                 R-0805W8F330JT5E,33                   R-07090601,33
+ R19                 R-0805W8F330JT5E,33                   R-07090601,33
+ R20                 R-0805W8F1002T5E,10K                  RES0805
+ R21                 R-FRC0805F9093TS,909K                 RES0805
+ R22                 R-0805W8F1003T5E,100K                 RES0805
+ R23                 R-FRC0805F9093TS,909K                 RES0805
+ R24                 R-0805W8F1003T5E,100K                 RES0805
+ R25                 R-RE0805FAR000,0                      RES0805
+ R26                 R-0805W8F1002T5E,10K                  RES0805
+ R27                 R-0805W8F1002T5E,10K                  RES0805
+ R28                 R-0805W8F4701T5E,4.7K                 RES0805
+ R29                 R-0805W8F4701T5E,4.7K                 RES0805
+ R30                 R-0805W8F3301T5E,3.3K                 RES0805
+ R31                 R-0805W8F3301T5E,3.3K                 RES0805
+ R32                 R-0805W8F1001T5E,1K                   RES0805
+ R33                 R-0805W8F1001T5E,1K                   RES0805
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  14  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R34                 R-0805W8F1001T5E,1K                   RES0805
+ R35                 R-0805W8F1001T5E,1K                   RES0805
+ R36                 R-0805W8F3301T5E,3.3K                 RES0805
+ R38                 R-0805W8F3301T5E,3.3K                 RES0805
+ R40                 R-0805W8F1001T5E,1K                   RES0805
+ R41                 R-0805W8F1001T5E,1K                   RES0805
+ R42                 R-0805W8F1001T5E,1K                   RES0805
+ R43                 R-0805W8F1001T5E,1K                   RES0805
+ R45                 R-TD05G50R0BT,50                      RES0805
+ R46                 R-0805W8F1001T5E,1K                   RES0805
+ R47                 R-0805W8F1001T5E,1K                   RES0805
+ R48                 R-TD05G50R0BT,50                      RES0805
+ R49                 R-0805W8F1001T5E,1K                   RES0805
+ R50                 R-0805W8F1001T5E,1K                   RES0805
+ R51                 R-0805W8F390JT5E,39                   RES0805
+ R52                 R-0805W8F390JT5E,39                   RES0805
+ R53                 R-0805W8F1003T5E,100K                 RES0805
+ R54                 R-0805W8F1003T5E,100K                 RES0805
+ R55                 R-0805W8F2002T5E,20K                  RES0805
+ R56                 R-0805W8F1003T5E,100K                 RES0805
+ R57                 R-FRC0805F3R30TS,3.3                  RES0805
+ R58                 R-FRC0805F3R30TS,3.3                  RES0805
+ R59                 R-FRC0805F3R30TS,3.3                  RES0805
+ R60                 R-FRC0805F3R30TS,3.3                  RES0805
+ R61                 R-FRC0805F3R30TS,3.3                  RES0805
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  15  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- D3.6                           XY             (525,4100)
- L4.2                           XY             (-1725,2800)
- U3.8                           PRIM_FILE      ./My_lib/connector/hc#2dusb2_0#2dl195#2dp/chips/chips.prt
- U3.8                           XY             (-1875,4075)
+ C1.2                           PRIM_FILE      ./My_lib/capacitor/c3216x7r1c106kt000n/chips/chips.prt
+ C1.2                           XY             (-3200,3350)
+ C2.2                           PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C2.2                           XY             (-3200,3100)
+ C3.2                           PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C3.2                           XY             (-2200,3000)
+ C4.2                           PRIM_FILE      ./My_lib/capacitor/c3216x7r1c106kt000n/chips/chips.prt
+ C4.2                           XY             (-1300,3850)
+ C5.2                           PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C5.2                           XY             (-1300,3600)
+ C6.2                           PRIM_FILE      ./My_lib/capacitor/c3216x7r1c106kt000n/chips/chips.prt
+ C6.2                           XY             (350,3850)
+ C7.2                           PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C7.2                           XY             (2875,4100)
+ C8.2                           PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C8.2                           XY             (-1700,2550)
+ C9.2                           PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C9.2                           XY             (-1700,2250)
+ C10.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C10.2                          XY             (-3650,4700)
+ C11.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C11.2                          XY             (-3650,4350)
+ C12.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C12.2                          XY             (-1400,4850)
+ C13.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C13.2                          XY             (-3950,4725)
+ C14.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C14.2                          XY             (-3800,3700)
+ C15.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C15.2                          XY             (-3800,1775)
+ C16.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C16.2                          XY             (-3650,4725)
+ C18.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C18.2                          XY             (-3500,3700)
+ C20.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C20.2                          XY             (-2750,1775)
+ C21.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C21.2                          XY             (-2500,3550)
+ C22.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C22.2                          XY             (-2475,4725)
+ C23.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C23.2                          XY             (-2200,3550)
+ C24.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C24.2                          XY             (-2100,4725)
+ C25.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   5  |
+|                                                                    Page  16  |
 |------------------------------------------------------------------------------|
-|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
-|                                                    Fri Dec 12 21:04:54 2025  |
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C25.2                          XY             (-900,2450)
+ C26.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C26.2                          XY             (-900,2225)
+ C27.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C27.2                          XY             (-825,2725)
+ C28.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C28.2                          XY             (150,2050)
+ C29.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C29.2                          XY             (1200,2850)
+ C30.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C30.2                          XY             (1200,2650)
+ C31.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C31.2                          XY             (1200,2400)
+ C32.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C32.2                          XY             (-3475,5100)
+ C33.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C33.2                          XY             (-3325,4625)
+ C34.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C34.2                          XY             (-3325,4150)
+ C35.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C35.2                          XY             (-3175,2875)
+ C36.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C36.2                          XY             (-2875,3250)
+ C37.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C37.2                          XY             (-2725,3025)
+ C38.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C38.2                          XY             (-2325,3025)
+ C39.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C39.2                          XY             (-875,4125)
+ C40.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C40.2                          XY             (-700,1925)
+ C41.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C41.2                          XY             (-425,4075)
+ C42.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C42.2                          XY             (-375,1950)
+ C43.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C43.2                          XY             (125,2075)
+ C44.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C44.2                          XY             (1025,2825)
+ C45.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C45.2                          XY             (1025,2675)
+ C46.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C46.2                          XY             (-4175,4100)
+ C47.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C47.2                          XY             (-3975,5025)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  17  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C48.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C48.2                          XY             (-3975,4800)
+ C49.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C49.2                          XY             (-2700,3575)
+ C50.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C50.2                          XY             (-2675,2850)
+ C51.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C51.2                          XY             (50,4000)
+ C52.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C52.2                          XY             (75,3400)
+ C53.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C53.2                          XY             (-3200,2450)
+ C54.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C54.2                          XY             (-3200,1800)
+ C55.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C55.2                          XY             (-3075,3850)
+ C56.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C56.2                          XY             (-2850,3600)
+ C57.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C57.2                          XY             (-2625,4025)
+ C58.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C58.2                          XY             (-2575,4675)
+ C59.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C59.2                          XY             (-1475,1500)
+ C60.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C60.2                          XY             (-1475,1350)
+ C61.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C61.2                          XY             (-500,2600)
+ C62.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C62.2                          XY             (-500,1850)
+ C63.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C63.2                          XY             (25,4075)
+ C64.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C64.2                          XY             (150,3700)
+ C65.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C65.2                          XY             (650,1500)
+ C66.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C66.2                          XY             (650,1350)
+ C67.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C67.2                          XY             (-1550,4250)
+ C68.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C68.2                          XY             (-1475,4925)
+ C69.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C69.2                          XY             (-3925,5450)
+ C70.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  18  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C70.2                          XY             (-3925,5100)
+ C71.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C71.2                          XY             (-2225,5450)
+ C72.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C72.2                          XY             (-2225,5100)
+ C73.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C73.2                          XY             (-4675,5825)
+ C74.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C74.2                          XY             (-4675,5650)
+ C75.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C75.2                          XY             (-4675,5400)
+ C76.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C76.2                          XY             (-4675,5225)
+ C77.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C77.2                          XY             (-4150,3925)
+ C78.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C78.2                          XY             (-4125,4800)
+ C79.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C79.2                          XY             (-3050,4675)
+ C80.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C80.2                          XY             (-2425,4750)
+ C81.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C81.2                          XY             (-2425,3300)
+ C82.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C82.2                          XY             (-2250,3300)
+ C83.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C83.2                          XY             (-2225,4750)
+ C84.2                          PRIM_FILE      ./My_lib/capacitor/ma35v220m8x8/chips/chips.prt
+ C84.2                          XY             (-2025,4750)
+ C85.2                          PRIM_FILE      ./My_lib/capacitor/ma35v220m8x8/chips/chips.prt
+ C85.2                          XY             (-2025,3300)
+ C86.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C86.2                          XY             (-1825,4175)
+ C87.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C87.2                          XY             (-1825,3975)
+ C88.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C88.2                          XY             (-1825,3875)
+ C89.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C89.2                          XY             (-1825,3675)
+ C90.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C90.2                          XY             (-475,5300)
+ C91.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C91.2                          XY             (-475,4500)
+ C92.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C92.2                          XY             (-475,3425)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  19  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C93.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C93.2                          XY             (-475,2700)
+ C94.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C94.2                          XY             (200,5325)
+ C95.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C95.2                          XY             (200,4225)
+ C96.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C96.2                          XY             (200,3425)
+ C97.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C97.2                          XY             (200,2725)
+ C98.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C98.2                          XY             (800,5225)
+ C99.2                          PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C99.2                          XY             (800,4575)
+ C100.2                         PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C100.2                         XY             (800,3350)
+ C101.2                         PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C101.2                         XY             (800,2925)
+ L1.2                           PRIM_FILE      ./My_lib/inductor/blm21pg300sn1d/chips/chips.prt
+ L1.2                           XY             (-2350,3350)
+ L2.2                           PRIM_FILE      ./My_lib/inductor/blm21pg300sn1d/chips/chips.prt
+ L2.2                           XY             (-850,3850)
+ L5.2                           PRIM_FILE      ./My_lib/inductor/fxl0630#2d100#2dm/chips/chips.prt
+ L5.2                           XY             (-3275,2075)
+ L6.C                           XY             (-950,5750)
+ L9.C                           XY             (-950,2375)
+ R1.2                           PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R1.2                           XY             (-3150,1500)
+ R2.2                           PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R2.2                           XY             (-2900,1500)
+ R3.2                           PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R3.2                           XY             (-2650,1500)
+ R4.2                           PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R4.2                           XY             (-1675,1650)
+ R5.2                           PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R5.2                           XY             (-1500,2900)
+ R6.2                           PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R6.2                           XY             (-300,3850)
+ R7.2                           PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R7.2                           XY             (550,1500)
+ R8.2                           PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R8.2                           XY             (600,3200)
+ R9.2                           PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R9.2                           XY             (600,3000)
+ R10.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  20  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R10.2                          XY             (600,2950)
+ R11.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R11.2                          XY             (800,1500)
+ R12.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R12.2                          XY             (1050,1500)
+ R13.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R13.2                          XY             (1300,1500)
+ R14.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R14.2                          XY             (1550,1500)
+ R15.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R15.2                          XY             (1850,4300)
+ R16.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R16.2                          XY             (2275,3225)
+ R17.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R17.2                          XY             (2275,3050)
+ R18.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R18.2                          XY             (2275,2900)
+ R19.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R19.2                          XY             (2275,2725)
+ R20.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R20.2                          XY             (-1400,5100)
+ R21.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R21.2                          XY             (-100,1575)
+ R22.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R22.2                          XY             (-100,1350)
+ R23.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R23.2                          XY             (1350,1575)
+ R24.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R24.2                          XY             (1350,1350)
+ R25.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R25.2                          XY             (2300,5300)
+ R26.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R26.2                          XY             (-4150,3900)
+ R27.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R27.2                          XY             (-4150,3600)
+ R28.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R28.2                          XY             (825,4175)
+ R29.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R29.2                          XY             (1000,4175)
+ R30.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R30.2                          XY             (-3800,4300)
+ R31.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R31.2                          XY             (-3450,4300)
+ R32.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R32.2                          XY             (-1225,2250)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  21  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R33.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R33.2                          XY             (-1225,2200)
+ R34.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R34.2                          XY             (-1100,1400)
+ R35.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R35.2                          XY             (-1100,1350)
+ R36.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R36.2                          XY             (-750,4350)
+ R38.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R38.2                          XY             (-400,4350)
+ R40.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R40.2                          XY             (125,1400)
+ R41.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R41.2                          XY             (125,1350)
+ R42.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R42.2                          XY             (150,2250)
+ R43.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R43.2                          XY             (150,2200)
+ R45.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R45.2                          XY             (-650,5550)
+ R46.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R46.2                          XY             (-650,5350)
+ R47.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R47.2                          XY             (-650,5175)
+ R48.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R48.2                          XY             (-550,4500)
+ R49.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R49.2                          XY             (-550,4300)
+ R50.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R50.2                          XY             (-550,4125)
+ R51.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R51.2                          XY             (75,5350)
+ R52.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R52.2                          XY             (175,4300)
+ R53.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R53.2                          XY             (-4000,3350)
+ R54.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R54.2                          XY             (-3925,4050)
+ R55.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R55.2                          XY             (-3925,3800)
+ R56.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R56.2                          XY             (-3800,4475)
+ R57.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R57.2                          XY             (-3450,4675)
+ R58.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  22  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R58.2                          XY             (800,5550)
+ R59.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R59.2                          XY             (800,4175)
+ R60.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R60.2                          XY             (800,3725)
+ R61.2                          PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R61.2                          XY             (800,2575)
+ U9.4                           XY             (-1725,4550)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  23  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
 |------------------------------------------------------------------------------|
 | PIN PROPERTIES added to design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    pin_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U3.1                           CDS_PINID      \1\
- U3.2                           CDS_PINID      \2\
- U3.3                           CDS_PINID      \3\
- U3.4                           CDS_PINID      \4\
- U3.5                           CDS_PINID      \5\
- U3.6                           CDS_PINID      \6\
- U3.7                           CDS_PINID      \7\
- U3.8                           CDS_PINID      \8\
+ C2.1                           CDS_PINID      A
+ C2.2                           CDS_PINID      B
+ C3.1                           CDS_PINID      A
+ C3.2                           CDS_PINID      B
+ C5.1                           CDS_PINID      A
+ C5.2                           CDS_PINID      B
+ C7.1                           CDS_PINID      A
+ C7.2                           CDS_PINID      B
+ C8.1                           CDS_PINID      A
+ C8.2                           CDS_PINID      B
+ C9.1                           CDS_PINID      A
+ C9.2                           CDS_PINID      B
+ C10.1                          CDS_PINID      A
+ C10.2                          CDS_PINID      B
+ C11.1                          CDS_PINID      A
+ C11.2                          CDS_PINID      B
+ C12.1                          CDS_PINID      A
+ C12.2                          CDS_PINID      B
+ C13.1                          CDS_PINID      A
+ C13.2                          CDS_PINID      B
+ C14.1                          CDS_PINID      A
+ C14.2                          CDS_PINID      B
+ C15.1                          CDS_PINID      A
+ C15.2                          CDS_PINID      B
+ C16.1                          CDS_PINID      A
+ C16.2                          CDS_PINID      B
+ C18.1                          CDS_PINID      A
+ C18.2                          CDS_PINID      B
+ C20.1                          CDS_PINID      A
+ C20.2                          CDS_PINID      B
+ C21.1                          CDS_PINID      A
+ C21.2                          CDS_PINID      B
+ C22.1                          CDS_PINID      A
+ C22.2                          CDS_PINID      B
+ C23.1                          CDS_PINID      A
+ C23.2                          CDS_PINID      B
+ C24.1                          CDS_PINID      A
+ C24.2                          CDS_PINID      B
+ C25.1                          CDS_PINID      A
+ C25.2                          CDS_PINID      B
+ C26.1                          CDS_PINID      A
+ C26.2                          CDS_PINID      B
+ C27.1                          CDS_PINID      A
+ C27.2                          CDS_PINID      B
+ C28.1                          CDS_PINID      A
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  24  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :       3                                        |
-|       Comp definitions added:       1                                        |
-|       Components changed    :       1                                        |
-|       Pin property added    :       8                                        |
-|       Slot property added   :       4                                        |
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C28.2                          CDS_PINID      B
+ C29.1                          CDS_PINID      A
+ C29.2                          CDS_PINID      B
+ C30.1                          CDS_PINID      A
+ C30.2                          CDS_PINID      B
+ C31.1                          CDS_PINID      A
+ C31.2                          CDS_PINID      B
+ C32.1                          CDS_PINID      A
+ C32.2                          CDS_PINID      B
+ C33.1                          CDS_PINID      A
+ C33.2                          CDS_PINID      B
+ C34.1                          CDS_PINID      A
+ C34.2                          CDS_PINID      B
+ C35.1                          CDS_PINID      A
+ C35.2                          CDS_PINID      B
+ C36.1                          CDS_PINID      A
+ C36.2                          CDS_PINID      B
+ C37.1                          CDS_PINID      A
+ C37.2                          CDS_PINID      B
+ C38.1                          CDS_PINID      A
+ C38.2                          CDS_PINID      B
+ C39.1                          CDS_PINID      A
+ C39.2                          CDS_PINID      B
+ C40.1                          CDS_PINID      A
+ C40.2                          CDS_PINID      B
+ C41.1                          CDS_PINID      A
+ C41.2                          CDS_PINID      B
+ C42.1                          CDS_PINID      A
+ C42.2                          CDS_PINID      B
+ C43.1                          CDS_PINID      A
+ C43.2                          CDS_PINID      B
+ C44.1                          CDS_PINID      A
+ C44.2                          CDS_PINID      B
+ C45.1                          CDS_PINID      A
+ C45.2                          CDS_PINID      B
+ C46.1                          CDS_PINID      A
+ C46.2                          CDS_PINID      B
+ C47.1                          CDS_PINID      A
+ C47.2                          CDS_PINID      B
+ C48.1                          CDS_PINID      A
+ C48.2                          CDS_PINID      B
+ C49.1                          CDS_PINID      A
+ C49.2                          CDS_PINID      B
+ C50.1                          CDS_PINID      A
+ C50.2                          CDS_PINID      B
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  25  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C51.1                          CDS_PINID      A
+ C51.2                          CDS_PINID      B
+ C52.1                          CDS_PINID      A
+ C52.2                          CDS_PINID      B
+ C53.1                          CDS_PINID      A
+ C53.2                          CDS_PINID      B
+ C54.1                          CDS_PINID      A
+ C54.2                          CDS_PINID      B
+ C55.1                          CDS_PINID      A
+ C55.2                          CDS_PINID      B
+ C56.1                          CDS_PINID      A
+ C56.2                          CDS_PINID      B
+ C57.1                          CDS_PINID      A
+ C57.2                          CDS_PINID      B
+ C58.1                          CDS_PINID      A
+ C58.2                          CDS_PINID      B
+ C59.1                          CDS_PINID      A
+ C59.2                          CDS_PINID      B
+ C60.1                          CDS_PINID      A
+ C60.2                          CDS_PINID      B
+ C61.1                          CDS_PINID      A
+ C61.2                          CDS_PINID      B
+ C62.1                          CDS_PINID      A
+ C62.2                          CDS_PINID      B
+ C63.1                          CDS_PINID      A
+ C63.2                          CDS_PINID      B
+ C64.1                          CDS_PINID      A
+ C64.2                          CDS_PINID      B
+ C65.1                          CDS_PINID      A
+ C65.2                          CDS_PINID      B
+ C66.1                          CDS_PINID      A
+ C66.2                          CDS_PINID      B
+ C67.1                          CDS_PINID      A
+ C67.2                          CDS_PINID      B
+ C68.1                          CDS_PINID      A
+ C68.2                          CDS_PINID      B
+ C69.1                          CDS_PINID      A
+ C69.2                          CDS_PINID      B
+ C70.1                          CDS_PINID      A
+ C70.2                          CDS_PINID      B
+ C71.1                          CDS_PINID      A
+ C71.2                          CDS_PINID      B
+ C72.1                          CDS_PINID      A
+ C72.2                          CDS_PINID      B
+ C73.1                          CDS_PINID      A
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  26  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C73.2                          CDS_PINID      B
+ C74.1                          CDS_PINID      A
+ C74.2                          CDS_PINID      B
+ C75.1                          CDS_PINID      A
+ C75.2                          CDS_PINID      B
+ C76.1                          CDS_PINID      A
+ C76.2                          CDS_PINID      B
+ C77.1                          CDS_PINID      A
+ C77.2                          CDS_PINID      B
+ C78.1                          CDS_PINID      A
+ C78.2                          CDS_PINID      B
+ C79.1                          CDS_PINID      A
+ C79.2                          CDS_PINID      B
+ C80.1                          CDS_PINID      A
+ C80.2                          CDS_PINID      B
+ C81.1                          CDS_PINID      A
+ C81.2                          CDS_PINID      B
+ C82.1                          CDS_PINID      A
+ C82.2                          CDS_PINID      B
+ C83.1                          CDS_PINID      A
+ C83.2                          CDS_PINID      B
+ C86.1                          CDS_PINID      A
+ C86.2                          CDS_PINID      B
+ C87.1                          CDS_PINID      A
+ C87.2                          CDS_PINID      B
+ C88.1                          CDS_PINID      A
+ C88.2                          CDS_PINID      B
+ C89.1                          CDS_PINID      A
+ C89.2                          CDS_PINID      B
+ C90.1                          CDS_PINID      A
+ C90.2                          CDS_PINID      B
+ C91.1                          CDS_PINID      A
+ C91.2                          CDS_PINID      B
+ C92.1                          CDS_PINID      A
+ C92.2                          CDS_PINID      B
+ C93.1                          CDS_PINID      A
+ C93.2                          CDS_PINID      B
+ C94.1                          CDS_PINID      A
+ C94.2                          CDS_PINID      B
+ C95.1                          CDS_PINID      A
+ C95.2                          CDS_PINID      B
+ C96.1                          CDS_PINID      A
+ C96.2                          CDS_PINID      B
+ C97.1                          CDS_PINID      A
+ C97.2                          CDS_PINID      B
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  27  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C98.1                          CDS_PINID      A
+ C98.2                          CDS_PINID      B
+ C99.1                          CDS_PINID      A
+ C99.2                          CDS_PINID      B
+ C100.1                         CDS_PINID      A
+ C100.2                         CDS_PINID      B
+ C101.1                         CDS_PINID      A
+ C101.2                         CDS_PINID      B
+ L1.1                           CDS_PINID      \1\
+ L1.2                           CDS_PINID      \2\
+ L2.1                           CDS_PINID      \1\
+ L2.2                           CDS_PINID      \2\
+ L5.1                           CDS_PINID      \1\
+ L5.2                           CDS_PINID      \2\
+ R20.1                          CDS_PINID      A
+ R20.2                          CDS_PINID      B
+ R21.1                          CDS_PINID      A
+ R21.2                          CDS_PINID      B
+ R22.1                          CDS_PINID      A
+ R22.2                          CDS_PINID      B
+ R23.1                          CDS_PINID      A
+ R23.2                          CDS_PINID      B
+ R24.1                          CDS_PINID      A
+ R24.2                          CDS_PINID      B
+ R25.1                          CDS_PINID      A
+ R25.2                          CDS_PINID      B
+ R26.1                          CDS_PINID      A
+ R26.2                          CDS_PINID      B
+ R27.1                          CDS_PINID      A
+ R27.2                          CDS_PINID      B
+ R28.1                          CDS_PINID      A
+ R28.2                          CDS_PINID      B
+ R29.1                          CDS_PINID      A
+ R29.2                          CDS_PINID      B
+ R30.1                          CDS_PINID      A
+ R30.2                          CDS_PINID      B
+ R31.1                          CDS_PINID      A
+ R31.2                          CDS_PINID      B
+ R32.1                          CDS_PINID      A
+ R32.2                          CDS_PINID      B
+ R33.1                          CDS_PINID      A
+ R33.2                          CDS_PINID      B
+ R34.1                          CDS_PINID      A
+ R34.2                          CDS_PINID      B
+ R35.1                          CDS_PINID      A
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  28  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R35.2                          CDS_PINID      B
+ R36.1                          CDS_PINID      A
+ R36.2                          CDS_PINID      B
+ R38.1                          CDS_PINID      A
+ R38.2                          CDS_PINID      B
+ R40.1                          CDS_PINID      A
+ R40.2                          CDS_PINID      B
+ R41.1                          CDS_PINID      A
+ R41.2                          CDS_PINID      B
+ R42.1                          CDS_PINID      A
+ R42.2                          CDS_PINID      B
+ R43.1                          CDS_PINID      A
+ R43.2                          CDS_PINID      B
+ R45.1                          CDS_PINID      A
+ R45.2                          CDS_PINID      B
+ R46.1                          CDS_PINID      A
+ R46.2                          CDS_PINID      B
+ R47.1                          CDS_PINID      A
+ R47.2                          CDS_PINID      B
+ R48.1                          CDS_PINID      A
+ R48.2                          CDS_PINID      B
+ R49.1                          CDS_PINID      A
+ R49.2                          CDS_PINID      B
+ R50.1                          CDS_PINID      A
+ R50.2                          CDS_PINID      B
+ R51.1                          CDS_PINID      A
+ R51.2                          CDS_PINID      B
+ R52.1                          CDS_PINID      A
+ R52.2                          CDS_PINID      B
+ R53.1                          CDS_PINID      A
+ R53.2                          CDS_PINID      B
+ R54.1                          CDS_PINID      A
+ R54.2                          CDS_PINID      B
+ R55.1                          CDS_PINID      A
+ R55.2                          CDS_PINID      B
+ R56.1                          CDS_PINID      A
+ R56.2                          CDS_PINID      B
+ R57.1                          CDS_PINID      A
+ R57.2                          CDS_PINID      B
+ R58.1                          CDS_PINID      A
+ R58.2                          CDS_PINID      B
+ R59.1                          CDS_PINID      A
+ R59.2                          CDS_PINID      B
+ R60.1                          CDS_PINID      A
+ R60.2                          CDS_PINID      B
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  29  |
+|------------------------------------------------------------------------------|
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Wed Dec 24 23:08:19 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R61.1                          CDS_PINID      A
+ R61.2                          CDS_PINID      B
+|------------------------------------------------------------------------------|
+|       Nets changed          :     144                                        |
+|       Comp definitions added:      33                                        |
+|       Components changed    :     160                                        |
+|       Pin property added    :     272                                        |
+|       Slot property added   :     323                                        |
 |                                                                              |
-|   Total ECO changes reported:      17                                        |
+|   Total ECO changes reported:     932                                        |
 |------------------------------------------------------------------------------|

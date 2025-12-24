@@ -3,15 +3,80 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
-|                                                    Fri Dec 12 20:41:14 2025  |
+|                                                    Fri Dec 12 21:04:54 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GNDD         pins ADDED TO this existing net (pins not previously on any net)
+                                 U3.6                           
+                                 U3.7                           
+                                 U3.8                           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
+|                                                    Fri Dec 12 21:04:54 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ HC-USB2.0-L195-P
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
+|                                                    Fri Dec 12 21:04:54 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U3                  HC-USB2.0-L195-P                      HC-USB2.0-L195-J
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
+|                                                    Fri Dec 12 21:04:54 2025  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U3.1                           XY             (-2200,3950)
+ D3.6                           XY             (525,4100)
+ L4.2                           XY             (-1725,2800)
+ U3.8                           PRIM_FILE      ./My_lib/connector/hc#2dusb2_0#2dl195#2dp/chips/chips.prt
+ U3.8                           XY             (-1875,4075)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
 |------------------------------------------------------------------------------|
-|       Slot property added   :       1                                        |
+|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
+|                                                    Fri Dec 12 21:04:54 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U3.1                           CDS_PINID      \1\
+ U3.2                           CDS_PINID      \2\
+ U3.3                           CDS_PINID      \3\
+ U3.4                           CDS_PINID      \4\
+ U3.5                           CDS_PINID      \5\
+ U3.6                           CDS_PINID      \6\
+ U3.7                           CDS_PINID      \7\
+ U3.8                           CDS_PINID      \8\
+|------------------------------------------------------------------------------|
+|       Nets changed          :       3                                        |
+|       Comp definitions added:       1                                        |
+|       Components changed    :       1                                        |
+|       Pin property added    :       8                                        |
+|       Slot property added   :       4                                        |
 |                                                                              |
-|   Total ECO changes reported:       1                                        |
+|   Total ECO changes reported:      17                                        |
 |------------------------------------------------------------------------------|

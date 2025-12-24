@@ -1,4 +1,4 @@
 echo off
 netassembler
-concept2cm -forward -export -proj "G:\Cadence\POWAMP\power_amplifier.cpm"
-pxl.exe -proj "G:\Cadence\POWAMP\power_amplifier.cpm" -nosavehier
+concept2cm -forward -export -proj "D:\Coding\Cadence\Project\POWAMP\power_amplifier.cpm"
+pxl.exe -proj "D:\Coding\Cadence\Project\POWAMP\power_amplifier.cpm" -nosavehier

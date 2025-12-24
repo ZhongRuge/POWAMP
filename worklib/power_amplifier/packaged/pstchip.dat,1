@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 12-Dec-2025 AT 20:33:53 }
+{ Packager-XL run on 12-Dec-2025 AT 21:04:49 }
 primitive '5.8 ZSGT';
   pin
     '6':
@@ -851,9 +851,36 @@ primitive 'DC-005-5A';
       CLASS='DISCRETE';
   end_body;
 end_primitive;
-primitive 'HC-USB2.0-L195-J';
+primitive 'HC-USB2.0-L195-P';
   pin
-    'SHIELD':
+    '8':
+      PIN_NUMBER='(8)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '5':
       PIN_NUMBER='(5)';
       PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
@@ -862,7 +889,7 @@ primitive 'HC-USB2.0-L195-J';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
       PINUSE='UNSPEC';
-    'GND':
+    '4':
       PIN_NUMBER='(4)';
       PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
@@ -871,7 +898,7 @@ primitive 'HC-USB2.0-L195-J';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
       PINUSE='UNSPEC';
-    'D+':
+    '3':
       PIN_NUMBER='(3)';
       PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
@@ -880,7 +907,7 @@ primitive 'HC-USB2.0-L195-J';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
       PINUSE='UNSPEC';
-    'D-':
+    '2':
       PIN_NUMBER='(2)';
       PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
@@ -889,7 +916,7 @@ primitive 'HC-USB2.0-L195-J';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
       PINUSE='UNSPEC';
-    'VBUS':
+    '1':
       PIN_NUMBER='(1)';
       PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
@@ -900,8 +927,9 @@ primitive 'HC-USB2.0-L195-J';
       PINUSE='UNSPEC';
   end_pin;
   body
-      PART_NAME='HC-USB2.0-L195-J';
-      BODY_NAME='USB2_0';
+      PART_NAME='HC-USB2.0-L195-P';
+      BODY_NAME='HC-USB2_0-L195-P';
+      JEDEC_TYPE='USB-TH_73725-0110BLF';
       PHYS_DES_PREFIX='U';
       CLASS='IC';
   end_body;

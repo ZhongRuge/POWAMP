@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 12-Dec-2025 AT 20:41:09 }
+{ Packager-XL run on 24-Dec-2025 AT 23:07:24 }
 primitive '5.8 ZSGT';
   pin
     '6':
@@ -323,6 +323,35 @@ primitive 'BLM18PG121SN1D_C14709';
       CLASS='DISCRETE';
   end_body;
 end_primitive;
+primitive 'BLM21PG300SN1D';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='BLM21PG300SN1D';
+      BODY_NAME='BLM21PG300SN1D';
+      JEDEC_TYPE='L0805';
+      PHYS_DES_PREFIX='L';
+      CLASS='DISCRETE';
+  end_body;
+end_primitive;
 primitive 'BSMD2920-300-33V';
   pin
     '2':
@@ -352,83 +381,571 @@ primitive 'BSMD2920-300-33V';
       CLASS='DISCRETE';
   end_body;
 end_primitive;
-primitive 'C0603';
+primitive 'C-0805B104K500NT,0.1UF';
   pin
-    '1':
+    'A':
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
+      PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
       NO_IO_CHECK='Both';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-    '2':
+      PINUSE='UNSPEC';
+    'B':
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
+      PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
       NO_IO_CHECK='Both';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
   end_pin;
   body
-      PART_NAME='C0603';
-      BODY_NAME='C0603';
-      JEDEC_TYPE='SMC0603';
+      PART_NAME='C';
+      BODY_NAME='C';
       PHYS_DES_PREFIX='C';
       CLASS='DISCRETE';
+      JEDEC_TYPE='C0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='C';
+      PARENT_PPT='C';
+      PARENT_PPT_PART='C-0805B104K500NT,0.1UF';
   end_body;
 end_primitive;
-primitive 'C0805';
+primitive 'C-0805B475K500NT,4.7UF';
   pin
-    '1':
+    'A':
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
+      PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
       NO_IO_CHECK='Both';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-    '2':
+      PINUSE='UNSPEC';
+    'B':
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
+      PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
       NO_IO_CHECK='Both';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
   end_pin;
   body
-      PART_NAME='C0805';
-      BODY_NAME='C0805';
-      JEDEC_TYPE='SMC0805';
+      PART_NAME='C';
+      BODY_NAME='C';
       PHYS_DES_PREFIX='C';
       CLASS='DISCRETE';
+      JEDEC_TYPE='C0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='C';
+      PARENT_PPT='C';
+      PARENT_PPT_PART='C-0805B475K500NT,4.7UF';
   end_body;
 end_primitive;
-primitive 'C3216';
+primitive 'C-0805CG0R1C500NT,0.1PF';
   pin
-    '1':
+    'A':
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
+      PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
       NO_IO_CHECK='Both';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
-    '2':
+      PINUSE='UNSPEC';
+    'B':
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
+      PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
       NO_IO_CHECK='Both';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
   end_pin;
   body
-      PART_NAME='C3216';
-      BODY_NAME='C3216';
-      JEDEC_TYPE='C3216';
+      PART_NAME='C';
+      BODY_NAME='C';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      JEDEC_TYPE='C0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='C';
+      PARENT_PPT='C';
+      PARENT_PPT_PART='C-0805CG0R1C500NT,0.1PF';
+  end_body;
+end_primitive;
+primitive 'C-C1608X5R0J156MT000E,15UF';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='C';
+      BODY_NAME='C';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      JEDEC_TYPE='C0603';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='C';
+      PARENT_PPT='C';
+      PARENT_PPT_PART='C-C1608X5R0J156MT000E,15UF';
+  end_body;
+end_primitive;
+primitive 'C-CC0805JRNPO9BN300,30PF';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='C';
+      BODY_NAME='C';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      JEDEC_TYPE='C0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='C';
+      PARENT_PPT='C';
+      PARENT_PPT_PART='C-CC0805JRNPO9BN300,30PF';
+  end_body;
+end_primitive;
+primitive 'C-CC0805KKX7R9BB225,2.2UF';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='C';
+      BODY_NAME='C';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      JEDEC_TYPE='C0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='C';
+      PARENT_PPT='C';
+      PARENT_PPT_PART='C-CC0805KKX7R9BB225,2.2UF';
+  end_body;
+end_primitive;
+primitive 'C-CC0805KKX7R9BB684,680NF';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='C';
+      BODY_NAME='C';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      JEDEC_TYPE='C0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='C';
+      PARENT_PPT='C';
+      PARENT_PPT_PART='C-CC0805KKX7R9BB684,680NF';
+  end_body;
+end_primitive;
+primitive 'C-CC0805KRX7R9BB102,1NF';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='C';
+      BODY_NAME='C';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      JEDEC_TYPE='C0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='C';
+      PARENT_PPT='C';
+      PARENT_PPT_PART='C-CC0805KRX7R9BB102,1NF';
+  end_body;
+end_primitive;
+primitive 'C-CGA0805X5R226M350MT,22UF';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='C';
+      BODY_NAME='C';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      JEDEC_TYPE='C0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='C';
+      PARENT_PPT='C';
+      PARENT_PPT_PART='C-CGA0805X5R226M350MT,22UF';
+  end_body;
+end_primitive;
+primitive 'C-CL21B103KBANNNC,10NF';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='C';
+      BODY_NAME='C';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      JEDEC_TYPE='C0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='C';
+      PARENT_PPT='C';
+      PARENT_PPT_PART='C-CL21B103KBANNNC,10NF';
+  end_body;
+end_primitive;
+primitive 'C-CL21B104KBCNNNC,100NF';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='C';
+      BODY_NAME='C';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      JEDEC_TYPE='C0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='C';
+      PARENT_PPT='C';
+      PARENT_PPT_PART='C-CL21B104KBCNNNC,100NF';
+  end_body;
+end_primitive;
+primitive 'C-CL21B105KBFNNNE,1UF';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='C';
+      BODY_NAME='C';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      JEDEC_TYPE='C0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='C';
+      PARENT_PPT='C';
+      PARENT_PPT_PART='C-CL21B105KBFNNNE,1UF';
+  end_body;
+end_primitive;
+primitive 'C-CL21B106KOQNNNE,10UF';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='C';
+      BODY_NAME='C';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      JEDEC_TYPE='C0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='C';
+      PARENT_PPT='C';
+      PARENT_PPT_PART='C-CL21B106KOQNNNE,10UF';
+  end_body;
+end_primitive;
+primitive 'C-CL21B223KBANNNC,22NF';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='C';
+      BODY_NAME='C';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      JEDEC_TYPE='C0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='C';
+      PARENT_PPT='C';
+      PARENT_PPT_PART='C-CL21B223KBANNNC,22NF';
+  end_body;
+end_primitive;
+primitive 'C-CL21B224KBFNNNE,220NF';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='C';
+      BODY_NAME='C';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      JEDEC_TYPE='C0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='C';
+      PARENT_PPT='C';
+      PARENT_PPT_PART='C-CL21B224KBFNNNE,220NF';
+  end_body;
+end_primitive;
+primitive 'C3216X7R1C106KT000N';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='C3216X7R1C106KT000N';
+      BODY_NAME='C3216X7R1C106KT000N';
+      JEDEC_TYPE='C1206';
       PHYS_DES_PREFIX='C';
       CLASS='DISCRETE';
   end_body;
@@ -851,18 +1368,9 @@ primitive 'DC-005-5A';
       CLASS='DISCRETE';
   end_body;
 end_primitive;
-primitive 'HC-USB2.0-L195-J';
+primitive 'FXL0630-100-M';
   pin
-    'VBUS':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'D-':
+    '2':
       PIN_NUMBER='(2)';
       PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
@@ -871,26 +1379,8 @@ primitive 'HC-USB2.0-L195-J';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
       PINUSE='UNSPEC';
-    'D+':
-      PIN_NUMBER='(3)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'GND':
-      PIN_NUMBER='(4)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'SHIELD':
-      PIN_NUMBER='(5)';
+    '1':
+      PIN_NUMBER='(1)';
       PIN_TYPE='ANALOG';
       NO_LOAD_CHECK='Both';
       NO_IO_CHECK='Both';
@@ -900,9 +1390,92 @@ primitive 'HC-USB2.0-L195-J';
       PINUSE='UNSPEC';
   end_pin;
   body
-      PART_NAME='HC-USB2.0-L195-J';
-      BODY_NAME='USB2_0';
-      JEDEC_TYPE='USB-A-TH_FC-USB-AF-24';
+      PART_NAME='FXL0630-100-M';
+      BODY_NAME='FXL0630-100-M';
+      JEDEC_TYPE='IND-SMD_L7_3-W6_8';
+      PHYS_DES_PREFIX='L';
+      CLASS='DISCRETE';
+  end_body;
+end_primitive;
+primitive 'HC-USB2.0-L195-P';
+  pin
+    '8':
+      PIN_NUMBER='(8)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='HC-USB2.0-L195-P';
+      BODY_NAME='HC-USB2_0-L195-P';
+      JEDEC_TYPE='USB-TH_73725-0110BLF';
       PHYS_DES_PREFIX='U';
       CLASS='IC';
   end_body;
@@ -1098,6 +1671,35 @@ primitive 'LTC3260';
       CLASS='DISCRETE';
   end_body;
 end_primitive;
+primitive 'MA35V220M8X8';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='MA35V220M8X8';
+      BODY_NAME='MA35V220M8X8';
+      JEDEC_TYPE='CAP-SMD_BD8_0-L8_3-W8_3-LS9_0-FD';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+  end_body;
+end_primitive;
 primitive 'MA35V470M10X13';
   pin
     '1':
@@ -1210,16 +1812,16 @@ primitive 'NE5532DR';
       CLASS='IC';
   end_body;
 end_primitive;
-primitive 'R-07090247,10K';
+primitive 'R-0805W8F1001T5E,1K';
   pin
-    'B':
-      PIN_NUMBER='(2)';
+    'A':
+      PIN_NUMBER='(1)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='BI';
-    'A':
-      PIN_NUMBER='(1)';
+    'B':
+      PIN_NUMBER='(2)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
@@ -1229,27 +1831,27 @@ primitive 'R-07090247,10K';
       PART_NAME='R';
       BODY_NAME='R';
       PHYS_DES_PREFIX='R';
-      CLASS='DISCRETE';
-      JEDEC_TYPE='SR0603';
-      DESCRIPTION='Æ¬×´µç×èÆ÷-0.0625W-10k¦¸¡À5%-0603';
+      CLASS='IC';
+      JEDEC_TYPE='R0805';
+      DESCRIPTION='';
       DATASHEET='';
       ALT_SYMBOL='';
       CHECKLIST='';
       PARENT_PART_TYPE='R';
       PARENT_PPT='R';
-      PARENT_PPT_PART='R-07090247,10K';
+      PARENT_PPT_PART='R-0805W8F1001T5E,1K';
   end_body;
 end_primitive;
-primitive 'R-07090265,22';
+primitive 'R-0805W8F1002T5E,10K';
   pin
-    'B':
-      PIN_NUMBER='(2)';
+    'A':
+      PIN_NUMBER='(1)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='BI';
-    'A':
-      PIN_NUMBER='(1)';
+    'B':
+      PIN_NUMBER='(2)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
@@ -1259,27 +1861,27 @@ primitive 'R-07090265,22';
       PART_NAME='R';
       BODY_NAME='R';
       PHYS_DES_PREFIX='R';
-      CLASS='DISCRETE';
-      JEDEC_TYPE='SR0603';
-      DESCRIPTION='Æ¬Ê½ºñÄ¤µç×èÆ÷-0.0625W-22OHM-¡À5%-0603';
+      CLASS='IC';
+      JEDEC_TYPE='R0805';
+      DESCRIPTION='';
       DATASHEET='';
       ALT_SYMBOL='';
       CHECKLIST='';
       PARENT_PART_TYPE='R';
       PARENT_PPT='R';
-      PARENT_PPT_PART='R-07090265,22';
+      PARENT_PPT_PART='R-0805W8F1002T5E,10K';
   end_body;
 end_primitive;
-primitive 'R-07090522,0';
+primitive 'R-0805W8F1003T5E,100K';
   pin
-    'B':
-      PIN_NUMBER='(2)';
+    'A':
+      PIN_NUMBER='(1)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='BI';
-    'A':
-      PIN_NUMBER='(1)';
+    'B':
+      PIN_NUMBER='(2)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
@@ -1289,27 +1891,27 @@ primitive 'R-07090522,0';
       PART_NAME='R';
       BODY_NAME='R';
       PHYS_DES_PREFIX='R';
-      CLASS='DISCRETE';
-      JEDEC_TYPE='SR0603';
-      DESCRIPTION='Æ¬Ê½ºñÄ¤µç×èÆ÷-0W-0OHM-<50M¦¸-0603';
+      CLASS='IC';
+      JEDEC_TYPE='R0805';
+      DESCRIPTION='';
       DATASHEET='';
       ALT_SYMBOL='';
       CHECKLIST='';
       PARENT_PART_TYPE='R';
       PARENT_PPT='R';
-      PARENT_PPT_PART='R-07090522,0';
+      PARENT_PPT_PART='R-0805W8F1003T5E,100K';
   end_body;
 end_primitive;
-primitive 'R-07090601,33';
+primitive 'R-0805W8F2002T5E,20K';
   pin
-    'B':
-      PIN_NUMBER='(2)';
+    'A':
+      PIN_NUMBER='(1)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='BI';
-    'A':
-      PIN_NUMBER='(1)';
+    'B':
+      PIN_NUMBER='(2)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
@@ -1319,27 +1921,27 @@ primitive 'R-07090601,33';
       PART_NAME='R';
       BODY_NAME='R';
       PHYS_DES_PREFIX='R';
-      CLASS='DISCRETE';
-      JEDEC_TYPE='SR0603';
-      DESCRIPTION='Æ¬Ê½ºñÄ¤µç×èÆ÷-0.1W-33ohm-¡À1%-0603';
+      CLASS='IC';
+      JEDEC_TYPE='R0805';
+      DESCRIPTION='';
       DATASHEET='';
       ALT_SYMBOL='';
       CHECKLIST='';
       PARENT_PART_TYPE='R';
       PARENT_PPT='R';
-      PARENT_PPT_PART='R-07090601,33';
+      PARENT_PPT_PART='R-0805W8F2002T5E,20K';
   end_body;
 end_primitive;
-primitive 'R-97090113,270';
+primitive 'R-0805W8F220JT5E,22';
   pin
-    'B':
-      PIN_NUMBER='(2)';
+    'A':
+      PIN_NUMBER='(1)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
       PINUSE='BI';
-    'A':
-      PIN_NUMBER='(1)';
+    'B':
+      PIN_NUMBER='(2)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
@@ -1349,42 +1951,285 @@ primitive 'R-97090113,270';
       PART_NAME='R';
       BODY_NAME='R';
       PHYS_DES_PREFIX='R';
-      CLASS='DISCRETE';
-      JEDEC_TYPE='SR0603';
-      DESCRIPTION='Æ¬×´ºòÄ¤µç×èÆ÷-0.1W-270ohm-+-5%-0603';
+      CLASS='IC';
+      JEDEC_TYPE='R0805';
+      DESCRIPTION='';
       DATASHEET='';
       ALT_SYMBOL='';
       CHECKLIST='';
       PARENT_PART_TYPE='R';
       PARENT_PPT='R';
-      PARENT_PPT_PART='R-97090113,270';
+      PARENT_PPT_PART='R-0805W8F220JT5E,22';
   end_body;
 end_primitive;
-primitive 'RES0805';
+primitive 'R-0805W8F2700T5E,270';
   pin
-    '1':
+    'A':
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-    '2':
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'B':
       PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
   end_pin;
   body
-      PART_NAME='RES0805';
-      BODY_NAME='RES0805';
-      JEDEC_TYPE='SMC0805';
+      PART_NAME='R';
+      BODY_NAME='R';
       PHYS_DES_PREFIX='R';
-      CLASS='DISCRETE';
+      CLASS='IC';
+      JEDEC_TYPE='R0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='R';
+      PARENT_PPT='R';
+      PARENT_PPT_PART='R-0805W8F2700T5E,270';
+  end_body;
+end_primitive;
+primitive 'R-0805W8F3301T5E,3.3K';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'B':
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='R';
+      BODY_NAME='R';
+      PHYS_DES_PREFIX='R';
+      CLASS='IC';
+      JEDEC_TYPE='R0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='R';
+      PARENT_PPT='R';
+      PARENT_PPT_PART='R-0805W8F3301T5E,3.3K';
+  end_body;
+end_primitive;
+primitive 'R-0805W8F330JT5E,33';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'B':
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='R';
+      BODY_NAME='R';
+      PHYS_DES_PREFIX='R';
+      CLASS='IC';
+      JEDEC_TYPE='R0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='R';
+      PARENT_PPT='R';
+      PARENT_PPT_PART='R-0805W8F330JT5E,33';
+  end_body;
+end_primitive;
+primitive 'R-0805W8F390JT5E,39';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'B':
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='R';
+      BODY_NAME='R';
+      PHYS_DES_PREFIX='R';
+      CLASS='IC';
+      JEDEC_TYPE='R0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='R';
+      PARENT_PPT='R';
+      PARENT_PPT_PART='R-0805W8F390JT5E,39';
+  end_body;
+end_primitive;
+primitive 'R-0805W8F4701T5E,4.7K';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'B':
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='R';
+      BODY_NAME='R';
+      PHYS_DES_PREFIX='R';
+      CLASS='IC';
+      JEDEC_TYPE='R0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='R';
+      PARENT_PPT='R';
+      PARENT_PPT_PART='R-0805W8F4701T5E,4.7K';
+  end_body;
+end_primitive;
+primitive 'R-FRC0805F3R30TS,3.3';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'B':
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='R';
+      BODY_NAME='R';
+      PHYS_DES_PREFIX='R';
+      CLASS='IC';
+      JEDEC_TYPE='R0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='R';
+      PARENT_PPT='R';
+      PARENT_PPT_PART='R-FRC0805F3R30TS,3.3';
+  end_body;
+end_primitive;
+primitive 'R-FRC0805F9093TS,909K';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'B':
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='R';
+      BODY_NAME='R';
+      PHYS_DES_PREFIX='R';
+      CLASS='IC';
+      JEDEC_TYPE='R0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='R';
+      PARENT_PPT='R';
+      PARENT_PPT_PART='R-FRC0805F9093TS,909K';
+  end_body;
+end_primitive;
+primitive 'R-RE0805FAR000,0';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'B':
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='R';
+      BODY_NAME='R';
+      PHYS_DES_PREFIX='R';
+      CLASS='IC';
+      JEDEC_TYPE='R0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='R';
+      PARENT_PPT='R';
+      PARENT_PPT_PART='R-RE0805FAR000,0';
+  end_body;
+end_primitive;
+primitive 'R-TD05G50R0BT,50';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+    'B':
+      PIN_NUMBER='(2)';
+      BIDIRECTIONAL='TRUE';
+      INPUT_LOAD='(-0.01,0.01)';
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='R';
+      BODY_NAME='R';
+      PHYS_DES_PREFIX='R';
+      CLASS='IC';
+      JEDEC_TYPE='R0805';
+      DESCRIPTION='';
+      DATASHEET='';
+      ALT_SYMBOL='';
+      CHECKLIST='';
+      PARENT_PART_TYPE='R';
+      PARENT_PPT='R';
+      PARENT_PPT_PART='R-TD05G50R0BT,50';
   end_body;
 end_primitive;
 primitive 'RK09712200MY';

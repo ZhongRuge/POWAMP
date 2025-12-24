@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 12-Dec-2025 AT 20:33:53 }
-TIME=' COMPILATION ON 12-Dec-2025 AT 20:33:53';
+{ Packager-XL run on 12-Dec-2025 AT 21:04:49 }
+TIME=' COMPILATION ON 12-Dec-2025 AT 21:04:49';
 primitive '5.8 ZSGT';    body '5_8_ZSGT';
     '6':'(6)';
     '5':'(5)';
@@ -105,12 +105,15 @@ primitive 'DC-005-5A';   body 'DC-005-5A';
     '2':'(2)';
     '3':'(3)';
 end_primitive;
-primitive 'HC-USB2.0-L195-J';body 'USB2_0';
-    'SHIELD':'(5)';
-    'GND':'(4)';
-    'D+':'(3)';
-    'D-':'(2)';
-    'VBUS':'(1)';
+primitive 'HC-USB2.0-L195-P';body 'HC-USB2_0-L195-P';
+    '8':'(8)';
+    '7':'(7)';
+    '6':'(6)';
+    '5':'(5)';
+    '4':'(4)';
+    '3':'(3)';
+    '2':'(2)';
+    '1':'(1)';
 end_primitive;
 primitive 'L0805';       body 'L0805';
     '1':'(A)';
