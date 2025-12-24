@@ -1,16 +1,16 @@
-12/24/25  15:48:14		Opening project D:/Projects/POWAMP/SCH/sch.cpm
-12/24/25  15:48:14		cdslib D:/Projects/POWAMP/SCH/cds.lib opened
-12/24/25  15:48:14		Project D:/Projects/POWAMP/SCH/sch.cpm opened
-12/24/25  15:48:14		Loading cell ma35v220m8x8 from library sch_lib
-12/24/25  15:48:14		Loading view sym_1 of cell ma35v220m8x8
-12/24/25  15:48:14		Loading view chips of cell ma35v220m8x8
-12/24/25  15:48:14		Loading view entity of cell ma35v220m8x8
-12/24/25  15:48:14		Loading cell ma35v220m8x8 from library sch_lib
-12/24/25  15:48:14		Analyzing view relationships of cell ma35v220m8x8 in library sch_lib
-12/24/25  15:48:14		Completed loading cell ma35v220m8x8 from library sch_lib
-12/24/25  15:48:14		Starting validations on cell ma35v220m8x8 of library sch_lib
-12/24/25  15:48:14		Completed validations on cell ma35v220m8x8 of library sch_lib
-12/24/25  15:48:56		Starting validations on cell ma35v220m8x8 of library sch_lib
-12/24/25  15:48:56		Completed validations on cell ma35v220m8x8 of library sch_lib
-12/24/25  15:48:56		Completed saving cell ma35v220m8x8 in library sch_lib 
-12/24/25  15:48:56		Project D:/Projects/POWAMP/SCH/sch.cpm is closed.
+12/24/25  15:57:34		Opening project D:/Projects/POWAMP/SCH/sch.cpm
+12/24/25  15:57:34		cdslib D:/Projects/POWAMP/SCH/cds.lib opened
+12/24/25  15:57:34		Project D:/Projects/POWAMP/SCH/sch.cpm opened
+12/24/25  15:57:34		Loading cell c3216x7r1c106kt000n from library sch_lib
+12/24/25  15:57:34		Loading view sym_1 of cell c3216x7r1c106kt000n
+12/24/25  15:57:34		Loading view chips of cell c3216x7r1c106kt000n
+12/24/25  15:57:34		Loading view entity of cell c3216x7r1c106kt000n
+12/24/25  15:57:34		Loading cell c3216x7r1c106kt000n from library sch_lib
+12/24/25  15:57:34		Analyzing view relationships of cell c3216x7r1c106kt000n in library sch_lib
+12/24/25  15:57:34		Completed loading cell c3216x7r1c106kt000n from library sch_lib
+12/24/25  15:57:34		Starting validations on cell c3216x7r1c106kt000n of library sch_lib
+12/24/25  15:57:34		Completed validations on cell c3216x7r1c106kt000n of library sch_lib
+12/24/25  15:58:04		Starting validations on cell c3216x7r1c106kt000n of library sch_lib
+12/24/25  15:58:04		Completed validations on cell c3216x7r1c106kt000n of library sch_lib
+12/24/25  15:58:05		Completed saving cell c3216x7r1c106kt000n in library sch_lib 
+12/24/25  15:58:05		Project D:/Projects/POWAMP/SCH/sch.cpm is closed.

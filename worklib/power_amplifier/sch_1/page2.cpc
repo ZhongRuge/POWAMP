@@ -8,9 +8,6 @@
   ic at24c64d-sshm-t *
   page2_i29
 #CELL
-  capacitor c3216 *
-  page2_i31
-#CELL
   inductor l0805 *
   page2_i33
 #CELL
@@ -23,7 +20,7 @@
   resistor r *
   page2_i39
 #CELL
-  capacitor c3216 *
+  capacitor c3216x7r1c106kt000n *
   page2_i40
 #CELL
   resistor r *
@@ -91,3 +88,6 @@
 #CELL
   capacitor c *
   page2_i66
+#CELL
+  capacitor c3216x7r1c106kt000n *
+  page2_i67
