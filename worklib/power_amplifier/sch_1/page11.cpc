@@ -41,7 +41,7 @@
   capacitor c *
   page11_i20
 #CELL
-  capacitor ma35v470m10x13 *
+  capacitor ma35v220m8x8 *
   page11_i21
 #CELL
   capacitor c *
@@ -125,7 +125,7 @@
   capacitor c *
   page11_i7
 #CELL
-  capacitor ma35v470m10x13 *
+  capacitor ma35v220m8x8 *
   page11_i8
 #CELL
   capacitor c *

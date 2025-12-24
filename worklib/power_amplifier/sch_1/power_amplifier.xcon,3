@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-12-24T15:29:21</modificationTime>
+    <modificationTime>2025-12-24T15:31:29</modificationTime>
     <savedLibrary>power_amplifier_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="power_amplifier" view="sch_1">
       <lastids>
-        <instanceid>404</instanceid>
+        <instanceid>406</instanceid>
         <netid>222</netid>
-        <insttermid>1271</insttermid>
+        <insttermid>1275</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -462,26 +462,6 @@
             <term>
               <id>T102</id>
               <name>4</name>
-              <direction>inout</direction>
-            </term>
-          </terms>
-        </cell>
-        <cell>
-          <id>S15</id>
-          <library>capacitor</library>
-          <name>c0805</name>
-          <view>sym_1</view>
-          <parameters>
-          </parameters>
-          <terms>
-            <term>
-              <id>T107</id>
-              <name>1</name>
-              <direction>inout</direction>
-            </term>
-            <term>
-              <id>T108</id>
-              <name>2</name>
               <direction>inout</direction>
             </term>
           </terms>
@@ -6489,19 +6469,19 @@
         </instance>
         <instance>
           <id>I212</id>
-          <cellid>S15</cellid>
+          <cellid>S40</cellid>
           <name>page9_i5</name>
           <pins>
             <pin>
-              <id>M816</id>
-              <termid>T107</termid>
+              <id>M1272</id>
+              <termid>T344</termid>
               <connections>
                 <connection net="N134" />
               </connections>
             </pin>
             <pin>
-              <id>M817</id>
-              <termid>T108</termid>
+              <id>M1273</id>
+              <termid>T345</termid>
               <connections>
                 <connection net="N92" />
               </connections>
@@ -6510,19 +6490,19 @@
         </instance>
         <instance>
           <id>I213</id>
-          <cellid>S15</cellid>
+          <cellid>S40</cellid>
           <name>page9_i6</name>
           <pins>
             <pin>
-              <id>M818</id>
-              <termid>T107</termid>
+              <id>M1274</id>
+              <termid>T344</termid>
               <connections>
                 <connection net="N134" />
               </connections>
             </pin>
             <pin>
-              <id>M819</id>
-              <termid>T108</termid>
+              <id>M1275</id>
+              <termid>T345</termid>
               <connections>
                 <connection net="N93" />
               </connections>

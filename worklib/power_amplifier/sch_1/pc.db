@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Wed Dec 24 15:31:29 2025
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Wed Dec 24 15:51:14 2025
 #ISCELL
   standard b#20size#20page *
   *
@@ -531,7 +531,7 @@
   capacitor c *
   page11_i20
 #CELL
-  capacitor ma35v470m10x13 *
+  capacitor ma35v220m8x8 *
   page11_i21
 #CELL
   capacitor c *
@@ -615,7 +615,7 @@
   capacitor c *
   page11_i7
 #CELL
-  capacitor ma35v470m10x13 *
+  capacitor ma35v220m8x8 *
   page11_i8
 #CELL
   capacitor c *
