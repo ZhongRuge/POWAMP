@@ -14,17 +14,8 @@
   inductor l0805 *
   page2_i33
 #CELL
-  capacitor c *
-  page2_i34
-#CELL
-  capacitor c0805 *
-  page2_i35
-#CELL
   resistor r *
   page2_i36
-#CELL
-  capacitor c0805 *
-  page2_i37
 #CELL
   inductor l0805 *
   page2_i38
@@ -77,9 +68,6 @@
   resistor r *
   page2_i54
 #CELL
-  capacitor c0805 *
-  page2_i58
-#CELL
   resistor r *
   page2_i59
 #CELL
@@ -91,3 +79,15 @@
 #CELL
   capacitor c3216x7r1c106kt000n *
   page2_i62
+#CELL
+  capacitor c *
+  page2_i63
+#CELL
+  capacitor c *
+  page2_i64
+#CELL
+  capacitor c *
+  page2_i65
+#CELL
+  capacitor c *
+  page2_i66

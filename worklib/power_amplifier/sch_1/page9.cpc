@@ -11,10 +11,10 @@
   ic ne5532dr *
   page9_i3
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page9_i5
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page9_i6
 #CELL
   connector 5_8_zsgt *

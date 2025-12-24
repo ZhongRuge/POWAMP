@@ -2,13 +2,13 @@
   pages pages *
   *
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i10
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i11
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i12
 #CELL
   power ams1117_3_3v *
@@ -17,16 +17,16 @@
   power xc6206p182mr *
   page5_i19
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i20
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i21
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i22
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i23
 #CELL
   connector dc-005-5a *
@@ -50,25 +50,25 @@
   capacitor ma35v470m10x13 *
   page5_i30
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i31
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i32
 #CELL
   power ltc3260 *
   page5_i33
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i34
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i35
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i36
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i37
 #CELL
   resistor res0805 *
@@ -77,10 +77,10 @@
   resistor res0805 *
   page5_i39
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i40
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i41
 #CELL
   resistor res0805 *
@@ -89,11 +89,11 @@
   resistor res0805 *
   page5_i43
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i44
 #CELL
   resistor r *
   page5_i45
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i9

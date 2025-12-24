@@ -17,16 +17,16 @@
   resistor res0805 *
   page10_i13
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page10_i2
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page10_i3
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page10_i4
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page10_i5
 #CELL
   resistor res0805 *

@@ -1,21 +1,18 @@
-12/24/25  10:28:32		Opening project G:/Cadence/POWAMP/SCH/sch.cpm
-12/24/25  10:28:32		cdslib G:/Cadence/POWAMP/SCH/cds.lib opened
-12/24/25  10:28:32		Project G:/Cadence/POWAMP/SCH/sch.cpm opened
-12/24/25  10:28:32		Loading cell c from library sch_lib
-12/24/25  10:28:32		Loading cell c from library sch_lib
-12/24/25  10:28:32		Analyzing view relationships of cell c in library sch_lib
-12/24/25  10:28:32		Completed loading cell c from library sch_lib
-12/24/25  10:28:32		Starting validations on cell c of library sch_lib
-12/24/25  10:28:32		Completed validations on cell c of library sch_lib
-12/24/25  10:30:23		Starting validations on cell c of library sch_lib
-12/24/25  10:30:23		Completed validations on cell c of library sch_lib
-12/24/25  10:30:48		Pin numbers extracted from footprint c0805.psm
-12/24/25  10:32:44		Starting validations on cell c of library sch_lib
-12/24/25  10:32:44		Completed validations on cell c of library sch_lib
-12/24/25  10:32:44		Completed saving cell c in library sch_lib 
-12/24/25  10:34:33		Loading file part.ptf of PTF view part_table of cell c
-12/24/25  10:36:33		Loading file part.ptf of PTF view part_table of cell c
-12/24/25  13:15:53		Starting validations on cell c of library sch_lib
-12/24/25  13:15:53		Completed validations on cell c of library sch_lib
-12/24/25  13:15:54		Completed saving cell c in library sch_lib 
-12/24/25  13:15:54		Project G:/Cadence/POWAMP/SCH/sch.cpm is closed.
+12/24/25  14:18:35		Opening project D:/Projects/POWAMP/SCH/sch.cpm
+12/24/25  14:18:35		cdslib D:/Projects/POWAMP/SCH/cds.lib opened
+12/24/25  14:18:35		Project D:/Projects/POWAMP/SCH/sch.cpm opened
+12/24/25  14:18:35		Loading cell c from library sch_lib
+12/24/25  14:18:35		Loading view sym_1 of cell c
+12/24/25  14:18:35		Loading view chips of cell c
+12/24/25  14:18:35		Loading view part_table of cell c
+12/24/25  14:18:35		Loading file part.ptf of PTF view part_table of cell c
+12/24/25  14:18:35		Loading view entity of cell c
+12/24/25  14:18:35		Loading cell c from library sch_lib
+12/24/25  14:18:35		Analyzing view relationships of cell c in library sch_lib
+12/24/25  14:18:35		Completed loading cell c from library sch_lib
+12/24/25  14:18:35		Starting validations on cell c of library sch_lib
+12/24/25  14:18:35		Completed validations on cell c of library sch_lib
+12/24/25  14:19:03		Starting validations on cell c of library sch_lib
+12/24/25  14:19:03		Completed validations on cell c of library sch_lib
+12/24/25  14:19:03		Completed saving cell c in library sch_lib 
+12/24/25  14:19:03		Project D:/Projects/POWAMP/SCH/sch.cpm is closed.

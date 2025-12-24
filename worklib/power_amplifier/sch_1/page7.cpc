@@ -5,13 +5,13 @@
   ic stm32f103c8t6 *
   page7_i1
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page7_i10
 #CELL
   resistor res0805 *
   page7_i11
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page7_i12
 #CELL
   resistor res0805 *
@@ -20,10 +20,10 @@
   oscillator x322512msb4si *
   page7_i14
 #CELL
-  capacitor c0603 *
+  capacitor c *
   page7_i15
 #CELL
-  capacitor c0603 *
+  capacitor c *
   page7_i16
 #CELL
   connector 5557_4pin *
@@ -35,11 +35,11 @@
   resistor res0805 *
   page7_i19
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page7_i6
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page7_i7
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page7_i8

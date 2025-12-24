@@ -5,10 +5,10 @@
   ic tpa3116d2dad *
   page11_i1
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i10
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i11
 #CELL
   resistor res0805 *
@@ -17,34 +17,34 @@
   resistor res0805 *
   page11_i13
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i14
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i15
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i16
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i17
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i18
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i19
 #CELL
   resistor res0805 *
   page11_i2
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i20
 #CELL
   capacitor ma35v470m10x13 *
   page11_i21
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i22
 #CELL
   inductor l0805 *
@@ -59,19 +59,19 @@
   inductor l0805 *
   page11_i26
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i27
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i28
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i29
 #CELL
   resistor res0805 *
   page11_i3
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i30
 #CELL
   resistor res0805 *
@@ -80,53 +80,53 @@
   resistor res0805 *
   page11_i32
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i35
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i36
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i37
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i4
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i42
 #CELL
-  resistor res0805 *
-  page11_i43
-#CELL
-  capacitor c0805 *
-  page11_i44
-#CELL
-  capacitor c0805 *
-  page11_i45
-#CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i46
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i47
-#CELL
-  resistor res0805 *
-  page11_i48
 #CELL
   resistor res0805 *
   page11_i49
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i5
 #CELL
-  capacitor c0805 *
+  resistor res0805 *
+  page11_i50
+#CELL
+  capacitor c *
+  page11_i51
+#CELL
+  capacitor c *
+  page11_i52
+#CELL
+  resistor res0805 *
+  page11_i53
+#CELL
+  capacitor c *
   page11_i6
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i7
 #CELL
   capacitor ma35v470m10x13 *
   page11_i8
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i9

@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Wed Dec 24 13:15:47 2025
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Wed Dec 24 15:31:29 2025
 #ISCELL
   standard b#20size#20page *
   *
@@ -18,17 +18,8 @@
   inductor l0805 *
   page2_i33
 #CELL
-  capacitor c *
-  page2_i34
-#CELL
-  capacitor c0805 *
-  page2_i35
-#CELL
   resistor r *
   page2_i36
-#CELL
-  capacitor c0805 *
-  page2_i37
 #CELL
   inductor l0805 *
   page2_i38
@@ -81,9 +72,6 @@
   resistor r *
   page2_i54
 #CELL
-  capacitor c0805 *
-  page2_i58
-#CELL
   resistor r *
   page2_i59
 #CELL
@@ -95,6 +83,18 @@
 #CELL
   capacitor c3216x7r1c106kt000n *
   page2_i62
+#CELL
+  capacitor c *
+  page2_i63
+#CELL
+  capacitor c *
+  page2_i64
+#CELL
+  capacitor c *
+  page2_i65
+#CELL
+  capacitor c *
+  page2_i66
 #ISCELL
   pages pages *
   *
@@ -105,10 +105,7 @@
   inductor blm18pg121sn1d_c14709 *
   page3_i15
 #CELL
-  capacitor c0805 *
-  page3_i16
-#CELL
-  capacitor c0805 *
+  capacitor c *
   page3_i17
 #CELL
   protection usblc6-2sc6 *
@@ -116,11 +113,14 @@
 #CELL
   connector hc-usb2_0-l195-p *
   page3_i20
+#CELL
+  capacitor c *
+  page3_i21
 #ISCELL
   pages pages *
   *
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page4_i10
 #CELL
   resistor r *
@@ -129,22 +129,22 @@
   oscillator x322512msb4si *
   page4_i7
 #CELL
-  capacitor c0603 *
+  capacitor c *
   page4_i8
 #CELL
-  capacitor c0603 *
+  capacitor c *
   page4_i9
 #ISCELL
   pages pages *
   *
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i10
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i11
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i12
 #CELL
   power ams1117_3_3v *
@@ -153,16 +153,16 @@
   power xc6206p182mr *
   page5_i19
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i20
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i21
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i22
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i23
 #CELL
   connector dc-005-5a *
@@ -186,25 +186,25 @@
   capacitor ma35v470m10x13 *
   page5_i30
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i31
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i32
 #CELL
   power ltc3260 *
   page5_i33
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i34
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i35
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i36
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i37
 #CELL
   resistor res0805 *
@@ -213,10 +213,10 @@
   resistor res0805 *
   page5_i39
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i40
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i41
 #CELL
   resistor res0805 *
@@ -225,62 +225,62 @@
   resistor res0805 *
   page5_i43
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i44
 #CELL
   resistor r *
   page5_i45
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page5_i9
 #ISCELL
   pages pages *
   *
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page6_i14
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page6_i15
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page6_i16
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page6_i18
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page6_i19
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page6_i20
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page6_i21
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page6_i22
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page6_i23
 #CELL
   ic cs43198-cnzr *
   page6_i24
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page6_i25
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page6_i26
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page6_i27
 #CELL
-  capacitor c0805 *
-  page6_i28
+  capacitor c *
+  page6_i30
 #CELL
-  capacitor c0805 *
-  page6_i29
+  capacitor c *
+  page6_i31
 #ISCELL
   pages pages *
   *
@@ -288,13 +288,13 @@
   ic stm32f103c8t6 *
   page7_i1
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page7_i10
 #CELL
   resistor res0805 *
   page7_i11
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page7_i12
 #CELL
   resistor res0805 *
@@ -303,10 +303,10 @@
   oscillator x322512msb4si *
   page7_i14
 #CELL
-  capacitor c0603 *
+  capacitor c *
   page7_i15
 #CELL
-  capacitor c0603 *
+  capacitor c *
   page7_i16
 #CELL
   connector 5557_4pin *
@@ -318,13 +318,13 @@
   resistor res0805 *
   page7_i19
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page7_i6
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page7_i7
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page7_i8
 #ISCELL
   pages pages *
@@ -336,10 +336,10 @@
   resistor res0805 *
   page8_i10
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i11
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i12
 #CELL
   ic ne5532dr *
@@ -351,7 +351,7 @@
   resistor res0805 *
   page8_i16
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i17
 #CELL
   resistor rk09712200my *
@@ -366,10 +366,10 @@
   resistor res0805 *
   page8_i20
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i21
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i22
 #CELL
   ic ne5532dr *
@@ -384,31 +384,31 @@
   resistor res0805 *
   page8_i26
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i27
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i28
 #CELL
   resistor res0805 *
   page8_i29
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i3
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i30
 #CELL
   resistor res0805 *
   page8_i31
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i32
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i33
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i4
 #CELL
   resistor res0805 *
@@ -417,10 +417,10 @@
   resistor res0805 *
   page8_i6
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i7
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i8
 #CELL
   resistor res0805 *
@@ -438,10 +438,10 @@
   ic ne5532dr *
   page9_i3
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page9_i5
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page9_i6
 #CELL
   connector 5_8_zsgt *
@@ -465,16 +465,16 @@
   resistor res0805 *
   page10_i13
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page10_i2
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page10_i3
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page10_i4
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page10_i5
 #CELL
   resistor res0805 *
@@ -495,10 +495,10 @@
   ic tpa3116d2dad *
   page11_i1
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i10
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i11
 #CELL
   resistor res0805 *
@@ -507,34 +507,34 @@
   resistor res0805 *
   page11_i13
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i14
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i15
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i16
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i17
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i18
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i19
 #CELL
   resistor res0805 *
   page11_i2
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i20
 #CELL
   capacitor ma35v470m10x13 *
   page11_i21
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i22
 #CELL
   inductor l0805 *
@@ -549,19 +549,19 @@
   inductor l0805 *
   page11_i26
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i27
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i28
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i29
 #CELL
   resistor res0805 *
   page11_i3
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i30
 #CELL
   resistor res0805 *
@@ -570,53 +570,53 @@
   resistor res0805 *
   page11_i32
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i35
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i36
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i37
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i4
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i42
 #CELL
-  resistor res0805 *
-  page11_i43
-#CELL
-  capacitor c0805 *
-  page11_i44
-#CELL
-  capacitor c0805 *
-  page11_i45
-#CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i46
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i47
-#CELL
-  resistor res0805 *
-  page11_i48
 #CELL
   resistor res0805 *
   page11_i49
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i5
 #CELL
-  capacitor c0805 *
+  resistor res0805 *
+  page11_i50
+#CELL
+  capacitor c *
+  page11_i51
+#CELL
+  capacitor c *
+  page11_i52
+#CELL
+  resistor res0805 *
+  page11_i53
+#CELL
+  capacitor c *
   page11_i6
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i7
 #CELL
   capacitor ma35v470m10x13 *
   page11_i8
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page11_i9

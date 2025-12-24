@@ -30,4 +30,64 @@
 		<property name="CODE"  value="98070506"/>
 		<property name="VALUE"  value="4.7uF"/>
 	</component>
+	<component cell="c" library="capacitor" partname="C" partno="" quantity="1" >
+		<property name="CODE"  value="0805B475K500NT"/>
+		<property name="VALUE"  value="4.7uF"/>
+	</component>
+	<component cell="c" library="capacitor" partname="C" partno="" quantity="1" >
+		<property name="CODE"  value="0805B104K500NT"/>
+		<property name="VALUE"  value="0.1uF"/>
+	</component>
+	<component cell="c" library="capacitor" partname="C" partno="" quantity="1" >
+		<property name="CODE"  value="CL21B106KOQNNNE"/>
+		<property name="VALUE"  value="10uF"/>
+	</component>
+	<component cell="c" library="capacitor" partname="C" partno="" quantity="1" >
+		<property name="CODE"  value="CC0805JRNPO9BN300"/>
+		<property name="VALUE"  value="30pF"/>
+	</component>
+	<component cell="c" library="capacitor" partname="C" partno="" quantity="1" >
+		<property name="CODE"  value="CGA0805X5R226M350MT"/>
+		<property name="VALUE"  value="22uF"/>
+	</component>
+	<component cell="c" library="capacitor" partname="C" partno="" quantity="1" >
+		<property name="CODE"  value="CL21B103KBANNNC"/>
+		<property name="VALUE"  value="10nF"/>
+	</component>
+	<component cell="c" library="capacitor" partname="C" partno="" quantity="1" >
+		<property name="CODE"  value="CL21B105KBFNNNE"/>
+		<property name="VALUE"  value="1uF"/>
+	</component>
+	<component cell="c" library="capacitor" partname="C" partno="" quantity="1" >
+		<property name="CODE"  value="CC0805KKX7R9BB225"/>
+		<property name="VALUE"  value="2.2uF"/>
+	</component>
+	<component cell="c" library="capacitor" partname="C" partno="" quantity="1" >
+		<property name="CODE"  value="C1608X5R0J156MT000E"/>
+		<property name="VALUE"  value="15uF"/>
+	</component>
+	<component cell="c" library="capacitor" partname="C" partno="" quantity="1" >
+		<property name="CODE"  value="0805CG0R1C500NT"/>
+		<property name="VALUE"  value="0.1pF"/>
+	</component>
+	<component cell="c" library="capacitor" partname="C" partno="" quantity="1" >
+		<property name="CODE"  value="CC0805KRX7R9BB102"/>
+		<property name="VALUE"  value="1nF"/>
+	</component>
+	<component cell="c" library="capacitor" partname="C" partno="" quantity="1" >
+		<property name="CODE"  value="CL21B223KBANNNC"/>
+		<property name="VALUE"  value="22nF"/>
+	</component>
+	<component cell="c" library="capacitor" partname="C" partno="" quantity="1" >
+		<property name="CODE"  value="CL21B104KBCNNNC"/>
+		<property name="VALUE"  value="100nF"/>
+	</component>
+	<component cell="c" library="capacitor" partname="C" partno="" quantity="1" >
+		<property name="CODE"  value="CL21B224KBFNNNE"/>
+		<property name="VALUE"  value="220nF"/>
+	</component>
+	<component cell="c" library="capacitor" partname="C" partno="" quantity="1" >
+		<property name="CODE"  value="CC0805KKX7R9BB684"/>
+		<property name="VALUE"  value="680nF"/>
+	</component>
 </sc:shoppingCart>

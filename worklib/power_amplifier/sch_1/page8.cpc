@@ -8,10 +8,10 @@
   resistor res0805 *
   page8_i10
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i11
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i12
 #CELL
   ic ne5532dr *
@@ -23,7 +23,7 @@
   resistor res0805 *
   page8_i16
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i17
 #CELL
   resistor rk09712200my *
@@ -38,10 +38,10 @@
   resistor res0805 *
   page8_i20
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i21
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i22
 #CELL
   ic ne5532dr *
@@ -56,31 +56,31 @@
   resistor res0805 *
   page8_i26
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i27
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i28
 #CELL
   resistor res0805 *
   page8_i29
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i3
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i30
 #CELL
   resistor res0805 *
   page8_i31
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i32
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i33
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i4
 #CELL
   resistor res0805 *
@@ -89,10 +89,10 @@
   resistor res0805 *
   page8_i6
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i7
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page8_i8
 #CELL
   resistor res0805 *

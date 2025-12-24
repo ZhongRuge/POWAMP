@@ -2,7 +2,7 @@
   pages pages *
   *
 #CELL
-  capacitor c0805 *
+  capacitor c *
   page4_i10
 #CELL
   resistor r *
@@ -11,8 +11,8 @@
   oscillator x322512msb4si *
   page4_i7
 #CELL
-  capacitor c0603 *
+  capacitor c *
   page4_i8
 #CELL
-  capacitor c0603 *
+  capacitor c *
   page4_i9
