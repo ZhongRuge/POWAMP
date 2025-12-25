@@ -1,395 +1,334 @@
-\t (00:00:01) allegro 17.4 S039 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Thu Dec 25 10:51:02 2025
-\t (00:00:01)         Host=LUCK User=Lucky Pid=5940 CPUs=12
-\t (00:00:01) CmdLine= allegro -proj G:\Cadence\POWAMP\power_amplifier.cpm -product Allegro_Enterprise_PCB_Designe -mpssession Lucky_ProjectMgr1385 -mpshost Luck
-\t (00:00:01) 
-   (00:00:01) Loading axlcore.cxt 
-\t (00:00:01) Opening existing design...
-\i (00:00:01) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "power_amplifier"
-\d (00:00:01) Design opened: G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd
-   (00:00:01) Loading cmds.cxt 
-\i (00:00:01) trapsize 1181
-\i (00:00:01) trapsize 1212
-\i (00:00:01) trapsize 1222
-\i (00:00:02) trapsize 1211
-\i (00:00:02) trapsize 1211
-\i (00:00:02) trapsize 1181
-\i (00:00:02) generaledit 
-\i (00:00:18) netin 
-\i (00:00:26) setwindow form.niparams
-\i (00:00:26) FORM niparams other  
-\i (00:00:28) FORM niparams cadence  
-\i (00:01:01) FORM niparams cancel  
-\i (00:01:01) setwindow pcb
-\i (00:01:01) generaledit 
-\i (00:01:27) status 
-\i (00:01:27) generaledit 
-\i (00:01:35) setwindow form.status
-\i (00:01:35) FORM status done  
-\i (00:02:47) setwindow pcb
-\i (00:02:47) shape add rect 
-\i (00:02:56) prepopup 20777.8 15063.9
-\i (00:02:56) done 
-\i (00:02:56) generaledit 
-\i (00:03:01) shape add rect 
-\i (00:03:04) pick grid 4368.1 14827.8
-\t (00:03:04) last pick:  4368.0 14828.0
-   (00:03:04) WARNING(SPMHA2-118): 'DESIGN_OUTLINE' and 'CUTOUT' are the preferred subclasses for defining an outline. Use these subclasses instead of the 'OUTLINE' subclass. [help]
-\i (00:03:11) fillin confirm
-\i (00:03:12) prepopup 20305.5 11852.8
-\i (00:03:13) done 
-\i (00:03:13) generaledit 
-\i (00:03:14) shape add rect 
-\i (00:03:23) pick grid 8901.4 14898.6
-\t (00:03:23) last pick:  8901.0 14899.0
-   (00:03:23) WARNING(SPMHA2-118): 'DESIGN_OUTLINE' and 'CUTOUT' are the preferred subclasses for defining an outline. Use these subclasses instead of the 'OUTLINE' subclass. [help]
-\i (00:03:39) fillin confirm
-\t (00:03:47) last pick:  28002.8 4415.3
-\w (00:03:47) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
-\t (00:03:51) last pick:  23587.5 5454.2
-\w (00:03:51) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
-\i (00:03:51) pick grid 19927.8 7343.1
-\t (00:03:51) last pick:  19928.0 7343.0
-\i (00:05:35) toolswap 
-\i (00:05:36) fillin menu_cancel
-\i (00:05:36) generaledit 
-\i (00:05:37) file_property 
-\i (00:05:37) generaledit 
-\i (00:05:38) setwindow form.fileprop
-\i (00:05:38) FORM fileprop tiering  
-\i (00:05:39) FORM fileprop cancel  
-\i (00:05:54) setwindow pcb
-\i (00:05:54) enved 
-\i (00:05:54) setwindow form.prfedit
-\i (00:05:54) FORM prfedit treelist  My_favorites 
-\i (00:05:54) setwindow pcb
-\i (00:05:54) generaledit 
-\i (00:05:55) setwindow form.prfedit
-\i (00:05:55) FORM prfedit treelist  Paths 
-\i (00:05:56) FORM prfedit treelist  Library Paths 
-\i (00:05:58) FORM prfedit padpath  
-\i (00:06:00) FORM prfedit cancel  
-\i (00:06:20) setwindow pcb
-\i (00:06:20) quickplace 
-\i (00:06:24) setwindow form.quickplc
-\i (00:06:24) FORM quickplc place  
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:06:27) FORM quickplc cancel  
-\i (00:06:27) setwindow pcb
-\i (00:06:27) generaledit 
-\i (00:06:28) zoom out 1 
-\i (00:06:28) setwindow pcb
-\i (00:06:28) zoom out 10129.2 10506.9
-\i (00:06:28) trapsize 1181
-\i (00:06:28) zoom out 1 
-\i (00:06:28) setwindow pcb
-\i (00:06:28) zoom out 10129.2 10506.9
-\i (00:06:28) trapsize 1181
-\i (00:06:28) zoom out 1 
-\i (00:06:28) setwindow pcb
-\i (00:06:28) zoom out 10129.2 10506.9
-\i (00:06:28) trapsize 1181
-\i (00:06:28) zoom out 1 
-\i (00:06:28) setwindow pcb
-\i (00:06:28) zoom out 10129.2 10506.9
-\i (00:06:28) trapsize 1181
-\i (00:06:28) zoom out 1 
-\i (00:06:28) setwindow pcb
-\i (00:06:28) zoom out 10129.2 10506.9
-\i (00:06:28) trapsize 1181
-\i (00:06:28) zoom in 1 
-\i (00:06:28) setwindow pcb
-\i (00:06:28) zoom in 10506.9 10577.8
-\i (00:06:28) trapsize 590
-\i (00:06:28) zoom in 1 
-\i (00:06:28) setwindow pcb
-\i (00:06:28) zoom in 10422.2 10577.8
-\i (00:06:28) trapsize 295
-\i (00:06:28) zoom in 1 
-\i (00:06:28) setwindow pcb
-\i (00:06:28) zoom in 10422.2 10577.8
-\i (00:06:28) trapsize 148
-\i (00:06:28) zoom in 1 
-\i (00:06:28) setwindow pcb
-\i (00:06:28) zoom in 10422.2 10577.8
-\i (00:06:28) trapsize 74
-\i (00:06:28) zoom out 1 
-\i (00:06:28) setwindow pcb
-\i (00:06:28) zoom out 10422.3 10577.8
-\i (00:06:28) trapsize 148
-\i (00:06:28) zoom out 1 
-\i (00:06:28) setwindow pcb
-\i (00:06:28) zoom out 10422.2 10577.8
-\i (00:06:28) trapsize 295
-\i (00:06:29) zoom out 1 
-\i (00:06:29) setwindow pcb
-\i (00:06:29) zoom out 10422.3 10577.9
-\i (00:06:29) trapsize 590
-\i (00:06:29) zoom out 1 
-\i (00:06:29) setwindow pcb
-\i (00:06:29) zoom out 10422.1 10577.8
-\i (00:06:29) trapsize 1181
-\i (00:06:29) zoom out 1 
-\i (00:06:29) setwindow pcb
-\i (00:06:29) zoom out 10530.6 10577.8
-\i (00:06:29) trapsize 1181
-\i (00:06:29) prepopup 12631.9 11144.4
-\i (00:06:30) pick grid 11215.3 6516.7
-\t (00:06:30) last pick:  11215.0 6517.0
-\i (00:06:31) roam start
-\i (00:06:31) roam end
-\i (00:06:31) roam start
-\i (00:06:32) roam end
-\i (00:06:32) zoom out 1 
-\i (00:06:32) setwindow pcb
-\i (00:06:32) zoom out 9113.9 5454.2
-\i (00:06:32) trapsize 1181
-\i (00:06:32) zoom out 1 
-\i (00:06:32) setwindow pcb
-\i (00:06:32) zoom out 9113.9 5454.2
-\i (00:06:32) trapsize 1181
-\i (00:06:33) zoom out 1 
-\i (00:06:33) setwindow pcb
-\i (00:06:33) zoom out 9113.9 5454.2
-\i (00:06:33) trapsize 1181
-\i (00:06:33) zoom out 1 
-\i (00:06:33) setwindow pcb
-\i (00:06:33) zoom out 9113.9 5477.8
-\i (00:06:33) trapsize 1181
-\i (00:06:33) zoom in 1 
-\i (00:06:33) setwindow pcb
-\i (00:06:33) zoom in 9184.7 5643.1
-\i (00:06:33) trapsize 590
-\i (00:06:33) zoom in 1 
-\i (00:06:33) setwindow pcb
-\i (00:06:33) zoom in 9184.8 5643.1
-\i (00:06:33) trapsize 295
-\i (00:06:33) zoom in 1 
-\i (00:06:33) setwindow pcb
-\i (00:06:33) zoom in 9184.8 5643.2
-\i (00:06:33) trapsize 148
-\i (00:06:33) zoom out 1 
-\i (00:06:33) setwindow pcb
-\i (00:06:33) zoom out 8931.0 5814.4
-\i (00:06:33) trapsize 295
-\i (00:06:33) zoom out 1 
-\i (00:06:33) setwindow pcb
-\i (00:06:33) zoom out 8931.0 5814.3
-\i (00:06:33) trapsize 590
-\i (00:06:34) zoom out 1 
-\i (00:06:34) setwindow pcb
-\i (00:06:34) zoom out 8733.9 5814.4
-\i (00:06:34) trapsize 1181
-\i (00:06:34) zoom out 1 
-\i (00:06:34) setwindow pcb
-\i (00:06:34) zoom out 7154.2 7012.5
-\i (00:06:34) trapsize 1181
-\i (00:06:34) prepopup 11168.1 11876.4
-\i (00:06:35) pick grid 9515.3 11569.4
-\t (00:06:35) last pick:  9515.0 11569.0
-\i (00:06:36) zoom out 1 
-\i (00:06:36) setwindow pcb
-\i (00:06:36) zoom out 11286.1 11026.4
-\i (00:06:36) trapsize 1181
-\i (00:06:36) zoom in 1 
-\i (00:06:36) setwindow pcb
-\i (00:06:36) zoom in 11286.1 11026.4
-\i (00:06:36) trapsize 590
-\i (00:06:36) zoom in 1 
-\i (00:06:36) setwindow pcb
-\i (00:06:36) zoom in 10800.0 11026.4
-\i (00:06:36) trapsize 295
-\i (00:06:37) zoom out 1 
-\i (00:06:37) setwindow pcb
-\i (00:06:37) zoom out 10800.0 11026.4
-\i (00:06:37) trapsize 590
-\i (00:06:37) zoom out 1 
-\i (00:06:37) setwindow pcb
-\i (00:06:37) zoom out 10800.0 11026.4
-\i (00:06:37) trapsize 1181
-\i (00:06:39) pick grid 8925.0 14993.1
-\t (00:06:39) last pick:  8925.0 14993.0
-\i (00:06:40) drag_start grid 8877.8 14945.8
-\i (00:06:40) move 
-\t (00:06:40) last pick:  8878.0 14946.0
-\t (00:06:40) Element has no origin, using pick.
-\t (00:06:40) Pick new location for the element(s).
-\i (00:06:40) drag_stop grid 8051.4 15370.8
-\i (00:06:40) generaledit 
-\i (00:06:41) drag_start grid 8075.0 15370.8
-\i (00:06:41) move 
-\t (00:06:41) last pick:  8075.0 15371.0
-\t (00:06:41) Element has no origin, using pick.
-\t (00:06:41) Pick new location for the element(s).
-\i (00:06:42) drag_stop grid 6186.1 13363.9
-\i (00:06:42) generaledit 
-\i (00:06:44) prepopup 17188.9 10176.4
-\i (00:06:45) pick grid 14827.8 10247.2
-\t (00:06:45) last pick:  14828.0 10247.0
-\i (00:06:47) quickplace 
-\i (00:06:50) setwindow form.quickplc
-\i (00:06:50) FORM quickplc place  
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\w (00:06:50) WARNING(SPMHUT-48): Scaled value has been rounded off.
-\i (00:07:08) FORM quickplc done  
-\i (00:07:08) setwindow pcb
-\i (00:07:08) generaledit 
-\i (00:07:09) zoom in 1 
-\i (00:07:09) setwindow pcb
-\i (00:07:09) zoom in 7673.6 11947.2
-\i (00:07:09) trapsize 590
-\i (00:07:09) zoom in 1 
-\i (00:07:09) setwindow pcb
-\i (00:07:09) zoom in 7673.6 11947.2
-\i (00:07:09) trapsize 295
-\i (00:07:10) prepopup 8753.8 11911.8
-\i (00:07:10) pick grid 8340.6 10979.1
-\t (00:07:10) last pick:  8341.0 10979.0
-\i (00:07:11) roam start
-\i (00:07:11) roam y 16
-\i (00:07:11) roam y 16
-\i (00:07:11) roam x -16
-\i (00:07:11) roam y 16
-\i (00:07:11) roam y 16
-\i (00:07:11) roam y 32
-\i (00:07:11) roam y 16
-\i (00:07:11) roam y 16
-\i (00:07:11) roam y 16
-\i (00:07:11) roam y -16
-\i (00:07:11) roam y -16
-\i (00:07:11) roam y -16
-\i (00:07:11) roam y -16
-\i (00:07:11) roam y -16
-\i (00:07:11) roam y -16
-\i (00:07:11) roam y -16
-\i (00:07:11) roam y -16
-\i (00:07:11) roam x 16
-\i (00:07:11) roam y -16
-\i (00:07:11) roam y -16
-\i (00:07:11) roam y -16
-\i (00:07:11) roam y -32
-\i (00:07:11) roam y -64
-\i (00:07:11) roam y -80
-\i (00:07:11) roam y -96
-\i (00:07:11) roam y -80
-\i (00:07:11) roam y -96
-\i (00:07:11) roam x 16
-\i (00:07:11) roam y -96
-\i (00:07:11) roam y -64
-\i (00:07:11) roam y 16
-\i (00:07:11) roam x 16
-\i (00:07:11) roam y 64
-\i (00:07:11) roam x 16
-\i (00:07:11) roam y 80
-\i (00:07:11) roam x 16
-\i (00:07:11) roam y 48
-\i (00:07:11) roam y 32
-\i (00:07:12) roam end
-\i (00:07:12) zoom out 1 
-\i (00:07:12) setwindow pcb
-\i (00:07:12) zoom out 9385.4 12903.4
-\i (00:07:12) trapsize 590
-\i (00:07:20) trapsize 604
-\i (00:07:20) trapsize 498
-\i (00:07:21) roam start
-\i (00:07:21) roam y -16
-\i (00:07:21) roam y -32
-\i (00:07:21) roam x 80
-\i (00:07:21) roam y 16
-\i (00:07:21) roam x 112
-\i (00:07:21) roam y 32
-\i (00:07:21) roam x 32
-\i (00:07:21) roam y 32
-\i (00:07:21) roam y 16
-\i (00:07:22) roam y 16
-\i (00:07:22) roam y -16
-\i (00:07:22) roam y -16
-\i (00:07:22) roam y -32
-\i (00:07:22) roam x -16
-\i (00:07:22) roam y -32
-\i (00:07:22) roam x -48
-\i (00:07:22) roam y -48
-\i (00:07:22) roam x -48
-\i (00:07:22) roam y -48
-\i (00:07:22) roam x -48
-\i (00:07:22) roam y -16
-\i (00:07:22) roam x -80
-\i (00:07:22) roam x -64
-\i (00:07:22) roam x -32
-\i (00:07:22) roam x -16
-\i (00:07:22) roam x 16
-\i (00:07:22) roam x 16
-\i (00:07:22) roam x 32
-\i (00:07:22) roam x 64
-\i (00:07:22) roam x 64
-\i (00:07:22) roam x 32
-\i (00:07:23) roam end
-\i (00:32:02) drag_start grid 6249.7 14957.4
-\i (00:32:02) move 
-\t (00:32:02) last pick:  6244.5 14956.9
-\t (00:32:02) Moving L7 / L0805 / SMD0805.
-\t (00:32:02) Pick new location for the element(s).
-\i (00:32:02) drag_stop grid 5592.9 14529.5
-\i (00:32:02) generaledit 
-\i (00:32:05) undo 
-\i (00:32:05) trapsize 498
-\i (00:32:05) generaledit 
-\i (02:20:00) exit 
-\e (02:20:00) Do you want to save the changes you made to power_amplifier.brd?
-\i (02:20:01) fillin yes 
-\t (02:20:02)     Journal end - Thu Dec 25 13:11:03 2025
+\t (00:00:07) allegro 17.4 S039 Windows SPB 64-bit Edition
+\t (00:00:07)     Journal start - Thu Dec 25 23:15:49 2025
+\t (00:00:07)         Host=DESKTOP-OD6O7GO User=63524 Pid=31748 CPUs=32
+\t (00:00:07) CmdLine= D:\Coding\Cadence\SPB_17.4\tools\bin\allegro.exe
+\t (00:00:07) 
+   (00:00:07) Loading axlcore.cxt 
+\t (00:00:08) Opening existing design...
+\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "power_amplifier"
+\d (00:00:08) Design opened: D:/Coding/Cadence/Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd
+\i (00:00:08) trapsize 29237
+\i (00:00:08) trapsize 29711
+\i (00:00:08) trapsize 29237
+\i (00:00:08) trapsize 28942
+\i (00:00:08) trapsize 29457
+\i (00:00:08) trapsize 30123
+\i (00:00:09) trapsize 46912
+\i (00:00:09) trapsize 87959
+\i (00:00:09) generaledit 
+\i (00:00:09) trapsize 87002
+\i (00:00:13) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:00:18) new 
+\i (00:00:26) newdrawfillin "unnamed.brd" "Board"
+\t (00:00:26) Starting new design...
+\i (00:00:26) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
+\i (00:00:26) trapsize 8591065
+\i (00:00:26) trapsize 8591065
+\i (00:00:28) QtSignal spbdip_extents_group spbdip_extheight_edit editingFinished "1000000.000"
+\i (00:00:28) QtSignal SPBDesignInitPrompt spbdip_ok_button clicked
+\i (00:00:28) trapsize 8591065
+\i (00:00:28) generaledit 
+\i (00:01:30) trl altium2pcb 
+\i (00:01:30) helpcmd C:/Users/63524/AppData/Local/Temp/#Taaaaah31748.tmp 
+\i (00:01:33) setwindow form.trl_altium2pcb
+\i (00:01:33) FORM trl_altium2pcb pcb_ascii_browse  
+\i (00:01:38) fillin "D:/Download/AUDIO-SMD_PJ-342.pcbdoc"
+   (00:01:38) Loading translators.cxt 
+   (00:01:38) Loading toolbox.cxt 
+   (00:01:38) Initializing toolbox...
+\i (00:01:39) FORM trl_altium2pcb run_translator  
+\t (00:01:39) Checking db records
+\t (00:01:39)     checking for orphans...
+\t (00:01:39)     Checked 100 percent
+   (00:01:39) Loading signal.cxt 
+\t (00:01:39) Checking db records
+\t (00:01:39)     checking for orphans...
+\t (00:01:39)     Checked 100 percent
+\w (00:01:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+   (00:01:40) Info: Number of text blocks to be generated: 2
+\i (00:01:40) setwindow pcb
+\i (00:01:40) trapsize 859107
+\t (00:01:40) Performing DRC...
+\t (00:01:40) The number of threads for DRC checking is reduced from 32 to the maximum supported (16).
+\t (00:01:40) Multithreaded DRC update (16 threads).
+\t (00:01:40) No DRC errors detected.
+\i (00:01:40) trapsize 94502
+\t (00:01:40) Checking db records
+\t (00:01:40)     checking for orphans...
+\t (00:01:40)     Checked 100 percent
+\w (00:01:40) Dielectric layer thickness is 0 !
+\i (00:01:40) setwindow text
+\i (00:01:40) stick
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\w (00:01:40) Dielectric layer thickness is 0 !
+\t (00:01:40) Checking db records
+\t (00:01:40)     checking for orphans...
+\t (00:01:40)     Checked 100 percent
+\w (00:01:40) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:01:40) Checking db records
+\t (00:01:40)     checking for orphans...
+\t (00:01:40)     Checked 100 percent
+\w (00:01:40) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:01:40) Checking db records
+\t (00:01:40)     checking for orphans...
+\t (00:01:40)     Checked 100 percent
+\w (00:01:40) Run batch DRC to correctly regenerate DRC errs.
+
+   (00:01:40) Loading skillExt.cxt 
+\t (00:01:40) Checking db records
+\t (00:01:40)     checking for orphans...
+\t (00:01:40)     Checked 100 percent
+\w (00:01:40) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:01:40) Checking db records
+\t (00:01:40)     checking for orphans...
+\t (00:01:40)     Checked 100 percent
+\w (00:01:40) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:01:41) Checking db records
+\t (00:01:41)     checking for orphans...
+\t (00:01:41)     Checked 100 percent
+\w (00:01:41) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:01:41) Checking db records
+\t (00:01:41)     checking for orphans...
+\t (00:01:41)     Checked 100 percent
+\w (00:01:41) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:01:41) Starting new design...
+\i (00:01:41) setwindow pcb
+\i (00:01:41) trapsize 94502
+\i (00:01:41) trapsize 94502
+\i (00:01:41) show element 
+\i (00:01:41) done 
+\i (00:01:41) trapsize 94502
+\t (00:01:41) Opening existing design...
+\w (00:01:41) Dielectric layer thickness is 0 !
+\w (00:01:41) Dielectric layer thickness is 0 !
+\w (00:01:41) Dielectric layer thickness is 0 !
+\i (00:01:41) trapsize 94502
+\i (00:01:41) trapsize 9343
+\t (00:01:41) Checking db records
+\t (00:01:41)     checking for orphans...
+\t (00:01:41)     Checked 100 percent
+\w (00:01:41) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:01:41) Checking db records
+\t (00:01:41)     checking for orphans...
+\t (00:01:41)     Checked 100 percent
+\w (00:01:41) Run batch DRC to correctly regenerate DRC errs.
+
+   (00:01:41) Info: Deleting 0 pad dangling clines.
+\i (00:01:41) trapsize 920
+\t (00:01:41) Checking db records
+\t (00:01:41)     checking for orphans...
+\t (00:01:41)     Checked 100 percent
+\w (00:01:41) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:01:41) Checking db records
+\t (00:01:41)     checking for orphans...
+\t (00:01:41)     Checked 100 percent
+\w (00:01:41) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:01:41) Checking db records
+\t (00:01:41)     checking for orphans...
+\t (00:01:41)     Checked 100 percent
+\w (00:01:41) Run batch DRC to correctly regenerate DRC errs.
+
+\i (00:01:42) setwindow form.trl_altium2pcb
+\i (00:01:42) FORM trl_altium2pcb cancel  
+\i (00:01:42) setwindow text
+\i (00:01:42) close
+\i (00:01:46) setwindow pcb
+\i (00:01:46) dlib 
+\i (00:01:48) setwindow form.dlib
+\i (00:01:48) FORM dlib browse_export  
+\i (00:02:09) fillin "D:/Coding/Cadence/Project/POWAMP/嘉立创原理图封装/音频接口/fz"
+\i (00:02:10) FORM dlib execute  
+\t (00:02:10) Starting Cadence export libraries...
+\i (00:02:13) FORM dlib cancel  
+\i (00:02:13) setwindow pcb
+\i (00:02:13) generaledit 
+\i (00:02:15) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:02:16) new 
+\i (00:02:21) newdrawfillin "unnamed.brd" "Board"
+\t (00:02:21) Starting new design...
+\i (00:02:21) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
+\i (00:02:21) trapsize 9343
+\i (00:02:21) trapsize 9343
+\i (00:02:21) helpcmd C:/Users/63524/AppData/Local/Temp/#Taaaahp31748.tmp 
+\i (00:02:22) QtSignal spbdip_extents_group spbdip_extheight_edit editingFinished "10874.80"
+\i (00:02:22) QtSignal SPBDesignInitPrompt spbdip_ok_button clicked
+\i (00:02:22) trapsize 9343
+\i (00:02:22) generaledit 
+\i (00:43:20) trl altium2pcb 
+\i (00:43:21) setwindow form.trl_altium2pcb
+\i (00:43:21) FORM trl_altium2pcb pcb_ascii_browse  
+\i (00:43:25) fillin "D:/Download/AUDIO-SMD_PJ-342-141.pcbdoc"
+\i (00:43:28) FORM trl_altium2pcb run_translator  
+\t (00:43:28) Checking db records
+\t (00:43:28)     checking for orphans...
+\t (00:43:28)     Checked 100 percent
+\t (00:43:28) Checking db records
+\t (00:43:28)     checking for orphans...
+\t (00:43:28)     Checked 100 percent
+   (00:43:28) Info: Number of text blocks to be generated: 2
+\i (00:43:28) setwindow pcb
+\i (00:43:28) trapsize 9343
+\t (00:43:28) Performing DRC...
+\t (00:43:28) The number of threads for DRC checking is reduced from 32 to the maximum supported (16).
+\t (00:43:28) Multithreaded DRC update (16 threads).
+\t (00:43:28) No DRC errors detected.
+\i (00:43:28) trapsize 9343
+\t (00:43:29) Checking db records
+\t (00:43:29)     checking for orphans...
+\t (00:43:29)     Checked 100 percent
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\w (00:43:29) Dielectric layer thickness is 0 !
+\t (00:43:29) Checking db records
+\t (00:43:29)     checking for orphans...
+\t (00:43:29)     Checked 100 percent
+\w (00:43:29) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:43:29) Checking db records
+\t (00:43:29)     checking for orphans...
+\t (00:43:29)     Checked 100 percent
+\w (00:43:29) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:43:29) Checking db records
+\t (00:43:29)     checking for orphans...
+\t (00:43:29)     Checked 100 percent
+\w (00:43:29) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:43:29) Checking db records
+\t (00:43:29)     checking for orphans...
+\t (00:43:29)     Checked 100 percent
+\w (00:43:29) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:43:29) Checking db records
+\t (00:43:29)     checking for orphans...
+\t (00:43:29)     Checked 100 percent
+\w (00:43:29) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:43:29) Checking db records
+\t (00:43:29)     checking for orphans...
+\t (00:43:29)     Checked 100 percent
+\w (00:43:29) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:43:29) Checking db records
+\t (00:43:29)     checking for orphans...
+\t (00:43:29)     Checked 100 percent
+\w (00:43:29) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:43:29) Starting new design...
+\i (00:43:29) trapsize 94502
+\i (00:43:29) trapsize 94502
+\i (00:43:29) show element 
+\i (00:43:29) done 
+\i (00:43:29) trapsize 94502
+\t (00:43:30) Opening existing design...
+\w (00:43:30) Dielectric layer thickness is 0 !
+\w (00:43:30) Dielectric layer thickness is 0 !
+\w (00:43:30) Dielectric layer thickness is 0 !
+\i (00:43:30) trapsize 9343
+\i (00:43:30) trapsize 9343
+\t (00:43:30) Checking db records
+\t (00:43:30)     checking for orphans...
+\t (00:43:30)     Checked 100 percent
+\w (00:43:30) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:43:30) Checking db records
+\t (00:43:30)     checking for orphans...
+\t (00:43:30)     Checked 100 percent
+\w (00:43:30) Run batch DRC to correctly regenerate DRC errs.
+
+   (00:43:30) Info: Deleting 0 pad dangling clines.
+\i (00:43:30) trapsize 727
+\t (00:43:30) Checking db records
+\t (00:43:30)     checking for orphans...
+\t (00:43:30)     Checked 100 percent
+\w (00:43:30) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:43:30) Checking db records
+\t (00:43:30)     checking for orphans...
+\t (00:43:30)     Checked 100 percent
+\w (00:43:30) Run batch DRC to correctly regenerate DRC errs.
+
+\t (00:43:30) Checking db records
+\t (00:43:30)     checking for orphans...
+\t (00:43:30)     Checked 100 percent
+\w (00:43:30) Run batch DRC to correctly regenerate DRC errs.
+
+\i (00:43:35) setwindow form.trl_altium2pcb
+\i (00:43:35) FORM trl_altium2pcb cancel  
+\i (00:43:38) setwindow pcb
+\i (00:43:38) dlib 
+\i (00:43:40) setwindow form.dlib
+\i (00:43:40) FORM dlib browse_export  
+\i (00:44:00) fillin "D:/Coding/Cadence/Project/POWAMP/嘉立创原理图封装/耳机接口/fz"
+\i (00:44:01) FORM dlib execute  
+\t (00:44:01) Starting Cadence export libraries...
+\i (00:44:29) FORM dlib cancel  
+\i (00:44:29) setwindow pcb
+\i (00:44:29) generaledit 
+\i (00:58:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:58:07) new 
+\i (00:58:10) newdrawfillin "unnamed.brd" "Board"
+\t (00:58:10) Starting new design...
+\i (00:58:10) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
+\i (00:58:10) trapsize 9343
+\i (00:58:10) trapsize 9343
+\i (00:58:10) helpcmd C:/Users/63524/AppData/Local/Temp/#Taaaapa31748.tmp 
+\i (00:58:12) QtSignal spbdip_extents_group spbdip_extheight_edit editingFinished "10874.80"
+\i (00:58:12) QtSignal SPBDesignInitPrompt spbdip_ok_button clicked
+\i (00:58:12) trapsize 9343
+\i (00:58:12) generaledit 
+\i (00:58:13) exit 
+\e (00:58:13) Do you want to save the changes you made to unnamed.brd?
+\i (00:58:14) fillin yes 
+\t (00:58:14)     Journal end - Fri Dec 26 00:13:57 2025

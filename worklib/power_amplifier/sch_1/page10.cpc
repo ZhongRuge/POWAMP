@@ -17,6 +17,9 @@
   resistor r *
   page10_i13
 #CELL
+  connector pj-342#20141 *
+  page10_i14
+#CELL
   capacitor c *
   page10_i2
 #CELL

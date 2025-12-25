@@ -1,18 +1,16 @@
-12/24/25  23:06:32		Opening project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm
-12/24/25  23:06:32		cdslib D:/Coding/Cadence/Project/POWAMP/SCH/cds.lib opened
-12/24/25  23:06:32		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm opened
-12/24/25  23:06:32		Loading cell r from library sch_lib
-12/24/25  23:06:32		Loading view sym_1 of cell r
-12/24/25  23:06:32		Loading view chips of cell r
-12/24/25  23:06:32		Loading view part_table of cell r
-12/24/25  23:06:32		Loading file part.ptf of PTF view part_table of cell r
-12/24/25  23:06:32		Loading view entity of cell r
-12/24/25  23:06:32		Loading cell r from library sch_lib
-12/24/25  23:06:32		Analyzing view relationships of cell r in library sch_lib
-12/24/25  23:06:32		Completed loading cell r from library sch_lib
-12/24/25  23:06:32		Starting validations on cell r of library sch_lib
-12/24/25  23:06:32		Completed validations on cell r of library sch_lib
-12/24/25  23:06:40		Starting validations on cell r of library sch_lib
-12/24/25  23:06:40		Completed validations on cell r of library sch_lib
-12/24/25  23:06:40		Completed saving cell r in library sch_lib 
-12/24/25  23:06:41		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm is closed.
+12/26/25  00:03:41		Opening project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm
+12/26/25  00:03:41		cdslib D:/Coding/Cadence/Project/POWAMP/SCH/cds.lib opened
+12/26/25  00:03:41		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm opened
+12/26/25  00:03:41		Loading cell pj-342 141 from library sch_lib
+12/26/25  00:03:41		Loading view sym_1 of cell pj-342 141
+12/26/25  00:03:41		Loading view chips of cell pj-342 141
+12/26/25  00:03:41		Loading view entity of cell pj-342 141
+12/26/25  00:03:41		Loading cell pj-342 141 from library sch_lib
+12/26/25  00:03:41		Analyzing view relationships of cell pj-342 141 in library sch_lib
+12/26/25  00:03:41		Completed loading cell pj-342 141 from library sch_lib
+12/26/25  00:03:41		Starting validations on cell pj-342 141 of library sch_lib
+12/26/25  00:03:41		Completed validations on cell pj-342 141 of library sch_lib
+12/26/25  00:04:00		Starting validations on cell pj-342 141 of library sch_lib
+12/26/25  00:04:00		Completed validations on cell pj-342 141 of library sch_lib
+12/26/25  00:04:00		Completed saving cell pj-342 141 in library sch_lib 
+12/26/25  00:04:01		Project D:/Coding/Cadence/Project/POWAMP/SCH/sch.cpm is closed.

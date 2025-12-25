@@ -5,7 +5,7 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-12-24T22:50:36</modificationTime>
+    <modificationTime>2025-12-25T10:28:39</modificationTime>
     <savedLibrary>power_amplifier_lib</savedLibrary>
   </header>
   <designs>
@@ -1920,26 +1920,6 @@
           <name>vdd33_sa_pll</name>
         </net>
         <net>
-          <id>N19</id>
-          <name>abclk</name>
-        </net>
-        <net>
-          <id>N20</id>
-          <name>adata</name>
-        </net>
-        <net>
-          <id>N21</id>
-          <name>alrck</name>
-        </net>
-        <net>
-          <id>N22</id>
-          <name>amclk</name>
-        </net>
-        <net>
-          <id>N23</id>
-          <name>d64/d128</name>
-        </net>
-        <net>
           <id>N24</id>
           <name>dbclk</name>
         </net>
@@ -1956,24 +1936,8 @@
           <name>dmclk</name>
         </net>
         <net>
-          <id>N28</id>
-          <name>pcm/dsd</name>
-        </net>
-        <net>
           <id>N29</id>
           <name>pll_gnd</name>
-        </net>
-        <net>
-          <id>N30</id>
-          <name>sof</name>
-        </net>
-        <net>
-          <id>N31</id>
-          <name>spdifrx</name>
-        </net>
-        <net>
-          <id>N32</id>
-          <name>spdiftx</name>
         </net>
         <net>
           <id>N33</id>
@@ -2094,10 +2058,6 @@
         <net>
           <id>N77</id>
           <name>vcp_filt-</name>
-        </net>
-        <net>
-          <id>N78</id>
-          <name>dac_clkout</name>
         </net>
         <net>
           <id>N79</id>
@@ -2500,28 +2460,24 @@
               <id>M1</id>
               <termid>T2</termid>
               <connections>
-                <connection net="N19" />
               </connections>
             </pin>
             <pin>
               <id>M2</id>
               <termid>T3</termid>
               <connections>
-                <connection net="N20" />
               </connections>
             </pin>
             <pin>
               <id>M3</id>
               <termid>T4</termid>
               <connections>
-                <connection net="N21" />
               </connections>
             </pin>
             <pin>
               <id>M4</id>
               <termid>T5</termid>
               <connections>
-                <connection net="N22" />
               </connections>
             </pin>
             <pin>
@@ -2549,14 +2505,12 @@
               <id>M11</id>
               <termid>T12</termid>
               <connections>
-                <connection net="N23" />
               </connections>
             </pin>
             <pin>
               <id>M12</id>
               <termid>T13</termid>
               <connections>
-                <connection net="N28" />
               </connections>
             </pin>
             <pin>
@@ -2709,21 +2663,18 @@
               <id>M35</id>
               <termid>T36</termid>
               <connections>
-                <connection net="N30" />
               </connections>
             </pin>
             <pin>
               <id>M36</id>
               <termid>T37</termid>
               <connections>
-                <connection net="N31" />
               </connections>
             </pin>
             <pin>
               <id>M37</id>
               <termid>T38</termid>
               <connections>
-                <connection net="N32" />
               </connections>
             </pin>
             <pin>
@@ -3920,7 +3871,6 @@
               <id>M508</id>
               <termid>T120</termid>
               <connections>
-                <connection net="N78" />
               </connections>
             </pin>
             <pin>
@@ -8446,11 +8396,6 @@
             <physicalPageNumber>2</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
-              <net ref="abclk"></net>
-              <net ref="adata"></net>
-              <net ref="alrck"></net>
-              <net ref="amclk"></net>
-              <net ref="d64/d128"></net>
               <net ref="dbclk"></net>
               <net ref="dbclk_out"></net>
               <net ref="ddata"></net>
@@ -8469,16 +8414,12 @@
               <net ref="gpio6"></net>
               <net ref="gpio7"></net>
               <net ref="iacp/rst"></net>
-              <net ref="pcm/dsd"></net>
               <net ref="pll_gnd"></net>
               <net ref="sa_reset"></net>
               <net ref="sa_xi"></net>
               <net ref="sa_xo"></net>
               <net ref="scl"></net>
               <net ref="sda"></net>
-              <net ref="sof"></net>
-              <net ref="spdifrx"></net>
-              <net ref="spdiftx"></net>
               <net ref="unnamed_2_blm21pg300sn1d_i68_2"></net>
               <net ref="unnamed_2_c_i65_b"></net>
               <net ref="unnamed_2_r_i36_b"></net>
@@ -8630,7 +8571,6 @@
             <errorStatus>false</errorStatus>
             <nets>
               <net ref="-va"></net>
-              <net ref="dac_clkout"></net>
               <net ref="dac_out_l"></net>
               <net ref="dac_out_r"></net>
               <net ref="dac_rst"></net>
