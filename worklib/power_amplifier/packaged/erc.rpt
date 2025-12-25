@@ -1,0 +1,453 @@
+Starting to read G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstchip.dat 
+   Finished reading G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstchip.dat (00:00:00.07)
+Starting to read G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstxprt.dat 
+   Finished reading G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstxprt.dat (00:00:00.00)
+Starting to read G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstxnet.dat 
+   Finished reading G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstxnet.dat (00:00:00.00)
+
+#1   WARNING(202) Untyped outputs form wired AND
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):ADJ+
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I38@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5:PAGEPOWER_AMPLIFIER(SCH_1):PAGE5
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I39@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5:PAGEPOWER_AMPLIFIER(SCH_1):PAGE5
+
+#2   WARNING(202) Untyped outputs form wired AND
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):ADJ-
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I42@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5:PAGEPOWER_AMPLIFIER(SCH_1):PAGE5
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I43@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5:PAGEPOWER_AMPLIFIER(SCH_1):PAGE5
+
+#1   ERROR(201) Multiple outputs on net have incompatible types
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):DBCLK_OUT
+         Pin name: DBCLK/DSD_CLK
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I61@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+
+#2   ERROR(201) Multiple outputs on net have incompatible types
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):DDATA_OUT
+         Pin name: DDATA/DSD_RIGHT
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I60@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+
+#3   ERROR(201) Multiple outputs on net have incompatible types
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):DLRCK_OUT
+         Pin name: DLRCK/DSD_LEFT
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I54@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+
+#4   ERROR(201) Multiple outputs on net have incompatible types
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):DMCLK_OUT
+         Pin name: DMCLK
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I59@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+
+#5   ERROR(201) Multiple outputs on net have incompatible types
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):FS/HS
+         Pin name: GPIO2/USB(HS/FS)SEL
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I47@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+
+#3   WARNING(202) Untyped outputs form wired AND
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):GNDA
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I39@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5:PAGEPOWER_AMPLIFIER(SCH_1):PAGE5
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I43@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5:PAGEPOWER_AMPLIFIER(SCH_1):PAGE5
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I45@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5:PAGEPOWER_AMPLIFIER(SCH_1):PAGE5
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I8@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10:PAGEPOWER_AMPLIFIER(SCH_1):PAGE10
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I13@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10:PAGEPOWER_AMPLIFIER(SCH_1):PAGE10
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I13@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11:PAGEPOWER_AMPLIFIER(SCH_1):PAGE11
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I49@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11:PAGEPOWER_AMPLIFIER(SCH_1):PAGE11
+
+#4   WARNING(202) Untyped outputs form wired AND
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):GNDD
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I36@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I47@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I53@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I13@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7:PAGEPOWER_AMPLIFIER(SCH_1):PAGE7
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I45@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5:PAGEPOWER_AMPLIFIER(SCH_1):PAGE5
+
+#6   ERROR(201) Multiple outputs on net have incompatible types
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):GPIO0
+         Pin name: GPIO0
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I44@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+
+#7   ERROR(201) Multiple outputs on net have incompatible types
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):GPIO1
+         Pin name: GPIO1
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I45@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+
+#8   ERROR(201) Multiple outputs on net have incompatible types
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):GPIO3
+         Pin name: GPIO3
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I46@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+
+#9   ERROR(201) Multiple outputs on net have incompatible types
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):GPIO4
+         Pin name: GPIO4
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I48@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+
+#10  ERROR(201) Multiple outputs on net have incompatible types
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):GPIO5
+         Pin name: GPIO5
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I49@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+
+#11  ERROR(201) Multiple outputs on net have incompatible types
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):GPIO6
+         Pin name: GPIO6
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I50@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+
+#12  ERROR(201) Multiple outputs on net have incompatible types
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):GPIO7
+         Pin name: GPIO7
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I51@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+
+#13  ERROR(201) Multiple outputs on net have incompatible types
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):IACP/RST
+         Pin name: GPIO8
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I52@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+
+#5   WARNING(202) Untyped outputs form wired AND
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):LIN-
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I7@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10:PAGEPOWER_AMPLIFIER(SCH_1):PAGE10
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I8@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10:PAGEPOWER_AMPLIFIER(SCH_1):PAGE10
+
+#6   WARNING(202) Untyped outputs form wired AND
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):LOUT
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I7@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10:PAGEPOWER_AMPLIFIER(SCH_1):PAGE10
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I9@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10:PAGEPOWER_AMPLIFIER(SCH_1):PAGE10
+
+#7   WARNING(202) Untyped outputs form wired AND
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PVCC
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I2@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11:PAGEPOWER_AMPLIFIER(SCH_1):PAGE11
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I3@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11:PAGEPOWER_AMPLIFIER(SCH_1):PAGE11
+
+#8   WARNING(202) Untyped outputs form wired AND
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):RIN-
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I10@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10:PAGEPOWER_AMPLIFIER(SCH_1):PAGE10
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I13@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10:PAGEPOWER_AMPLIFIER(SCH_1):PAGE10
+
+#9   WARNING(202) Untyped outputs form wired AND
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):ROUT
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I10@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10:PAGEPOWER_AMPLIFIER(SCH_1):PAGE10
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I11@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10:PAGEPOWER_AMPLIFIER(SCH_1):PAGE10
+
+#14  ERROR(201) Multiple outputs on net have incompatible types
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):SCL
+         Pin name: SCL_M
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I43@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+
+#15  ERROR(201) Multiple outputs on net have incompatible types
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):SDA
+         Pin name: SDA_M
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I42@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+
+#10  WARNING(202) Untyped outputs form wired AND
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):UNNAMED_11_R_I12_A
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I12@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11:PAGEPOWER_AMPLIFIER(SCH_1):PAGE11
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I13@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11:PAGEPOWER_AMPLIFIER(SCH_1):PAGE11
+
+#16  ERROR(201) Multiple outputs on net have incompatible types
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):UNNAMED_2_R_I42_A
+         Pin name: SDA_S
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I42@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+
+#17  ERROR(201) Multiple outputs on net have incompatible types
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):UNNAMED_2_R_I43_A
+         Pin name: SCL_S
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I43@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         OUTPUT_TYPE: <none>
+
+#11  WARNING(202) Untyped outputs form wired AND
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):UNNAMED_8_C_I11_A
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I9@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8:PAGEPOWER_AMPLIFIER(SCH_1):PAGE8
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I10@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8:PAGEPOWER_AMPLIFIER(SCH_1):PAGE8
+
+#12  WARNING(202) Untyped outputs form wired AND
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):UNNAMED_8_C_I8_A
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I5@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8:PAGEPOWER_AMPLIFIER(SCH_1):PAGE8
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I6@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8:PAGEPOWER_AMPLIFIER(SCH_1):PAGE8
+
+#13  WARNING(202) Untyped outputs form wired AND
+         Logical net name: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):VDD33_SA
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I39@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I41@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I44@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I45@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I46@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I48@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I49@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I50@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I51@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I52@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2:PAGEPOWER_AMPLIFIER(SCH_1):PAGE2
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE4_I11@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE4:PAGEPOWER_AMPLIFIER(SCH_1):PAGE4
+         Pin name: A
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I11@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7:PAGEPOWER_AMPLIFIER(SCH_1):PAGE7
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I18@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7:PAGEPOWER_AMPLIFIER(SCH_1):PAGE7
+         Pin name: B
+         Instance: @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I19@RESISTOR.R(CHIPS)
+         Drawing:  POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7:PAGEPOWER_AMPLIFIER(SCH_1):PAGE7
+     
+
+ERC Summary:
+
+     Connect Check Violations:         30
+     IO Check Violations:               0
+     Loading Check Violations:          0
+     
+
+Extended Error Descriptions:
+
+     Error(201) Multiple outputs on net have incompatible types
+          Two or more outputs are tied together that have different
+          OUTPUT_TYPE property values. Output pins may be tied together
+          only if they are of the same output type or the ALLOW_CONNECT
+          property is present. This error can be fixed by adding the
+          OUTPUT_TYPE property to each of the pins of the same
+          type that are to be tied together or suppressed by adding the
+          ALLOW_CONNECT property to the symbol, pin, or net of the part
+          causing the error.
+          The syntax for the OUTPUT_TYPE property is:
+             OUTPUT_TYPE = <output type>,<logic function>
+          The standard OUTPUT_TYPE values for parts in Cadence libraries
+          are:
+            OC,AND { open collector; AND logic function }
+            OE,OR  { open emitter; OR logic function }
+            TS,TS  { TRI-STATE; logic function handled specially } 
+     
+     Warning(202) Untyped outputs form wired AND
+          Two or more outputs are tied together that have no OUTPUT_TYPE
+          property values. Output pins may be tied together only if they
+          are of the same output type or the ALLOW_CONNECT property is
+          present. Since there are no OUTPUT_TYPE properties, it is assumed
+          that a wired AND function is intended. This warning can be fixed
+          by adding the OUTPUT_TYPE property to each of the pins of the same
+          type that are to be tied together or suppressed by adding the
+          ALLOW_CONNECT property to the symbol, pin, or net of the part
+          causing the error.
+          The syntax for the OUTPUT_TYPE property is:
+             OUTPUT_TYPE = <output type>,<logic function>
+          The standard OUTPUT_TYPE values for parts in Cadence libraries
+          are:
+             OC,AND { open collector; AND logic function }
+             OE,OR  { open emitter; OR logic function }
+             TS,TS  { TRI-STATE; logic function handled specially }
+     
+
+ERC-DX run on Dec 25 10:43:15 2025
+   DESIGN NAME : 'POWER_AMPLIFIER'
+   PACKAGING ON 25-Dec-2025 AT 10:20:18
+
+   DIRECTORIES  <none>
+   LIBRARIES  'power_amplifier_lib' 'standard' 'capacitor' 'ic' 'inductor'
+              'pages' 'resistor' 'connector' 'protection' 'oscillator' 'power'
+   MASTER_LIBRARIES  <none>
+   MAX_ERRORS 999
+   ASSERT_CHECK OFF
+   PIN_DIRECTION_CHECK OFF
+   CONNECT_CHECK ON
+   SINGLE_NODE_CHECK OFF
+   IO_CHECK OFF
+   IO_CHECK_HIGH ON
+   IO_CHECK_LOW ON
+   LOAD_CHECK OFF
+   LOAD_CHECK_HIGH ON
+   LOAD_CHECK_LOW ON
+   ENABLE_TIMES OFF
+   VERBOSE_LOADING ON
+   VPUNKNOWNLOADING ON
+   EXTENDEDDESCRIPTIONS ON
+   OVERSIGHTS ON
+   SINGLE_NODE_NETS ON
+   SUPPRESS   20
+   WARNINGS ON
+   GLOBALS_SYNONYM_CHECK OFF
+
+ 17 errors detected
+ No oversight detected
+ 13 warnings detected
+
+cpu time      0:00:09
+elapsed time  0:00:00
+

@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 24-Dec-2025 AT 23:05:41 }
+{ Packager-XL run on 25-Dec-2025 AT 09:49:49 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='POWER_AMPLIFIER';
- POST_TIME='24-Dec-2025 AT 23:05:41';
+ POST_TIME='25-Dec-2025 AT 09:49:49';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -2971,7 +2971,793 @@ hips)',
  PRIM_FILE='./My_lib/inductor/l0805/chips/chips.prt';
 
 PART_NAME
- R1 'RK09712200MY':;
+ R1 'R-0805W8F1002T5E,10K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I44@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i44@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i44@resistor.r(chips)~
+',
+ PATH='I44',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='0805W8F1002T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(-3150,1500)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1002T5E,10K',
+ VALUE='10K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R2 'R-0805W8F1002T5E,10K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I45@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i45@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i45@resistor.r(chips)~
+',
+ PATH='I45',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='0805W8F1002T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(-2900,1500)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1002T5E,10K',
+ VALUE='10K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R3 'R-0805W8F1002T5E,10K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I46@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i46@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i46@resistor.r(chips)~
+',
+ PATH='I46',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='0805W8F1002T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(-2650,1500)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1002T5E,10K',
+ VALUE='10K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R4 'R-0805W8F1002T5E,10K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I47@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i47@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i47@resistor.r(chips)~
+',
+ PATH='I47',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='0805W8F1002T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(-1675,1650)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1002T5E,10K',
+ VALUE='10K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R5 'R-0805W8F2700T5E,270':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I36@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i36@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i36@resistor.r(chips)~
+',
+ PATH='I36',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='0805W8F2700T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(-1500,2900)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F2700T5E,270',
+ VALUE='270',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R6 'R-0805W8F220JT5E,22':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I39@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i39@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i39@resistor.r(chips)~
+',
+ PATH='I39',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='0805W8F220JT5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(-300,3850)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F220JT5E,22',
+ VALUE='22',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R7 'R-0805W8F1002T5E,10K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I48@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i48@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i48@resistor.r(chips)~
+',
+ PATH='I48',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='0805W8F1002T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(550,1500)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1002T5E,10K',
+ VALUE='10K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R8 'R-RE0805FAR000,0':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I41@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i41@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i41@resistor.r(chips)~
+',
+ PATH='I41',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='RE0805FAR000',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(600,3200)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-RE0805FAR000,0',
+ VALUE='0',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R9 'R-RE0805FAR000,0':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I42@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i42@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i42@resistor.r(chips)~
+',
+ PATH='I42',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='RE0805FAR000',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(600,3000)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-RE0805FAR000,0',
+ VALUE='0',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R10 'R-RE0805FAR000,0':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I43@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i43@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i43@resistor.r(chips)~
+',
+ PATH='I43',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='RE0805FAR000',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(600,2950)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-RE0805FAR000,0',
+ VALUE='0',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R11 'R-0805W8F1002T5E,10K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I49@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i49@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i49@resistor.r(chips)~
+',
+ PATH='I49',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='0805W8F1002T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(800,1500)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1002T5E,10K',
+ VALUE='10K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R12 'R-0805W8F1002T5E,10K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I50@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i50@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i50@resistor.r(chips)~
+',
+ PATH='I50',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='0805W8F1002T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(1050,1500)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1002T5E,10K',
+ VALUE='10K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R13 'R-0805W8F1002T5E,10K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I51@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i51@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i51@resistor.r(chips)~
+',
+ PATH='I51',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='0805W8F1002T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(1300,1500)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1002T5E,10K',
+ VALUE='10K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R14 'R-0805W8F1002T5E,10K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I52@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i52@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i52@resistor.r(chips)~
+',
+ PATH='I52',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='0805W8F1002T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(1550,1500)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1002T5E,10K',
+ VALUE='10K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R15 'R-RE0805FAR000,0':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I53@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i53@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i53@resistor.r(chips)~
+',
+ PATH='I53',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='RE0805FAR000',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(1850,4300)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-RE0805FAR000,0',
+ VALUE='0',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R16 'R-0805W8F330JT5E,33':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I54@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i54@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i54@resistor.r(chips)~
+',
+ PATH='I54',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='0805W8F330JT5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(2275,3225)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F330JT5E,33',
+ VALUE='33',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R17 'R-0805W8F330JT5E,33':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I59@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i59@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i59@resistor.r(chips)~
+',
+ PATH='I59',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='0805W8F330JT5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(2275,3050)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F330JT5E,33',
+ VALUE='33',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R18 'R-0805W8F330JT5E,33':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I60@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i60@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i60@resistor.r(chips)~
+',
+ PATH='I60',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='0805W8F330JT5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(2275,2900)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F330JT5E,33',
+ VALUE='33',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R19 'R-0805W8F330JT5E,33':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I61@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i61@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i61@resistor.r(chips)~
+',
+ PATH='I61',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
+ CODE='0805W8F330JT5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='2',
+ XY='(2275,2725)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F330JT5E,33',
+ VALUE='33',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R20 'R-0805W8F1002T5E,10K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE4_I11@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page4_i11@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page4_i11@resistor.r(chips)~
+',
+ PATH='I11',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE4',
+ CODE='0805W8F1002T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='4',
+ XY='(-1400,5100)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1002T5E,10K',
+ VALUE='10K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R21 'R-FRC0805F9093TS,909K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I38@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i38@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i38@resistor.r(chips)~
+',
+ PATH='I38',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5',
+ CODE='FRC0805F9093TS',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='5',
+ XY='(-100,1575)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-FRC0805F9093TS,909K',
+ VALUE='909K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R22 'R-0805W8F1003T5E,100K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I39@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i39@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i39@resistor.r(chips)~
+',
+ PATH='I39',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5',
+ CODE='0805W8F1003T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='5',
+ XY='(-100,1350)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1003T5E,100K',
+ VALUE='100K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R23 'R-FRC0805F9093TS,909K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I42@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i42@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i42@resistor.r(chips)~
+',
+ PATH='I42',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5',
+ CODE='FRC0805F9093TS',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='5',
+ XY='(1350,1575)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-FRC0805F9093TS,909K',
+ VALUE='909K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R24 'R-0805W8F1003T5E,100K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I43@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i43@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i43@resistor.r(chips)~
+',
+ PATH='I43',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5',
+ CODE='0805W8F1003T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='5',
+ XY='(1350,1350)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1003T5E,100K',
+ VALUE='100K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R25 'R-RE0805FAR000,0':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I45@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i45@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i45@resistor.r(chips)~
+',
+ PATH='I45',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5',
+ CODE='RE0805FAR000',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='5',
+ XY='(2300,5300)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-RE0805FAR000,0',
+ VALUE='0',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R26 'R-0805W8F1002T5E,10K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I11@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i11@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i11@resistor.r(chips)~
+',
+ PATH='I11',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7',
+ CODE='0805W8F1002T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='7',
+ XY='(-4150,3900)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1002T5E,10K',
+ VALUE='10K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R27 'R-0805W8F1002T5E,10K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I13@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i13@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i13@resistor.r(chips)~
+',
+ PATH='I13',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7',
+ CODE='0805W8F1002T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='7',
+ XY='(-4150,3600)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1002T5E,10K',
+ VALUE='10K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R28 'R-0805W8F4701T5E,4.7K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I18@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i18@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i18@resistor.r(chips)~
+',
+ PATH='I18',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7',
+ CODE='0805W8F4701T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='7',
+ XY='(825,4175)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F4701T5E,4.7K',
+ VALUE='4.7K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R29 'R-0805W8F4701T5E,4.7K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I19@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i19@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i19@resistor.r(chips)~
+',
+ PATH='I19',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7',
+ CODE='0805W8F4701T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='7',
+ XY='(1000,4175)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F4701T5E,4.7K',
+ VALUE='4.7K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R30 'R-0805W8F3301T5E,3.3K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I5@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i5@resistor.r(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i5@resistor.r(chips)',
+ PATH='I5',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
+ CODE='0805W8F3301T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='8',
+ XY='(-3800,4300)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F3301T5E,3.3K',
+ VALUE='3.3K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R31 'R-0805W8F3301T5E,3.3K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I6@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i6@resistor.r(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i6@resistor.r(chips)',
+ PATH='I6',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
+ CODE='0805W8F3301T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='8',
+ XY='(-3450,4300)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F3301T5E,3.3K',
+ VALUE='3.3K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R32 'R-0805W8F1001T5E,1K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I15@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i15@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i15@resistor.r(chips)~
+',
+ PATH='I15',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
+ CODE='0805W8F1001T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='8',
+ XY='(-1225,2250)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1001T5E,1K',
+ VALUE='1K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R33 'R-0805W8F1001T5E,1K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I26@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i26@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i26@resistor.r(chips)~
+',
+ PATH='I26',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
+ CODE='0805W8F1001T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='8',
+ XY='(-1225,2200)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1001T5E,1K',
+ VALUE='1K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R34 'R-0805W8F1001T5E,1K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I19@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i19@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i19@resistor.r(chips)~
+',
+ PATH='I19',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
+ CODE='0805W8F1001T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='8',
+ XY='(-1100,1400)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1001T5E,1K',
+ VALUE='1K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R35 'R-0805W8F1001T5E,1K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I31@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i31@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i31@resistor.r(chips)~
+',
+ PATH='I31',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
+ CODE='0805W8F1001T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='8',
+ XY='(-1100,1350)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1001T5E,1K',
+ VALUE='1K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R36 'R-0805W8F3301T5E,3.3K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I9@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i9@resistor.r(chips)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i9@resistor.r(chips)',
+ PATH='I9',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
+ CODE='0805W8F3301T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='8',
+ XY='(-750,4350)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F3301T5E,3.3K',
+ VALUE='3.3K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R37 'RK09712200MY':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I18@RESISTOR.RK09712200MY(CHIPS)':
@@ -3021,7 +3807,29 @@ SECTION_NUMBER 1
  PRIM_FILE='./My_lib/resistor/rk09712200my/chips/chips.prt';
 
 PART_NAME
- R2 'RK09712200MY':;
+ R38 'R-0805W8F3301T5E,3.3K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I10@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i10@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i10@resistor.r(chips)~
+',
+ PATH='I10',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
+ CODE='0805W8F3301T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='8',
+ XY='(-400,4350)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F3301T5E,3.3K',
+ VALUE='3.3K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R39 'RK09712200MY':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I24@RESISTOR.RK09712200MY(CHIPS)':
@@ -3071,7 +3879,95 @@ SECTION_NUMBER 1
  PRIM_FILE='./My_lib/resistor/rk09712200my/chips/chips.prt';
 
 PART_NAME
- R3 'RK09712200MY':;
+ R40 'R-0805W8F1001T5E,1K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I20@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i20@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i20@resistor.r(chips)~
+',
+ PATH='I20',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
+ CODE='0805W8F1001T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='8',
+ XY='(125,1400)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1001T5E,1K',
+ VALUE='1K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R41 'R-0805W8F1001T5E,1K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I29@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i29@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i29@resistor.r(chips)~
+',
+ PATH='I29',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
+ CODE='0805W8F1001T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='8',
+ XY='(125,1350)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1001T5E,1K',
+ VALUE='1K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R42 'R-0805W8F1001T5E,1K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I16@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i16@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i16@resistor.r(chips)~
+',
+ PATH='I16',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
+ CODE='0805W8F1001T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='8',
+ XY='(150,2250)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1001T5E,1K',
+ VALUE='1K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R43 'R-0805W8F1001T5E,1K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I25@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i25@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i25@resistor.r(chips)~
+',
+ PATH='I25',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
+ CODE='0805W8F1001T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='8',
+ XY='(150,2200)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1001T5E,1K',
+ VALUE='1K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R44 'RK09712200MY':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE9_I1@RESISTOR.RK09712200MY(CHIPS)':
@@ -3119,6 +4015,380 @@ SECTION_NUMBER 1
  CDS_LIB='resistor',
  CDS_PART_NAME='RK09712200MY',
  PRIM_FILE='./My_lib/resistor/rk09712200my/chips/chips.prt';
+
+PART_NAME
+ R45 'R-TD05G50R0BT,50':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I6@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i6@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i6@resistor.r(chips)~
+',
+ PATH='I6',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ CODE='TD05G50R0BT',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='10',
+ XY='(-650,5550)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-TD05G50R0BT,50',
+ VALUE='50',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R46 'R-0805W8F1001T5E,1K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I7@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i7@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i7@resistor.r(chips)~
+',
+ PATH='I7',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ CODE='0805W8F1001T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='10',
+ XY='(-650,5350)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1001T5E,1K',
+ VALUE='1K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R47 'R-0805W8F1001T5E,1K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I8@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i8@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i8@resistor.r(chips)~
+',
+ PATH='I8',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ CODE='0805W8F1001T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='10',
+ XY='(-650,5175)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1001T5E,1K',
+ VALUE='1K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R48 'R-TD05G50R0BT,50':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I12@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i12@resistor.r(chips~
+)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i12@resistor.r(chips~
+)',
+ PATH='I12',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ CODE='TD05G50R0BT',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='10',
+ XY='(-550,4500)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-TD05G50R0BT,50',
+ VALUE='50',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R49 'R-0805W8F1001T5E,1K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I10@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i10@resistor.r(chips~
+)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i10@resistor.r(chips~
+)',
+ PATH='I10',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ CODE='0805W8F1001T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='10',
+ XY='(-550,4300)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1001T5E,1K',
+ VALUE='1K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R50 'R-0805W8F1001T5E,1K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I13@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i13@resistor.r(chips~
+)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i13@resistor.r(chips~
+)',
+ PATH='I13',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ CODE='0805W8F1001T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='10',
+ XY='(-550,4125)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1001T5E,1K',
+ VALUE='1K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R51 'R-0805W8F390JT5E,39':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I9@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i9@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i9@resistor.r(chips)~
+',
+ PATH='I9',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ CODE='0805W8F390JT5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='10',
+ XY='(75,5350)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F390JT5E,39',
+ VALUE='39',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R52 'R-0805W8F390JT5E,39':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I11@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i11@resistor.r(chips~
+)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i11@resistor.r(chips~
+)',
+ PATH='I11',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
+ CODE='0805W8F390JT5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='10',
+ XY='(175,4300)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F390JT5E,39',
+ VALUE='39',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R53 'R-0805W8F1003T5E,100K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I49@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i49@resistor.r(chips~
+)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i49@resistor.r(chips~
+)',
+ PATH='I49',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ CODE='0805W8F1003T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='11',
+ XY='(-4000,3350)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1003T5E,100K',
+ VALUE='100K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R54 'R-0805W8F1003T5E,100K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I12@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i12@resistor.r(chips~
+)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i12@resistor.r(chips~
+)',
+ PATH='I12',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ CODE='0805W8F1003T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='11',
+ XY='(-3925,4050)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1003T5E,100K',
+ VALUE='100K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R55 'R-0805W8F2002T5E,20K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I13@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i13@resistor.r(chips~
+)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i13@resistor.r(chips~
+)',
+ PATH='I13',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ CODE='0805W8F2002T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='11',
+ XY='(-3925,3800)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F2002T5E,20K',
+ VALUE='20K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R56 'R-0805W8F1003T5E,100K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I2@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i2@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i2@resistor.r(chips)~
+',
+ PATH='I2',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ CODE='0805W8F1003T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='11',
+ XY='(-3800,4475)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1003T5E,100K',
+ VALUE='100K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R57 'R-FRC0805F3R30TS,3.3':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I3@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i3@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i3@resistor.r(chips)~
+',
+ PATH='I3',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ CODE='FRC0805F3R30TS',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='11',
+ XY='(-3450,4675)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-FRC0805F3R30TS,3.3',
+ VALUE='3.3',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R58 'R-FRC0805F3R30TS,3.3':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I31@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i31@resistor.r(chips~
+)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i31@resistor.r(chips~
+)',
+ PATH='I31',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ CODE='FRC0805F3R30TS',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='11',
+ XY='(800,5550)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-FRC0805F3R30TS,3.3',
+ VALUE='3.3',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R59 'R-FRC0805F3R30TS,3.3':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I32@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i32@resistor.r(chips~
+)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i32@resistor.r(chips~
+)',
+ PATH='I32',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ CODE='FRC0805F3R30TS',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='11',
+ XY='(800,4175)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-FRC0805F3R30TS,3.3',
+ VALUE='3.3',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R60 'R-FRC0805F3R30TS,3.3':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I53@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i53@resistor.r(chips~
+)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i53@resistor.r(chips~
+)',
+ PATH='I53',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ CODE='FRC0805F3R30TS',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='11',
+ XY='(800,3725)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-FRC0805F3R30TS,3.3',
+ VALUE='3.3',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
+ R61 'R-FRC0805F3R30TS,3.3':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I50@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i50@resistor.r(chips~
+)',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i50@resistor.r(chips~
+)',
+ PATH='I50',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
+ CODE='FRC0805F3R30TS',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='11',
+ XY='(800,2575)',
+ ROT='1',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-FRC0805F3R30TS,3.3',
+ VALUE='3.3',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
  S1 '5.8 ZSGT':;
@@ -3171,117 +4441,7 @@ t\(chips)',
  PRIM_FILE='./My_lib/connector/5_8_zsgt/chips/chips.prt';
 
 PART_NAME
- U1 'R-0805W8F1002T5E,10K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I44@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i44@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i44@resistor.r(chips)~
-',
- PATH='I44',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='0805W8F1002T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(-3150,1500)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1002T5E,10K',
- VALUE='10K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U2 'R-0805W8F1002T5E,10K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I45@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i45@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i45@resistor.r(chips)~
-',
- PATH='I45',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='0805W8F1002T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(-2900,1500)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1002T5E,10K',
- VALUE='10K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U3 'R-0805W8F1002T5E,10K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I46@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i46@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i46@resistor.r(chips)~
-',
- PATH='I46',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='0805W8F1002T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(-2650,1500)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1002T5E,10K',
- VALUE='10K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U4 'R-0805W8F1002T5E,10K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I47@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i47@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i47@resistor.r(chips)~
-',
- PATH='I47',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='0805W8F1002T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(-1675,1650)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1002T5E,10K',
- VALUE='10K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U5 'R-0805W8F2700T5E,270':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I36@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i36@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i36@resistor.r(chips)~
-',
- PATH='I36',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='0805W8F2700T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(-1500,2900)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F2700T5E,270',
- VALUE='270',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U6 'SA9227A':;
+ U1 'SA9227A':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I1@IC.SA9227A(CHIPS)':
@@ -3300,227 +4460,7 @@ SECTION_NUMBER 1
  PRIM_FILE='./My_lib/ic/sa9227a/chips/chips.prt';
 
 PART_NAME
- U7 'R-0805W8F220JT5E,22':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I39@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i39@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i39@resistor.r(chips)~
-',
- PATH='I39',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='0805W8F220JT5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(-300,3850)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F220JT5E,22',
- VALUE='22',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U8 'R-0805W8F1002T5E,10K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I48@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i48@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i48@resistor.r(chips)~
-',
- PATH='I48',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='0805W8F1002T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(550,1500)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1002T5E,10K',
- VALUE='10K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U9 'R-RE0805FAR000,0':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I41@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i41@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i41@resistor.r(chips)~
-',
- PATH='I41',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='RE0805FAR000',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(600,3200)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-RE0805FAR000,0',
- VALUE='0',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U10 'R-RE0805FAR000,0':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I42@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i42@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i42@resistor.r(chips)~
-',
- PATH='I42',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='RE0805FAR000',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(600,3000)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-RE0805FAR000,0',
- VALUE='0',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U11 'R-RE0805FAR000,0':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I43@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i43@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i43@resistor.r(chips)~
-',
- PATH='I43',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='RE0805FAR000',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(600,2950)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-RE0805FAR000,0',
- VALUE='0',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U12 'R-0805W8F1002T5E,10K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I49@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i49@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i49@resistor.r(chips)~
-',
- PATH='I49',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='0805W8F1002T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(800,1500)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1002T5E,10K',
- VALUE='10K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U13 'R-0805W8F1002T5E,10K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I50@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i50@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i50@resistor.r(chips)~
-',
- PATH='I50',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='0805W8F1002T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(1050,1500)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1002T5E,10K',
- VALUE='10K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U14 'R-0805W8F1002T5E,10K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I51@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i51@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i51@resistor.r(chips)~
-',
- PATH='I51',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='0805W8F1002T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(1300,1500)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1002T5E,10K',
- VALUE='10K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U15 'R-0805W8F1002T5E,10K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I52@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i52@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i52@resistor.r(chips)~
-',
- PATH='I52',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='0805W8F1002T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(1550,1500)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1002T5E,10K',
- VALUE='10K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U16 'R-RE0805FAR000,0':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I53@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i53@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i53@resistor.r(chips)~
-',
- PATH='I53',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='RE0805FAR000',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(1850,4300)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-RE0805FAR000,0',
- VALUE='0',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U17 'AT24C64D-SSHM-T':;
+ U2 'AT24C64D-SSHM-T':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I29@IC.AT24C64D-SSHM-T(CHIPS)':
@@ -3570,95 +4510,7 @@ SECTION_NUMBER 1
  PRIM_FILE='./My_lib/ic/at24c64d#2dsshm#2dt/chips/chips.prt';
 
 PART_NAME
- U18 'R-0805W8F330JT5E,33':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I54@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i54@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i54@resistor.r(chips)~
-',
- PATH='I54',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='0805W8F330JT5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(2275,3225)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F330JT5E,33',
- VALUE='33',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U19 'R-0805W8F330JT5E,33':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I59@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i59@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i59@resistor.r(chips)~
-',
- PATH='I59',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='0805W8F330JT5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(2275,3050)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F330JT5E,33',
- VALUE='33',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U20 'R-0805W8F330JT5E,33':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I60@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i60@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i60@resistor.r(chips)~
-',
- PATH='I60',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='0805W8F330JT5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(2275,2900)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F330JT5E,33',
- VALUE='33',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U21 'R-0805W8F330JT5E,33':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I61@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i61@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page2_i61@resistor.r(chips)~
-',
- PATH='I61',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2',
- CODE='0805W8F330JT5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='2',
- XY='(2275,2725)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F330JT5E,33',
- VALUE='33',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U22 'HC-USB2.0-L195-P':;
+ U3 'HC-USB2.0-L195-P':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE3_I20@CONNECTOR.HC-USB2_0-L195-P(CHIPS)':
@@ -3709,29 +4561,7 @@ SECTION_NUMBER 1
  PRIM_FILE='./My_lib/connector/hc#2dusb2_0#2dl195#2dp/chips/chips.prt';
 
 PART_NAME
- U23 'R-0805W8F1002T5E,10K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE4_I11@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page4_i11@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page4_i11@resistor.r(chips)~
-',
- PATH='I11',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE4',
- CODE='0805W8F1002T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='4',
- XY='(-1400,5100)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1002T5E,10K',
- VALUE='10K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U24 'AMS1117-3.3':;
+ U4 'AMS1117-3.3':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I14@POWER.AMS1117_3_3V(CHIPS)':
@@ -3755,7 +4585,7 @@ v(chips)',
  PRIM_FILE='./My_lib/power/ams1117_3_3v/chips/chips.prt';
 
 PART_NAME
- U25 'XC6206P182MR':;
+ U5 'XC6206P182MR':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I19@POWER.XC6206P182MR(CHIPS)':
@@ -3805,7 +4635,7 @@ r(chips)',
  PRIM_FILE='./My_lib/power/xc6206p182mr/chips/chips.prt';
 
 PART_NAME
- U26 'SS54_C5200096':;
+ U6 'SS54_C5200096':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I26@POWER.SS54_C5200096(CHIPS)':
@@ -3855,51 +4685,7 @@ SECTION_NUMBER 1
  PRIM_FILE='./My_lib/power/ss54_c5200096/chips/chips.prt';
 
 PART_NAME
- U27 'R-FRC0805F9093TS,909K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I38@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i38@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i38@resistor.r(chips)~
-',
- PATH='I38',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5',
- CODE='FRC0805F9093TS',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='5',
- XY='(-100,1575)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-FRC0805F9093TS,909K',
- VALUE='909K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U28 'R-0805W8F1003T5E,100K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I39@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i39@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i39@resistor.r(chips)~
-',
- PATH='I39',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5',
- CODE='0805W8F1003T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='5',
- XY='(-100,1350)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1003T5E,100K',
- VALUE='100K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U29 'LTC3260':;
+ U7 'LTC3260':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I33@POWER.LTC3260(CHIPS)':
@@ -3949,73 +4735,7 @@ ps)',
  PRIM_FILE='./My_lib/power/ltc3260/chips/chips.prt';
 
 PART_NAME
- U30 'R-FRC0805F9093TS,909K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I42@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i42@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i42@resistor.r(chips)~
-',
- PATH='I42',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5',
- CODE='FRC0805F9093TS',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='5',
- XY='(1350,1575)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-FRC0805F9093TS,909K',
- VALUE='909K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U31 'R-0805W8F1003T5E,100K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I43@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i43@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i43@resistor.r(chips)~
-',
- PATH='I43',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5',
- CODE='0805W8F1003T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='5',
- XY='(1350,1350)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1003T5E,100K',
- VALUE='100K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U32 'R-RE0805FAR000,0':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I45@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i45@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i45@resistor.r(chips)~
-',
- PATH='I45',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5',
- CODE='RE0805FAR000',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='5',
- XY='(2300,5300)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-RE0805FAR000,0',
- VALUE='0',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U33 'CS43198-CNZR':;
+ U8 'CS43198-CNZR':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE6_I24@IC.CS43198-CNZR(CHIPS)':
@@ -4065,51 +4785,7 @@ SECTION_NUMBER 1
  PRIM_FILE='./My_lib/ic/cs43198#2dcnzr/chips/chips.prt';
 
 PART_NAME
- U34 'R-0805W8F1002T5E,10K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I11@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i11@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i11@resistor.r(chips)~
-',
- PATH='I11',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7',
- CODE='0805W8F1002T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='7',
- XY='(-4150,3900)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1002T5E,10K',
- VALUE='10K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U35 'R-0805W8F1002T5E,10K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I13@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i13@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i13@resistor.r(chips)~
-',
- PATH='I13',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7',
- CODE='0805W8F1002T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='7',
- XY='(-4150,3600)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1002T5E,10K',
- VALUE='10K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U36 '5557_4PIN-5557_4PIN':;
+ U9 '5557_4PIN-5557_4PIN':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I17@CONNECTOR.5557_4PIN(CHIPS)':
@@ -4128,7 +4804,7 @@ pin\(chips)',
  PRIM_FILE='./My_lib/connector/5557_4pin/chips/chips.prt';
 
 PART_NAME
- U37 'STM32F103C8T6':;
+ U10 'STM32F103C8T6':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I1@IC.STM32F103C8T6(CHIPS)':
@@ -4178,71 +4854,7 @@ hips)',
  PRIM_FILE='./My_lib/ic/stm32f103c8t6/chips/chips.prt';
 
 PART_NAME
- U38 'R-0805W8F4701T5E,4.7K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I18@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i18@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i18@resistor.r(chips)~
-',
- PATH='I18',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7',
- CODE='0805W8F4701T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='7',
- XY='(825,4175)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F4701T5E,4.7K',
- VALUE='4.7K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U39 'R-0805W8F4701T5E,4.7K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I19@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i19@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i19@resistor.r(chips)~
-',
- PATH='I19',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7',
- CODE='0805W8F4701T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='7',
- XY='(1000,4175)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F4701T5E,4.7K',
- VALUE='4.7K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U40 'R-0805W8F3301T5E,3.3K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I5@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i5@resistor.r(chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i5@resistor.r(chips)',
- PATH='I5',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
- CODE='0805W8F3301T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='8',
- XY='(-3800,4300)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F3301T5E,3.3K',
- VALUE='3.3K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U41 'NE5532DR':;
+ U11 'NE5532DR':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I13@IC.NE5532DR(CHIPS)':
@@ -4287,27 +4899,7 @@ SECTION_NUMBER 2
  PRIM_FILE='./My_lib/ic/ne5532dr/chips/chips.prt';
 
 PART_NAME
- U42 'R-0805W8F3301T5E,3.3K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I6@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i6@resistor.r(chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i6@resistor.r(chips)',
- PATH='I6',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
- CODE='0805W8F3301T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='8',
- XY='(-3450,4300)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F3301T5E,3.3K',
- VALUE='3.3K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U43 'NE5532DR':;
+ U12 'NE5532DR':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I1@IC.NE5532DR(CHIPS)':
@@ -4352,225 +4944,7 @@ SECTION_NUMBER 2
  PRIM_FILE='./My_lib/ic/ne5532dr/chips/chips.prt';
 
 PART_NAME
- U44 'R-0805W8F1001T5E,1K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I15@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i15@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i15@resistor.r(chips)~
-',
- PATH='I15',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
- CODE='0805W8F1001T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='8',
- XY='(-1225,2250)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1001T5E,1K',
- VALUE='1K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U45 'R-0805W8F1001T5E,1K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I26@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i26@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i26@resistor.r(chips)~
-',
- PATH='I26',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
- CODE='0805W8F1001T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='8',
- XY='(-1225,2200)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1001T5E,1K',
- VALUE='1K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U46 'R-0805W8F1001T5E,1K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I19@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i19@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i19@resistor.r(chips)~
-',
- PATH='I19',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
- CODE='0805W8F1001T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='8',
- XY='(-1100,1400)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1001T5E,1K',
- VALUE='1K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U47 'R-0805W8F1001T5E,1K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I31@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i31@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i31@resistor.r(chips)~
-',
- PATH='I31',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
- CODE='0805W8F1001T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='8',
- XY='(-1100,1350)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1001T5E,1K',
- VALUE='1K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U48 'R-0805W8F3301T5E,3.3K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I9@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i9@resistor.r(chips)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i9@resistor.r(chips)',
- PATH='I9',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
- CODE='0805W8F3301T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='8',
- XY='(-750,4350)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F3301T5E,3.3K',
- VALUE='3.3K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U49 'R-0805W8F3301T5E,3.3K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I10@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i10@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i10@resistor.r(chips)~
-',
- PATH='I10',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
- CODE='0805W8F3301T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='8',
- XY='(-400,4350)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F3301T5E,3.3K',
- VALUE='3.3K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U50 'R-0805W8F1001T5E,1K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I20@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i20@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i20@resistor.r(chips)~
-',
- PATH='I20',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
- CODE='0805W8F1001T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='8',
- XY='(125,1400)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1001T5E,1K',
- VALUE='1K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U51 'R-0805W8F1001T5E,1K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I29@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i29@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i29@resistor.r(chips)~
-',
- PATH='I29',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
- CODE='0805W8F1001T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='8',
- XY='(125,1350)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1001T5E,1K',
- VALUE='1K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U52 'R-0805W8F1001T5E,1K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I16@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i16@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i16@resistor.r(chips)~
-',
- PATH='I16',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
- CODE='0805W8F1001T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='8',
- XY='(150,2250)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1001T5E,1K',
- VALUE='1K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U53 'R-0805W8F1001T5E,1K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8_I25@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i25@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page8_i25@resistor.r(chips)~
-',
- PATH='I25',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE8',
- CODE='0805W8F1001T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='8',
- XY='(150,2200)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1001T5E,1K',
- VALUE='1K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U54 'NE5532DR':;
+ U13 'NE5532DR':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE9_I2@IC.NE5532DR(CHIPS)':
@@ -4615,7 +4989,7 @@ SECTION_NUMBER 2
  PRIM_FILE='./My_lib/ic/ne5532dr/chips/chips.prt';
 
 PART_NAME
- U55 'TPA6120A2DWPR':;
+ U14 'TPA6120A2DWPR':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I1@IC.TPA6120A2DWPR(CHIPS)':
@@ -4665,293 +5039,7 @@ chips)',
  PRIM_FILE='./My_lib/ic/tpa6120a2dwpr/chips/chips.prt';
 
 PART_NAME
- U56 'R-TD05G50R0BT,50':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I6@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i6@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i6@resistor.r(chips)~
-',
- PATH='I6',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
- CODE='TD05G50R0BT',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='10',
- XY='(-650,5550)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-TD05G50R0BT,50',
- VALUE='50',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U57 'R-0805W8F1001T5E,1K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I7@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i7@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i7@resistor.r(chips)~
-',
- PATH='I7',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
- CODE='0805W8F1001T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='10',
- XY='(-650,5350)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1001T5E,1K',
- VALUE='1K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U58 'R-0805W8F1001T5E,1K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I8@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i8@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i8@resistor.r(chips)~
-',
- PATH='I8',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
- CODE='0805W8F1001T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='10',
- XY='(-650,5175)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1001T5E,1K',
- VALUE='1K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U59 'R-TD05G50R0BT,50':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I12@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i12@resistor.r(chips~
-)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i12@resistor.r(chips~
-)',
- PATH='I12',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
- CODE='TD05G50R0BT',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='10',
- XY='(-550,4500)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-TD05G50R0BT,50',
- VALUE='50',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U60 'R-0805W8F1001T5E,1K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I10@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i10@resistor.r(chips~
-)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i10@resistor.r(chips~
-)',
- PATH='I10',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
- CODE='0805W8F1001T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='10',
- XY='(-550,4300)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1001T5E,1K',
- VALUE='1K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U61 'R-0805W8F1001T5E,1K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I13@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i13@resistor.r(chips~
-)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i13@resistor.r(chips~
-)',
- PATH='I13',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
- CODE='0805W8F1001T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='10',
- XY='(-550,4125)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1001T5E,1K',
- VALUE='1K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U62 'R-0805W8F390JT5E,39':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I9@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i9@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i9@resistor.r(chips)~
-',
- PATH='I9',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
- CODE='0805W8F390JT5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='10',
- XY='(75,5350)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F390JT5E,39',
- VALUE='39',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U63 'R-0805W8F390JT5E,39':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10_I11@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i11@resistor.r(chips~
-)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page10_i11@resistor.r(chips~
-)',
- PATH='I11',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE10',
- CODE='0805W8F390JT5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='10',
- XY='(175,4300)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F390JT5E,39',
- VALUE='39',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U64 'R-0805W8F1003T5E,100K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I49@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i49@resistor.r(chips~
-)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i49@resistor.r(chips~
-)',
- PATH='I49',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
- CODE='0805W8F1003T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='11',
- XY='(-4000,3350)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1003T5E,100K',
- VALUE='100K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U65 'R-0805W8F1003T5E,100K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I12@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i12@resistor.r(chips~
-)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i12@resistor.r(chips~
-)',
- PATH='I12',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
- CODE='0805W8F1003T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='11',
- XY='(-3925,4050)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1003T5E,100K',
- VALUE='100K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U66 'R-0805W8F2002T5E,20K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I13@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i13@resistor.r(chips~
-)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i13@resistor.r(chips~
-)',
- PATH='I13',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
- CODE='0805W8F2002T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='11',
- XY='(-3925,3800)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F2002T5E,20K',
- VALUE='20K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U67 'R-0805W8F1003T5E,100K':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I2@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i2@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i2@resistor.r(chips)~
-',
- PATH='I2',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
- CODE='0805W8F1003T5E',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='11',
- XY='(-3800,4475)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-0805W8F1003T5E,100K',
- VALUE='100K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U68 'R-FRC0805F3R30TS,3.3':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I3@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i3@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i3@resistor.r(chips)~
-',
- PATH='I3',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
- CODE='FRC0805F3R30TS',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='11',
- XY='(-3450,4675)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-FRC0805F3R30TS,3.3',
- VALUE='3.3',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U69 'TPA3116D2DAD':;
+ U15 'TPA3116D2DAD':;
 
 SECTION_NUMBER 1
  '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I1@IC.TPA3116D2DAD(CHIPS)':
@@ -4999,94 +5087,6 @@ hips)',
  CDS_LIB='ic',
  CDS_PART_NAME='TPA3116D2DAD',
  PRIM_FILE='./My_lib/ic/tpa3116d2dad/chips/chips.prt';
-
-PART_NAME
- U70 'R-FRC0805F3R30TS,3.3':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I31@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i31@resistor.r(chips~
-)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i31@resistor.r(chips~
-)',
- PATH='I31',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
- CODE='FRC0805F3R30TS',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='11',
- XY='(800,5550)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-FRC0805F3R30TS,3.3',
- VALUE='3.3',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U71 'R-FRC0805F3R30TS,3.3':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I32@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i32@resistor.r(chips~
-)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i32@resistor.r(chips~
-)',
- PATH='I32',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
- CODE='FRC0805F3R30TS',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='11',
- XY='(800,4175)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-FRC0805F3R30TS,3.3',
- VALUE='3.3',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U72 'R-FRC0805F3R30TS,3.3':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I53@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i53@resistor.r(chips~
-)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i53@resistor.r(chips~
-)',
- PATH='I53',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
- CODE='FRC0805F3R30TS',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='11',
- XY='(800,3725)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-FRC0805F3R30TS,3.3',
- VALUE='3.3',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- U73 'R-FRC0805F3R30TS,3.3':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I50@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i50@resistor.r(chips~
-)',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page11_i50@resistor.r(chips~
-)',
- PATH='I50',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11',
- CODE='FRC0805F3R30TS',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='11',
- XY='(800,2575)',
- ROT='1',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-FRC0805F3R30TS,3.3',
- VALUE='3.3',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
  X1 'X322512MSB4SI':;

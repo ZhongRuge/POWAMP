@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : power_amplifier.brd                           )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Wed Dec 24 23:08:19 2025                      )
+(    Date/Time        : Thu Dec 25 10:50:51 2025                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,21 +17,21 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         'D:\Coding\Cadence\Project\POWAMP\worklib\power_amplifier\packaged'
-Design Directory:            'D:/Coding/Cadence/Project/POWAMP/worklib/power_amplifier/physical'
-Old design name:             'D:/Coding/Cadence/Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd'
-New design name:             'D:/Coding/Cadence/Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd'
+Schematic directory:         'G:\Cadence\POWAMP\worklib\power_amplifier\packaged'
+Design Directory:            'G:/Cadence/POWAMP/worklib/power_amplifier/physical'
+Old design name:             'G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd'
+New design name:             'G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd'
 
-CmdLine: netrev -proj D:\Coding\Cadence\Project\POWAMP\power_amplifier.cpm -y 1 -O D:\Coding\Cadence\Project\POWAMP\worklib\power_amplifier\physical\power_amplifier.brd D:\Coding\Cadence\Project\POWAMP\worklib\power_amplifier\physical\power_amplifier.brd -q D:\Coding\Cadence\Project\POWAMP\temp\constraints_difference_report.xml -$
+CmdLine: netrev -proj G:\Cadence\POWAMP\power_amplifier.cpm -y 1 -O G:\Cadence\POWAMP\worklib\power_amplifier\physical\power_amplifier.brd G:\Cadence\POWAMP\worklib\power_amplifier\physical\power_amplifier.brd -q G:\Cadence\POWAMP\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
-Starting to read D:/Coding/Cadence/Project/POWAMP/worklib/power_amplifier/packaged/pstchip.dat 
-   Finished reading D:/Coding/Cadence/Project/POWAMP/worklib/power_amplifier/packaged/pstchip.dat (00:00:00.20)
-Starting to read D:/Coding/Cadence/Project/POWAMP/worklib/power_amplifier/packaged/pstxprt.dat 
-   Finished reading D:/Coding/Cadence/Project/POWAMP/worklib/power_amplifier/packaged/pstxprt.dat (00:00:00.00)
-Starting to read D:/Coding/Cadence/Project/POWAMP/worklib/power_amplifier/packaged/pstxnet.dat 
-   Finished reading D:/Coding/Cadence/Project/POWAMP/worklib/power_amplifier/packaged/pstxnet.dat (00:00:00.00)
+Starting to read G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstchip.dat 
+   Finished reading G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstchip.dat (00:00:00.25)
+Starting to read G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstxprt.dat 
+   Finished reading G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstxprt.dat (00:00:00.00)
+Starting to read G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstxnet.dat 
+   Finished reading G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -40,51 +40,51 @@ Starting to read D:/Coding/Cadence/Project/POWAMP/worklib/power_amplifier/packag
 
 ===========================================================
 Start Constraint Diff3 Import
-	Constraint File:    D:/Coding/Cadence/Project/POWAMP/worklib/power_amplifier/packaged/pstcmdb.dat
-	Allegro Baseline:   C:/Users/63524/AppData/Local/Temp/#Taaaaah33440.tmp
-	Start time: Wed Dec 24 23:08:20 2025
+	Constraint File:    G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstcmdb.dat
+	Allegro Baseline:   C:/Users/Lucky/AppData/Local/Temp/#Taaaaah18196.tmp
+	Start time: Thu Dec 25 10:50:51 2025
 ===========================================================
 
 
 The constraint difference report file can be viewed using the following command:
-cdnFlowOOSMsg.exe -file file:///D:/Coding/Cadence/Project/POWAMP/temp/constraints_difference_report.xml
+cdnFlowOOSMsg.exe -file file:///G:/Cadence/POWAMP/temp/constraints_difference_report.xml
 
 ===========================================================
-Finished Constraint Update	Time: Wed Dec 24 23:08:20 2025
+Finished Constraint Update	Time: Thu Dec 25 10:50:52 2025
 ===========================================================
 
 ------ Library Paths ------
 MODULEPATH =  . 
-           D:/Coding/Cadence/SPB_17.4/share/local/pcb/modules 
+           G:/Cadence/SPB_17.4/share/local/pcb/modules 
 
 PSMPATH =  . 
            symbols 
            .. 
            ../symbols 
-           D:/Coding/Cadence/SPB_17.4/share/local/pcb/symbols 
-           D:/Coding/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
-           D:/Coding/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
-           D:/Coding/Cadence/PCB/pad 
-           D:/Coding/Cadence/PCB/Footprint 
-           D:/Coding/Cadence/Project/POWAMP/PCB 
+           G:/Cadence/SPB_17.4/share/local/pcb/symbols 
+           G:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
+           G:/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
+           G:/Cadence/PCB/Footprint 
+           G:/Cadence/POWAMP/PCB 
 
 PADPATH =  . 
            symbols 
            .. 
            ../symbols 
-           D:/Coding/Cadence/SPB_17.4/share/local/pcb/padstacks 
-           D:/Coding/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
-           D:/Coding/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
-           D:/Coding/Cadence/PCB/pad 
-           D:/Coding/Cadence/Project/POWAMP/PCB 
+           G:/Cadence/SPB_17.4/share/local/pcb/padstacks 
+           G:/Cadence/SPB_17.4/share/pcb/pcb_lib/symbols 
+           G:/Cadence/SPB_17.4/share/pcb/allegrolib/symbols 
+           G:/Cadence/PCB/pad 
+           G:/Cadence/POWAMP/PCB 
+           Y:/CadenceLib17.4/PCB/pad 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Dec 24 23:08:19 2025
+netrev run on Dec 25 10:50:51 2025
    DESIGN NAME : 'POWER_AMPLIFIER'
-   PACKAGING ON 24-Dec-2025 AT 23:08:17
+   PACKAGING ON 25-Dec-2025 AT 10:50:49
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -111,6 +111,6 @@ netrev run on Dec 24 23:08:19 2025
  No oversight detected
  No warning detected
 
-cpu time      0:02:02
+cpu time      0:02:41
 elapsed time  0:00:01
 

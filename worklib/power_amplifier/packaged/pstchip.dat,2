@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 24-Dec-2025 AT 23:05:41 }
+{ Packager-XL run on 25-Dec-2025 AT 09:49:49 }
 primitive '5.8 ZSGT';
   pin
     '6':
@@ -1830,7 +1830,7 @@ primitive 'R-0805W8F1001T5E,1K';
   body
       PART_NAME='R';
       BODY_NAME='R';
-      PHYS_DES_PREFIX='U';
+      PHYS_DES_PREFIX='R';
       CLASS='IC';
       JEDEC_TYPE='R0805';
       DESCRIPTION='';
@@ -1860,7 +1860,7 @@ primitive 'R-0805W8F1002T5E,10K';
   body
       PART_NAME='R';
       BODY_NAME='R';
-      PHYS_DES_PREFIX='U';
+      PHYS_DES_PREFIX='R';
       CLASS='IC';
       JEDEC_TYPE='R0805';
       DESCRIPTION='';
@@ -1890,7 +1890,7 @@ primitive 'R-0805W8F1003T5E,100K';
   body
       PART_NAME='R';
       BODY_NAME='R';
-      PHYS_DES_PREFIX='U';
+      PHYS_DES_PREFIX='R';
       CLASS='IC';
       JEDEC_TYPE='R0805';
       DESCRIPTION='';
@@ -1920,7 +1920,7 @@ primitive 'R-0805W8F2002T5E,20K';
   body
       PART_NAME='R';
       BODY_NAME='R';
-      PHYS_DES_PREFIX='U';
+      PHYS_DES_PREFIX='R';
       CLASS='IC';
       JEDEC_TYPE='R0805';
       DESCRIPTION='';
@@ -1950,7 +1950,7 @@ primitive 'R-0805W8F220JT5E,22';
   body
       PART_NAME='R';
       BODY_NAME='R';
-      PHYS_DES_PREFIX='U';
+      PHYS_DES_PREFIX='R';
       CLASS='IC';
       JEDEC_TYPE='R0805';
       DESCRIPTION='';
@@ -1980,7 +1980,7 @@ primitive 'R-0805W8F2700T5E,270';
   body
       PART_NAME='R';
       BODY_NAME='R';
-      PHYS_DES_PREFIX='U';
+      PHYS_DES_PREFIX='R';
       CLASS='IC';
       JEDEC_TYPE='R0805';
       DESCRIPTION='';
@@ -2010,7 +2010,7 @@ primitive 'R-0805W8F3301T5E,3.3K';
   body
       PART_NAME='R';
       BODY_NAME='R';
-      PHYS_DES_PREFIX='U';
+      PHYS_DES_PREFIX='R';
       CLASS='IC';
       JEDEC_TYPE='R0805';
       DESCRIPTION='';
@@ -2040,7 +2040,7 @@ primitive 'R-0805W8F330JT5E,33';
   body
       PART_NAME='R';
       BODY_NAME='R';
-      PHYS_DES_PREFIX='U';
+      PHYS_DES_PREFIX='R';
       CLASS='IC';
       JEDEC_TYPE='R0805';
       DESCRIPTION='';
@@ -2070,7 +2070,7 @@ primitive 'R-0805W8F390JT5E,39';
   body
       PART_NAME='R';
       BODY_NAME='R';
-      PHYS_DES_PREFIX='U';
+      PHYS_DES_PREFIX='R';
       CLASS='IC';
       JEDEC_TYPE='R0805';
       DESCRIPTION='';
@@ -2100,7 +2100,7 @@ primitive 'R-0805W8F4701T5E,4.7K';
   body
       PART_NAME='R';
       BODY_NAME='R';
-      PHYS_DES_PREFIX='U';
+      PHYS_DES_PREFIX='R';
       CLASS='IC';
       JEDEC_TYPE='R0805';
       DESCRIPTION='';
@@ -2130,7 +2130,7 @@ primitive 'R-FRC0805F3R30TS,3.3';
   body
       PART_NAME='R';
       BODY_NAME='R';
-      PHYS_DES_PREFIX='U';
+      PHYS_DES_PREFIX='R';
       CLASS='IC';
       JEDEC_TYPE='R0805';
       DESCRIPTION='';
@@ -2160,7 +2160,7 @@ primitive 'R-FRC0805F9093TS,909K';
   body
       PART_NAME='R';
       BODY_NAME='R';
-      PHYS_DES_PREFIX='U';
+      PHYS_DES_PREFIX='R';
       CLASS='IC';
       JEDEC_TYPE='R0805';
       DESCRIPTION='';
@@ -2190,7 +2190,7 @@ primitive 'R-RE0805FAR000,0';
   body
       PART_NAME='R';
       BODY_NAME='R';
-      PHYS_DES_PREFIX='U';
+      PHYS_DES_PREFIX='R';
       CLASS='IC';
       JEDEC_TYPE='R0805';
       DESCRIPTION='';
@@ -2220,7 +2220,7 @@ primitive 'R-TD05G50R0BT,50';
   body
       PART_NAME='R';
       BODY_NAME='R';
-      PHYS_DES_PREFIX='U';
+      PHYS_DES_PREFIX='R';
       CLASS='IC';
       JEDEC_TYPE='R0805';
       DESCRIPTION='';
