@@ -1,0 +1,44 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'LP5907MFX_2P5_NOPB','LP5907MFX_2P5_NOPB_SMD';
+  pin
+    'VIN':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'EN':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'N_C':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+    'VOUT':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+      NO_LOAD_CHECK='BOTH';
+      NO_IO_CHECK='BOTH';
+      ALLOW_CONNECT='TRUE';
+  end_pin;
+  body
+    PART_NAME='LP5907MFX_2P5_NOPB';
+    NO_LOAD_CHECK='TRUE';
+    PIN_COUNT='5';
+    BODY_NAME='LP5907MFX_2P5_NOPB';
+    ALT_SYMBOLS='(DBV0005A_M,DBV0005A_L)';
+    JEDEC_TYPE='DBV0005A_N';
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+  end_body;
+end_primitive;
+
+END.

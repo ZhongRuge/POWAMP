@@ -3,9 +3,54 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
-|                                                    Thu Dec 25 09:49:53 2025  |
+|                                                    Thu Dec 25 10:50:51 2025  |
 |------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  ABCLK        pins DELETED FROM this net (all pins deleted)
+                                 U1.49                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ADATA        pins DELETED FROM this net (all pins deleted)
+                                 U1.50                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ALRCK        pins DELETED FROM this net (all pins deleted)
+                                 U1.53                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  AMCLK        pins DELETED FROM this net (all pins deleted)
+                                 U1.51                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  D64/D128     pins DELETED FROM this net (all pins deleted)
+                                 U1.11                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DAC_CLKOUT   pins DELETED FROM this net (all pins deleted)
+                                 U8.33                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PCM/DSD      pins DELETED FROM this net (all pins deleted)
+                                 U1.10                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SOF          pins DELETED FROM this net (all pins deleted)
+                                 U1.9                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPDIFRX      pins DELETED FROM this net (all pins deleted)
+                                 U1.6                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPDIFTX      pins DELETED FROM this net (all pins deleted)
+                                 U1.48                          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
+|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
+|                                                    Thu Dec 25 10:50:51 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :      10                                        |
 |                                                                              |
-|   Total ECO changes reported:       0                                        |
+|   Total ECO changes reported:      10                                        |
 |------------------------------------------------------------------------------|

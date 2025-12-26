@@ -1,8 +1,8 @@
-Log File: C:\Users\Lucky\AppData\Local\Temp\sjis.0
-Markers File: C:\Users\Lucky\AppData\Local\Temp\sjis.1
-Debug File: C:\Users\Lucky\AppData\Local\Temp\sjis.3
+Log File: C:\Users\Lucky\AppData\Local\Temp\sg6o.0
+Markers File: C:\Users\Lucky\AppData\Local\Temp\sg6o.1
+Debug File: C:\Users\Lucky\AppData\Local\Temp\sg6o.3
      Debug[0] := TRUE
-Elapsed time since start = (00:00:00)
+Elapsed time since start = (00:00:01)
 
  **************************************************************
  *  End processing project file and command line  (00:00:00)  *
@@ -13,7 +13,51 @@ Elapsed time since start = (00:00:00)
  *  Loading State Files  *
  *************************
 
-Elapsed time since start = (00:00:00)
+INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I1@IC.TPA3116D2DAD(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I2@RESISTOR.R(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I3@RESISTOR.R(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I4@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I5@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I6@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I7@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I8@CAPACITOR.MA35V220M8X8(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I9@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I10@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I11@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I12@RESISTOR.R(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I13@RESISTOR.R(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I14@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I15@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I16@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I17@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I18@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I19@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I20@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I21@CAPACITOR.MA35V220M8X8(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I22@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I23@INDUCTOR.L0805(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I24@INDUCTOR.L0805(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I25@INDUCTOR.L0805(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I26@INDUCTOR.L0805(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I27@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I28@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I29@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I30@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I31@RESISTOR.R(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I32@RESISTOR.R(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I35@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I36@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I37@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I42@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I46@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I47@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I49@RESISTOR.R(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I50@RESISTOR.R(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I51@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I52@CAPACITOR.C(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE11_I53@RESISTOR.R(CHIPS) has been deleted from the design.
+      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE9_I7@CONNECTOR.5_8_ZSGT(CHIPS) has been deleted from the design.
+      Elapsed time since start = (00:00:01)
 
  *****************************************
  *  End loading State Files  (00:00:00)  *
@@ -24,7 +68,7 @@ Elapsed time since start = (00:00:00)
  *  Starting to assign physical parts.  *
  ****************************************
 
-Elapsed time since start = (00:00:00)
+Elapsed time since start = (00:00:01)
 
  ***********************************************
  *  End assigning physical parts.  (00:00:00)  *
@@ -35,7 +79,7 @@ Elapsed time since start = (00:00:00)
  *  Packaging  *
  ***************
 
-Elapsed time since start = (00:00:00)
+Elapsed time since start = (00:00:01)
 
  *******************************
  *  End packaging  (00:00:00)  *

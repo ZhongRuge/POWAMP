@@ -1,0 +1,68 @@
+Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023
+Copyright 2021 Cadence Design Systems, Inc
+
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-2065): The PLOT_DPI directive defines the Dots Per Inch setting used by the printer for printing. Ensure that you specify a positive integer value for the directive.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+INFO(SPCOCN-1737): Reading G:\Cadence\POWAMP\cds.lib file.
+WARNING(SPCOCN-1474): You must specify a window that contains a drawing.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.1 into drawing #1.
+INFO(SPCOCN-195): The following file will be used to identify the list of modules to be excluded: 'G:\Cadence\SPB_17.4\share\cdssetup\xmodules.dat'.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.1 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.11 into drawing #1.
+INFO(SPCOCN-1350): User 'Lucky' has an existing lock on the file 'G:\Cadence\POWAMP\worklib\power_amplifier\sch_1\page11.csb'. Removing it.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.10 into drawing #1.
+INFO(SPCOCN-1350): User 'Lucky' has an existing lock on the file 'G:\Cadence\POWAMP\worklib\power_amplifier\sch_1\page10.csb'. Removing it.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.9 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.8 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.9 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.10 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.9 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.8 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.7 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.6 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.5 into drawing #1.
+INFO(SPCOCN-1001): Component: I33 selected.
+INFO(SPCOCN-1001): Component: I33 selected.
+INFO(SPCOCN-1001): Component: I33 selected.
+INFO(SPCOCN-1445): Reading LTC3260.SYM.1.1 into drawing #1.
+WARNING(SPCOCN-3421): Symbol '1' of cell 'LTC3260' was saved in another application, which uses a different library format. In DE-HDL, these library format files are not updated when the symbol is saved. To avoid out of sync data between applications, the library format files of the other application will be deleted.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.5 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.11 into drawing #1.
+INFO(SPCOCN-1070): Checking drawing...
+INFO(SPCOCN-338): No schematic errors found.
+INFO(SPCOCN-1070): Checking drawing...
+INFO(SPCOCN-338): No schematic errors found.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.9 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.7 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.6 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.7 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.5 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.11 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.10 into drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.11 into drawing #1.
+INFO(SPCOCN-1195): Group contains:   43 bodies   237 properties   0 notes   175 wires   50 dots   0 images
+INFO(SPCOCN-1854): The drawing POWER_AMPLIFIER.SCH.1.11
+INFO(SPCOCN-578): will be retained as drawing #1.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.9 into drawing #2.
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.10 into drawing #2.
+INFO(SPCOCN-1195): Group contains:   14 bodies   104 properties   1 notes   45 wires   6 dots   0 images
+INFO(SPCOCN-1195): Group contains:   14 bodies   104 properties   0 notes   45 wires   6 dots   0 images

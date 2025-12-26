@@ -1,0 +1,204 @@
+(Cell	lp5907mfx_2p5_nopb
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.1)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/26/25,14:25:55)
+
+			(User	Lucky)
+
+			(Path	sch_lib.lp5907mfx_2p5_nopb)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.1)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	12/26/25,14:25:55)
+
+					(User	Lucky)
+
+					(Path	sch_lib.lp5907mfx_2p5_nopb)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000b7d7d1ca)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/26/25,14:25:55)
+
+							(User	Lucky)
+
+							(Path	sch_lib.lp5907mfx_2p5_nopb)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e16040e)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000006aa7ec79)
+
+			(Primitives	1
+
+				(Primitive	LP5907MFX_2p5_NOPB
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/26/25,14:25:55)
+
+							(User	Lucky)
+
+							(Path	sch_lib.lp5907mfx_2p5_nopb)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	LP5907MFX_2P5_NOPB
+
+							(PackType	LP5907MFX_2p5_NOPB_SMD)
+
+							(PackType	LP5907MFX_2p5_NOPB)
+
+						)
+
+					)
+
+					(Packages	2
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	DBV0005A_N)
+
+							)
+
+							(AltSymbolsFootPrints	
+
+								(Name	DBV0005A_M)
+
+								(Name	DBV0005A_L)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d2703bc)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.4-2019 S039 (4153571))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001bd303a7)
+
+)
+

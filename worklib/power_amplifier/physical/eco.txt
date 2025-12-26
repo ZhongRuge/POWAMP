@@ -3,54 +3,382 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
-|                                                    Thu Dec 25 10:50:51 2025  |
+|                                                    Fri Dec 26 13:46:06 2025  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  ABCLK        pins DELETED FROM this net (all pins deleted)
-                                 U1.49                          
+  GNDA         pins MOVED FROM this net (to net name listed on right)
+                                 C76.1           5542.00 8133.59
+                                                                       VCC_AMP-
+                                 R53.1           3586.00 8480.40
+                                                                          SRIN+
+                                 R55.1           4099.29 8480.40
+                                                                          SRIN-
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 U16.1                          
+                                 U16.4                          
+                                 U17.21                         
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADATA        pins DELETED FROM this net (all pins deleted)
-                                 U1.50                          
+  LIN+         net RENAMED (to net name listed on right)           HLIN+        
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ALRCK        pins DELETED FROM this net (all pins deleted)
-                                 U1.53                          
+  LIN-         net RENAMED (to net name listed on right)           HLIN-        
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  AMCLK        pins DELETED FROM this net (all pins deleted)
-                                 U1.51                          
+  LINN         pins MOVED FROM this net (to net name listed on right)
+                                 C76.2           5622.00 8133.59
+                                                                           GNDA
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  D64/D128     pins DELETED FROM this net (all pins deleted)
-                                 U1.11                          
+  LINP         pins MOVED FROM this net (to net name listed on right)
+                                 C75.2           5464.00 8133.59
+                                                                           GNDA
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DAC_CLKOUT   pins DELETED FROM this net (all pins deleted)
-                                 U8.33                          
+  LOUT         net RENAMED (to net name listed on right)           HLOUT        
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  PCM/DSD      pins DELETED FROM this net (all pins deleted)
-                                 U1.10                          
+  OUT_N_RIGHT  pins MOVED FROM this net (to net name listed on right)
+                                 R59.1           7008.00 8480.40
+                                                                          SROUT
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SOF          pins DELETED FROM this net (all pins deleted)
-                                 U1.9                           
+  OUT_P_LEFT   pins MOVED FROM this net (to net name listed on right)
+                                 R60.2           7259.09 8480.40
+                                                                   SPEAKER_LPAN
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SPDIFRX      pins DELETED FROM this net (all pins deleted)
-                                 U1.6                           
+  OUT_P_RIGHT  pins MOVED FROM this net (to net name listed on right)
+                                 R58.2           6916.90 8480.40
+                                                                           GNDA
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SPDIFTX      pins DELETED FROM this net (all pins deleted)
-                                 U1.48                          
+  PRE_OUT_L    pins MOVED FROM this net (to net name listed on right)
+                                 C75.1           5384.00 8133.59
+                                                                       VCC_AMP-
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PRE_OUT_R    pins MOVED FROM this net (to net name listed on right)
+                                 C73.1           5068.00 8133.59
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
-|                                                    Thu Dec 25 10:50:51 2025  |
+|                                                    Fri Dec 26 13:46:06 2025  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                                                           GNDA
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PVCC         pins MOVED FROM this net (to net name listed on right)
+                                 R56.2           4008.20 8480.40
+                                                                      PRE_OUT_L
+                                 R57.1           6665.79 8480.40
+                                                                          SLIN-
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RIN+         net RENAMED (to net name listed on right)           HRIN+        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RIN-         net RENAMED (to net name listed on right)           HRIN-        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RINN         pins MOVED FROM this net (to net name listed on right)
+                                 C74.2           5306.00 8133.59
+                                                                       VCC_AMP+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RINP         pins MOVED FROM this net (to net name listed on right)
+                                 C73.2           5148.00 8133.59
+                                                                       VCC_AMP+
+                                 U15.4           1824.26 7440.77
+                                                                           GNDA
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ROUT         net RENAMED (to net name listed on right)           HROUT        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SD_LR        pins MOVED FROM this net (to net name listed on right)
+                                 R56.1           3928.20 8480.40
+                                                                          SLIN+
+                                 U15.2           1544.74 7432.90
+                                                                 HEADPHONE_LPAN
+                                 U15.3           1676.62 7157.23
+                                                                 HEADPHONE_RPAN
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SLIN+        pins ADDED TO this new net
+                                 U17.4                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SLIN-        pins ADDED TO this new net
+                                 U17.5                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SLOUT        pins ADDED TO this new net
+                                 U17.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPEAKER_LPAN pins ADDED TO this new net
+                                 U16.2                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SPEAKER_RPAN pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :      10                                        |
+|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
+|                                                    Fri Dec 26 13:46:06 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 U16.3                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SRIN+        pins ADDED TO this new net
+                                 U17.17                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SRIN-        pins ADDED TO this new net
+                                 U17.16                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SROUT        pins ADDED TO this new net
+                                 U17.19                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  S_MUTE       pins MOVED FROM this net (to net name listed on right)
+                                 R53.2           3666.00 8480.40
+                                                                      PRE_OUT_R
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C_I4_A pins MOVED FROM this net (to net name listed on right)
+                                 R57.2           6745.79 8480.40
+                                                                          SLOUT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C_I11_B pins MOVED FROM this net (to net name listed on right)
+                                 R54.2           3837.09 8480.40
+                                                                          SROUT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C_I36_A pins MOVED FROM this net (to net name listed on right)
+                                 R59.2           7088.00 8480.40
+                                                                   SPEAKER_RPAN
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C_I42_B pins MOVED FROM this net (to net name listed on right)
+                                 R58.1           6836.90 8480.40
+                                                                          SLIN-
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_C_I52_B pins MOVED FROM this net (to net name listed on right)
+                                 R60.1           7179.09 8480.40
+                                                                          SLOUT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_R_I12_A pins MOVED FROM this net (to net name listed on right)
+                                 R54.1           3757.09 8480.40
+                                                                          SRIN-
+                                 R55.2           4179.29 8480.40
+                                                                           GNDA
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC_AMP+     pins ADDED TO this existing net (pins not previously on any net)
+                                 U17.3                          
+                                 U17.18                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
+|                                                    Fri Dec 26 13:46:06 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  VCC_AMP-     pins ADDED TO this existing net (pins not previously on any net)
+                                 U17.1                          
+                                 U17.20                         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
+|                                                    Fri Dec 26 13:46:06 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ PJ-342 141
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
+|                                                    Fri Dec 26 13:46:06 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C77                 C-CL21B105KBFNNNE,1UF 5740.00 8133.59
+ C78                 C-CL21B103KBANNNC,10NF 3370.00 8133.59
+ C79                 C-CL21B104KBCNNNC,100NF 4160.00 8133.59
+ C80                 C-CC0805KRX7R9BB102,1NF 1632.00 8133.59
+ C81                 C-CC0805KRX7R9BB102,1NF 1790.00 8133.59
+ C82                 C-CL21B104KBCNNNC,100NF 4318.00 8133.59
+ C83                 C-CL21B104KBCNNNC,100NF 4476.00 8133.59
+ C84                 MA35V220M8X8          9356.59 8267.59
+ C85                 MA35V220M8X8          9774.20 8267.59
+ C86                 C-CL21B224KBFNNNE,220NF 7636.00 8133.59
+ C87                 C-CL21B224KBFNNNE,220NF 7794.00 8133.59
+ C88                 C-CL21B224KBFNNNE,220NF 7952.00 8133.59
+ C89                 C-CL21B224KBFNNNE,220NF 8110.00 8133.59
+ C90                 C-CC0805KKX7R9BB684,680NF 368.000 8133.59
+ C91                 C-CC0805KKX7R9BB684,680NF 526.000 8133.59
+ C92                 C-CC0805KKX7R9BB684,680NF 684.000 8133.59
+ C93                 C-CC0805KKX7R9BB684,680NF 842.000 8133.59
+ C94                 C-CC0805KRX7R9BB102,1NF 1948.00 8133.59
+ C95                 C-CC0805KRX7R9BB102,1NF 2106.00 8133.59
+ C96                 C-CC0805KRX7R9BB102,1NF 2264.00 8133.59
+ C97                 C-CC0805KRX7R9BB102,1NF 3212.00 8133.59
+ C98                 C-CL21B103KBANNNC,10NF 3528.00 8133.59
+ C99                 C-CL21B103KBANNNC,10NF 3686.00 8133.59
+ C100                C-CL21B103KBANNNC,10NF 3844.00 8133.59
+ C101                C-CL21B103KBANNNC,10NF 4002.00 8133.59
+ L6                  L0805                 11014.9 8499.50
+ L7                  L0805                 344.500 8745.90
+ L8                  L0805                 525.000 8745.90
+ L9                  L0805                 705.500 8745.90
+ R61                 R-FRC0805F3R30TS,3.3  7390.20 8480.40
+ S1                  5.8 ZSGT              5294.70 7263.29
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
+|                                                    Fri Dec 26 13:46:06 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U16                 PJ-342 141            
+ U17                 TPA6120A2DWPR         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
+|                                                    Fri Dec 26 13:46:06 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C73                 C-0805B104K500NT,0.1UF 5108.00 8133.59 C-CL21B105KBFNNNE,1UF
+ C74                 C-0805B104K500NT,0.1UF 5266.00 8133.59 C-CL21B105KBFNNNE,1UF
+ C75                 C-0805B104K500NT,0.1UF 5424.00 8133.59 C-CL21B105KBFNNNE,1UF
+ C76                 C-0805B104K500NT,0.1UF 5582.00 8133.59 C-CL21B105KBFNNNE,1UF
+ R53                 R-TD05G50R0BT,50      3626.00 8480.40 R-0805W8F1003T5E,100K
+ R54                 R-0805W8F1001T5E,1K   3797.09 8480.40 R-0805W8F1003T5E,100K
+ R55                 R-0805W8F1001T5E,1K   4139.29 8480.40 R-0805W8F2002T5E,20K
+ R56                 R-TD05G50R0BT,50      3968.20 8480.40 R-0805W8F1003T5E,100K
+ R57                 R-0805W8F1001T5E,1K   6705.79 8480.40 R-FRC0805F3R30TS,3.3
+ R58                 R-0805W8F1001T5E,1K   6876.90 8480.40 R-FRC0805F3R30TS,3.3
+ R59                 R-0805W8F390JT5E,39   7048.00 8480.40 R-FRC0805F3R30TS,3.3
+ R60                 R-0805W8F390JT5E,39   7219.09 8480.40 R-FRC0805F3R30TS,3.3
+ U15                 PJ-342 141            1728.79 7299.00 TPA3116D2DAD
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
+|                                                    Fri Dec 26 13:46:06 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C73.2          5108.00 8133.59 PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C73.2          5108.00 8133.59 XY             (-3725,4975)
+ C74.2          5266.00 8133.59 PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C74.2          5266.00 8133.59 XY             (-3725,4625)
+ C75.2          5424.00 8133.59 PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C75.2          5424.00 8133.59 XY             (-2025,4975)
+ C76.2          5582.00 8133.59 PRIM_FILE      ./My_lib/capacitor/c/chips/chips.prt
+ C76.2          5582.00 8133.59 XY             (-2025,4625)
+ R48.2          8930.09 8480.40 XY             (-650,4775)
+ R49.2          888.402 8480.40 XY             (-650,4575)
+ R50.2          1059.50 8480.40 XY             (-650,4400)
+ R52.2          6192.50 8480.40 XY             (75,4575)
+ R53.2          3626.00 8480.40 PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R53.2          3626.00 8480.40 XY             (-475,4400)
+ R54.2          3797.09 8480.40 PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R54.2          3797.09 8480.40 XY             (-475,4200)
+ R55.2          4139.29 8480.40 PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R55.2          4139.29 8480.40 XY             (-475,4025)
+ R56.2          3968.20 8480.40 PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R56.2          3968.20 8480.40 XY             (-450,5075)
+ R57.2          6705.79 8480.40 PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R57.2          6705.79 8480.40 XY             (-450,4875)
+ R58.2          6876.90 8480.40 PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R58.2          6876.90 8480.40 XY             (-450,4700)
+ R59.2          7048.00 8480.40 PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R59.2          7048.00 8480.40 XY             (250,4200)
+ R60.2          7219.09 8480.40 PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R60.2          7219.09 8480.40 XY             (275,4875)
+ U15.6          1728.79 7299.00 PRIM_FILE      ./My_lib/connector/pj#2d342#20141/chips/chips.prt
+ U15.6          1728.79 7299.00 XY             (-3975,3500)
+ U16.6                          PRIM_FILE      ./My_lib/connector/pj#2d342#20141/chips/chips.prt
+ U16.6                          XY             (-3775,3025)
+ U17.20                         PRIM_FILE      ./My_lib/ic/tpa6120a2dwpr/chips/chips.prt
+ U17.20                         XY             (-2875,4800)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
+|                                                    Fri Dec 26 13:46:06 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U15.1          1544.74 7165.10 CDS_PINID      \1\
+ U15.2          1544.74 7432.90 CDS_PINID      \2\
+ U15.3          1676.62 7157.23 CDS_PINID      \3\
+ U15.4          1824.26 7440.77 CDS_PINID      \4\
+ U15.5          1889.22 7157.23 CDS_PINID      \5\
+ U15.6          1912.84 7440.77 CDS_PINID      \6\
+ U16.1                          CDS_PINID      \1\
+ U16.2                          CDS_PINID      \2\
+ U16.3                          CDS_PINID      \3\
+ U16.4                          CDS_PINID      \4\
+ U16.5                          CDS_PINID      \5\
+ U16.6                          CDS_PINID      \6\
+ U17.1                          CDS_PINID      \lvcc-\
+ U17.2                          CDS_PINID      LOUT
+ U17.3                          CDS_PINID      \lvcc+\
+ U17.4                          CDS_PINID      \lin+\
+ U17.5                          CDS_PINID      \lin-\
+ U17.6                          CDS_PINID      NC
+ U17.7                          CDS_PINID      NC1
+ U17.8                          CDS_PINID      NC2
+ U17.9                          CDS_PINID      NC3
+ U17.10                         CDS_PINID      NC4
+ U17.11                         CDS_PINID      NC5
+ U17.12                         CDS_PINID      NC6
+ U17.13                         CDS_PINID      NC7
+ U17.14                         CDS_PINID      NC8
+ U17.15                         CDS_PINID      NC9
+ U17.16                         CDS_PINID      \rin-\
+ U17.17                         CDS_PINID      \rin+\
+ U17.18                         CDS_PINID      \rvcc+\
+ U17.19                         CDS_PINID      ROUT
+ U17.20                         CDS_PINID      \rvcc-\
+ U17.21                         CDS_PINID      EP
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
+|                                                    Fri Dec 26 13:46:06 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :      47                                        |
+|       Comp definitions added:       1                                        |
+|       Components added      :       2                                        |
+|       Components deleted    :      31                                        |
+|       Components changed    :      13                                        |
+|       Pin property added    :      33                                        |
+|       Slot property added   :      34                                        |
 |                                                                              |
-|   Total ECO changes reported:      10                                        |
+|   Total ECO changes reported:     161                                        |
 |------------------------------------------------------------------------------|

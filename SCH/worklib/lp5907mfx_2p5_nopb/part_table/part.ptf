@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LP5907MFX_2p5_NOPB'
+CLASS = IC
+
+{========================================================================================}
+:PACK_TYPE | VALUE = MANUFACTURER_PART_NUMBER | TYPE | REFDES | COPYRIGHT | MANUFACTURER_NAME | JEDEC_TYPE | DESCRIPTION | DATASHEET | PART_NUMBER ;
+{========================================================================================}
+ 'SMD' | 'LP5907MFX-2p5_NOPB'(!) = 'LP5907MFX-2.5/NOPB' | 'TYPE' | 'RefDes' | 'Copyright (C) 2025 Ultra Librarian. All rights reserved.' | 'Texas Instruments' | 'DBV0005A_N' | '250-mA, low-noise, high-PSRR, ultra-low-dropout voltage regulator with low IQ and enable 5-SOT-23 -40 to 125' | 'https://www.ti.com/lit/gpn/lp5907' | 'LP5907MFX-2p5_NOPB'
+
+END_PART
+
+END.

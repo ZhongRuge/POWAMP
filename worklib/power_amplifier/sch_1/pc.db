@@ -1,4 +1,4 @@
--- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Fri Dec 26 00:13:30 2025
+-- pcdb file, Rev:1.0 written by Allegro Design Entry HDL 17.4-2019 S039 (4153571) 11/4/2023 on Fri Dec 26 13:42:59 2025
 #ISCELL
   standard b#20size#20page *
   *
@@ -443,9 +443,6 @@
 #CELL
   capacitor c *
   page9_i6
-#CELL
-  connector 5_8_zsgt *
-  page9_i7
 #ISCELL
   pages pages *
   *
@@ -495,131 +492,44 @@
   pages pages *
   *
 #CELL
-  ic tpa3116d2dad *
-  page11_i1
+  connector pj-342#20141 *
+  page11_i54
 #CELL
   capacitor c *
-  page11_i10
+  page11_i55
+#CELL
+  ic tpa6120a2dwpr *
+  page11_i56
 #CELL
   capacitor c *
-  page11_i11
+  page11_i57
+#CELL
+  capacitor c *
+  page11_i58
+#CELL
+  capacitor c *
+  page11_i59
 #CELL
   resistor r *
-  page11_i12
+  page11_i60
 #CELL
   resistor r *
-  page11_i13
-#CELL
-  capacitor c *
-  page11_i14
-#CELL
-  capacitor c *
-  page11_i15
-#CELL
-  capacitor c *
-  page11_i16
-#CELL
-  capacitor c *
-  page11_i17
-#CELL
-  capacitor c *
-  page11_i18
-#CELL
-  capacitor c *
-  page11_i19
+  page11_i61
 #CELL
   resistor r *
-  page11_i2
-#CELL
-  capacitor c *
-  page11_i20
-#CELL
-  capacitor ma35v220m8x8 *
-  page11_i21
-#CELL
-  capacitor c *
-  page11_i22
-#CELL
-  inductor l0805 *
-  page11_i23
-#CELL
-  inductor l0805 *
-  page11_i24
-#CELL
-  inductor l0805 *
-  page11_i25
-#CELL
-  inductor l0805 *
-  page11_i26
-#CELL
-  capacitor c *
-  page11_i27
-#CELL
-  capacitor c *
-  page11_i28
-#CELL
-  capacitor c *
-  page11_i29
+  page11_i62
 #CELL
   resistor r *
-  page11_i3
-#CELL
-  capacitor c *
-  page11_i30
+  page11_i63
 #CELL
   resistor r *
-  page11_i31
+  page11_i64
 #CELL
   resistor r *
-  page11_i32
-#CELL
-  capacitor c *
-  page11_i35
-#CELL
-  capacitor c *
-  page11_i36
-#CELL
-  capacitor c *
-  page11_i37
-#CELL
-  capacitor c *
-  page11_i4
-#CELL
-  capacitor c *
-  page11_i42
-#CELL
-  capacitor c *
-  page11_i46
-#CELL
-  capacitor c *
-  page11_i47
+  page11_i65
 #CELL
   resistor r *
-  page11_i49
-#CELL
-  capacitor c *
-  page11_i5
+  page11_i66
 #CELL
   resistor r *
-  page11_i50
-#CELL
-  capacitor c *
-  page11_i51
-#CELL
-  capacitor c *
-  page11_i52
-#CELL
-  resistor r *
-  page11_i53
-#CELL
-  capacitor c *
-  page11_i6
-#CELL
-  capacitor c *
-  page11_i7
-#CELL
-  capacitor ma35v220m8x8 *
-  page11_i8
-#CELL
-  capacitor c *
-  page11_i9
+  page11_i67

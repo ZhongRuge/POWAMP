@@ -1,4 +1,4 @@
-{ Packager-XL run on 25-Dec-2025 AT 10:20:18 }
+{ Packager-XL run on 25-Dec-2025 AT 10:50:49 }
 FILE_TYPE = BACK_ANNOTATION;
 DRAWING = "@power_amplifier_lib.power_amplifier(sch_1):page5";
 BODY = "C","I9": LOCATION = "C13" #&CDS_LOCATION = "C13" &SEC = "1" #&CDS_SEC = "1";
