@@ -21,42 +21,6 @@
   page2_i40
 #CELL
   resistor r *
-  page2_i41
-#CELL
-  resistor r *
-  page2_i42
-#CELL
-  resistor r *
-  page2_i43
-#CELL
-  resistor r *
-  page2_i44
-#CELL
-  resistor r *
-  page2_i45
-#CELL
-  resistor r *
-  page2_i46
-#CELL
-  resistor r *
-  page2_i47
-#CELL
-  resistor r *
-  page2_i48
-#CELL
-  resistor r *
-  page2_i49
-#CELL
-  resistor r *
-  page2_i50
-#CELL
-  resistor r *
-  page2_i51
-#CELL
-  resistor r *
-  page2_i52
-#CELL
-  resistor r *
   page2_i53
 #CELL
   resistor r *
@@ -91,3 +55,9 @@
 #CELL
   inductor blm21pg300sn1d *
   page2_i68
+#CELL
+  resistor r *
+  page2_i71
+#CELL
+  resistor r *
+  page2_i72

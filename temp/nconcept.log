@@ -16,7 +16,7 @@ set autoroute ON
 set
 set autoheavy ON
 set
-set attributes_dir "G:\Cadence\SPB_17.4/tools/fet/concept/attributes"
+set attributes_dir "D:\Coding\Cadence\SPB_17.4/tools/fet/concept/attributes"
 set
 set dots_FILLED
 set
@@ -404,7 +404,7 @@ set default_body_grid 0.050 2
 set
 set default_doc_grid 0.100 5
 set
-INFO(SPCOCN-1737): Reading G:\Cadence\POWAMP\cds.lib file.
+INFO(SPCOCN-1737): Reading D:\Coding\Cadence\Project\POWAMP\cds.lib file.
 nmapedit power_amplifier
 nmapedit
 _!editincontext
@@ -423,13 +423,6 @@ library
 get
 INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.1 into drawing #1.
 backannotate
-INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.2 into drawing #1.
-INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.2:
-INFO(SPCOCN-1044): writing binary file...
-INFO(SPCOCN-1049): Writing ASCII file...
-INFO(SPCOCN-1053): writing connectivity file...
-INFO(SPCOCN-1054): ...written
-INFO(SPCOCN-1054): ...written
 INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.5 into drawing #1.
 INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.5:
 INFO(SPCOCN-1044): writing binary file...
@@ -437,15 +430,15 @@ INFO(SPCOCN-1049): Writing ASCII file...
 INFO(SPCOCN-1053): writing connectivity file...
 INFO(SPCOCN-1054): ...written
 INFO(SPCOCN-1054): ...written
-INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.8 into drawing #1.
-INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.8:
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.2 into drawing #1.
+INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.2:
 INFO(SPCOCN-1044): writing binary file...
 INFO(SPCOCN-1049): Writing ASCII file...
 INFO(SPCOCN-1053): writing connectivity file...
 INFO(SPCOCN-1054): ...written
 INFO(SPCOCN-1054): ...written
-INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.11 into drawing #1.
-INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.11:
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.8 into drawing #1.
+INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.8:
 INFO(SPCOCN-1044): writing binary file...
 INFO(SPCOCN-1049): Writing ASCII file...
 INFO(SPCOCN-1053): writing connectivity file...
@@ -488,6 +481,13 @@ INFO(SPCOCN-1054): ...written
 INFO(SPCOCN-1054): ...written
 INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.10 into drawing #1.
 INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.10:
+INFO(SPCOCN-1044): writing binary file...
+INFO(SPCOCN-1049): Writing ASCII file...
+INFO(SPCOCN-1053): writing connectivity file...
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1054): ...written
+INFO(SPCOCN-1445): Reading POWER_AMPLIFIER.SCH.1.11 into drawing #1.
+INFO(SPCOCN-1028): writing <power_amplifier_lib>POWER_AMPLIFIER.SCH.1.11:
 INFO(SPCOCN-1044): writing binary file...
 INFO(SPCOCN-1049): Writing ASCII file...
 INFO(SPCOCN-1053): writing connectivity file...

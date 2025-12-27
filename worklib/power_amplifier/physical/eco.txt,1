@@ -2,55 +2,64 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
-|                                                    Thu Dec 25 10:50:51 2025  |
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Sat Dec 27 21:20:47 2025  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  ABCLK        pins DELETED FROM this net (all pins deleted)
-                                 U1.49                          
+  SCL          pins MOVED FROM this net (to net name listed on right)
+                                 R10.2           1065.02 3335.00
+                                                                       VDD33_SA
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ADATA        pins DELETED FROM this net (all pins deleted)
-                                 U1.50                          
+  SDA          pins MOVED FROM this net (to net name listed on right)
+                                 R9.2            1071.10 3414.00
+                                                                       VDD33_SA
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  ALRCK        pins DELETED FROM this net (all pins deleted)
-                                 U1.53                          
+  UNNAMED_2_R_I42_A pins DELETED FROM this net (all pins deleted)
+                                 U1.55           1112.60 3706.38
+               pins MOVED FROM this net (to net name listed on right)
+                                 R9.1            991.061 3414.00
+                                                                            SDA
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  AMCLK        pins DELETED FROM this net (all pins deleted)
-                                 U1.51                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  D64/D128     pins DELETED FROM this net (all pins deleted)
-                                 U1.11                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  DAC_CLKOUT   pins DELETED FROM this net (all pins deleted)
-                                 U8.33                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  PCM/DSD      pins DELETED FROM this net (all pins deleted)
-                                 U1.10                          
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SOF          pins DELETED FROM this net (all pins deleted)
-                                 U1.9                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SPDIFRX      pins DELETED FROM this net (all pins deleted)
-                                 U1.6                           
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  SPDIFTX      pins DELETED FROM this net (all pins deleted)
-                                 U1.48                          
+  UNNAMED_2_R_I43_A pins DELETED FROM this net (all pins deleted)
+                                 U1.54           1112.60 3690.63
+               pins MOVED FROM this net (to net name listed on right)
+                                 R10.1           984.980 3335.00
+                                                                            SCL
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
-|                                                    Thu Dec 25 10:50:51 2025  |
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Sat Dec 27 21:20:47 2025  |
 |------------------------------------------------------------------------------|
-| NET CHANGES                                                                  |
+| COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R9                  R-0805W8F4701T5E,4.7K 1031.08 3414.00 R-RE0805FAR000,0
+ R10                 R-0805W8F4701T5E,4.7K 1025.00 3335.00 R-RE0805FAR000,0
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|       Nets changed          :      10                                        |
+|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
+|                                                    Sat Dec 27 21:20:47 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R9.2           1031.08 3414.00 PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R9.2           1031.08 3414.00 XY             (550,2475)
+ R10.2          1025.00 3335.00 PRIM_FILE      ./My_lib/resistor/r/chips/chips.prt
+ R10.2          1025.00 3335.00 XY             (700,2475)
+|------------------------------------------------------------------------------|
+|       Nets changed          :       6                                        |
+|       Components changed    :       2                                        |
+|       Slot property added   :       4                                        |
 |                                                                              |
-|   Total ECO changes reported:      10                                        |
+|   Total ECO changes reported:      12                                        |
 |------------------------------------------------------------------------------|

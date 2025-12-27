@@ -14,18 +14,6 @@
   capacitor c *
   page7_i12
 #CELL
-  resistor r *
-  page7_i13
-#CELL
-  oscillator x322512msb4si *
-  page7_i14
-#CELL
-  capacitor c *
-  page7_i15
-#CELL
-  capacitor c *
-  page7_i16
-#CELL
   connector 5557_4pin *
   page7_i17
 #CELL
