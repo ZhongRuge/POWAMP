@@ -1,8 +1,8 @@
-Log File: C:\Users\63524\AppData\Local\Temp\s8p8.0
-Markers File: C:\Users\63524\AppData\Local\Temp\s8p8.1
-Debug File: C:\Users\63524\AppData\Local\Temp\s8p8.3
+Log File: C:\Users\Lucky\AppData\Local\Temp\s70o.0
+Markers File: C:\Users\Lucky\AppData\Local\Temp\s70o.1
+Debug File: C:\Users\Lucky\AppData\Local\Temp\s70o.3
      Debug[0] := TRUE
-Elapsed time since start = (00:00:00)
+Elapsed time since start = (00:00:01)
 
  **************************************************************
  *  End processing project file and command line  (00:00:00)  *
@@ -13,9 +13,7 @@ Elapsed time since start = (00:00:00)
  *  Loading State Files  *
  *************************
 
-INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I42@RESISTOR.R(CHIPS) has been deleted from the design.
-      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I43@RESISTOR.R(CHIPS) has been deleted from the design.
-      Elapsed time since start = (00:00:04)
+Elapsed time since start = (00:00:01)
 
  *****************************************
  *  End loading State Files  (00:00:00)  *
@@ -26,7 +24,7 @@ INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1
  *  Starting to assign physical parts.  *
  ****************************************
 
-Elapsed time since start = (00:00:04)
+Elapsed time since start = (00:00:01)
 
  ***********************************************
  *  End assigning physical parts.  (00:00:00)  *
@@ -37,7 +35,7 @@ Elapsed time since start = (00:00:04)
  *  Packaging  *
  ***************
 
-Elapsed time since start = (00:00:04)
+Elapsed time since start = (00:00:01)
 
  *******************************
  *  End packaging  (00:00:00)  *

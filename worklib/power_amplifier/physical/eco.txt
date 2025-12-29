@@ -2,100 +2,20 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
-|                                                    Sat Dec 27 23:55:09 2025  |
+|  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
+|                                                    Mon Dec 29 16:12:05 2025  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  DSD_FLAG     pins ADDED TO this new net
-                                 U1.10           701.380 3817.60
+  USB_DN       net RENAMED (to net name listed on right)           USB_DM       
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  FS/HS        pins DELETED FROM this net (all pins deleted)
-                                 U1.31           562.400 3552.64
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GNDD         pins DELETED FROM this net (pin now not on any net)
-                                 U1.60           887.600 3710.12
-                                 U1.61           887.600 3725.87
-                                 U1.62           887.600 3741.61
-                                 U1.63           887.600 3757.36
-                                 U1.64           887.600 3773.11
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GPIO0        pins DELETED FROM this net (all pins deleted)
-                                 U1.27           562.400 3615.63
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GPIO1        pins DELETED FROM this net (all pins deleted)
-                                 U1.30           562.400 3568.39
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GPIO3        pins DELETED FROM this net (all pins deleted)
-                                 U1.32           562.400 3536.89
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GPIO4        pins DELETED FROM this net (all pins deleted)
-                                 U1.33           606.890 3492.40
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GPIO5        pins DELETED FROM this net (all pins deleted)
-                                 U1.34           622.640 3492.40
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GPIO6        pins DELETED FROM this net (all pins deleted)
-                                 U1.35           638.390 3492.40
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  GPIO7        pins DELETED FROM this net (all pins deleted)
-                                 U1.36           654.130 3492.40
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  IACP/RST     pins DELETED FROM this net (all pins deleted)
-                                 U1.37           669.880 3492.40
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  PD0-OSC_IN   pins DELETED FROM this net (all pins deleted)
-                                 U10.5           7745.28 2463.90
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  PD1-OSC_OUT  pins DELETED FROM this net (all pins deleted)
-                                 U10.6           7764.97 2463.90
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  UNNAMED_2_R_I41_A pins DELETED FROM this net (all pins deleted)
-                                 U1.59           887.600 3694.37
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+  USB_DN_CONN  pins MOVED FROM this net (to net name listed on right)
+                                 L4.3            845.440 4130.76
+                                                                    USB_DM_CONN
 |------------------------------------------------------------------------------|
-|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
-|                                                    Sat Dec 27 23:55:09 2025  |
-|------------------------------------------------------------------------------|
-| COMPONENTS DELETED from design                                               |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type      |   x   |   y                        |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C47                 C-CC0805JRNPO9BN300,30PF 7829.99 1579.13
- C48                 C-CC0805JRNPO9BN300,30PF 7987.99 1579.13
- R1                  R-0805W8F1002T5E,10K  145.000 3380.00
- R2                  R-0805W8F1002T5E,10K  145.000 3300.00
- R3                  R-0805W8F1002T5E,10K  145.000 3140.00
- R4                  R-0805W8F1002T5E,10K  145.000 3220.00
- R7                  R-0805W8F1002T5E,10K  295.000 3100.00
- R8                  R-RE0805FAR000,0      1075.00 3735.00
- R11                 R-0805W8F1002T5E,10K  375.000 3100.00
- R12                 R-0805W8F1002T5E,10K  455.000 3100.00
- R13                 R-0805W8F1002T5E,10K  535.000 3100.00
- R14                 R-0805W8F1002T5E,10K  615.000 3100.00
- R27                 R-0805W8F1002T5E,10K  7957.21 1705.13
- X2                  X322512MSB4SI         7727.03 1429.73
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  D:.../Project/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd   |
-|                                                    Sat Dec 27 23:55:09 2025  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C46.2          7550.00 1575.00 XY             (-650,4675)
- R26.2          7786.08 1705.13 XY             (-625,4475)
-|------------------------------------------------------------------------------|
-|       Nets changed          :      18                                        |
-|       Components deleted    :      14                                        |
-|       Slot property added   :       2                                        |
+|       Nets changed          :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:      34                                        |
+|   Total ECO changes reported:       2                                        |
 |------------------------------------------------------------------------------|

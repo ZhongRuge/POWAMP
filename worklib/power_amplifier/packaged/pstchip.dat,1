@@ -1,70 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 25-Dec-2025 AT 09:49:49 }
-primitive '5.8 ZSGT';
-  pin
-    '6':
-      PIN_NUMBER='(6)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '5':
-      PIN_NUMBER='(5)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '1':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PART_NAME='5.8 ZSGT';
-      BODY_NAME='5_8_ZSGT';
-      JEDEC_TYPE='SW-TH_5_8ZSGT';
-      PHYS_DES_PREFIX='S';
-      CLASS='DISCRETE';
-  end_body;
-end_primitive;
+{ Packager-XL run on 27-Dec-2025 AT 23:55:04 }
 primitive '5557_4PIN-5557_4PIN';
   pin
     '1':
@@ -597,42 +532,6 @@ primitive 'C-CC0805KKX7R9BB225,2.2UF';
       PARENT_PPT_PART='C-CC0805KKX7R9BB225,2.2UF';
   end_body;
 end_primitive;
-primitive 'C-CC0805KKX7R9BB684,680NF';
-  pin
-    'A':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'B':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PART_NAME='C';
-      BODY_NAME='C';
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      JEDEC_TYPE='C0805';
-      DESCRIPTION='';
-      DATASHEET='';
-      ALT_SYMBOL='';
-      CHECKLIST='';
-      PARENT_PART_TYPE='C';
-      PARENT_PPT='C';
-      PARENT_PPT_PART='C-CC0805KKX7R9BB684,680NF';
-  end_body;
-end_primitive;
 primitive 'C-CC0805KRX7R9BB102,1NF';
   pin
     'A':
@@ -741,42 +640,6 @@ primitive 'C-CL21B103KBANNNC,10NF';
       PARENT_PPT_PART='C-CL21B103KBANNNC,10NF';
   end_body;
 end_primitive;
-primitive 'C-CL21B104KBCNNNC,100NF';
-  pin
-    'A':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'B':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PART_NAME='C';
-      BODY_NAME='C';
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      JEDEC_TYPE='C0805';
-      DESCRIPTION='';
-      DATASHEET='';
-      ALT_SYMBOL='';
-      CHECKLIST='';
-      PARENT_PART_TYPE='C';
-      PARENT_PPT='C';
-      PARENT_PPT_PART='C-CL21B104KBCNNNC,100NF';
-  end_body;
-end_primitive;
 primitive 'C-CL21B105KBFNNNE,1UF';
   pin
     'A':
@@ -883,42 +746,6 @@ primitive 'C-CL21B223KBANNNC,22NF';
       PARENT_PART_TYPE='C';
       PARENT_PPT='C';
       PARENT_PPT_PART='C-CL21B223KBANNNC,22NF';
-  end_body;
-end_primitive;
-primitive 'C-CL21B224KBFNNNE,220NF';
-  pin
-    'A':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'B':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PART_NAME='C';
-      BODY_NAME='C';
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-      JEDEC_TYPE='C0805';
-      DESCRIPTION='';
-      DATASHEET='';
-      ALT_SYMBOL='';
-      CHECKLIST='';
-      PARENT_PART_TYPE='C';
-      PARENT_PPT='C';
-      PARENT_PPT_PART='C-CL21B224KBFNNNE,220NF';
   end_body;
 end_primitive;
 primitive 'C3216X7R1C106KT000N';
@@ -1480,33 +1307,6 @@ primitive 'HC-USB2.0-L195-P';
       CLASS='IC';
   end_body;
 end_primitive;
-primitive 'L0805';
-  pin
-    '1':
-      PIN_NUMBER='(A)';
-      PINUSE='UNSPEC';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-    '2':
-      PIN_NUMBER='(C)';
-      PINUSE='UNSPEC';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-  end_pin;
-  body
-      PART_NAME='L0805';
-      BODY_NAME='L0805';
-      JEDEC_TYPE='SMD0805';
-      PHYS_DES_PREFIX='L';
-      CLASS='DISCRETE';
-  end_body;
-end_primitive;
 primitive 'LTC3260';
   pin
     'EN+':
@@ -1671,35 +1471,6 @@ primitive 'LTC3260';
       CLASS='DISCRETE';
   end_body;
 end_primitive;
-primitive 'MA35V220M8X8';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PART_NAME='MA35V220M8X8';
-      BODY_NAME='MA35V220M8X8';
-      JEDEC_TYPE='CAP-SMD_BD8_0-L8_3-W8_3-LS9_0-FD';
-      PHYS_DES_PREFIX='C';
-      CLASS='DISCRETE';
-  end_body;
-end_primitive;
 primitive 'MA35V470M10X13';
   pin
     '1':
@@ -1812,6 +1583,71 @@ primitive 'NE5532DR';
       CLASS='IC';
   end_body;
 end_primitive;
+primitive 'PJ-342 141';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PIN_TYPE='ANALOG';
+      NO_LOAD_CHECK='Both';
+      NO_IO_CHECK='Both';
+      NO_ASSERT_CHECK='TRUE';
+      NO_DIR_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+      PART_NAME='PJ-342 141';
+      BODY_NAME='PJ-342 141';
+      JEDEC_TYPE='AUDIO-SMD_PJ-342-141';
+      PHYS_DES_PREFIX='U';
+      CLASS='IC';
+  end_body;
+end_primitive;
 primitive 'R-0805W8F1001T5E,1K';
   pin
     'A':
@@ -1900,36 +1736,6 @@ primitive 'R-0805W8F1003T5E,100K';
       PARENT_PART_TYPE='R';
       PARENT_PPT='R';
       PARENT_PPT_PART='R-0805W8F1003T5E,100K';
-  end_body;
-end_primitive;
-primitive 'R-0805W8F2002T5E,20K';
-  pin
-    'A':
-      PIN_NUMBER='(1)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'B':
-      PIN_NUMBER='(2)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='R';
-      BODY_NAME='R';
-      PHYS_DES_PREFIX='R';
-      CLASS='IC';
-      JEDEC_TYPE='R0805';
-      DESCRIPTION='';
-      DATASHEET='';
-      ALT_SYMBOL='';
-      CHECKLIST='';
-      PARENT_PART_TYPE='R';
-      PARENT_PPT='R';
-      PARENT_PPT_PART='R-0805W8F2002T5E,20K';
   end_body;
 end_primitive;
 primitive 'R-0805W8F220JT5E,22';
@@ -2110,36 +1916,6 @@ primitive 'R-0805W8F4701T5E,4.7K';
       PARENT_PART_TYPE='R';
       PARENT_PPT='R';
       PARENT_PPT_PART='R-0805W8F4701T5E,4.7K';
-  end_body;
-end_primitive;
-primitive 'R-FRC0805F3R30TS,3.3';
-  pin
-    'A':
-      PIN_NUMBER='(1)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-    'B':
-      PIN_NUMBER='(2)';
-      BIDIRECTIONAL='TRUE';
-      INPUT_LOAD='(-0.01,0.01)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='R';
-      BODY_NAME='R';
-      PHYS_DES_PREFIX='R';
-      CLASS='IC';
-      JEDEC_TYPE='R0805';
-      DESCRIPTION='';
-      DATASHEET='';
-      ALT_SYMBOL='';
-      CHECKLIST='';
-      PARENT_PART_TYPE='R';
-      PARENT_PPT='R';
-      PARENT_PPT_PART='R-FRC0805F3R30TS,3.3';
   end_body;
 end_primitive;
 primitive 'R-FRC0805F9093TS,909K';
@@ -3216,305 +2992,6 @@ primitive 'STM32F103C8T6';
       PART_NAME='STM32F103C8T6';
       BODY_NAME='STM32F103C8T6';
       JEDEC_TYPE='LQFP-48_L7_0-W7_0-P0_50-LS9_0-BL';
-      PHYS_DES_PREFIX='U';
-      CLASS='IC';
-  end_body;
-end_primitive;
-primitive 'TPA3116D2DAD';
-  pin
-    'MODSEL':
-      PIN_NUMBER='(1)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'SDZ':
-      PIN_NUMBER='(2)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'FAULTZ':
-      PIN_NUMBER='(3)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'RINP':
-      PIN_NUMBER='(4)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'RINN':
-      PIN_NUMBER='(5)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'PLIMIT':
-      PIN_NUMBER='(6)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'GVDD':
-      PIN_NUMBER='(7)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'GAIN/SLV':
-      PIN_NUMBER='(8)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'GND':
-      PIN_NUMBER='(9)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'LINP':
-      PIN_NUMBER='(10)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'LINN':
-      PIN_NUMBER='(11)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'MUTE':
-      PIN_NUMBER='(12)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'AM2':
-      PIN_NUMBER='(13)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'AM1':
-      PIN_NUMBER='(14)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'AM0':
-      PIN_NUMBER='(15)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'SYNC':
-      PIN_NUMBER='(16)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'AVCC':
-      PIN_NUMBER='(17)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'PVCC':
-      PIN_NUMBER='(18)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'PVCC1':
-      PIN_NUMBER='(19)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'BSNL':
-      PIN_NUMBER='(20)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'OUTNL':
-      PIN_NUMBER='(21)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'GND2':
-      PIN_NUMBER='(22)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'OUTPL':
-      PIN_NUMBER='(23)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'BSPL':
-      PIN_NUMBER='(24)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'GND3':
-      PIN_NUMBER='(25)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'BSNR':
-      PIN_NUMBER='(26)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'OUTNR':
-      PIN_NUMBER='(27)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'GND4':
-      PIN_NUMBER='(28)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'OUTPR':
-      PIN_NUMBER='(29)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'BSPR':
-      PIN_NUMBER='(30)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'PVCC5':
-      PIN_NUMBER='(31)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-    'PVCC6':
-      PIN_NUMBER='(32)';
-      PIN_TYPE='ANALOG';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PART_NAME='TPA3116D2DAD';
-      BODY_NAME='TPA3116D2DAD';
-      JEDEC_TYPE='HTSSOP-32_L11_0-W6_1-P0_65-LS8_1-BL';
       PHYS_DES_PREFIX='U';
       CLASS='IC';
   end_body;

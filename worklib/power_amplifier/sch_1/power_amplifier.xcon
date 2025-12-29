@@ -5,14 +5,14 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-12-27T23:49:27</modificationTime>
+    <modificationTime>2025-12-29T16:11:37</modificationTime>
     <savedLibrary>power_amplifier_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="power_amplifier" view="sch_1">
       <lastids>
         <instanceid>470</instanceid>
-        <netid>253</netid>
+        <netid>255</netid>
         <insttermid>1434</insttermid>
       </lastids>
       <cells>
@@ -1738,10 +1738,6 @@
           <name>usb_dm_conn</name>
         </net>
         <net>
-          <id>N45</id>
-          <name>usb_dn</name>
-        </net>
-        <net>
           <id>N46</id>
           <name>usb_dp</name>
         </net>
@@ -2104,6 +2100,10 @@
         <net>
           <id>N253</id>
           <name>dsd_flag</name>
+        </net>
+        <net>
+          <id>N255</id>
+          <name>usb_dm</name>
         </net>
       </nets>
       <aliases>
@@ -2828,28 +2828,28 @@
               <id>M361</id>
               <termid>T99</termid>
               <connections>
-                <connection net="N45" />
+                <connection net="N46" />
               </connections>
             </pin>
             <pin>
               <id>M362</id>
               <termid>T100</termid>
               <connections>
-                <connection net="N46" />
+                <connection net="N255" />
               </connections>
             </pin>
             <pin>
               <id>M363</id>
               <termid>T101</termid>
               <connections>
-                <connection net="N47" />
+                <connection net="N44" />
               </connections>
             </pin>
             <pin>
               <id>M364</id>
               <termid>T102</termid>
               <connections>
-                <connection net="N44" />
+                <connection net="N47" />
               </connections>
             </pin>
           </pins>
@@ -6182,6 +6182,7 @@
               <id>M1053</id>
               <termid>T328</termid>
               <connections>
+                <connection net="N46" />
               </connections>
             </pin>
             <pin>
@@ -6195,13 +6196,14 @@
               <id>M1055</id>
               <termid>T330</termid>
               <connections>
+                <connection net="N255" />
               </connections>
             </pin>
             <pin>
               <id>M1056</id>
               <termid>T331</termid>
               <connections>
-                <connection net="N45" />
+                <connection net="N255" />
               </connections>
             </pin>
             <pin>
@@ -6236,7 +6238,7 @@
               <id>M1065</id>
               <termid>T335</termid>
               <connections>
-                <connection net="N45" />
+                <connection net="N255" />
               </connections>
             </pin>
             <pin>
@@ -7123,8 +7125,8 @@
             <nets>
               <net ref="gndd"></net>
               <net ref="usb_5v0"></net>
+              <net ref="usb_dm"></net>
               <net ref="usb_dm_conn"></net>
-              <net ref="usb_dn"></net>
               <net ref="usb_dp"></net>
               <net ref="usb_dp_conn"></net>
               <net ref="vbus_filt"></net>

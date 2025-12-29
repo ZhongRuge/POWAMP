@@ -1,8 +1,8 @@
-Log File: C:\Users\63524\AppData\Local\Temp\sq20.0
-Markers File: C:\Users\63524\AppData\Local\Temp\sq20.1
-Debug File: C:\Users\63524\AppData\Local\Temp\sq20.3
+Log File: C:\Users\Lucky\AppData\Local\Temp\s2r4.0
+Markers File: C:\Users\Lucky\AppData\Local\Temp\s2r4.1
+Debug File: C:\Users\Lucky\AppData\Local\Temp\s2r4.3
      Debug[0] := TRUE
-Elapsed time since start = (00:00:01)
+Elapsed time since start = (00:00:00)
 
  **************************************************************
  *  End processing project file and command line  (00:00:00)  *
@@ -13,21 +13,7 @@ Elapsed time since start = (00:00:01)
  *  Loading State Files  *
  *************************
 
-INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I41@RESISTOR.R(CHIPS) has been deleted from the design.
-      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I44@RESISTOR.R(CHIPS) has been deleted from the design.
-      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I45@RESISTOR.R(CHIPS) has been deleted from the design.
-      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I46@RESISTOR.R(CHIPS) has been deleted from the design.
-      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I47@RESISTOR.R(CHIPS) has been deleted from the design.
-      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I48@RESISTOR.R(CHIPS) has been deleted from the design.
-      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I49@RESISTOR.R(CHIPS) has been deleted from the design.
-      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I50@RESISTOR.R(CHIPS) has been deleted from the design.
-      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I51@RESISTOR.R(CHIPS) has been deleted from the design.
-      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE2_I52@RESISTOR.R(CHIPS) has been deleted from the design.
-      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I13@RESISTOR.R(CHIPS) has been deleted from the design.
-      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I14@OSCILLATOR.X322512MSB4SI(CHIPS) has been deleted from the design.
-      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I15@CAPACITOR.C(CHIPS) has been deleted from the design.
-      INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I16@CAPACITOR.C(CHIPS) has been deleted from the design.
-      Elapsed time since start = (00:00:04)
+Elapsed time since start = (00:00:01)
 
  *****************************************
  *  End loading State Files  (00:00:00)  *
@@ -38,7 +24,7 @@ INFO(SPCODD-95): State file primitive @POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1
  *  Starting to assign physical parts.  *
  ****************************************
 
-Elapsed time since start = (00:00:04)
+Elapsed time since start = (00:00:01)
 
  ***********************************************
  *  End assigning physical parts.  (00:00:00)  *
@@ -49,7 +35,7 @@ Elapsed time since start = (00:00:04)
  *  Packaging  *
  ***************
 
-Elapsed time since start = (00:00:04)
+Elapsed time since start = (00:00:01)
 
  *******************************
  *  End packaging  (00:00:00)  *
