@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 29-Dec-2025 AT 16:12:03 }
-TIME=' COMPILATION ON 29-Dec-2025 AT 16:12:03';
+{ Packager-XL run on 21-Jan-2026 AT 14:17:53 }
+TIME=' COMPILATION ON 21-Jan-2026 AT 14:17:53';
 primitive '5557_4PIN-5557_4PIN';body '5557_4PIN';
     '1':'(1)';
     '2':'(2)';

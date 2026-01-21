@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : power_amplifier.brd                           )
 (    Software Version : 17.4S039                                      )
-(    Date/Time        : Mon Dec 29 16:12:05 2025                      )
+(    Date/Time        : Wed Jan 21 14:17:59 2026                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -27,7 +27,7 @@ CmdLine: netrev -proj G:\Cadence\POWAMP\power_amplifier.cpm -y 1 -O G:\Cadence\P
 ------ Preparing to read pst files ------
 
 Starting to read G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstchip.dat 
-   Finished reading G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstchip.dat (00:00:00.23)
+   Finished reading G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstchip.dat (00:00:00.26)
 Starting to read G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstxprt.dat 
    Finished reading G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstxprt.dat (00:00:00.00)
 Starting to read G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstxnet.dat 
@@ -41,8 +41,8 @@ Starting to read G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstxnet.dat
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    G:/Cadence/POWAMP/worklib/power_amplifier/packaged/pstcmdb.dat
-	Allegro Baseline:   C:/Users/Lucky/AppData/Local/Temp/#Taaaaah04800.tmp
-	Start time: Mon Dec 29 16:12:05 2025
+	Allegro Baseline:   C:/Users/Lucky/AppData/Local/Temp/#Taaaaah06168.tmp
+	Start time: Wed Jan 21 14:17:59 2026
 ===========================================================
 
 
@@ -50,7 +50,7 @@ The constraint difference report file can be viewed using the following command:
 cdnFlowOOSMsg.exe -file file:///G:/Cadence/POWAMP/temp/constraints_difference_report.xml
 
 ===========================================================
-Finished Constraint Update	Time: Mon Dec 29 16:12:05 2025
+Finished Constraint Update	Time: Wed Jan 21 14:17:59 2026
 ===========================================================
 
 ------ Library Paths ------
@@ -82,9 +82,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Dec 29 16:12:05 2025
+netrev run on Jan 21 14:17:58 2026
    DESIGN NAME : 'POWER_AMPLIFIER'
-   PACKAGING ON 29-Dec-2025 AT 16:12:03
+   PACKAGING ON 21-Jan-2026 AT 14:17:53
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -111,6 +111,6 @@ netrev run on Dec 29 16:12:05 2025
  No oversight detected
  No warning detected
 
-cpu time      0:02:26
+cpu time      0:02:32
 elapsed time  0:00:01
 

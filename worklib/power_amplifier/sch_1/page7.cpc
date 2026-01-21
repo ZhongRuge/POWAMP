@@ -23,6 +23,9 @@
   resistor r *
   page7_i19
 #CELL
+  resistor r *
+  page7_i20
+#CELL
   capacitor c *
   page7_i6
 #CELL

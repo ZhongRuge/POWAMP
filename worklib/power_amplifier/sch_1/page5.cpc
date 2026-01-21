@@ -89,9 +89,6 @@
   capacitor c *
   page5_i44
 #CELL
-  resistor r *
-  page5_i45
-#CELL
   inductor fxl0630-100-m *
   page5_i46
 #CELL

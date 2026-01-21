@@ -1,9 +1,9 @@
 FILE_TYPE=EXPANDEDPARTLIST;
-{ Packager-XL run on 29-Dec-2025 AT 16:12:03 }
+{ Packager-XL run on 21-Jan-2026 AT 14:17:53 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='POWER_AMPLIFIER';
- POST_TIME='29-Dec-2025 AT 16:12:03';
+ POST_TIME='21-Jan-2026 AT 14:17:53';
  SOURCE_TOOL='PACKAGER_XL';
 END_DIRECTIVES;
 
@@ -2235,6 +2235,28 @@ SECTION_NUMBER 1
  PRIM_FILE='./My_lib/inductor/fxl0630#2d100#2dm/chips/chips.prt';
 
 PART_NAME
+ R1 'R-0805W8F1002T5E,10K':;
+
+SECTION_NUMBER 1
+ '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7_I20@RESISTOR.R(CHIPS)':
+ C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i20@resistor.r(chips)~
+',
+ P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page7_i20@resistor.r(chips)~
+',
+ PATH='I20',
+ DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE7',
+ CODE='0805W8F1002T5E',
+ PIN_TEXT_VISIBLE='False',
+ PHYS_PAGE='7',
+ XY='(-100,3900)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='resistor',
+ CDS_PART_NAME='R-0805W8F1002T5E,10K',
+ VALUE='10K',
+ PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
+
+PART_NAME
  R5 'R-0805W8F2700T5E,270':;
 
 SECTION_NUMBER 1
@@ -2540,28 +2562,6 @@ SECTION_NUMBER 1
  CDS_LIB='resistor',
  CDS_PART_NAME='R-0805W8F1003T5E,100K',
  VALUE='100K',
- PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
-
-PART_NAME
- R25 'R-RE0805FAR000,0':;
-
-SECTION_NUMBER 1
- '@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5_I45@RESISTOR.R(CHIPS)':
- C_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i45@resistor.r(chips)~
-',
- P_PATH='@power_amplifier_lib.power_amplifier(sch_1):page5_i45@resistor.r(chips)~
-',
- PATH='I45',
- DRAWING='@POWER_AMPLIFIER_LIB.POWER_AMPLIFIER(SCH_1):PAGE5',
- CODE='RE0805FAR000',
- PIN_TEXT_VISIBLE='False',
- PHYS_PAGE='5',
- XY='(2300,5300)',
- ROT='0',
- VER='1',
- CDS_LIB='resistor',
- CDS_PART_NAME='R-RE0805FAR000,0',
- VALUE='0',
  PRIM_FILE='./My_lib/resistor/r/chips/chips.prt';
 
 PART_NAME
@@ -3406,7 +3406,6 @@ SECTION_NUMBER 1
  VER='1',
  CDS_LIB='ic',
  CDS_PART_NAME='SA9227A',
- VALUE='U1',
  PRIM_FILE='./My_lib/ic/sa9227a/chips/chips.prt';
 
 PART_NAME

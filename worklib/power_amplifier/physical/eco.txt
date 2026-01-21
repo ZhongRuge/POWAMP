@@ -3,19 +3,16 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd      |
-|                                                    Mon Dec 29 16:12:05 2025  |
+|                                                    Wed Jan 21 14:17:59 2026  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  USB_DN       net RENAMED (to net name listed on right)           USB_DM       
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  USB_DN_CONN  pins MOVED FROM this net (to net name listed on right)
-                                 L4.3            845.440 4130.76
-                                                                    USB_DM_CONN
+  DSD_FLAG     pins DELETED FROM this net (all pins deleted)
+                                 U1.10           631.382 2922.59
 |------------------------------------------------------------------------------|
-|       Nets changed          :       2                                        |
+|       Nets changed          :       1                                        |
 |                                                                              |
-|   Total ECO changes reported:       2                                        |
+|   Total ECO changes reported:       1                                        |
 |------------------------------------------------------------------------------|

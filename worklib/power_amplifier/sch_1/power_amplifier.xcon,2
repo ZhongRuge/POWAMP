@@ -5,15 +5,15 @@
     <schemaVersion>17.4</schemaVersion>
     <creatorTool>conceptHDL</creatorTool>
     <modifierTool>conceptHDL</modifierTool>
-    <modificationTime>2025-12-29T15:20:19</modificationTime>
+    <modificationTime>2026-01-21T12:35:55</modificationTime>
     <savedLibrary>power_amplifier_lib</savedLibrary>
   </header>
   <designs>
     <design schemaType="nameBased" name="power_amplifier" view="sch_1">
       <lastids>
-        <instanceid>470</instanceid>
-        <netid>253</netid>
-        <insttermid>1434</insttermid>
+        <instanceid>471</instanceid>
+        <netid>257</netid>
+        <insttermid>1436</insttermid>
       </lastids>
       <cells>
         <cell>
@@ -1738,10 +1738,6 @@
           <name>usb_dm_conn</name>
         </net>
         <net>
-          <id>N45</id>
-          <name>usb_dn</name>
-        </net>
-        <net>
           <id>N46</id>
           <name>usb_dp</name>
         </net>
@@ -1824,10 +1820,6 @@
         <net>
           <id>N83</id>
           <name>stm32_nrst</name>
-        </net>
-        <net>
-          <id>N84</id>
-          <name>boot0</name>
         </net>
         <net>
           <id>N87</id>
@@ -1916,10 +1908,6 @@
         <net>
           <id>N133</id>
           <name>vout</name>
-        </net>
-        <net>
-          <id>N134</id>
-          <name>gnda</name>
         </net>
         <net>
           <id>N135</id>
@@ -2105,6 +2093,18 @@
           <id>N253</id>
           <name>dsd_flag</name>
         </net>
+        <net>
+          <id>N255</id>
+          <name>usb_dm</name>
+        </net>
+        <net>
+          <id>N256</id>
+          <name>gnd</name>
+        </net>
+        <net>
+          <id>N257</id>
+          <name>unnamed_7_r_i20_a</name>
+        </net>
       </nets>
       <aliases>
       </aliases>
@@ -2184,14 +2184,14 @@
               <id>M13</id>
               <termid>T14</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M14</id>
               <termid>T15</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -2219,7 +2219,7 @@
               <id>M18</id>
               <termid>T19</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -2555,28 +2555,28 @@
               <id>M192</id>
               <termid>T109</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M193</id>
               <termid>T110</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M194</id>
               <termid>T111</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M195</id>
               <termid>T112</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -2604,7 +2604,7 @@
               <id>M199</id>
               <termid>T116</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -2618,7 +2618,7 @@
               <id>M1021</id>
               <termid>T326</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -2681,7 +2681,7 @@
               <id>M1282</id>
               <termid>T342</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -2709,7 +2709,7 @@
               <id>M1032</id>
               <termid>T327</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -2744,7 +2744,7 @@
               <id>M1082</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -2814,7 +2814,7 @@
               <id>M1089</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -2828,28 +2828,28 @@
               <id>M361</id>
               <termid>T99</termid>
               <connections>
-                <connection net="N45" />
+                <connection net="N46" />
               </connections>
             </pin>
             <pin>
               <id>M362</id>
               <termid>T100</termid>
               <connections>
-                <connection net="N46" />
+                <connection net="N255" />
               </connections>
             </pin>
             <pin>
               <id>M363</id>
               <termid>T101</termid>
               <connections>
-                <connection net="N47" />
+                <connection net="N44" />
               </connections>
             </pin>
             <pin>
               <id>M364</id>
               <termid>T102</termid>
               <connections>
-                <connection net="N44" />
+                <connection net="N47" />
               </connections>
             </pin>
           </pins>
@@ -2891,7 +2891,7 @@
               <id>M1125</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -2905,14 +2905,14 @@
               <id>M371</id>
               <termid>T95</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M372</id>
               <termid>T96</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -2947,7 +2947,7 @@
               <id>M1127</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -2968,7 +2968,7 @@
               <id>M1129</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -2989,7 +2989,7 @@
               <id>M1131</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -3024,7 +3024,7 @@
               <id>M393</id>
               <termid>T158</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -3066,7 +3066,7 @@
               <id>M1133</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -3087,7 +3087,7 @@
               <id>M1135</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -3101,7 +3101,7 @@
               <id>M1136</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -3171,7 +3171,7 @@
               <id>M1143</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -3185,7 +3185,7 @@
               <id>M1144</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -3227,7 +3227,7 @@
               <id>M1148</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -3248,7 +3248,7 @@
               <id>M505</id>
               <termid>T117</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -3296,7 +3296,7 @@
               <id>M512</id>
               <termid>T124</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -3352,42 +3352,42 @@
               <id>M520</id>
               <termid>T132</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M521</id>
               <termid>T133</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M522</id>
               <termid>T134</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M523</id>
               <termid>T135</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M524</id>
               <termid>T136</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M525</id>
               <termid>T137</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -3407,14 +3407,14 @@
               <id>M528</id>
               <termid>T142</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M529</id>
               <termid>T143</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -3538,7 +3538,7 @@
               <id>M1150</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -3559,7 +3559,7 @@
               <id>M1152</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -3580,7 +3580,7 @@
               <id>M1154</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -3601,7 +3601,7 @@
               <id>M556</id>
               <termid>T170</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -3629,7 +3629,7 @@
               <id>M1090</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -3657,7 +3657,7 @@
               <id>M1093</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -3692,7 +3692,7 @@
               <id>M1096</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -3713,7 +3713,7 @@
               <id>M567</id>
               <termid>T173</termid>
               <connections>
-                <connection net="N84" />
+                <connection net="N257" />
               </connections>
             </pin>
             <pin>
@@ -3989,28 +3989,28 @@
               <id>M611</id>
               <termid>T217</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M612</id>
               <termid>T218</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M613</id>
               <termid>T219</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M614</id>
               <termid>T220</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -4024,7 +4024,7 @@
               <id>M1164</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -4045,7 +4045,7 @@
               <id>M1166</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -4073,7 +4073,7 @@
               <id>M1169</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -4094,7 +4094,7 @@
               <id>M1171</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -4129,7 +4129,7 @@
               <id>M1172</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -4157,7 +4157,7 @@
               <id>M638</id>
               <termid>T222</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -4304,7 +4304,7 @@
               <id>M1179</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -4325,7 +4325,7 @@
               <id>M1181</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -4388,7 +4388,7 @@
               <id>M1183</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -4493,7 +4493,7 @@
               <id>M1189</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -4507,7 +4507,7 @@
               <id>M673</id>
               <termid>T225</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -4745,7 +4745,7 @@
               <id>M701</id>
               <termid>T230</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -4976,7 +4976,7 @@
               <id>M1203</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -4997,7 +4997,7 @@
               <id>M1205</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -5018,14 +5018,14 @@
               <id>M729</id>
               <termid>T240</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M730</id>
               <termid>T241</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -5081,7 +5081,7 @@
               <id>M735</id>
               <termid>T246</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -5109,7 +5109,7 @@
               <id>M738</id>
               <termid>T249</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -5130,7 +5130,7 @@
               <id>M742</id>
               <termid>T249</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -5144,7 +5144,7 @@
               <id>M1098</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -5165,7 +5165,7 @@
               <id>M1100</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -5242,7 +5242,7 @@
               <id>M755</id>
               <termid>T258</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -5282,7 +5282,7 @@
               <id>M761</id>
               <termid>T264</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -5317,7 +5317,7 @@
               <id>M1103</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -5352,7 +5352,7 @@
               <id>M1106</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -5380,7 +5380,7 @@
               <id>M1109</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -5422,7 +5422,7 @@
               <id>M1287</id>
               <termid>T327</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -5436,7 +5436,7 @@
               <id>M1110</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -5457,7 +5457,7 @@
               <id>M1112</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -5506,7 +5506,7 @@
               <id>M1291</id>
               <termid>T327</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -5527,7 +5527,7 @@
               <id>M1115</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -5541,7 +5541,7 @@
               <id>M800</id>
               <termid>T233</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -5562,7 +5562,7 @@
               <id>M803</id>
               <termid>T236</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -5577,27 +5577,6 @@
               <termid>T238</termid>
               <connections>
                 <connection net="N103" />
-              </connections>
-            </pin>
-          </pins>
-        </instance>
-        <instance>
-          <id>I209</id>
-          <cellid>S36</cellid>
-          <name>page5_i45</name>
-          <pins>
-            <pin>
-              <id>M1074</id>
-              <termid>T326</termid>
-              <connections>
-                <connection net="N134" />
-              </connections>
-            </pin>
-            <pin>
-              <id>M1075</id>
-              <termid>T327</termid>
-              <connections>
-                <connection net="N3" />
               </connections>
             </pin>
           </pins>
@@ -5681,7 +5660,7 @@
               <id>M1272</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -5702,7 +5681,7 @@
               <id>M1274</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -5723,7 +5702,7 @@
               <id>M820</id>
               <termid>T267</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -5867,7 +5846,7 @@
               <id>M1206</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -5888,7 +5867,7 @@
               <id>M1208</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -5916,7 +5895,7 @@
               <id>M1211</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -5937,7 +5916,7 @@
               <id>M1213</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -6000,7 +5979,7 @@
               <id>M1329</id>
               <termid>T327</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -6105,7 +6084,7 @@
               <id>M1339</id>
               <termid>T327</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -6189,21 +6168,21 @@
               <id>M1054</id>
               <termid>T329</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M1055</id>
               <termid>T330</termid>
               <connections>
-                <connection net="N45" />
+                <connection net="N255" />
               </connections>
             </pin>
             <pin>
               <id>M1056</id>
               <termid>T331</termid>
               <connections>
-                <connection net="N45" />
+                <connection net="N255" />
               </connections>
             </pin>
             <pin>
@@ -6238,7 +6217,7 @@
               <id>M1065</id>
               <termid>T335</termid>
               <connections>
-                <connection net="N45" />
+                <connection net="N255" />
               </connections>
             </pin>
             <pin>
@@ -6252,35 +6231,35 @@
               <id>M1067</id>
               <termid>T337</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M1068</id>
               <termid>T338</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M1069</id>
               <termid>T339</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M1070</id>
               <termid>T340</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
               <id>M1071</id>
               <termid>T341</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -6301,7 +6280,7 @@
               <id>M1077</id>
               <termid>T343</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -6315,7 +6294,7 @@
               <id>M1080</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -6343,7 +6322,7 @@
               <id>M1117</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -6357,7 +6336,7 @@
               <id>M1118</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -6385,7 +6364,7 @@
               <id>M1121</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -6406,7 +6385,7 @@
               <id>M1123</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -6469,7 +6448,7 @@
               <id>M1281</id>
               <termid>T343</termid>
               <connections>
-                <connection net="N3" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -6525,7 +6504,7 @@
               <id>M1374</id>
               <termid>T352</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -6546,7 +6525,7 @@
               <id>M1377</id>
               <termid>T355</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -6572,7 +6551,7 @@
               <id>M1380</id>
               <termid>T352</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -6593,7 +6572,7 @@
               <id>M1383</id>
               <termid>T355</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -6619,7 +6598,7 @@
               <id>M1386</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -6640,7 +6619,7 @@
               <id>M1388</id>
               <termid>T267</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -6784,7 +6763,7 @@
               <id>M1409</id>
               <termid>T344</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
             <pin>
@@ -6812,7 +6791,7 @@
               <id>M1412</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -6833,7 +6812,7 @@
               <id>M1414</id>
               <termid>T345</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -6854,7 +6833,7 @@
               <id>M1416</id>
               <termid>T327</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -6896,7 +6875,7 @@
               <id>M1420</id>
               <termid>T327</termid>
               <connections>
-                <connection net="N134" />
+                <connection net="N256" />
               </connections>
             </pin>
           </pins>
@@ -7048,6 +7027,27 @@
             </pin>
           </pins>
         </instance>
+        <instance>
+          <id>I471</id>
+          <cellid>S36</cellid>
+          <name>page7_i20</name>
+          <pins>
+            <pin>
+              <id>M1435</id>
+              <termid>T326</termid>
+              <connections>
+                <connection net="N257" />
+              </connections>
+            </pin>
+            <pin>
+              <id>M1436</id>
+              <termid>T327</termid>
+              <connections>
+                <connection net="N256" />
+              </connections>
+            </pin>
+          </pins>
+        </instance>
       </instances>
       <templateresolutions>
       </templateresolutions>
@@ -7080,7 +7080,7 @@
               <net ref="dmclk"></net>
               <net ref="dmclk_out"></net>
               <net ref="dsd_flag"></net>
-              <net ref="gndd"></net>
+              <net ref="gnd"></net>
               <net ref="pll_gnd"></net>
               <net ref="sa_reset"></net>
               <net ref="sa_xi"></net>
@@ -7123,10 +7123,10 @@
             <physicalPageNumber>3</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
-              <net ref="gndd"></net>
+              <net ref="gnd"></net>
               <net ref="usb_5v0"></net>
+              <net ref="usb_dm"></net>
               <net ref="usb_dm_conn"></net>
-              <net ref="usb_dn"></net>
               <net ref="usb_dp"></net>
               <net ref="usb_dp_conn"></net>
               <net ref="vbus_filt"></net>
@@ -7144,7 +7144,7 @@
             <physicalPageNumber>4</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
-              <net ref="gndd"></net>
+              <net ref="gnd"></net>
               <net ref="sa_reset"></net>
               <net ref="sa_xi"></net>
               <net ref="sa_xo"></net>
@@ -7167,7 +7167,7 @@
               <net ref="byp+"></net>
               <net ref="byp-"></net>
               <net ref="dc_in"></net>
-              <net ref="gnda"></net>
+              <net ref="gnd"></net>
               <net ref="gndd"></net>
               <net ref="unnamed_5_bsmd2920-300-33v_i25_1"></net>
               <net ref="unnamed_5_bsmd2920-300-33v_i25_2"></net>
@@ -7216,7 +7216,6 @@
               <instance ref="i42"></instance>
               <instance ref="i43"></instance>
               <instance ref="i44"></instance>
-              <instance ref="i45"></instance>
               <instance ref="i46"></instance>
             </instances>
           </page>
@@ -7239,8 +7238,7 @@
               <net ref="flyn_vcp"></net>
               <net ref="flyp_va"></net>
               <net ref="flyp_vcp"></net>
-              <net ref="gnda"></net>
-              <net ref="gndd"></net>
+              <net ref="gnd"></net>
               <net ref="i2c_scl"></net>
               <net ref="i2c_sda"></net>
               <net ref="vcp_filt+"></net>
@@ -7270,14 +7268,14 @@
             <physicalPageNumber>7</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
-              <net ref="boot0"></net>
               <net ref="dac_rst"></net>
-              <net ref="gndd"></net>
+              <net ref="gnd"></net>
               <net ref="i2c_scl"></net>
               <net ref="i2c_sda"></net>
               <net ref="stm32_nrst"></net>
               <net ref="swclk"></net>
               <net ref="swdio"></net>
+              <net ref="unnamed_7_r_i20_a"></net>
               <net ref="vdd33_sa"></net>
             </nets>
             <instances>
@@ -7291,6 +7289,7 @@
               <instance ref="i17"></instance>
               <instance ref="i18"></instance>
               <instance ref="i19"></instance>
+              <instance ref="i20"></instance>
             </instances>
           </page>
           <page number="8">
@@ -7299,7 +7298,7 @@
             <nets>
               <net ref="dac_out_l"></net>
               <net ref="dac_out_r"></net>
-              <net ref="gnda"></net>
+              <net ref="gnd"></net>
               <net ref="l_bax-"></net>
               <net ref="pre_l"></net>
               <net ref="pre_r"></net>
@@ -7364,7 +7363,7 @@
             <physicalPageNumber>9</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
-              <net ref="gnda"></net>
+              <net ref="gnd"></net>
               <net ref="pre_out_l"></net>
               <net ref="pre_out_r"></net>
               <net ref="tone_out_l"></net>
@@ -7386,7 +7385,7 @@
             <physicalPageNumber>10</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
-              <net ref="gnda"></net>
+              <net ref="gnd"></net>
               <net ref="headphone_lpan"></net>
               <net ref="headphone_rpan"></net>
               <net ref="hlin+"></net>
@@ -7421,7 +7420,7 @@
             <physicalPageNumber>11</physicalPageNumber>
             <errorStatus>false</errorStatus>
             <nets>
-              <net ref="gnda"></net>
+              <net ref="gnd"></net>
               <net ref="pre_out_l"></net>
               <net ref="pre_out_r"></net>
               <net ref="slin+"></net>
