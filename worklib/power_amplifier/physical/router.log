@@ -1,0 +1,24 @@
+
+---------------------------------------------------------------------------
+BOARD: G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd ROUTER: 17.4
+DATE: Thu Jan 22 16:38:56 2026        HOST: LUCK
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----       369  152  139  58%   36   67    85.0  0:06:47  0:06:47
+
+---------------------------------------------------------------------------
+BOARD: G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd ROUTER: 17.4
+DATE: Thu Jan 22 16:38:56 2026        HOST: LUCK
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----       369  152  139  58%   36   61    85.0  0:06:47  0:06:47
+
+---------------------------------------------------------------------------
+BOARD: G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd ROUTER: 17.4
+DATE: Thu Jan 22 16:38:56 2026        HOST: LUCK
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----       369  139  139  62%   35   61    83.0  0:06:48  0:06:48

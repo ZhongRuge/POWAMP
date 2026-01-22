@@ -1,0 +1,282 @@
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd
+Started on   Thu Jan 22 16:38:56 2026
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 150  Unplaced 0  Total 150
+        Nets:  W/Rats 102  No/Rats 4  Total 107
+        Pins:  W/Rats 304  No/Rats 171  Unused 89  Unplaced 0  Total 564
+        Equivalent ICs (1 pin = 1/14 EIC)  40
+        Router Keepin (in) (0.0197,0.0197) by (1.9488,3.9173)
+        Board area (sq in)  7.5
+        Board density (sq in/EIC) 0.187
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                202         167          369
+        Already Connected          202          28          230
+        Missing Connections          0         139          139
+        Connection Completion      100.00%      16.77%       62.33%
+        Manh Distance (inches)      75.57
+        Etch Length (inches)        80.21        4.54        84.74
+        Number of vias		    61           6           67
+        Vias per Connection          0.30        0.21         0.29
+        Smd pins with attached clines                       331
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H 6.000 6.000 6.000  6.000 6.000  16.000 25.000
+        X grids:     5.000 5.000 5.000 5.000 5.000  Offset: 0.000
+        Y grids:     5.000 5.000 5.000 5.000 5.000  Offset: 0.000
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     4  BOTTOM               V 6.000 6.000 6.000  6.000 6.000  16.000 25.000
+        X grids:     5.000 5.000 5.000 5.000 5.000  Offset: 0.000
+        Y grids:     5.000 5.000 5.000 5.000 5.000  Offset: 0.000
+
+    ATTEMPTS: 25 this step: 0 skips:  
+    count_invalid 13 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                202         167          369
+        Already Connected          202          28          230
+        Missing Connections          0         139          139
+        Connection Completion      100.00%      16.77%       62.33%
+        Etch Length (inches)        80.21        4.54        84.74
+        Number of vias		    59           2           61
+        Vias per Connection          0.29        0.07         0.27
+        Smd pins with attached clines                       330
+
+
+
+    Total cpu time - 0:6:47 hours
+    Total elapsed time - 2259:35:44 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Thu Jan 22 16:38:56 2026
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd
+Started on   Thu Jan 22 16:38:56 2026
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 150  Unplaced 0  Total 150
+        Nets:  W/Rats 102  No/Rats 4  Total 107
+        Pins:  W/Rats 304  No/Rats 171  Unused 89  Unplaced 0  Total 564
+        Equivalent ICs (1 pin = 1/14 EIC)  40
+        Router Keepin (in) (0.0197,0.0197) by (1.9488,3.9173)
+        Board area (sq in)  7.5
+        Board density (sq in/EIC) 0.187
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                202         167          369
+        Already Connected          202          28          230
+        Missing Connections          0         139          139
+        Connection Completion      100.00%      16.77%       62.33%
+        Manh Distance (inches)      75.57
+        Etch Length (inches)        80.21        4.54        84.74
+        Number of vias		    59           2           61
+        Vias per Connection          0.29        0.07         0.27
+        Smd pins with attached clines                       330
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H 6.000 6.000 6.000  6.000 6.000  16.000 25.000
+        X grids:     5.000 5.000 5.000 5.000 5.000  Offset: 0.000
+        Y grids:     5.000 5.000 5.000 5.000 5.000  Offset: 0.000
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     4  BOTTOM               V 6.000 6.000 6.000  6.000 6.000  16.000 25.000
+        X grids:     5.000 5.000 5.000 5.000 5.000  Offset: 0.000
+        Y grids:     5.000 5.000 5.000 5.000 5.000  Offset: 0.000
+
+    ATTEMPTS: 25 this step: 0 skips:  
+    count_invalid 13 in 1  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                202         167          369
+        Already Connected          202          28          230
+        Missing Connections          0         139          139
+        Connection Completion      100.00%      16.77%       62.33%
+        Etch Length (inches)        80.21        4.54        84.74
+        Number of vias		    59           2           61
+        Vias per Connection          0.29        0.07         0.27
+        Smd pins with attached clines                       330
+
+
+
+    Total cpu time - 0:6:47 hours
+    Total elapsed time - 2259:35:44 hours
+    Invalid Count Time: 1 0:0:0 hours
+    Route ended on  Thu Jan 22 16:38:56 2026
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on G:/Cadence/POWAMP/worklib/power_amplifier/physical/power_amplifier.brd
+Started on   Thu Jan 22 16:38:56 2026
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 150  Unplaced 0  Total 150
+        Nets:  W/Rats 102  No/Rats 4  Total 107
+        Pins:  W/Rats 304  No/Rats 171  Unused 89  Unplaced 0  Total 564
+        Equivalent ICs (1 pin = 1/14 EIC)  40
+        Router Keepin (in) (0.0197,0.0197) by (1.9488,3.9173)
+        Board area (sq in)  7.5
+        Board density (sq in/EIC) 0.187
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                202         167          369
+        Already Connected          202          28          230
+        Missing Connections          0         139          139
+        Connection Completion      100.00%      16.77%       62.33%
+        Manh Distance (inches)      75.57
+        Etch Length (inches)        78.92        4.31        83.24
+        Number of vias		    59           2           61
+        Vias per Connection          0.29        0.07         0.27
+        Smd pins with attached clines                       330
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H 6.000 6.000 6.000  6.000 6.000  16.000 25.000
+        X grids:     5.000 5.000 5.000 5.000 5.000  Offset: 0.000
+        Y grids:     5.000 5.000 5.000 5.000 5.000  Offset: 0.000
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     4  BOTTOM               V 6.000 6.000 6.000  6.000 6.000  16.000 25.000
+        X grids:     5.000 5.000 5.000 5.000 5.000  Offset: 0.000
+        Y grids:     5.000 5.000 5.000 5.000 5.000  Offset: 0.000
+
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                202         167          369
+        Already Connected          202          28          230
+        Missing Connections          0         139          139
+        Connection Completion      100.00%      16.77%       62.33%
+        Etch Length (inches)        79.25        4.31        83.57
+        Number of vias		    59           2           61
+        Vias per Connection          0.29        0.07         0.27
+        Smd pins with attached clines                       330
+
+
+
+    Total cpu time - 0:6:48 hours
+    Total elapsed time - 2259:35:44 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Thu Jan 22 16:38:56 2026

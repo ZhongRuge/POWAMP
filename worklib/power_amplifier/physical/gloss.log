@@ -1,0 +1,1689 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Glossing                                                         )
+(                                                                     )
+(    Drawing          : power_amplifier.brd                           )
+(    Software Version : 17.4S039                                      )
+(    Date/Time        : Thu Jan 22 16:38:56 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+
+
+Via Eliminate glossing in progress.
+Started on Thu Jan 22 16:38:56 2026
+ with Parameters: 
+   Jog limit            : -1 
+   Used pin escapes        : YES 
+   Unused pin escapes      : YES 
+   Stand alone vias        : YES 
+   Regular through vias    : YES 
+   HDI Unused stacked vias : NO 
+
+
+Eliminations on net GND :
+Unused Pin Escape Candidates: 4, Eliminations: 4,  = 100 % Eliminated.
+
+Eliminations on net SRIN- :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net SLIN- :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net UNNAMED_2_C_I65_B :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net VDD18_DAC :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net VCC_BUS :
+Through Via Candidates: 3, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net VCC_AMP- :
+Through Via Candidates: 5, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net VCC_AMP+ :
+Through Via Candidates: 8, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net VBUS_FILT :
+Through Via Candidates: 1, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net USB_5V0 :
+Through Via Candidates: 2, Eliminations: 1,  = 50 % Eliminated.
+
+Eliminations on net UNNAMED_8_C_I17_B :
+Through Via Candidates: 1, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net TONE_OUT_R :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+Unused Pin Escape Candidates: 1, Eliminations: 1,  = 100 % Eliminated.
+
+Eliminations on net HROUT :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net HRIN- :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net PRE_R :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net PRE_OUT_R :
+Through Via Candidates: 1, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net PRE_OUT_L :
+Through Via Candidates: 3, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net PRE_L :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net PLL_GND :
+Through Via Candidates: 3, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net HLOUT :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net HLIN- :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net I2C_SDA :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net I2C_SCL :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net DLRCK :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net DDATA :
+Through Via Candidates: 3, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net DBCLK :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net DAC_RST :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Thu Jan 22 16:38:56 2026
+
+
+Via Eliminate Total Stats:
+Total Through Via Candidates: 62, Eliminations: 1,  = 1 % Eliminated.
+Total Unused Pin Escape Candidates: 5, Eliminations: 5,  = 100 % Eliminated.
+Vias: Total Candidates = 67,  Total Eliminations = 6,  9 % Eliminatons.
+
+
+
+
+Via Eliminate glossing in progress.
+Started on Thu Jan 22 16:38:56 2026
+ with Parameters: 
+   Jog limit            : -1 
+   Used pin escapes        : YES 
+   Unused pin escapes      : YES 
+   Stand alone vias        : YES 
+   Regular through vias    : YES 
+   HDI Unused stacked vias : NO 
+
+
+Eliminations on net SRIN- :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net SLIN- :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net UNNAMED_2_C_I65_B :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net VDD18_DAC :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net VCC_BUS :
+Through Via Candidates: 3, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net VCC_AMP- :
+Through Via Candidates: 5, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net VCC_AMP+ :
+Through Via Candidates: 8, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net VBUS_FILT :
+Through Via Candidates: 1, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net USB_5V0 :
+Through Via Candidates: 1, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net UNNAMED_8_C_I17_B :
+Through Via Candidates: 1, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net TONE_OUT_R :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net HROUT :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net HRIN- :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net PRE_R :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net PRE_OUT_R :
+Through Via Candidates: 1, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net PRE_OUT_L :
+Through Via Candidates: 3, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net PRE_L :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net PLL_GND :
+Through Via Candidates: 3, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net HLOUT :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net HLIN- :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net I2C_SDA :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net I2C_SCL :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net DLRCK :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net DDATA :
+Through Via Candidates: 3, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net DBCLK :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+Eliminations on net DAC_RST :
+Through Via Candidates: 2, Eliminations: 0,  = 0 % Eliminated.
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Thu Jan 22 16:38:56 2026
+
+
+Via Eliminate Total Stats:
+Total Through Via Candidates: 61, Eliminations: 0,  = 0 % Eliminated.
+Vias: Total Candidates = 61,  Total Eliminations = 0,  0 % Eliminatons.
+
+
+
+
+Line entry into Pad glossing in progress.
+Started on Thu Jan 22 16:38:56 2026
+Bend Distance is 12.000.
+
+ Circular pads:          YES
+ Square pads  :          YES
+ Rectangular pads :      YES
+ Oblong pads :           YES
+ Enter Square Pad :      Side : YES      Corner : YES  
+ Enter Rectangular Pad : Long : YES      Short  : YES      Corner : YES  
+ Enter Oblong Pad :      Side : YES      Round  : YES      Angle  : 45 OR 90
+ Enter Circular Pad :    Angle : 45 OR 90
+ Create Odd Segs:   NO
+ Corner type  :     45
+ Maximum 45 limit is -1.
+
+Glossing was successful:  SYMBOL PIN at (1365.469,2532.319) defined by pad  SMD_O591X106P0S1
+
+Glossing attempt unsuccessful. Active pad is at (1260.020,3310.000).
+
+Glossing attempt unsuccessful. Active pad is at (1260.020,3390.000).
+
+Glossing was successful:  SYMBOL PIN at (127.839,2220.000) defined by pad  SMD_R1772X650P2S4
+
+Glossing was successful:  SYMBOL PIN at (127.839,1790.000) defined by pad  SMD_R1772X650P2S4
+
+Glossing was successful:  SYMBOL PIN at (1755.020,3400.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1675.020,3510.000).
+
+Glossing was successful:  SYMBOL PIN at (1590.000,3685.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1588.618,3627.402) defined by pad  SMD_R421X236P2S4
+
+Glossing was successful:  SYMBOL PIN at (955.020,3230.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1759.980,2560.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1760.000,2475.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1425.000,2475.039) defined by pad  SMD_R236X787P2S4
+
+Glossing was successful:  SYMBOL PIN at (1290.020,2580.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1647.169,918.228).
+
+Glossing was successful:  SYMBOL PIN at (1779.051,1193.902) defined by pad  SMD_R591X787P2S4
+
+Glossing was successful:  SYMBOL PIN at (1760.000,2015.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1680.000,2185.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1425.000,2104.961) defined by pad  SMD_R236X787P2S4
+
+Glossing was successful:  SYMBOL PIN at (1295.020,1995.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (820.000,1694.150) defined by pad  SMD_O232X805P2S4
+
+Glossing was successful:  SYMBOL PIN at (1015.000,1640.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (770.000,1475.850) defined by pad  SMD_O232X805P2S4
+
+Glossing was successful:  SYMBOL PIN at (1105.000,1559.980) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (520.000,2795.020) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (605.791,2837.839).
+
+Glossing was successful:  SYMBOL PIN at (520.000,2714.980) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (605.791,2672.161).
+
+Glossing attempt unsuccessful. Active pad is at (914.980,2880.000).
+
+Glossing attempt unsuccessful. Active pad is at (820.000,2965.000).
+
+Glossing attempt unsuccessful. Active pad is at (820.000,2965.000).
+
+Glossing was successful:  SYMBOL PIN at (773.110,2922.598) defined by pad  SMD_R575X88P2S0
+
+Glossing attempt unsuccessful. Active pad is at (285.000,2860.000).
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2850.000).
+
+Glossing attempt unsuccessful. Active pad is at (775.000,3009.980).
+
+Glossing attempt unsuccessful. Active pad is at (1720.000,724.150).
+
+Glossing attempt unsuccessful. Active pad is at (1670.000,505.850).
+
+Glossing was successful:  SYMBOL PIN at (240.020,2770.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2770.000).
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2770.000).
+
+Glossing attempt unsuccessful. Active pad is at (492.402,2736.382).
+
+Glossing was successful:  SYMBOL PIN at (1140.000,2490.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1286.728,2532.319) defined by pad  SMD_O591X106P0S1
+
+Glossing was successful:  SYMBOL PIN at (1135.000,2265.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1066.929,3585.000) defined by pad  SMD_R921X1417P2S4
+
+Glossing was successful:  SYMBOL PIN at (1491.382,3590.000) defined by pad  SMD_R421X236P2S4
+
+Glossing was successful:  SYMBOL PIN at (1640.020,2550.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1579.980,2190.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (876.843,3130.000) defined by pad  SMD180SQ180
+
+Glossing was successful:  SYMBOL PIN at (876.843,3130.000) defined by pad  SMD180SQ180
+
+Glossing was successful:  VIA at (1503.618,3216.382) defined by pad  VIA
+
+Glossing attempt unsuccessful. Active pad is at (1179.980,3390.000).
+
+Glossing attempt unsuccessful. Active pad is at (1590.000,3604.980).
+
+Glossing attempt unsuccessful. Active pad is at (1674.980,3400.000).
+
+Glossing attempt unsuccessful. Active pad is at (1550.870,3443.402).
+
+Glossing attempt unsuccessful. Active pad is at (1594.980,3510.000).
+
+Glossing was successful:  SYMBOL PIN at (830.000,2584.980) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (210.020,2490.000).
+
+Glossing attempt unsuccessful. Active pad is at (765.000,2113.110).
+
+Glossing was successful:  SYMBOL PIN at (765.000,2113.110) defined by pad  SMD_R925X1378P2S4
+
+Glossing was successful:  SYMBOL PIN at (482.161,2220.000) defined by pad  SMD_R1772X650P2S4
+
+Glossing attempt unsuccessful. Active pad is at (482.161,2220.000).
+
+Glossing attempt unsuccessful. Active pad is at (723.902,2672.161).
+
+Glossing was successful:  SYMBOL PIN at (770.000,1809.980) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (770.000,1694.150) defined by pad  SMD_O232X805P2S4
+
+Glossing attempt unsuccessful. Active pad is at (414.980,1470.000).
+
+Glossing attempt unsuccessful. Active pad is at (645.161,2672.161).
+
+Glossing attempt unsuccessful. Active pad is at (1815.000,504.980).
+
+Glossing attempt unsuccessful. Active pad is at (1354.961,1850.000).
+
+Glossing attempt unsuccessful. Active pad is at (1725.039,1850.000).
+
+Glossing attempt unsuccessful. Active pad is at (1574.980,2580.000).
+
+Glossing attempt unsuccessful. Active pad is at (1574.980,1995.000).
+
+Glossing attempt unsuccessful. Active pad is at (1015.000,1370.000).
+
+Glossing was successful:  SYMBOL PIN at (950.000,1370.020) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (264.201,1782.615).
+
+Glossing attempt unsuccessful. Active pad is at (675.000,2924.980).
+
+Glossing attempt unsuccessful. Active pad is at (1470.000,725.020).
+
+Glossing was successful:  SYMBOL PIN at (1225.000,1750.020) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1860.000,1750.020).
+
+Glossing was successful:  SYMBOL PIN at (1475.020,2580.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1475.020,1995.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (833.071,3675.551).
+
+Glossing attempt unsuccessful. Active pad is at (835.020,3755.000).
+
+Glossing was successful:  SYMBOL PIN at (285.020,3585.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (552.642,2922.598) defined by pad  SMD_R575X88P2S0
+
+Glossing was successful:  SYMBOL PIN at (94.539,3354.240) defined by pad  SMD_R157X315P2S4
+
+Glossing was successful:  SYMBOL PIN at (345.240,3332.598) defined by pad  SMD_R209X422P2S4
+
+Glossing was successful:  SYMBOL PIN at (165.461,3354.299) defined by pad  SMD_R157X315P2S4
+
+Glossing was successful:  SYMBOL PIN at (254.760,3332.598) defined by pad  SMD_R209X422P2S4
+
+Glossing was successful:  SYMBOL PIN at (345.240,3407.402) defined by pad  SMD_R209X422P2S4
+
+Glossing was successful:  SYMBOL PIN at (165.402,3385.740) defined by pad  SMD_R157X315P2S4
+
+Glossing was successful:  SYMBOL PIN at (94.559,3385.760) defined by pad  SMD_R157X315P2S4
+
+Glossing attempt unsuccessful. Active pad is at (1234.980,485.000).
+
+Glossing attempt unsuccessful. Active pad is at (1014.980,485.000).
+
+Glossing was successful:  SYMBOL PIN at (935.020,1810.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (934.980,1890.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (220.000,240.020).
+
+Glossing was successful:  SYMBOL PIN at (560.000,499.980) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (560.000,499.980).
+
+Glossing was successful:  SYMBOL PIN at (870.000,1289.980) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1105.000,1640.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (452.020,1330.000) defined by pad  SMD_R806X882P2S4
+
+Glossing was successful:  SYMBOL PIN at (855.000,1415.000) defined by pad  SMD_R806X882P2S4
+
+Glossing attempt unsuccessful. Active pad is at (609.980,3025.000).
+
+Glossing was successful:  SYMBOL PIN at (314.201,1782.615) defined by pad  SMD_O232X805P2S4
+
+Glossing attempt unsuccessful. Active pad is at (220.000,420.020).
+
+Glossing was successful:  SYMBOL PIN at (220.000,159.980) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (220.000,159.980) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (915.020,165.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (915.020,165.000).
+
+Glossing was successful:  SYMBOL PIN at (1055.000,2265.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (311.500,2275.000) defined by pad  SMD_O224X768P2S4
+
+Glossing was successful:  SYMBOL PIN at (525.020,2270.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (525.020,2270.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (311.500,2325.000) defined by pad  SMD_O224X768P2S4
+
+Glossing attempt unsuccessful. Active pad is at (525.020,2350.000).
+
+Glossing was successful:  SYMBOL PIN at (525.020,2350.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (492.402,2846.610) defined by pad  SMD_R88X575P2S0
+
+Glossing was successful:  SYMBOL PIN at (175.020,2965.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (333.469,2966.689) defined by pad  SMD_R551X472P2S4
+
+Glossing attempt unsuccessful. Active pad is at (492.402,2862.358).
+
+Glossing was successful:  SYMBOL PIN at (615.630,2597.402) defined by pad  SMD_R575X88P2S0
+
+Glossing attempt unsuccessful. Active pad is at (364.201,1782.615).
+
+Glossing attempt unsuccessful. Active pad is at (1779.980,2020.000).
+
+Glossing was successful:  SYMBOL PIN at (1685.839,2020.622) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1725.039,1800.000) defined by pad  SMD_R236X787P2S4
+
+Glossing attempt unsuccessful. Active pad is at (1604.980,1940.000).
+
+Glossing attempt unsuccessful. Active pad is at (1605.799,2020.622).
+
+Glossing was successful:  VIA at (1605.000,1725.000) defined by pad  VIA8_16
+
+Glossing was successful:  SYMBOL PIN at (1860.000,1580.020) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (820.000,1475.850).
+
+Glossing was successful:  SYMBOL PIN at (870.000,1370.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (560.000,580.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1214.980,1995.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1234.980,565.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (920.000,1694.150).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2750.000).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2790.000).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2790.000).
+
+Glossing was successful:  SYMBOL PIN at (345.000,2680.020) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (314.201,1564.315).
+
+Glossing attempt unsuccessful. Active pad is at (1275.020,2025.000).
+
+Glossing was successful:  SYMBOL PIN at (1275.020,2025.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1354.961,1800.000) defined by pad  SMD_R236X787P2S4
+
+Glossing attempt unsuccessful. Active pad is at (1450.020,1940.000).
+
+Glossing was successful:  SYMBOL PIN at (1354.961,1650.000) defined by pad  SMD_R236X787P2S4
+
+Glossing was successful:  SYMBOL PIN at (1225.000,1570.020) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1355.118,3289.882).
+
+Glossing attempt unsuccessful. Active pad is at (1345.000,2619.980).
+
+Glossing was successful:  SYMBOL PIN at (1345.000,2619.980) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1409.130,3246.598).
+
+Glossing attempt unsuccessful. Active pad is at (1395.000,3225.000).
+
+Glossing was successful:  VIA at (1355.000,3165.000) defined by pad  VIA8_16
+
+Glossing attempt unsuccessful. Active pad is at (1425.000,2619.980).
+
+Glossing attempt unsuccessful. Active pad is at (1425.000,2619.980).
+
+Glossing was successful:  SYMBOL PIN at (1860.020,2020.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1647.169,1201.772).
+
+Glossing was successful:  SYMBOL PIN at (1779.051,926.098) defined by pad  SMD_R591X787P2S4
+
+Glossing was successful:  SYMBOL PIN at (1194.980,2025.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1670.000,3194.980) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1578.402,3415.870) defined by pad  SMD_O79X315S1
+
+Glossing was successful:  SYMBOL PIN at (1760.000,3514.980) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1670.000,3275.020).
+
+Glossing was successful:  SYMBOL PIN at (1760.000,3595.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1760.000,3595.020) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1490.000,3155.020).
+
+Glossing was successful:  SYMBOL PIN at (924.980,2590.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1005.020,2590.000).
+
+Glossing was successful:  SYMBOL PIN at (924.980,2670.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (757.358,2597.402).
+
+Glossing was successful:  SYMBOL PIN at (1005.020,2670.000) defined by pad  SMD120REC127
+
+Glossing was successful:  VIA at (1400.000,3485.000) defined by pad  VIA8_16
+
+Glossing was successful:  VIA at (1400.000,3485.000) defined by pad  VIA8_16
+
+Glossing was successful:  SYMBOL PIN at (1424.882,3246.598) defined by pad  SMD_O315X79S1
+
+Glossing was successful:  SYMBOL PIN at (1005.020,2510.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (482.161,1790.000) defined by pad  SMD_R1772X650P2S4
+
+Glossing attempt unsuccessful. Active pad is at (765.000,1876.890).
+
+Glossing was successful:  SYMBOL PIN at (1005.020,2430.000) defined by pad  SMD120REC127
+
+Glossing was successful:  VIA at (1222.500,3122.500) defined by pad  VIA8_16
+
+Glossing attempt unsuccessful. Active pad is at (1450.000,3485.000).
+
+Glossing attempt unsuccessful. Active pad is at (1444.209,2532.319).
+
+Glossing was successful:  SYMBOL PIN at (684.531,2672.161) defined by pad  SMD_O110X633P2S4
+
+Glossing was successful:  SYMBOL PIN at (844.980,2835.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (723.902,2837.839).
+
+Glossing attempt unsuccessful. Active pad is at (545.000,2379.980).
+
+Glossing attempt unsuccessful. Active pad is at (625.000,2460.020).
+
+Glossing was successful:  SYMBOL PIN at (675.000,3005.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (675.000,3005.020) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (755.000,3005.020).
+
+Glossing was successful:  SYMBOL PIN at (1584.980,3075.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1490.000,3074.980).
+
+
+Finished execution 1
+
+Glossing attempt unsuccessful. Active pad is at (1260.020,3310.000).
+
+Glossing attempt unsuccessful. Active pad is at (1260.020,3390.000).
+
+Glossing attempt unsuccessful. Active pad is at (1675.020,3510.000).
+
+Glossing attempt unsuccessful. Active pad is at (1647.169,918.228).
+
+Glossing attempt unsuccessful. Active pad is at (605.791,2837.839).
+
+Glossing attempt unsuccessful. Active pad is at (605.791,2672.161).
+
+Glossing attempt unsuccessful. Active pad is at (914.980,2880.000).
+
+Glossing attempt unsuccessful. Active pad is at (820.000,2965.000).
+
+Glossing attempt unsuccessful. Active pad is at (820.000,2965.000).
+
+Glossing attempt unsuccessful. Active pad is at (285.000,2860.000).
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2850.000).
+
+Glossing attempt unsuccessful. Active pad is at (775.000,3009.980).
+
+Glossing attempt unsuccessful. Active pad is at (1720.000,724.150).
+
+Glossing attempt unsuccessful. Active pad is at (1670.000,505.850).
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2770.000).
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2770.000).
+
+Glossing attempt unsuccessful. Active pad is at (492.402,2736.382).
+
+Glossing attempt unsuccessful. Active pad is at (1179.980,3390.000).
+
+Glossing attempt unsuccessful. Active pad is at (1590.000,3604.980).
+
+Glossing attempt unsuccessful. Active pad is at (1674.980,3400.000).
+
+Glossing attempt unsuccessful. Active pad is at (1550.870,3443.402).
+
+Glossing attempt unsuccessful. Active pad is at (1594.980,3510.000).
+
+Glossing attempt unsuccessful. Active pad is at (210.020,2490.000).
+
+Glossing attempt unsuccessful. Active pad is at (765.000,2113.110).
+
+Glossing attempt unsuccessful. Active pad is at (482.161,2220.000).
+
+Glossing attempt unsuccessful. Active pad is at (723.902,2672.161).
+
+Glossing attempt unsuccessful. Active pad is at (414.980,1470.000).
+
+Glossing attempt unsuccessful. Active pad is at (645.161,2672.161).
+
+Glossing attempt unsuccessful. Active pad is at (1815.000,504.980).
+
+Glossing attempt unsuccessful. Active pad is at (1354.961,1850.000).
+
+Glossing attempt unsuccessful. Active pad is at (1725.039,1850.000).
+
+Glossing attempt unsuccessful. Active pad is at (1574.980,2580.000).
+
+Glossing attempt unsuccessful. Active pad is at (1574.980,1995.000).
+
+Glossing attempt unsuccessful. Active pad is at (1015.000,1370.000).
+
+Glossing attempt unsuccessful. Active pad is at (264.201,1782.615).
+
+Glossing attempt unsuccessful. Active pad is at (675.000,2924.980).
+
+Glossing attempt unsuccessful. Active pad is at (1470.000,725.020).
+
+Glossing attempt unsuccessful. Active pad is at (1860.000,1750.020).
+
+Glossing attempt unsuccessful. Active pad is at (833.071,3675.551).
+
+Glossing attempt unsuccessful. Active pad is at (835.020,3755.000).
+
+Glossing attempt unsuccessful. Active pad is at (1234.980,485.000).
+
+Glossing attempt unsuccessful. Active pad is at (1014.980,485.000).
+
+Glossing attempt unsuccessful. Active pad is at (220.000,240.020).
+
+Glossing attempt unsuccessful. Active pad is at (560.000,499.980).
+
+Glossing attempt unsuccessful. Active pad is at (609.980,3025.000).
+
+Glossing attempt unsuccessful. Active pad is at (220.000,420.020).
+
+Glossing was successful:  SYMBOL PIN at (264.201,1564.315) defined by pad  SMD_O232X805P2S4
+
+Glossing attempt unsuccessful. Active pad is at (915.020,165.000).
+
+Glossing attempt unsuccessful. Active pad is at (492.402,2862.358).
+
+Glossing attempt unsuccessful. Active pad is at (364.201,1782.615).
+
+Glossing attempt unsuccessful. Active pad is at (1779.980,2020.000).
+
+Glossing attempt unsuccessful. Active pad is at (1604.980,1940.000).
+
+Glossing attempt unsuccessful. Active pad is at (1605.799,2020.622).
+
+Glossing attempt unsuccessful. Active pad is at (820.000,1475.850).
+
+Glossing attempt unsuccessful. Active pad is at (920.000,1694.150).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2750.000).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2790.000).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2790.000).
+
+Glossing attempt unsuccessful. Active pad is at (314.201,1564.315).
+
+Glossing attempt unsuccessful. Active pad is at (1275.020,2025.000).
+
+Glossing attempt unsuccessful. Active pad is at (1450.020,1940.000).
+
+Glossing attempt unsuccessful. Active pad is at (1355.118,3289.882).
+
+Glossing attempt unsuccessful. Active pad is at (1345.000,2619.980).
+
+Glossing attempt unsuccessful. Active pad is at (1409.130,3246.598).
+
+Glossing attempt unsuccessful. Active pad is at (1395.000,3225.000).
+
+Glossing attempt unsuccessful. Active pad is at (1425.000,2619.980).
+
+Glossing attempt unsuccessful. Active pad is at (1425.000,2619.980).
+
+Glossing attempt unsuccessful. Active pad is at (1647.169,1201.772).
+
+Glossing attempt unsuccessful. Active pad is at (1670.000,3275.020).
+
+Glossing attempt unsuccessful. Active pad is at (1490.000,3155.020).
+
+Glossing attempt unsuccessful. Active pad is at (1005.020,2590.000).
+
+Glossing attempt unsuccessful. Active pad is at (757.358,2597.402).
+
+Glossing attempt unsuccessful. Active pad is at (765.000,1876.890).
+
+Glossing attempt unsuccessful. Active pad is at (1450.000,3485.000).
+
+Glossing attempt unsuccessful. Active pad is at (1444.209,2532.319).
+
+Glossing attempt unsuccessful. Active pad is at (723.902,2837.839).
+
+Glossing attempt unsuccessful. Active pad is at (545.000,2379.980).
+
+Glossing attempt unsuccessful. Active pad is at (625.000,2460.020).
+
+Glossing attempt unsuccessful. Active pad is at (755.000,3005.020).
+
+Glossing attempt unsuccessful. Active pad is at (1490.000,3074.980).
+
+
+Finished execution 2
+
+Glossing attempt unsuccessful. Active pad is at (1260.020,3310.000).
+
+Glossing attempt unsuccessful. Active pad is at (1260.020,3390.000).
+
+Glossing attempt unsuccessful. Active pad is at (1675.020,3510.000).
+
+Glossing attempt unsuccessful. Active pad is at (1647.169,918.228).
+
+Glossing attempt unsuccessful. Active pad is at (605.791,2837.839).
+
+Glossing attempt unsuccessful. Active pad is at (605.791,2672.161).
+
+Glossing attempt unsuccessful. Active pad is at (914.980,2880.000).
+
+Glossing attempt unsuccessful. Active pad is at (820.000,2965.000).
+
+Glossing attempt unsuccessful. Active pad is at (820.000,2965.000).
+
+Glossing attempt unsuccessful. Active pad is at (285.000,2860.000).
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2850.000).
+
+Glossing attempt unsuccessful. Active pad is at (775.000,3009.980).
+
+Glossing attempt unsuccessful. Active pad is at (1720.000,724.150).
+
+Glossing attempt unsuccessful. Active pad is at (1670.000,505.850).
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2770.000).
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2770.000).
+
+Glossing attempt unsuccessful. Active pad is at (492.402,2736.382).
+
+Glossing attempt unsuccessful. Active pad is at (1179.980,3390.000).
+
+Glossing attempt unsuccessful. Active pad is at (1590.000,3604.980).
+
+Glossing attempt unsuccessful. Active pad is at (1674.980,3400.000).
+
+Glossing attempt unsuccessful. Active pad is at (1550.870,3443.402).
+
+Glossing attempt unsuccessful. Active pad is at (1594.980,3510.000).
+
+Glossing attempt unsuccessful. Active pad is at (210.020,2490.000).
+
+Glossing attempt unsuccessful. Active pad is at (765.000,2113.110).
+
+Glossing attempt unsuccessful. Active pad is at (482.161,2220.000).
+
+Glossing attempt unsuccessful. Active pad is at (723.902,2672.161).
+
+Glossing attempt unsuccessful. Active pad is at (414.980,1470.000).
+
+Glossing attempt unsuccessful. Active pad is at (645.161,2672.161).
+
+Glossing attempt unsuccessful. Active pad is at (1815.000,504.980).
+
+Glossing attempt unsuccessful. Active pad is at (1354.961,1850.000).
+
+Glossing attempt unsuccessful. Active pad is at (1725.039,1850.000).
+
+Glossing attempt unsuccessful. Active pad is at (1574.980,2580.000).
+
+Glossing attempt unsuccessful. Active pad is at (1574.980,1995.000).
+
+Glossing attempt unsuccessful. Active pad is at (1015.000,1370.000).
+
+Glossing attempt unsuccessful. Active pad is at (264.201,1782.615).
+
+Glossing attempt unsuccessful. Active pad is at (675.000,2924.980).
+
+Glossing attempt unsuccessful. Active pad is at (1470.000,725.020).
+
+Glossing attempt unsuccessful. Active pad is at (1860.000,1750.020).
+
+Glossing attempt unsuccessful. Active pad is at (833.071,3675.551).
+
+Glossing attempt unsuccessful. Active pad is at (835.020,3755.000).
+
+Glossing attempt unsuccessful. Active pad is at (1234.980,485.000).
+
+Glossing attempt unsuccessful. Active pad is at (1014.980,485.000).
+
+Glossing attempt unsuccessful. Active pad is at (220.000,240.020).
+
+Glossing attempt unsuccessful. Active pad is at (560.000,499.980).
+
+Glossing attempt unsuccessful. Active pad is at (609.980,3025.000).
+
+Glossing attempt unsuccessful. Active pad is at (220.000,420.020).
+
+Glossing attempt unsuccessful. Active pad is at (915.020,165.000).
+
+Glossing attempt unsuccessful. Active pad is at (492.402,2862.358).
+
+Glossing attempt unsuccessful. Active pad is at (364.201,1782.615).
+
+Glossing attempt unsuccessful. Active pad is at (1779.980,2020.000).
+
+Glossing attempt unsuccessful. Active pad is at (1604.980,1940.000).
+
+Glossing attempt unsuccessful. Active pad is at (1605.799,2020.622).
+
+Glossing attempt unsuccessful. Active pad is at (820.000,1475.850).
+
+Glossing attempt unsuccessful. Active pad is at (920.000,1694.150).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2750.000).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2790.000).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2790.000).
+
+Glossing attempt unsuccessful. Active pad is at (314.201,1564.315).
+
+Glossing attempt unsuccessful. Active pad is at (1275.020,2025.000).
+
+Glossing attempt unsuccessful. Active pad is at (1450.020,1940.000).
+
+Glossing attempt unsuccessful. Active pad is at (1355.118,3289.882).
+
+Glossing attempt unsuccessful. Active pad is at (1345.000,2619.980).
+
+Glossing attempt unsuccessful. Active pad is at (1409.130,3246.598).
+
+Glossing attempt unsuccessful. Active pad is at (1395.000,3225.000).
+
+Glossing attempt unsuccessful. Active pad is at (1425.000,2619.980).
+
+Glossing attempt unsuccessful. Active pad is at (1425.000,2619.980).
+
+Glossing attempt unsuccessful. Active pad is at (1647.169,1201.772).
+
+Glossing attempt unsuccessful. Active pad is at (1670.000,3275.020).
+
+Glossing attempt unsuccessful. Active pad is at (1490.000,3155.020).
+
+Glossing attempt unsuccessful. Active pad is at (1005.020,2590.000).
+
+Glossing attempt unsuccessful. Active pad is at (757.358,2597.402).
+
+Glossing attempt unsuccessful. Active pad is at (765.000,1876.890).
+
+Glossing attempt unsuccessful. Active pad is at (1450.000,3485.000).
+
+Glossing attempt unsuccessful. Active pad is at (1444.209,2532.319).
+
+Glossing attempt unsuccessful. Active pad is at (723.902,2837.839).
+
+Glossing attempt unsuccessful. Active pad is at (545.000,2379.980).
+
+Glossing attempt unsuccessful. Active pad is at (625.000,2460.020).
+
+Glossing attempt unsuccessful. Active pad is at (755.000,3005.020).
+
+Glossing attempt unsuccessful. Active pad is at (1490.000,3074.980).
+
+
+Finished execution 3
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Thu Jan 22 16:38:56 2026
+
+
+Line Entry Into Pad Glossings Stats
+
+Number of Glossing Attempts                   : 350
+Number of Actual Glossings                    : 112
+Number of Glossings Aborted by DRC violations : 0
+
+
+
+
+Line Smooth glossing in progress.
+Started on Thu Jan 22 16:38:56 2026
+
+ Smooth Functions  :  bubbles maximize 45 jogs dangling clines add 45s
+ Number of executions  : 1
+ Corner type  : 45
+ Length limit is -0.001.
+
+ Maximum 45 limit is -0.001.
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Thu Jan 22 16:38:56 2026
+
+ - 0 - Error(s) from Line smooth Glossing
+
+
+Line Centering Between Pins glossing in progress.
+Started on Thu Jan 22 16:38:56 2026
+
+Minimum Move Size 2.000.
+Line spacing MINIMUM
+Pad Tolerance 100.000.
+Corner type 45
+
+
+Elapsed time:  0 hr 0 min 0 sec ( 0.00 hr)
+Actual time of completion: Thu Jan 22 16:38:56 2026
+
+
+
+Line Center Between Pins Stats
+
+Number of Glossing Attempts                   : 670
+Number of Actual Glossings                    : 12
+Number of Glossings Aborted by DRC violations : 6
+Number of Glossings Aborted by No-Gloss nets  : 0
+
+
+
+Line entry into Pad glossing in progress.
+Started on Thu Jan 22 16:38:56 2026
+Bend Distance is 12.000.
+
+ Circular pads:          YES
+ Square pads  :          YES
+ Rectangular pads :      YES
+ Oblong pads :           YES
+ Enter Square Pad :      Side : YES      Corner : YES  
+ Enter Rectangular Pad : Long : YES      Short  : YES      Corner : YES  
+ Enter Oblong Pad :      Side : YES      Round  : YES      Angle  : 45 OR 90
+ Enter Circular Pad :    Angle : 45 OR 90
+ Create Odd Segs:   NO
+ Corner type  :     45
+ Maximum 45 limit is -1.
+
+Glossing attempt unsuccessful. Active pad is at (1260.020,3310.000).
+
+Glossing attempt unsuccessful. Active pad is at (1260.020,3390.000).
+
+Glossing was successful:  SYMBOL PIN at (127.839,2220.000) defined by pad  SMD_R1772X650P2S4
+
+Glossing was successful:  SYMBOL PIN at (127.839,1790.000) defined by pad  SMD_R1772X650P2S4
+
+Glossing was successful:  SYMBOL PIN at (1755.020,3400.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1675.020,3510.000).
+
+Glossing was successful:  SYMBOL PIN at (1590.000,3685.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1588.618,3627.402) defined by pad  SMD_R421X236P2S4
+
+Glossing was successful:  SYMBOL PIN at (955.020,3230.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1759.980,2560.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1759.980,2560.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1290.020,2580.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1647.169,918.228).
+
+Glossing was successful:  SYMBOL PIN at (1840.020,2560.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1760.000,1934.980) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1760.000,2015.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1680.000,2185.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1295.020,1995.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1105.000,1559.980) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (605.791,2837.839).
+
+Glossing attempt unsuccessful. Active pad is at (605.791,2672.161).
+
+Glossing attempt unsuccessful. Active pad is at (914.980,2880.000).
+
+Glossing attempt unsuccessful. Active pad is at (820.000,2965.000).
+
+Glossing attempt unsuccessful. Active pad is at (820.000,2965.000).
+
+Glossing was successful:  VIA at (820.000,2965.000) defined by pad  VIA8_16
+
+Glossing attempt unsuccessful. Active pad is at (285.000,2860.000).
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2850.000).
+
+Glossing attempt unsuccessful. Active pad is at (775.000,3009.980).
+
+Glossing attempt unsuccessful. Active pad is at (1720.000,724.150).
+
+Glossing attempt unsuccessful. Active pad is at (1670.000,505.850).
+
+Glossing was successful:  SYMBOL PIN at (240.020,2770.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2770.000).
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2770.000).
+
+Glossing attempt unsuccessful. Active pad is at (492.402,2736.382).
+
+Glossing was successful:  SYMBOL PIN at (1140.000,2490.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1135.000,2265.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1069.980,3415.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1491.382,3590.000) defined by pad  SMD_R421X236P2S4
+
+Glossing was successful:  SYMBOL PIN at (1640.020,2550.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1579.980,2190.000).
+
+Glossing was successful:  SYMBOL PIN at (1503.272,2197.681) defined by pad  SMD_O591X106P0S1
+
+Glossing was successful:  SYMBOL PIN at (874.980,3230.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (775.000,3090.020) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1179.980,3390.000).
+
+Glossing attempt unsuccessful. Active pad is at (1590.000,3604.980).
+
+Glossing attempt unsuccessful. Active pad is at (1674.980,3400.000).
+
+Glossing attempt unsuccessful. Active pad is at (1550.870,3443.402).
+
+Glossing attempt unsuccessful. Active pad is at (1594.980,3510.000).
+
+Glossing attempt unsuccessful. Active pad is at (210.020,2490.000).
+
+Glossing was successful:  SYMBOL PIN at (765.000,2113.110) defined by pad  SMD_R925X1378P2S4
+
+Glossing attempt unsuccessful. Active pad is at (765.000,2113.110).
+
+Glossing was successful:  SYMBOL PIN at (482.161,2220.000) defined by pad  SMD_R1772X650P2S4
+
+Glossing attempt unsuccessful. Active pad is at (482.161,2220.000).
+
+Glossing was successful:  SYMBOL PIN at (723.902,2672.161) defined by pad  SMD_O110X633P2S4
+
+Glossing was successful:  SYMBOL PIN at (770.000,1809.980) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (770.000,1694.150) defined by pad  SMD_O232X805P2S4
+
+Glossing attempt unsuccessful. Active pad is at (414.980,1470.000).
+
+Glossing attempt unsuccessful. Active pad is at (645.161,2672.161).
+
+Glossing attempt unsuccessful. Active pad is at (1815.000,504.980).
+
+Glossing attempt unsuccessful. Active pad is at (1354.961,1850.000).
+
+Glossing attempt unsuccessful. Active pad is at (1725.039,1850.000).
+
+Glossing attempt unsuccessful. Active pad is at (1574.980,2580.000).
+
+Glossing attempt unsuccessful. Active pad is at (1574.980,1995.000).
+
+Glossing attempt unsuccessful. Active pad is at (264.201,1782.615).
+
+Glossing was successful:  SYMBOL PIN at (595.000,2924.980) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1475.020,2580.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1475.020,2580.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1475.020,1995.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1860.000,1750.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1225.000,1750.020) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1015.000,1370.000).
+
+Glossing was successful:  SYMBOL PIN at (950.000,1370.020) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1470.000,725.020).
+
+Glossing attempt unsuccessful. Active pad is at (833.071,3675.551).
+
+Glossing attempt unsuccessful. Active pad is at (835.020,3755.000).
+
+Glossing was successful:  SYMBOL PIN at (285.020,3585.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (165.402,3385.740) defined by pad  SMD_R157X315P2S4
+
+Glossing attempt unsuccessful. Active pad is at (1234.980,485.000).
+
+Glossing attempt unsuccessful. Active pad is at (1014.980,485.000).
+
+Glossing was successful:  SYMBOL PIN at (1015.000,1805.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (934.980,1890.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (220.000,240.020).
+
+Glossing was successful:  SYMBOL PIN at (560.000,499.980) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (560.000,499.980).
+
+Glossing was successful:  SYMBOL PIN at (870.000,1289.980) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1105.000,1640.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (452.020,1330.000) defined by pad  SMD_R806X882P2S4
+
+Glossing was successful:  SYMBOL PIN at (640.000,1414.921) defined by pad  SMD_R787X2087P2S4
+
+Glossing attempt unsuccessful. Active pad is at (609.980,3025.000).
+
+Glossing was successful:  SYMBOL PIN at (314.201,1782.615) defined by pad  SMD_O232X805P2S4
+
+Glossing was successful:  SYMBOL PIN at (220.000,159.980) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (220.000,159.980) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1055.000,2265.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (525.020,2270.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (525.020,2350.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (525.020,2350.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (492.402,2846.610) defined by pad  SMD_R88X575P2S0
+
+Glossing was successful:  SYMBOL PIN at (333.469,2966.689) defined by pad  SMD_R551X472P2S4
+
+Glossing attempt unsuccessful. Active pad is at (492.402,2862.358).
+
+Glossing attempt unsuccessful. Active pad is at (364.201,1782.615).
+
+Glossing attempt unsuccessful. Active pad is at (1779.980,2020.000).
+
+Glossing was successful:  SYMBOL PIN at (1685.839,2020.622) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1725.039,1800.000) defined by pad  SMD_R236X787P2S4
+
+Glossing attempt unsuccessful. Active pad is at (1604.980,1940.000).
+
+Glossing attempt unsuccessful. Active pad is at (1605.799,2020.622).
+
+Glossing was successful:  SYMBOL PIN at (1725.039,1650.000) defined by pad  SMD_R236X787P2S4
+
+Glossing attempt unsuccessful. Active pad is at (1725.039,1700.000).
+
+Glossing attempt unsuccessful. Active pad is at (1860.000,1580.020).
+
+Glossing was successful:  SYMBOL PIN at (870.000,1370.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1209.980,2580.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1670.000,724.150) defined by pad  SMD_O232X805P2S4
+
+Glossing was successful:  SYMBOL PIN at (1214.980,1995.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1234.980,565.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (705.000,415.020) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (920.000,1694.150) defined by pad  SMD_O232X805P2S4
+
+Glossing attempt unsuccessful. Active pad is at (854.980,1810.000).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2750.000).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2790.000).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2790.000).
+
+Glossing was successful:  SYMBOL PIN at (345.000,2680.020) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (314.201,1564.315).
+
+Glossing attempt unsuccessful. Active pad is at (1275.020,2025.000).
+
+Glossing was successful:  SYMBOL PIN at (1275.020,2025.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1354.961,1800.000) defined by pad  SMD_R236X787P2S4
+
+Glossing attempt unsuccessful. Active pad is at (1450.020,1940.000).
+
+Glossing was successful:  SYMBOL PIN at (1354.961,1650.000) defined by pad  SMD_R236X787P2S4
+
+Glossing was successful:  SYMBOL PIN at (1225.000,1570.020) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1355.118,3289.882).
+
+Glossing attempt unsuccessful. Active pad is at (1345.000,2619.980).
+
+Glossing attempt unsuccessful. Active pad is at (1409.130,3246.598).
+
+Glossing attempt unsuccessful. Active pad is at (1395.000,3225.000).
+
+Glossing attempt unsuccessful. Active pad is at (1425.000,2619.980).
+
+Glossing attempt unsuccessful. Active pad is at (1425.000,2619.980).
+
+Glossing was successful:  SYMBOL PIN at (1860.020,2020.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1647.169,1201.772).
+
+Glossing was successful:  SYMBOL PIN at (1779.051,926.098) defined by pad  SMD_R591X787P2S4
+
+Glossing was successful:  SYMBOL PIN at (1194.980,2025.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1550.870,3246.598) defined by pad  SMD_O315X79S1
+
+Glossing was successful:  SYMBOL PIN at (1578.402,3415.870) defined by pad  SMD_O79X315S1
+
+Glossing was successful:  SYMBOL PIN at (1760.000,3514.980) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1670.000,3275.020).
+
+Glossing was successful:  SYMBOL PIN at (1760.020,3675.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1760.000,3595.020) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1490.000,3155.020).
+
+Glossing attempt unsuccessful. Active pad is at (1005.020,2590.000).
+
+Glossing attempt unsuccessful. Active pad is at (757.358,2597.402).
+
+Glossing was successful:  SYMBOL PIN at (1005.020,2670.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (1005.020,2510.000) defined by pad  SMD120REC127
+
+Glossing was successful:  SYMBOL PIN at (765.000,1876.890) defined by pad  SMD_R925X1378P2S4
+
+Glossing attempt unsuccessful. Active pad is at (482.161,1790.000).
+
+Glossing attempt unsuccessful. Active pad is at (482.161,1790.000).
+
+Glossing attempt unsuccessful. Active pad is at (215.020,1525.000).
+
+Glossing was successful:  SYMBOL PIN at (1005.020,2430.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (1450.000,3485.000).
+
+Glossing attempt unsuccessful. Active pad is at (1444.209,2532.319).
+
+Glossing was successful:  SYMBOL PIN at (844.980,2835.000) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (723.902,2837.839).
+
+Glossing attempt unsuccessful. Active pad is at (545.000,2379.980).
+
+Glossing attempt unsuccessful. Active pad is at (625.000,2460.020).
+
+Glossing attempt unsuccessful. Active pad is at (675.000,3005.020).
+
+Glossing was successful:  SYMBOL PIN at (675.000,3005.020) defined by pad  SMD120REC127
+
+Glossing attempt unsuccessful. Active pad is at (755.000,3005.020).
+
+Glossing attempt unsuccessful. Active pad is at (1584.980,3075.000).
+
+Glossing attempt unsuccessful. Active pad is at (1490.000,3074.980).
+
+
+Finished execution 1
+
+Glossing attempt unsuccessful. Active pad is at (1260.020,3310.000).
+
+Glossing attempt unsuccessful. Active pad is at (1260.020,3390.000).
+
+Glossing attempt unsuccessful. Active pad is at (1675.020,3510.000).
+
+Glossing attempt unsuccessful. Active pad is at (1647.169,918.228).
+
+Glossing attempt unsuccessful. Active pad is at (605.791,2837.839).
+
+Glossing attempt unsuccessful. Active pad is at (605.791,2672.161).
+
+Glossing attempt unsuccessful. Active pad is at (914.980,2880.000).
+
+Glossing attempt unsuccessful. Active pad is at (820.000,2965.000).
+
+Glossing attempt unsuccessful. Active pad is at (820.000,2965.000).
+
+Glossing attempt unsuccessful. Active pad is at (285.000,2860.000).
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2850.000).
+
+Glossing attempt unsuccessful. Active pad is at (775.000,3009.980).
+
+Glossing attempt unsuccessful. Active pad is at (1720.000,724.150).
+
+Glossing attempt unsuccessful. Active pad is at (1670.000,505.850).
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2770.000).
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2770.000).
+
+Glossing attempt unsuccessful. Active pad is at (492.402,2736.382).
+
+Glossing attempt unsuccessful. Active pad is at (1179.980,3390.000).
+
+Glossing attempt unsuccessful. Active pad is at (1590.000,3604.980).
+
+Glossing attempt unsuccessful. Active pad is at (1674.980,3400.000).
+
+Glossing attempt unsuccessful. Active pad is at (1550.870,3443.402).
+
+Glossing attempt unsuccessful. Active pad is at (1594.980,3510.000).
+
+Glossing attempt unsuccessful. Active pad is at (210.020,2490.000).
+
+Glossing attempt unsuccessful. Active pad is at (765.000,2113.110).
+
+Glossing attempt unsuccessful. Active pad is at (482.161,2220.000).
+
+Glossing attempt unsuccessful. Active pad is at (414.980,1470.000).
+
+Glossing attempt unsuccessful. Active pad is at (645.161,2672.161).
+
+Glossing attempt unsuccessful. Active pad is at (1815.000,504.980).
+
+Glossing attempt unsuccessful. Active pad is at (1354.961,1850.000).
+
+Glossing attempt unsuccessful. Active pad is at (1725.039,1850.000).
+
+Glossing attempt unsuccessful. Active pad is at (1574.980,2580.000).
+
+Glossing attempt unsuccessful. Active pad is at (1574.980,1995.000).
+
+Glossing attempt unsuccessful. Active pad is at (264.201,1782.615).
+
+Glossing attempt unsuccessful. Active pad is at (1015.000,1370.000).
+
+Glossing attempt unsuccessful. Active pad is at (1470.000,725.020).
+
+Glossing attempt unsuccessful. Active pad is at (833.071,3675.551).
+
+Glossing attempt unsuccessful. Active pad is at (835.020,3755.000).
+
+Glossing was successful:  SYMBOL PIN at (285.000,3674.000) defined by pad  SM_LLB_PAD8_1
+
+Glossing attempt unsuccessful. Active pad is at (1234.980,485.000).
+
+Glossing attempt unsuccessful. Active pad is at (1014.980,485.000).
+
+Glossing attempt unsuccessful. Active pad is at (220.000,240.020).
+
+Glossing attempt unsuccessful. Active pad is at (560.000,499.980).
+
+Glossing attempt unsuccessful. Active pad is at (609.980,3025.000).
+
+Glossing was successful:  SYMBOL PIN at (264.201,1564.315) defined by pad  SMD_O232X805P2S4
+
+Glossing attempt unsuccessful. Active pad is at (492.402,2862.358).
+
+Glossing attempt unsuccessful. Active pad is at (364.201,1782.615).
+
+Glossing attempt unsuccessful. Active pad is at (1779.980,2020.000).
+
+Glossing attempt unsuccessful. Active pad is at (1604.980,1940.000).
+
+Glossing attempt unsuccessful. Active pad is at (1605.799,2020.622).
+
+Glossing attempt unsuccessful. Active pad is at (1725.039,1700.000).
+
+Glossing attempt unsuccessful. Active pad is at (1860.000,1580.020).
+
+Glossing attempt unsuccessful. Active pad is at (854.980,1810.000).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2750.000).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2790.000).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2790.000).
+
+Glossing attempt unsuccessful. Active pad is at (314.201,1564.315).
+
+Glossing attempt unsuccessful. Active pad is at (1275.020,2025.000).
+
+Glossing attempt unsuccessful. Active pad is at (1450.020,1940.000).
+
+Glossing attempt unsuccessful. Active pad is at (1355.118,3289.882).
+
+Glossing attempt unsuccessful. Active pad is at (1345.000,2619.980).
+
+Glossing attempt unsuccessful. Active pad is at (1409.130,3246.598).
+
+Glossing attempt unsuccessful. Active pad is at (1395.000,3225.000).
+
+Glossing attempt unsuccessful. Active pad is at (1425.000,2619.980).
+
+Glossing attempt unsuccessful. Active pad is at (1425.000,2619.980).
+
+Glossing attempt unsuccessful. Active pad is at (1647.169,1201.772).
+
+Glossing attempt unsuccessful. Active pad is at (1670.000,3275.020).
+
+Glossing attempt unsuccessful. Active pad is at (1490.000,3155.020).
+
+Glossing attempt unsuccessful. Active pad is at (1005.020,2590.000).
+
+Glossing attempt unsuccessful. Active pad is at (757.358,2597.402).
+
+Glossing attempt unsuccessful. Active pad is at (482.161,1790.000).
+
+Glossing attempt unsuccessful. Active pad is at (482.161,1790.000).
+
+Glossing attempt unsuccessful. Active pad is at (215.020,1525.000).
+
+Glossing attempt unsuccessful. Active pad is at (1450.000,3485.000).
+
+Glossing attempt unsuccessful. Active pad is at (1444.209,2532.319).
+
+Glossing attempt unsuccessful. Active pad is at (723.902,2837.839).
+
+Glossing attempt unsuccessful. Active pad is at (545.000,2379.980).
+
+Glossing attempt unsuccessful. Active pad is at (625.000,2460.020).
+
+Glossing attempt unsuccessful. Active pad is at (675.000,3005.020).
+
+Glossing attempt unsuccessful. Active pad is at (755.000,3005.020).
+
+Glossing attempt unsuccessful. Active pad is at (1584.980,3075.000).
+
+Glossing attempt unsuccessful. Active pad is at (1490.000,3074.980).
+
+
+Finished execution 2
+
+Glossing attempt unsuccessful. Active pad is at (1260.020,3310.000).
+
+Glossing attempt unsuccessful. Active pad is at (1260.020,3390.000).
+
+Glossing attempt unsuccessful. Active pad is at (1675.020,3510.000).
+
+Glossing attempt unsuccessful. Active pad is at (1647.169,918.228).
+
+Glossing attempt unsuccessful. Active pad is at (605.791,2837.839).
+
+Glossing attempt unsuccessful. Active pad is at (605.791,2672.161).
+
+Glossing attempt unsuccessful. Active pad is at (914.980,2880.000).
+
+Glossing attempt unsuccessful. Active pad is at (820.000,2965.000).
+
+Glossing attempt unsuccessful. Active pad is at (820.000,2965.000).
+
+Glossing attempt unsuccessful. Active pad is at (285.000,2860.000).
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2850.000).
+
+Glossing attempt unsuccessful. Active pad is at (775.000,3009.980).
+
+Glossing attempt unsuccessful. Active pad is at (1720.000,724.150).
+
+Glossing attempt unsuccessful. Active pad is at (1670.000,505.850).
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2770.000).
+
+Glossing attempt unsuccessful. Active pad is at (240.020,2770.000).
+
+Glossing attempt unsuccessful. Active pad is at (492.402,2736.382).
+
+Glossing attempt unsuccessful. Active pad is at (1179.980,3390.000).
+
+Glossing attempt unsuccessful. Active pad is at (1590.000,3604.980).
+
+Glossing attempt unsuccessful. Active pad is at (1674.980,3400.000).
+
+Glossing attempt unsuccessful. Active pad is at (1550.870,3443.402).
+
+Glossing attempt unsuccessful. Active pad is at (1594.980,3510.000).
+
+Glossing attempt unsuccessful. Active pad is at (210.020,2490.000).
+
+Glossing attempt unsuccessful. Active pad is at (765.000,2113.110).
+
+Glossing attempt unsuccessful. Active pad is at (482.161,2220.000).
+
+Glossing attempt unsuccessful. Active pad is at (414.980,1470.000).
+
+Glossing attempt unsuccessful. Active pad is at (645.161,2672.161).
+
+Glossing attempt unsuccessful. Active pad is at (1815.000,504.980).
+
+Glossing attempt unsuccessful. Active pad is at (1354.961,1850.000).
+
+Glossing attempt unsuccessful. Active pad is at (1725.039,1850.000).
+
+Glossing attempt unsuccessful. Active pad is at (1574.980,2580.000).
+
+Glossing attempt unsuccessful. Active pad is at (1574.980,1995.000).
+
+Glossing attempt unsuccessful. Active pad is at (264.201,1782.615).
+
+Glossing attempt unsuccessful. Active pad is at (1015.000,1370.000).
+
+Glossing attempt unsuccessful. Active pad is at (1470.000,725.020).
+
+Glossing attempt unsuccessful. Active pad is at (833.071,3675.551).
+
+Glossing attempt unsuccessful. Active pad is at (835.020,3755.000).
+
+Glossing attempt unsuccessful. Active pad is at (1234.980,485.000).
+
+Glossing attempt unsuccessful. Active pad is at (1014.980,485.000).
+
+Glossing attempt unsuccessful. Active pad is at (220.000,240.020).
+
+Glossing attempt unsuccessful. Active pad is at (560.000,499.980).
+
+Glossing attempt unsuccessful. Active pad is at (609.980,3025.000).
+
+Glossing attempt unsuccessful. Active pad is at (492.402,2862.358).
+
+Glossing attempt unsuccessful. Active pad is at (364.201,1782.615).
+
+Glossing attempt unsuccessful. Active pad is at (1779.980,2020.000).
+
+Glossing attempt unsuccessful. Active pad is at (1604.980,1940.000).
+
+Glossing attempt unsuccessful. Active pad is at (1605.799,2020.622).
+
+Glossing attempt unsuccessful. Active pad is at (1725.039,1700.000).
+
+Glossing attempt unsuccessful. Active pad is at (1860.000,1580.020).
+
+Glossing attempt unsuccessful. Active pad is at (854.980,1810.000).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2750.000).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2790.000).
+
+Glossing attempt unsuccessful. Active pad is at (440.000,2790.000).
+
+Glossing attempt unsuccessful. Active pad is at (314.201,1564.315).
+
+Glossing attempt unsuccessful. Active pad is at (1275.020,2025.000).
+
+Glossing attempt unsuccessful. Active pad is at (1450.020,1940.000).
+
+Glossing attempt unsuccessful. Active pad is at (1355.118,3289.882).
+
+Glossing attempt unsuccessful. Active pad is at (1345.000,2619.980).
+
+Glossing attempt unsuccessful. Active pad is at (1409.130,3246.598).
+
+Glossing attempt unsuccessful. Active pad is at (1395.000,3225.000).
+
+Glossing attempt unsuccessful. Active pad is at (1425.000,2619.980).
+
+Glossing attempt unsuccessful. Active pad is at (1425.000,2619.980).
+
+Glossing attempt unsuccessful. Active pad is at (1647.169,1201.772).
+
+Glossing attempt unsuccessful. Active pad is at (1670.000,3275.020).
+
+Glossing attempt unsuccessful. Active pad is at (1490.000,3155.020).
+
+Glossing attempt unsuccessful. Active pad is at (1005.020,2590.000).
+
+Glossing attempt unsuccessful. Active pad is at (757.358,2597.402).
+
+Glossing attempt unsuccessful. Active pad is at (482.161,1790.000).
+
+Glossing attempt unsuccessful. Active pad is at (482.161,1790.000).
+
+Glossing attempt unsuccessful. Active pad is at (215.020,1525.000).
+
+Glossing attempt unsuccessful. Active pad is at (1450.000,3485.000).
+
+Glossing attempt unsuccessful. Active pad is at (1444.209,2532.319).
+
+Glossing attempt unsuccessful. Active pad is at (723.902,2837.839).
+
+Glossing attempt unsuccessful. Active pad is at (545.000,2379.980).
+
+Glossing attempt unsuccessful. Active pad is at (625.000,2460.020).
+
+Glossing attempt unsuccessful. Active pad is at (675.000,3005.020).
+
+Glossing attempt unsuccessful. Active pad is at (755.000,3005.020).
+
+Glossing attempt unsuccessful. Active pad is at (1584.980,3075.000).
+
+Glossing attempt unsuccessful. Active pad is at (1490.000,3074.980).
+
+
+Finished execution 3
+
+
+Elapsed time:  0 hr 0 min 1 sec ( 0.00 hr)
+Actual time of completion: Thu Jan 22 16:38:57 2026
+
+
+Line Entry Into Pad Glossings Stats
+
+Number of Glossing Attempts                   : 324
+Number of Actual Glossings                    : 86
+Number of Glossings Aborted by DRC violations : 0
+
+
+WARNING: Glossing operations may leave fillets out of date.
+
+
+Glossing complete.
