@@ -1,0 +1,27 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : power_amplifier.brd                           )
+(    Software Version : 17.4S039                                      )
+(    Date/Time        : Mon Jan 26 15:34:51 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ERROR: in T location = (333.469 2962.741)
+  WARNING(SPMHA1-91): Illegal connection.
+   Error was fixed.
+
+ERROR: in PAD STACK padstack name = VIA8_16
+  ERROR(SPMHDB-311): Duplicate padstack name found in design.
+   Error was fixed.
+    Duplicate padstack renamed from VIA8_16 to VIA8_16_DBFIX1
+
+Regenerating DRC
+  Original DRC errors:   0
+  Updated DRC errors:    0
+  DRC elapsed time:      00:00:01
+
+0 warnings, 2 errors detected, 2 errors  fixed.
